@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<latest>
+	<last_updated>December 19, 2024 11:13 AM EST</last_updated>
+	<package>
+		<name>MacOS Microsoft Word</name>
+		<application_name>Microsoft Word</application_name>
+		<bundleId>com.microsoft.Word</bundleId>
+		<currentVersionReleaseDate>December 10, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c9/ef/e5c9ef36-9531-6cc3-cf35-d86efe9a4371/MSWD.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>• Copilot: Draft with Copilot now supports more file references, larger file sizes and now allows you to write longer prompts in the prompt field. 
+• Copilot: Fine tune text options from the Rewrite feature by telling Copilot how the output should change.</releaseNotes>
+		<version>16.92</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft Excel</name>
+		<application_name>Microsoft Excel</application_name>
+		<bundleId>com.microsoft.Excel</bundleId>
+		<currentVersionReleaseDate>December 10, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/b8/0c/74b80c81-007f-ac48-6081-7b5b1ff4ad7f/XCEL.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>• Bug fixes</releaseNotes>
+		<version>16.92</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft PowerPoint</name>
+		<application_name>Microsoft PowerPoint</application_name>
+		<bundleId>com.microsoft.Powerpoint</bundleId>
+		<currentVersionReleaseDate>December 10, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/da/07/d6da07fb-9a39-638b-d4e1-d7f12c0065b6/PPT3.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>• Bug fixes</releaseNotes>
+		<version>16.92</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft Outlook</name>
+		<application_name>Microsoft Outlook</application_name>
+		<bundleId>com.microsoft.Outlook</bundleId>
+		<currentVersionReleaseDate>December 10, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/9d/2b/f09d2b8c-eeee-44c8-9017-c197010b1297/Outlook.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>Feature Updates:
+• Calendar: Copilot users can easily catchup with meeting recordings, transcripts and notes from meeting popovers and details.
+• M365 Groups: We now allow dragging and dropping emails from M365 Groups to your desktop and generate .eml file.
+• Security: We now block screen sharing and taking screenshot for protected content.
+
+Resolved Issues:
+• Calendar: Fixed an issue where moving an appointment event to another folder within the same account resulted in duplicate events appearing with an Exchange OnPremise account type.
+• Calendar: Fixed the issue where calendar reminders were being set to zero for delegates. 
+• Mail: Fixed an issue that was causing the Outlook for Mac users to unable to add an account if the tenant have enforced CAE policies.
+• Mail: Fixed an issue where emails were not auto-saving when using nested compose and clicking away to another email.
+• Mail: Fixed the issue where replying to or forwarding an email that uses S/MIME caused the cursor to appear in the first line of the attributes section of the original message.
+• MyDay: Fixed an issue in My Day where users with multiple accounts in the same profile were unable to create events by dragging. Events will now be created in the correct account.</releaseNotes>
+		<version>16.92</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft OneNote</name>
+		<application_name>Microsoft OneNote</application_name>
+		<bundleId>com.microsoft.onenote.mac</bundleId>
+		<currentVersionReleaseDate>December 10, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/40/a2/0040a25d-31c2-5e7f-9860-f340585ab8a5/OneNote.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>This month’s update is bug fixes only.
+
+Thanks for using OneNote! We listened to your feedback and updated the application with optimizations to help improve your note taking experience. 
+ 
+Having trouble? Send feedback in the app by clicking on the smiley face in the top-right of the app.
+Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedback</releaseNotes>
+		<version>16.92</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft OneDrive</name>
+		<application_name>OneDrive</application_name>
+		<bundleId>com.microsoft.OneDrive-mac</bundleId>
+		<currentVersionReleaseDate>December 11, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/47/43/21474399-b7e6-e04e-d182-74a64eaf6d0a/OneDrive.png/512x512bb.png</icon_image>
+		<minimumOsVersion>13.0</minimumOsVersion>
+		<releaseNotes>Thank you for using OneDrive. We are always looking to update OneDrive to bring you the latest performance improvements and bug fixes for the best experience.</releaseNotes>
+		<version>24.226.1110</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft Windows App</name>
+		<application_name>Windows App</application_name>
+		<bundleId>com.microsoft.rdc.macos</bundleId>
+		<currentVersionReleaseDate>December 16, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/e2/c7/8ce2c7df-7559-9957-dff1-d925b875cbd8/AppIcon-0-0-85-220-0-0-4-0-2x.png/512x512bb.png</icon_image>
+		<minimumOsVersion>12.0</minimumOsVersion>
+		<releaseNotes>In this release we made the following updates:
+
+• Added a connecting/connected state indicator to device thumbnails and the Quick Launcher.
+• Addressed a UDP transport bug that periodically prevented graphics updates after connecting.
+• Introduced better error messaging for cases where RDP files are blocked from launch or import.
+• Updated the app logging backend to automatically write logs to disk (versus requiring manual start and stop).
+• Resolved a bug that reset the mouse button state when dragging content between monitors in multimon scenarios.
+• Handled invalid lengths when smart card attributes are queried as part of PC/SC-based redirection.
+• Resolved a printing issue where landscape orientation would not work in some scenarios.
+• Fixed a hang that occurred when disconnecting an external monitor while connected to a session.
+• The Command+C shortcut now copies the display name of the currently selected device thumbnail(s) to the clipboard.
+
+The -nofre command-line parameter and new ClientSettings.SuppressInformationalUxFlows UserDefaults key will now control the Windows App First Run Experience (FRE). In cases where these values conflict, the command line parameter takes precedence.
+
+If you encounter any errors, you can contact us via Help &gt; Submit Feedback.</releaseNotes>
+		<version>11.0.8</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft To-Do</name>
+		<application_name>Microsoft To Do</application_name>
+		<bundleId>com.microsoft.to-do-mac</bundleId>
+		<currentVersionReleaseDate>December 12, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/88/d9/5788d91f-84d6-b93b-02d0-8edecfa43499/AppIcon-Release-0-85-220-0-4-2x-sRGB.png/512x512bb.png</icon_image>
+		<minimumOsVersion>10.15</minimumOsVersion>
+		<releaseNotes>We fixed some bugs to improve the app experience.</releaseNotes>
+		<version>2.134</version>
+	</package>
+	<package>
+		<name>MacOS Microsoft Azure VPN Client</name>
+		<application_name>Azure VPN Client</application_name>
+		<bundleId>com.microsoft.AzureVpnMac</bundleId>
+		<currentVersionReleaseDate>September 04, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/60/df/2360df4b-4ac5-4480-bb3e-4f59df6c3e64/AppIcon-85-220-0-4-0-0-2x-0-0.png/512x512bb.png</icon_image>
+		<minimumOsVersion>10.15</minimumOsVersion>
+		<releaseNotes>Added auto reconnect on VPN connections for intermittent/ server failures. 
+Added notification which notifies user to install rosetta in case its not installed in arm machines. 
+Minor bug fixes and performance improvements.</releaseNotes>
+		<version>2.7.101</version>
+	</package>
+</latest>

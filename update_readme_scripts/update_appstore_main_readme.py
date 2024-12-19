@@ -146,7 +146,7 @@ def generate_readme_content(last_updated, packages):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_appstore_latest.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "macos_appstore_latest_readme.md"
+    readme_file_path = "docs/readme_macos_appstore_latest.md"
 
     # Parse the XML and generate content
     last_updated, packages = parse_latest_xml(xml_file_path)

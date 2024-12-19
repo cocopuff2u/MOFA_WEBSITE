@@ -63,20 +63,22 @@ def generate_readme_content(last_scan_date, releases):
     content = f"""
 # Standalone Update History
 
-<sup>_Last Updated: <code style="color : mediumseagreen">{last_scan_date}_</code>
+{last_scan_date}
+
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> (Automatically Updated every 4 hours)_</span>
 
 | Version | Date | BusinessPro | Suite | Word | Excel | PowerPoint | Outlook | OneNote |
 |---------|------|-------------|-------|------|-------|------------|---------|---------|
 """
     for release in releases:
         content += f"| {release['version']} | {release['date']} | "
-        content += f"archived | " if release['businesspro_suite_download'] == "archived" else f"[BusinessPro]({release['businesspro_suite_download']}) | " if release['businesspro_suite_download'] else " | "
-        content += f"archived | " if release['suite_download'] == "archived" else f"[Suite]({release['suite_download']}) | " if release['suite_download'] else " | "
-        content += f"archived | " if release['word_update'] == "archived" else f"[Word]({release['word_update']}) | " if release['word_update'] else " | "
-        content += f"archived | " if release['excel_update'] == "archived" else f"[Excel]({release['excel_update']}) | " if release['excel_update'] else " | "
-        content += f"archived | " if release['powerpoint_update'] == "archived" else f"[PowerPoint]({release['powerpoint_update']}) | " if release['powerpoint_update'] else " | "
-        content += f"archived | " if release['outlook_update'] == "archived" else f"[Outlook]({release['outlook_update']}) | " if release['outlook_update'] else " | "
-        content += f"archived | " if release['onenote_update'] == "archived" else f"[OneNote]({release['onenote_update']}) | " if release['onenote_update'] else " | "
+        content += f"archived | " if release['businesspro_suite_download'] == "archived" else f"[BusinessPro]({release['businesspro_suite_download']}) | " if release['businesspro_suite_download'] else "&nbsp; | "
+        content += f"archived | " if release['suite_download'] == "archived" else f"[Suite]({release['suite_download']}) | " if release['suite_download'] else "&nbsp; | "
+        content += f"archived | " if release['word_update'] == "archived" else f"[Word]({release['word_update']}) | " if release['word_update'] else "&nbsp; | "
+        content += f"archived | " if release['excel_update'] == "archived" else f"[Excel]({release['excel_update']}) | " if release['excel_update'] else "&nbsp; | "
+        content += f"archived | " if release['powerpoint_update'] == "archived" else f"[PowerPoint]({release['powerpoint_update']}) | " if release['powerpoint_update'] else "&nbsp; | "
+        content += f"archived | " if release['outlook_update'] == "archived" else f"[Outlook]({release['outlook_update']}) | " if release['outlook_update'] else "&nbsp; | "
+        content += f"archived | " if release['onenote_update'] == "archived" else f"[OneNote]({release['onenote_update']}) | " if release['onenote_update'] else "&nbsp; | "
         content += "\n"
 
     logging.info("standalone_update_history_readme content generated successfully")
@@ -91,7 +93,7 @@ def overwrite_readme(file_path, content):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_update_history.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "standalone_update_history_readme.md"
+    readme_file_path = "docs/readme_standalone_update_history.md"
 
     # Parse the XML and generate content
     last_scan_date, releases = parse_update_history_xml(xml_file_path)

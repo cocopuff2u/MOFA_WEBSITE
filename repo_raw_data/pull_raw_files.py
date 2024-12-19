@@ -49,6 +49,17 @@ def pull_latest_raw_files():
                 logging.info(f"Updating {dst} with {src}")
                 subprocess.run(["cp", src, dst])
 
+    # New code to copy images to MOFA/docs/public/images/
+    docs_images_dir = os.path.join(base_dir, "..", "docs", "public", "images")
+    os.makedirs(docs_images_dir, exist_ok=True)
+    logging.info(f"Copying images to {docs_images_dir}")
+    for item in os.listdir(images_dir):
+        src = os.path.join(images_dir, item)
+        dst = os.path.join(docs_images_dir, item)
+        if not os.path.exists(dst) or not filecmp.cmp(src, dst, shallow=False):
+            logging.info(f"Updating {dst} with {src}")
+            subprocess.run(["cp", "-r", src, dst])
+
     with open(os.path.join(target_dir, "pull_info.txt"), "w") as f:
         pull_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         f.write(f"Last pulled: {pull_time}\n")

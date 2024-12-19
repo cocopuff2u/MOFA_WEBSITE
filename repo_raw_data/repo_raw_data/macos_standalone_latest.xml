@@ -1,0 +1,298 @@
+<?xml version="1.0" ?>
+<latest>
+    <last_updated>December 19, 2024 11:17 AM EST</last_updated>
+    <package>
+        <name>Microsoft Office Suite</name>
+        <application_id>Data sourced from Excel (not manually specified)</application_id>
+        <application_name>Data sourced from Excel (not manually specified)</application_name>
+        <CFBundleVersion>com.microsoft.office</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>N/A</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=525133</latest_download>
+        <sha1>abbc4581ac809dad90766801d7d9bf2f44b5d7b7</sha1>
+        <sha256>f0943b0a76bb5962b89bec20c681fb76ef624b3389390bb45c53e89a75dab9b9</sha256>
+    </package>
+    <package>
+        <name>Microsoft BusinessPro Suite</name>
+        <application_id>Data sourced from Excel (not manually specified)</application_id>
+        <application_name>Data sourced from Excel (not manually specified)</application_name>
+        <CFBundleVersion>com.microsoft.office</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>N/A</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2009112</latest_download>
+        <sha1>1e5cc3cccf5e763ab86ee39369f053f9a2632ce9</sha1>
+        <sha256>7a37af4114dd2903e64b399b3bdb7a270c1872bee8992a355d6574b85f017ed8</sha256>
+    </package>
+    <package>
+        <name>Word</name>
+        <application_id>MSWD2019</application_id>
+        <application_name>Microsoft Word.app</application_name>
+        <CFBundleVersion>com.microsoft.word</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.92.24120731_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=525134</latest_download>
+        <sha1>6f376f8ccef61d5af92d1a97b9746ef4d5e01c6e</sha1>
+        <sha256>d9109daf861a4c08d8dab257483d70c1615f3077376664677a08430f67b5ef5b</sha256>
+    </package>
+    <package>
+        <name>Excel</name>
+        <application_id>XCEL2019</application_id>
+        <application_name>Microsoft Excel.app</application_name>
+        <CFBundleVersion>com.microsoft.excel</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.92.24120731_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=525135</latest_download>
+        <sha1>15f0080781f2dbfee99e8f9deb489f0b532da790</sha1>
+        <sha256>ee945fc366463733f30816497bb733e67ae3870a8a38dfbbf72535ca823ebef2</sha256>
+    </package>
+    <package>
+        <name>PowerPoint</name>
+        <application_id>PPT32019</application_id>
+        <application_name>Microsoft PowerPoint.app</application_name>
+        <CFBundleVersion>com.microsoft.powerpoint</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.92.24120731_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=525136</latest_download>
+        <sha1>60f4fc1954b8a807accf637bf1a76f3ff8e19135</sha1>
+        <sha256>fe0214886ddedf997e3d1ee8be429a579084e503cab76cc76a5f09c109c31a49</sha256>
+    </package>
+    <package>
+        <name>Outlook</name>
+        <application_id>OPIM2019</application_id>
+        <application_name>Microsoft Outlook.app</application_name>
+        <CFBundleVersion>com.microsoft.outlook</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.92.24120731_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2228621</latest_download>
+        <sha1>2ad6061cedc877c658b70d7af80e18916909adfc</sha1>
+        <sha256>ebfe3740141335632d9626ef44ed470f06acf79d56a4fa5017bcec15f1a0ff59</sha256>
+    </package>
+    <package>
+        <name>OneNote</name>
+        <application_id>ONMC2019</application_id>
+        <application_name>Microsoft OneNote.app</application_name>
+        <CFBundleVersion>com.microsoft.onenote</CFBundleVersion>
+        <short_version>16.92.0 (24120731)</short_version>
+        <full_version>16.92.24120731</full_version>
+        <last_updated>December 07, 2024</last_updated>
+        <min_os>13.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.92.24120731_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=820886</latest_download>
+        <sha1>5974ed38235971b8033fcc2b5483d2158a249fec</sha1>
+        <sha256>995b61b5c7b8b01fed892a9ce5f6496f77f92399705fd91cd946973365304c24</sha256>
+    </package>
+    <package>
+        <name>OneDrive</name>
+        <application_id>OneDrive.app</application_id>
+        <application_name>OneDrive.app</application_name>
+        <CFBundleVersion>com.microsoft.onedrive</CFBundleVersion>
+        <short_version>24.221.1103</short_version>
+        <full_version>1103.0003</full_version>
+        <last_updated>December 19, 2024 11:17 AM EST</last_updated>
+        <min_os>N/A</min_os>
+        <update_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</update_download>
+        <latest_download>https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg</latest_download>
+        <sha1>8ac45f111d8abedd5ecdcb8c65f47c14175ce77e</sha1>
+        <sha256>eb51bce31b686281692a7aeacd8c0f017e9ba17f686cce989b125505be48028e</sha256>
+    </package>
+    <package>
+        <name>Skype</name>
+        <application_id>MSFB16</application_id>
+        <application_name>Skype for Business.app</application_name>
+        <CFBundleVersion>com.microsoft.skypeforbusiness</CFBundleVersion>
+        <short_version>16.31.11</short_version>
+        <full_version>16.31.11</full_version>
+        <last_updated>September 05, 2024</last_updated>
+        <min_os>10.14.0</min_os>
+        <update_download>https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/SkypeForBusinessUpdater-16.31.11.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=832978</latest_download>
+        <sha1>91c6abad17552136cdbda3f7af12f1484f664fd2</sha1>
+        <sha256>81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5</sha256>
+    </package>
+    <package>
+        <name>Teams</name>
+        <application_id>TEAMS21</application_id>
+        <application_name>Microsoft Teams.app</application_name>
+        <CFBundleVersion>com.microsoft.teams</CFBundleVersion>
+        <short_version>24295.606.3238.6194</short_version>
+        <full_version>24295.606.3238.6194</full_version>
+        <last_updated>November 09, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://statics.teams.cdn.office.net/production-osx/24295.606.3238.6194/MicrosoftTeams.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2249065</latest_download>
+        <sha1>ff0980e893f34dbbf062a2768e59240604eb24ea</sha1>
+        <sha256>fccf2c82a08f23ba424147c2753e82e72a24d78146d10a50f6e035e37b0a4f9b</sha256>
+    </package>
+    <package>
+        <name>Intune</name>
+        <application_id>IMCP01</application_id>
+        <application_name>Company Portal.app</application_name>
+        <CFBundleVersion>com.microsoft.intune.companyportal</CFBundleVersion>
+        <short_version>5.2410.1</short_version>
+        <full_version>53.2412036.003</full_version>
+        <last_updated>December 02, 2024</last_updated>
+        <min_os>11.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2410.1-Upgrade.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=853070</latest_download>
+        <sha1>eaf595f340db6929ab54593177c88885b6a8dfdd</sha1>
+        <sha256>2ef8a0fe0e4bd03abb689262554efc555d0edc39d9bb39fd8fe268bbaf459751</sha256>
+    </package>
+    <package>
+        <name>Edge</name>
+        <application_id>EDGE01</application_id>
+        <application_name>Microsoft Edge.app</application_name>
+        <CFBundleVersion>com.microsoft.edgemac</CFBundleVersion>
+        <short_version>131.0.2903.99</short_version>
+        <full_version>131.2903.24121199</full_version>
+        <last_updated>December 12, 2024</last_updated>
+        <min_os>11.0</min_os>
+        <update_download>https://officecdn-microsoft-com.akamaized.net/pr/03adf619-38c6-4249-95ff-4a01c0ffc962/MacAutoupdate/MicrosoftEdgeUpdate-131.0.2903.99.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2093504</latest_download>
+        <sha1>709cd79cacaadf343280a0fed45392d40bace47d</sha1>
+        <sha256>8364c4ff06cfd1adfb21ca3aaadf05903819fa9c7f8cec49219ef74cc2199250</sha256>
+    </package>
+    <package>
+        <name>Defender For Endpoint</name>
+        <application_id>WDAV00</application_id>
+        <application_name>Microsoft Defender.app</application_name>
+        <CFBundleVersion>com.microsoft.defender.endpoint</CFBundleVersion>
+        <short_version>101.24092.0004</short_version>
+        <full_version>101.24092.0004</full_version>
+        <last_updated>October 16, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/wdav-upgrade.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2097502</latest_download>
+        <sha1>608924df7fc20e3f0c782f1c293a039e00f08b35</sha1>
+        <sha256>1c2afefa61b76d203cd5183c2f019e8345cf2b299b6179a9df483e5ed57bac5f</sha256>
+    </package>
+    <package>
+        <name>Defender for Consumers</name>
+        <application_id>WDAVCONSUMER</application_id>
+        <application_name>Microsoft Defender.app</application_name>
+        <CFBundleVersion>com.microsoft.defender.endpoint</CFBundleVersion>
+        <short_version>101.24092.0004</short_version>
+        <full_version>101.24092.0004</full_version>
+        <last_updated>October 16, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24092.0004_Individuals_Installer.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2247001</latest_download>
+        <sha1>4bb93eaaff4054f9d07511c25d99f76834ec55ec</sha1>
+        <sha256>957e6ed878f595347d759bbeda9e0edebbbe904b8b8858216d6db03c0faec1bf</sha256>
+    </package>
+    <package>
+        <name>Defender Shim</name>
+        <application_id>WDAVSHIM</application_id>
+        <application_name>N/A</application_name>
+        <CFBundleVersion>com.microsoft.defender.endpoint</CFBundleVersion>
+        <short_version>101.24080.0001</short_version>
+        <full_version>101.24080.0001</full_version>
+        <last_updated>October 16, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg</update_download>
+        <latest_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg</latest_download>
+        <sha1>5101228ce261cfcc836d093889eef997e8f62dfd</sha1>
+        <sha256>3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51</sha256>
+    </package>
+    <package>
+        <name>Windows App</name>
+        <application_id>MSRD10</application_id>
+        <application_name>Windows App.app</application_name>
+        <CFBundleVersion>com.microsoft.windows.app</CFBundleVersion>
+        <short_version>11.0.8</short_version>
+        <full_version>2481</full_version>
+        <last_updated>December 13, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.0.8_updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=868963</latest_download>
+        <sha1>147b25ab50b66905d2c840710bbece2070e924ae</sha1>
+        <sha256>bc75dc40b5890b3f5804bc96a81e4285fe25eb5e3bfae7a6a335f008dcb4ff14</sha256>
+    </package>
+    <package>
+        <name>Visual</name>
+        <application_id>N/A</application_id>
+        <application_name>Visual Studio Code.app</application_name>
+        <CFBundleVersion>com.microsoft.visualstudio</CFBundleVersion>
+        <short_version>1.96.1</short_version>
+        <full_version>1.96.1</full_version>
+        <last_updated>December 17, 2024</last_updated>
+        <min_os>N/A</min_os>
+        <update_download>https://vscode.download.prss.microsoft.com/dbazure/download/stable/42b266171e51a016313f47d0c48aca9295b9cbb2/VSCode-darwin-universal.zip</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=2156837</latest_download>
+        <sha1>6d09c715cf5dc404f88bef2f47fd9d1ee9645bff</sha1>
+        <sha256>b38fbaec5a583dbd9c55525b1d265637a863c1b79dd97e8736e1d161b16cd1eb</sha256>
+    </package>
+    <package>
+        <name>MAU</name>
+        <application_id>MSau04</application_id>
+        <application_name>Microsoft AutoUpdate.app</application_name>
+        <CFBundleVersion>com.microsoft.autoupdate</CFBundleVersion>
+        <short_version>4.76 (24101387)</short_version>
+        <full_version>4.76.24101387</full_version>
+        <last_updated>October 13, 2024</last_updated>
+        <min_os>10.14.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.76.24101387_Updater.pkg</update_download>
+        <latest_download>https://go.microsoft.com/fwlink/?linkid=830196</latest_download>
+        <sha1>74e19e48ef964c0928598771cdda7f24b2dc63ba</sha1>
+        <sha256>91fed0b500d85daf6e453bb7b2bee2948973781475c118c03c837e819a290fcc</sha256>
+    </package>
+    <package>
+        <name>Licensing Helper Tool</name>
+        <application_id>OLIC02</application_id>
+        <application_name>N/A</application_name>
+        <CFBundleVersion>com.microsoft.office.licensingV2.helper</CFBundleVersion>
+        <short_version>16.77.0 (23091003)</short_version>
+        <full_version>16.77.23091003</full_version>
+        <last_updated>September 10, 2023</last_updated>
+        <min_os>11.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg</update_download>
+        <latest_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg</latest_download>
+        <sha1>cc58741e0243b5fb0682ca499b07c3a21060bb52</sha1>
+        <sha256>2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905</sha256>
+    </package>
+    <package>
+        <name>Quick Assist</name>
+        <application_id>MSQA01</application_id>
+        <application_name>Microsoft Quick Assist.app</application_name>
+        <CFBundleVersion>com.microsoft.quickassist</CFBundleVersion>
+        <short_version>1.0.2411113</short_version>
+        <full_version>1.0.2411113</full_version>
+        <last_updated>November 12, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg</update_download>
+        <latest_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg</latest_download>
+        <sha1>49db1be5bbb8091ea260631247d7de93c49afb9c</sha1>
+        <sha256>2fdab5e1815862c9b3583257c485b088aa46c86e5609cad09bfa13a3a092a0e1</sha256>
+    </package>
+    <package>
+        <name>Remote Help</name>
+        <application_id>MSRH01</application_id>
+        <application_name>Microsoft Remote Help.app</application_name>
+        <CFBundleVersion>com.microsoft.remotehelp</CFBundleVersion>
+        <short_version>1.0.2411113</short_version>
+        <full_version>1.0.2411113</full_version>
+        <last_updated>November 12, 2024</last_updated>
+        <min_os>12.0</min_os>
+        <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg</update_download>
+        <latest_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg</latest_download>
+        <sha1>259da45d79ba21c4988138ed6471ad7f26d8ec74</sha1>
+        <sha256>0fb298a8cbf6d58a9846b639e1b8581085993f184fbc823448ef5d6bbb4467b6</sha256>
+    </package>
+</latest>
