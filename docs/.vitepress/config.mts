@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/mofa_website/',
+  base: '/MOFA_WEBSITE/',
   title: "MOFA",
   description: "Microsoft Overview For Apple",
   themeConfig: {
@@ -103,9 +103,6 @@ export default defineConfig({
         ]
       }
     ],
-    search: {
-      provider: 'local'
-    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' }
     ],
