@@ -3,9 +3,6 @@ name: Update Readmes
 on:
   schedule:
     - cron: '30 */4 * * *'  # Runs every 4 hours and 30 minutes
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
