@@ -58,21 +58,21 @@ def generate_readme_content(last_scan_date, updates):
     content = f"""
 # Standalone CVE History
 
-<sup>_Last Updated: <code style="color : mediumseagreen">{last_scan_date}_</code>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> (Automatically Updated every 4 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
 """
     for update in updates:
         for app in update["security_updates"]:
-            app_name = app["name"] if app["name"] != "N/A" else ""
+            app_name = app["name"] if app["name"] != "N/A" else "&nbsp;"
             cve_list = []
             for cve_info in app["cves"]:
                 if cve_info['url'] != "N/A":
                     cve_list.append(f"[{cve_info['cve']}]({cve_info['url']})")
                 else:
-                    cve_list.append(cve_info['cve'] if cve_info['cve'] != "N/A" else "")
-            cve_str = ", ".join(cve_list)
+                    cve_list.append(cve_info['cve'] if cve_info['cve'] != "N/A" else "&nbsp;")
+            cve_str = ", ".join(cve_list) if cve_list else "&nbsp;"
             content += f"| {update['version']} | {update['date']} | {app_name} | {cve_str} |\n"
 
     logging.info("standalone_cve_history_readme content generated successfully")

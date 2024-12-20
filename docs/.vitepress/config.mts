@@ -5,8 +5,16 @@ export default defineConfig({
   description: "Microsoft Overview For Apple",
   themeConfig: {
     lastUpdated: true,
+    cleanUrls: true,
+    search: {
+      provider: 'local'
+    },
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     logo: '/images/logo_Mofa_NoBackground.png', 
-    nav: [
+    nav: [ 
       { text: 'Home', link: '/' },
       { text: 'Standalone Apps', link: '/readme_standalone_main' },
       { text: 'MacOS AppStore', link: '/readme_macos_appstore_latest' },
@@ -14,14 +22,48 @@ export default defineConfig({
     ],
     sidebar: [
       {
+      items: [
+        { text: 'Home', link: '/readme_home' }
+      ]
+      },
+      {
         text: '📦 Standalone Apps',
         collapsed: true,
         items: [
           { text: 'Current Version', link: '/readme_standalone_main' },
+          {
+            text: 'SHA Hashes',
+            collapsed: true,
+            items: [
+              { text: 'SHA1 Hash', link: '/readme_standalone_sha1' },
+              { text: 'SHA256 Hash', link: '/readme_standalone_sha256' }
+            ]
+          },
           { text: 'Update History', link: '/readme_standalone_update_history' },
-          { text: 'CVE (Vulnerabilities)', link: '/api-test' },
-          { text: 'SHA1 & SHA256 Hashes', link: '/api-test' },
-          { text: 'Tools & Scripts  ', link: '/api-test' },
+          { text: 'CVE (Vulnerabilities)', link: '/readme_standalone_cve_history' },
+          { text: 'Tools & Scripts', link: '/readme_standalone_tools' }
+        ]
+      },
+      {
+        text: '📦 Standalone Guides',
+        collapsed: true,
+        items: [
+          {
+            text: 'Mobile Device Management',
+            collapsed: true,
+            items: [
+              { text: 'MDM Overview', link: '/readme_placeholder' },
+              { text: 'Configuration Guide', link: '/readme_placeholder' }
+            ]
+          },
+          {
+            text: 'Installation Guides',
+            collapsed: true,
+            items: [
+              { text: 'Windows Install', link: '/readme_placeholder' },
+              { text: 'MacOS Install', link: '/readme_placeholder' }
+            ]
+          }
         ]
       },
       {

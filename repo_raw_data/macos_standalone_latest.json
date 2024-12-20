@@ -1,5 +1,5 @@
 {
-    "last_updated": "December 18, 2024 07:32 AM EST",
+    "last_updated": "December 19, 2024 08:11 PM EST",
     "packages": [
         {
             "name": "Microsoft Office Suite",
@@ -106,7 +106,7 @@
             "CFBundleVersion": "com.microsoft.onedrive",
             "short_version": "24.221.1103",
             "full_version": "1103.0003",
-            "last_updated": "December 18, 2024 07:32 AM EST",
+            "last_updated": "December 19, 2024 08:11 PM EST",
             "min_os": "N/A",
             "update_download": "https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg",
             "latest_download": "https://oneclient.sfx.ms/Mac/Installers/24.221.1103.0003/OneDrive.pkg",
@@ -160,14 +160,14 @@
             "application_id": "EDGE01",
             "application_name": "Microsoft Edge.app",
             "CFBundleVersion": "com.microsoft.edgemac",
-            "short_version": "131.0.2903.99",
-            "full_version": "131.2903.24121199",
-            "last_updated": "December 12, 2024",
+            "short_version": "131.0.2903.112",
+            "full_version": "131.2903.241218112",
+            "last_updated": "December 19, 2024",
             "min_os": "11.0",
-            "update_download": "https://officecdn-microsoft-com.akamaized.net/pr/03adf619-38c6-4249-95ff-4a01c0ffc962/MacAutoupdate/MicrosoftEdgeUpdate-131.0.2903.99.pkg",
+            "update_download": "https://officecdn-microsoft-com.akamaized.net/pr/03adf619-38c6-4249-95ff-4a01c0ffc962/MacAutoupdate/MicrosoftEdgeUpdate-131.0.2903.112.pkg",
             "latest_download": "https://go.microsoft.com/fwlink/?linkid=2093504",
-            "sha1": "709cd79cacaadf343280a0fed45392d40bace47d",
-            "sha256": "8364c4ff06cfd1adfb21ca3aaadf05903819fa9c7f8cec49219ef74cc2199250"
+            "sha1": "e7ee38d85689f78fadc47ecc493473a7679678a4",
+            "sha256": "648233d6654a3b0a9b651f31c33260125b6410e956b698970b8b789ad4fa7d16"
         },
         {
             "name": "Defender For Endpoint",
@@ -230,14 +230,14 @@
             "application_id": "N/A",
             "application_name": "Visual Studio Code.app",
             "CFBundleVersion": "com.microsoft.visualstudio",
-            "short_version": "1.96.0",
-            "full_version": "1.96.0",
-            "last_updated": "December 11, 2024",
+            "short_version": "1.96.2",
+            "full_version": "1.96.2",
+            "last_updated": "December 19, 2024",
             "min_os": "N/A",
-            "update_download": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/138f619c86f1199955d53b4166bef66ef252935c/VSCode-darwin-universal.zip",
+            "update_download": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/fabdb6a30b49f79a7aba0f2ad9df9b399473380f/VSCode-darwin-universal.zip",
             "latest_download": "https://go.microsoft.com/fwlink/?linkid=2156837",
-            "sha1": "e224c1339cf10cb579278c7bd765321ebf48318c",
-            "sha256": "c9ea0dc0516ee13b3abc6254a04f55e4dcee47f6630f71fd7848f701d4a357dc"
+            "sha1": "5e2d9676d0b4a6eebdc80f4b2529c19c5b75551e",
+            "sha256": "28159393558c4065e72b3c61ff8e0b8c74f3d2060ec5f046a91122aa8819c232"
         },
         {
             "name": "MAU",

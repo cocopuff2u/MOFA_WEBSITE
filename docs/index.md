@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /readme_home
     - theme: alt
       text: About The Project
       link: /readme_about

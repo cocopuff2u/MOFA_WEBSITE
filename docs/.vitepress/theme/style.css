@@ -170,6 +170,14 @@
   max-width: 1168px !important;
 }
 
+/* Apply to all tables */
+.markdown-body table {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+}
+
+/* Or, apply to a specific table using a class */
 .markdown-body table.shrink-table {
   width: 50%;
   margin: 0 auto;

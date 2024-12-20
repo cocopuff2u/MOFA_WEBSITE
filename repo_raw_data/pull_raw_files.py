@@ -13,12 +13,12 @@ logging.basicConfig(
 def pull_latest_raw_files():
     repo_url = "https://github.com/cocopuff2u/MOFA.git"
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    clone_dir = os.path.join(base_dir, "temp_clone")
-    target_dir = os.path.join(base_dir, "repo_raw_data")
+    target_dir = base_dir
     images_dir = os.path.join(target_dir, "images")
 
     logging.info("Starting the pull process.")
 
+    clone_dir = os.path.join(base_dir, "temp_clone")
     if os.path.exists(clone_dir):
         logging.info(f"Removing existing clone directory: {clone_dir}")
         subprocess.run(["rm", "-rf", clone_dir])
@@ -28,7 +28,6 @@ def pull_latest_raw_files():
     subprocess.run(["git", "-C", clone_dir, "checkout", "main"])
     subprocess.run(["git", "-C", clone_dir, "pull", "origin", "main"])
 
-    os.makedirs(target_dir, exist_ok=True)
     os.makedirs(images_dir, exist_ok=True)
     logging.info(f"Copying files to {target_dir}")
     for item in os.listdir(os.path.join(clone_dir, "latest_raw_files")):

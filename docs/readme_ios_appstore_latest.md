@@ -1,7 +1,7 @@
 
 # App Store Latest Updates
 
-<sup>_Last Updated: <code style="color : mediumseagreen">December 18, 2024 07:14 AM EST_</code>
+<sup>_Last Updated: <code style="color : mediumseagreen">December 19, 2024 07:37 PM EST_</code>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
@@ -28,7 +28,7 @@
 | Seeing AI | 5.4 | com.microsoft.seeingai | 12.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/b0/e2/89b0e2fd-6a83-3afa-4823-dcfbdfdb5b27/AppIcons-0-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg' width='25%' height='25%' /> |
 | Microsoft Planner | 1.17.2 | com.microsoft.PlannerMobile | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ea/50/72ea505c-7b2a-17e4-6d1b-26494b75d7a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='25%' height='25%' /> |
 | Microsoft Azure | 6.10.4 | com.microsoft.azure | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/2c/f7/e72cf706-eeab-4e56-e967-6c41238a4285/AppIcons-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='25%' height='25%' /> |
-| Microsoft To Do | 2.134.1 | com.microsoft.to-do | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/ef/ef/5defefe0-ddef-8d8b-7ad2-fda3d3fed70b/To-Do-AppStore-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/512x512bb.jpg' width='25%' height='25%' /> |
+| Microsoft To Do | 2.137 | com.microsoft.to-do | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/25/61/752561b0-6425-95e6-6fcf-ca548c27ae5f/To-Do-AppStore-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/512x512bb.jpg' width='25%' height='25%' /> |
 | Microsoft Teams | 6.22.1 | com.microsoft.skype.teams | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/a2/92/83a29232-b634-b6b4-72cd-62b642d91036/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg' width='25%' height='25%' /> |
 | Microsoft SharePoint | 4.53.5 | com.microsoft.sharepoint | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/48/3f/56483fb0-9ad8-e7c4-7c88-2450df913fae/SharePointAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg' width='25%' height='25%' /> |
 | Dynamics 365 Business Central | 4.0.9292 | com.microsoft.dynamics.ProjectMadeira | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/18/ad/5618ad08-9054-c975-1517-43d29b51827c/AppIcon-1x_U007emarketing-0-10-0-0-0-85-220.png/512x512bb.jpg' width='25%' height='25%' /> |

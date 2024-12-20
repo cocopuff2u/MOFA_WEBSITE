@@ -63,7 +63,7 @@ def generate_readme_content(last_scan_date, releases):
     content = f"""
 # Standalone Update History
 
-<sup>_Last Updated: <code style="color : mediumseagreen">{last_scan_date}_</code>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> (Automatically Updated every 4 hours)_</span>
 
 | Version | Date | BusinessPro | Suite | Word | Excel | PowerPoint | Outlook | OneNote |
 |---------|------|-------------|-------|------|-------|------------|---------|---------|

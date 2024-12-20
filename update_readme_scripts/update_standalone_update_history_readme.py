@@ -63,23 +63,41 @@ def generate_readme_content(last_scan_date, releases):
     content = f"""
 # Standalone Update History
 
-{last_scan_date}
-
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> (Automatically Updated every 4 hours)_</span>
 
-| Version | Date | BusinessPro | Suite | Word | Excel | PowerPoint | Outlook | OneNote |
-|---------|------|-------------|-------|------|-------|------------|---------|---------|
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>BusinessPro</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
 """
     for release in releases:
-        content += f"| {release['version']} | {release['date']} | "
-        content += f"archived | " if release['businesspro_suite_download'] == "archived" else f"[BusinessPro]({release['businesspro_suite_download']}) | " if release['businesspro_suite_download'] else "&nbsp; | "
-        content += f"archived | " if release['suite_download'] == "archived" else f"[Suite]({release['suite_download']}) | " if release['suite_download'] else "&nbsp; | "
-        content += f"archived | " if release['word_update'] == "archived" else f"[Word]({release['word_update']}) | " if release['word_update'] else "&nbsp; | "
-        content += f"archived | " if release['excel_update'] == "archived" else f"[Excel]({release['excel_update']}) | " if release['excel_update'] else "&nbsp; | "
-        content += f"archived | " if release['powerpoint_update'] == "archived" else f"[PowerPoint]({release['powerpoint_update']}) | " if release['powerpoint_update'] else "&nbsp; | "
-        content += f"archived | " if release['outlook_update'] == "archived" else f"[Outlook]({release['outlook_update']}) | " if release['outlook_update'] else "&nbsp; | "
-        content += f"archived | " if release['onenote_update'] == "archived" else f"[OneNote]({release['onenote_update']}) | " if release['onenote_update'] else "&nbsp; | "
-        content += "\n"
+        content += f"    <tr>\n"
+        content += f"      <td>{release['version']}</td>\n"
+        content += f"      <td>{release['date']}</td>\n"
+        content += f"      <td>archived</td>\n" if release['businesspro_suite_download'] == "archived" else f"      <td><a href=\"{release['businesspro_suite_download']}\">BusinessPro</a></td>\n" if release['businesspro_suite_download'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['suite_download'] == "archived" else f"      <td><a href=\"{release['suite_download']}\">Suite</a></td>\n" if release['suite_download'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['word_update'] == "archived" else f"      <td><a href=\"{release['word_update']}\">Word</a></td>\n" if release['word_update'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['excel_update'] == "archived" else f"      <td><a href=\"{release['excel_update']}\">Excel</a></td>\n" if release['excel_update'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['powerpoint_update'] == "archived" else f"      <td><a href=\"{release['powerpoint_update']}\">PowerPoint</a></td>\n" if release['powerpoint_update'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['outlook_update'] == "archived" else f"      <td><a href=\"{release['outlook_update']}\">Outlook</a></td>\n" if release['outlook_update'] else f"      <td>&nbsp;</td>\n"
+        content += f"      <td>archived</td>\n" if release['onenote_update'] == "archived" else f"      <td><a href=\"{release['onenote_update']}\">OneNote</a></td>\n" if release['onenote_update'] else f"      <td>&nbsp;</td>\n"
+        content += f"    </tr>\n"
+
+    content += """
+  </tbody>
+</table>
+"""
 
     logging.info("standalone_update_history_readme content generated successfully")
 
