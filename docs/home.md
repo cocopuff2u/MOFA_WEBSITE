@@ -1,8 +1,8 @@
-# <div style="text-align: center;">Welcome to the MOFA Project</div>
+# <div style="text-align: center;">Welcome to the <span class="gradient-title">MOFA</span> Project</div>
 
 <br>
 <div style="text-align: center;">
-Welcome to the Microsoft Overview Feed for Apple (MOFA) project. Below are the main sections of the site. Click on the images to navigate to each section.
+Welcome to the Microsoft Overview Feed for Apple (<span class="gradient-title">MOFA</span>) project. Below are the main sections of the site. Click on the images to navigate to each section.
 </div>
 
 ## <div style="text-align: center;">Main Menu</div>
@@ -12,7 +12,7 @@ Welcome to the Microsoft Overview Feed for Apple (MOFA) project. Below are the m
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <p>MOFA provides an organized feed of Microsoft apps for Apple platforms, including standalone apps, tools, and apps available in the MacOS and iOS App Stores.</p>
+  <p><span class="gradient-title">MOFA</span> provides an organized feed of Microsoft apps for Apple platforms, including standalone apps, tools, and apps available in the MacOS and iOS App Stores.</p>
 </div>
 <br>
 

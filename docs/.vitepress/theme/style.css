@@ -146,6 +146,12 @@
   color: #ff5733; /* Replace with your desired color */
 }
 
+.gradient-title {
+  background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .extra-small {
   font-size: 0.70em;
 }
