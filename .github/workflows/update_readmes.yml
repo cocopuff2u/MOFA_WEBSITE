@@ -33,12 +33,23 @@ jobs:
         python update_readme_scripts/update_macos_appstore_current_version_readme.py
         python update_readme_scripts/update_ios_appstore_current_version_readme.py
 
-    - name: Commit and push changes
-      env:
-        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+    - name: Set Git config
       run: |
         git config --global user.name 'cocopuff2u'
         git config --global user.email 'cocopuff2u@yahoo.com'
-        git add docs/*.md
-        git commit -m 'Automated update of README files'
+
+    - name: Check for changes
+      run: |
+        git status --short
+        if [ -n "$(git status --porcelain)" ]; then
+          git add docs/*.md
+          git commit -m 'Automated update of README files'
+        else
+          echo "No changes detected, skipping commit."
+        fi
+
+    - name: Push changes
+      env:
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
         git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/mofa_website.git
