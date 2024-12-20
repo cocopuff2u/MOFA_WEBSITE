@@ -152,6 +152,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+.VPImage.logo + span {
+  font-size: 1.5rem; /* Optional: Adjust font size for visibility */
+  font-weight: bold; /* Optional: Emphasize the title */
+  background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Ensures proper gradient application */
+}
+
 .extra-small {
   font-size: 0.70em;
 }
