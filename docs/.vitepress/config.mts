@@ -14,7 +14,7 @@ export default defineConfig({
       pattern: 'https://github.com/cocopuff2u/mofa_website/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
-    logo: '/images/logo_Mofa_NoBackground.png',
+    logo: '/public/images/logo_Mofa_NoBackground.png',
     nav: [
       { text: 'Home', link: '/home' },
       { text: 'Standalone Apps', link: '/standalone_current_version' },
