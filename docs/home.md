@@ -2,7 +2,7 @@
 
 <br>
 <div style="text-align: center;">
-Welcome to the Microsoft Overview Feed for Apple (<span class="gradient-title">MOFA</span>) project. Below are the main sections of the site. Click on the images to navigate to each section.
+  Welcome to the Microsoft Overview Feed for Apple (<span class="gradient-title">MOFA</span>) project. Below are the main sections of the site. Click on the images to navigate to each section.
 </div>
 
 ## <div style="text-align: center;">Main Menu</div>
@@ -16,35 +16,32 @@ Welcome to the Microsoft Overview Feed for Apple (<span class="gradient-title">M
 </div>
 <br>
 
-<div style="text-align: center; display: flex; justify-content: center; flex-wrap: wrap; gap: 30px;">
-
-  <div style="text-align: center;">
+<div class="image-links">
+  <div class="link-box">
     <a href="./standalone_current_version">
       <img src='./public/images/office.png' width='150' height='150' />
-      <div style="margin-top: 10px;">Standalone Apps</div>
+      <div>Standalone Apps</div>
     </a>
   </div>
 
-  <div style="text-align: center;">
+  <div class="link-box">
     <a href="./microsoft_office_repair_tools">
       <img src='./public/images/repair.png' width='150' height='150' />
-      <div style="margin-top: 10px;">Standalone Tools</div>
+      <div>Standalone Tools</div>
     </a>
   </div>
 
-  <div style="text-align: center;">
+  <div class="link-box">
     <a href="./macos_appstore_current_version">
       <img src='./public/images/macos_icon.png' width='150' height='150' />
-      <div style="margin-top: 10px;">MacOS AppStore</div>
+      <div>MacOS AppStore</div>
     </a>
   </div>
 
-  <div style="text-align: center;">
+  <div class="link-box">
     <a href="./ios_appstore_current_version">
       <img src='./public/images/ios_icon.png' width='150' height='150' />
-      <div style="margin-top: 10px;">iOS AppStore</div>
+      <div>iOS AppStore</div>
     </a>
   </div>
-
 </div>
-
