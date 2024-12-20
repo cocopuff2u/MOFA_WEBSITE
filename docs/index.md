@@ -7,7 +7,7 @@ hero:
   text: "Microsoft Overview For Apple"
   tagline: "Bringing Microsoft Power to Apple Devices"
   image:
-    src: /public/images/logo_Mofa_NoBackground.png
+    src: /images/logo_Mofa_NoBackground.png
     alt: MOFA Logo
   actions:
     - theme: brand
