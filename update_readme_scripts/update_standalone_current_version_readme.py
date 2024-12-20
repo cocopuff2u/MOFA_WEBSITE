@@ -47,7 +47,10 @@ def generate_readme_content(global_last_updated, packages):
     current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""
+    content = f"""---
+editLink: false
+lastUpdated: false
+---
 # <img src="./images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Packages
 
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
@@ -82,15 +85,18 @@ def generate_readme_content(global_last_updated, packages):
 <span class="extra-small">_**For items without specific release notes, please refer to the release notes for the entire suite.**_</span>
 
 <span class="extra-small">_**All apps include MAU with installation, except for Skype for Business, OneDrive, Defender SHIM, Licensing Helper Tool, Quick Assist, and Remote Help.**_</span>
+
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.
 """
-    logging.info("standalone_main_readme content generated successfully")
+    logging.info("standalone_current_version content generated successfully")
 
     return content
 
 def overwrite_readme(file_path, content):
     with open(file_path, "w") as file:
         file.write(content)
-    print(f"standalone_main_readme.md has been overwritten.")
+    print(f"standalone_current_version.md has been overwritten.")
 
 def get_standalone_package_detail(packages, package_name, detail):
     package_name = package_name.lower()
@@ -104,7 +110,7 @@ def get_standalone_package_detail(packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/readme_standalone_main.md"
+    readme_file_path = "docs/standalone_current_version.md"
 
     # Parse the XML and generate content
     global_last_updated, packages = parse_latest_xml(xml_file_path)

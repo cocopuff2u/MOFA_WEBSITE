@@ -1,4 +1,7 @@
-
+---
+editLink: false
+lastUpdated: false
+---
 # Standalone CVE History
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 19, 2024 08:42 PM EST</code> (Automatically Updated every 4 hours)_</span>
@@ -148,3 +151,6 @@
 | 16.35 (Build 20030802) | March 10, 2020 | Word | [CVE-2020-0850](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0850), [CVE-2020-0851](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0851), [CVE-2020-0855](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0855), [CVE-2020-0892](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0892) |
 | 16.34 (Build 20020900) | February 11, 2020 | Excel | [CVE-2020-0759](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0759) |
 | 16.33 (Build 20011301) | January 14, 2020 | Excel | [CVE-2020-0650](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0650), [CVE-2020-0651](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0651) |
+
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.

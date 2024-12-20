@@ -1,8 +1,8 @@
-# 🚨 Found An Issue?
+# 🐞 Found An Issue?
 
 If you encounter any issues or have suggestions for improvements, please feel free to submit an issue or reach out for support. Here’s how:
 
-### 1. **🐛 GitHub Issues**
+### 1. **🚨 GitHub Issues**
 To report a bug or request a feature, please visit the [GitHub Issues page](https://github.com/cocopuff2u/MOFA/issues). Follow these steps to submit an issue:
 - Go to the [Issues tab](https://github.com/cocopuff2u/MOFA/issues) on GitHub.
 - Click on the **New issue** button.

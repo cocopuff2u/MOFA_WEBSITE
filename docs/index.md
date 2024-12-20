@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /readme_home
+      link: /home
     - theme: alt
       text: About The Project
-      link: /readme_about
+      link: /about
 
 features:
   - icon: 🚀

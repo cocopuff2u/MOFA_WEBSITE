@@ -55,7 +55,10 @@ def generate_readme_content(last_scan_date, updates):
     current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""
+    content = f"""---
+editLink: false
+lastUpdated: false
+---
 # Standalone CVE History
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> (Automatically Updated every 4 hours)_</span>
@@ -75,19 +78,24 @@ def generate_readme_content(last_scan_date, updates):
             cve_str = ", ".join(cve_list) if cve_list else "&nbsp;"
             content += f"| {update['version']} | {update['date']} | {app_name} | {cve_str} |\n"
 
-    logging.info("standalone_cve_history_readme content generated successfully")
+    content += """
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.
+"""
+
+    logging.info("standalone_cve_history content generated successfully")
 
     return content
 
 def overwrite_readme(file_path, content):
     with open(file_path, "w") as file:
         file.write(content)
-    print(f"standalone_cve_history_readme.md has been overwritten.")
+    print(f"standalone_cve_history.md has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/mac_standalone_cve_history.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/readme_standalone_cve_history.md"
+    readme_file_path = "docs/standalone_cve_history.md"
 
     # Parse the XML and generate content
     last_scan_date, updates = parse_cve_history_xml(xml_file_path)

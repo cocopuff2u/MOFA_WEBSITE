@@ -128,25 +128,32 @@ def generate_readme_content(last_updated, packages):
     current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""
+    content = f"""---
+editLink: false
+lastUpdated: false
+---
 # App Store Latest Updates
 
-<sup>_Last Updated: <code style="color : mediumseagreen">{last_updated}_</code>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
 """
     for package in packages:
-        content += f"| {package['application_name']} | {package['version']} | {package['bundleId']} | {package['minimumOsVersion']} | <img src='{package['icon_image']}' width='25%' height='25%' /> |\n"
+        content += f"| {package['application_name']} | `{package['version']}`| {package['bundleId']} | {package['minimumOsVersion']} | <img src='{package['icon_image']}' width='75%' height='75%' /> |\n"
 
-    logging.info("appstore_latest_readme content generated successfully")
+    content += """
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the App Store. Please note that it may not always reflect complete accuracy.
+"""
+    logging.info("ios_appstore_current_version content generated successfully")
 
     return content
 
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/ios_appstore_latest.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/readme_ios_appstore_latest.md"  # Updated path to place the file inside /MOFA/docs/
+    readme_file_path = "docs/ios_appstore_current_version.md"  # Updated path to place the file inside /MOFA/docs/
 
     # Parse the XML and generate content
     last_updated, packages = parse_latest_xml(xml_file_path)

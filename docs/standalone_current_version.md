@@ -1,4 +1,7 @@
-
+---
+editLink: false
+lastUpdated: false
+---
 # <img src="./images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Packages
 
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
@@ -33,3 +36,6 @@
 <span class="extra-small">_**For items without specific release notes, please refer to the release notes for the entire suite.**_</span>
 
 <span class="extra-small">_**All apps include MAU with installation, except for Skype for Business, OneDrive, Defender SHIM, Licensing Helper Tool, Quick Assist, and Remote Help.**_</span>
+
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.

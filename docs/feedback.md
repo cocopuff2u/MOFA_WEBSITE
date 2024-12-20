@@ -1,8 +1,8 @@
-# 💬 Feedback, Requests, or Needs
+# 📝 Feedback, Requests, or Needs
 
 If you have any feedback, feature requests, or other needs related to the project, please don't hesitate to reach out. Here’s how you can contact me:
 
-### 1. **📝 GitHub Discussions (Feature Requests)**
+### 1. **💬 GitHub Discussions (Feature Requests)**
 If you'd like to suggest a new feature or provide general feedback, please visit the [GitHub Discussions page](https://github.com/cocopuff2u/MOFA/discussions). Follow these steps:
 - Go to the [Discussions tab](https://github.com/cocopuff2u/MOFA/discussions) on GitHub.
 - Click on **Start a discussion**.

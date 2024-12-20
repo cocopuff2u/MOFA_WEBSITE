@@ -1,4 +1,7 @@
-
+---
+editLink: false
+lastUpdated: false
+---
 # <img src="./images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Packages
 
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
@@ -30,3 +33,10 @@
 | **Licensing Helper Tool Installer** | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg"><img src="./images/pkg-icon.png" alt="Download Image" width="60"></a> | `2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905` |
 | **Quick Assist Installer** | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg"><img src="./images/quickassist.png" alt="Download Image" width="60"></a> | `2fdab5e1815862c9b3583257c485b088aa46c86e5609cad09bfa13a3a092a0e1` |
 | **Remote Help Installer** | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg"><img src="./images/remotehelp.png" alt="Download Image" width="60"></a> | `0fb298a8cbf6d58a9846b639e1b8581085993f184fbc823448ef5d6bbb4467b6` |
+
+## How to Verify SHA256 Hashes
+
+For a detailed guide on how to verify SHA256 hashes, please refer to [this guide](./guides/how_to_sha256).
+
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.
