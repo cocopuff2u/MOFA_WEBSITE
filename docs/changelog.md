@@ -29,7 +29,7 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 
 ### **💡 Have a Feature Idea?**
 We’d love to hear from you!
-If you have suggestions for features or improvements, please [submit your feedback](./readme_feedback).
+If you have suggestions for features or improvements, please [submit your feedback](./feedback).
 
 ## **🎯 Current Updates and Goals**
 
