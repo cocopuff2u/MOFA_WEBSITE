@@ -15,7 +15,7 @@ export default defineConfig({
     },
     logo: '/images/logo_Mofa_NoBackground.png',
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/home' },
       { text: 'Standalone Apps', link: '/standalone_current_version' },
       { text: 'MacOS AppStore', link: '/macos_appstore_current_version' },
       { text: 'iOS AppStore', link: '/ios_appstore_current_version' }
