@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 21, 2024 07:12 AM EST</code> (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 21, 2024 11:07 AM EST</code> (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
@@ -26,7 +26,7 @@ lastUpdated: false
 | Dynamics 365 Remote Assist | `2025.1.1`| com.microsoft.ramobile | 12.2 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/13/1b/65131b48-b4a8-599c-e081-dc91d63fd6bc/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Remote Assist | `2025.1.1`| com.microsoft.ramobile | 12.2 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/13/1b/65131b48-b4a8-599c-e081-dc91d63fd6bc/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Viva Engage | `10.85.0`| wefwef | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/73/1b/3a731b91-b0ce-5b8b-547d-36d788ac4900/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Whiteboard - Infinity Canvas | `28.1`| cn.readpad.tool.iwhiteboard | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/8d/44/018d4457-0ac2-1b41-1b10-6e839b44c844/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Whiteboard - Infinity Canvas | `28.2`| cn.readpad.tool.iwhiteboard | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/dd/3b/53dd3b40-187b-3e1e-a43e-6357165c4685/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Edge: AI Browser | `131.2903.107`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ea/34/7aea34a8-f54b-9375-3858-9bdf586896fa/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Seeing AI | `5.4`| com.microsoft.seeingai | 12.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/b0/e2/89b0e2fd-6a83-3afa-4823-dcfbdfdb5b27/AppIcons-0-1x_U007emarketing-0-7-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Planner | `1.17.2`| com.microsoft.PlannerMobile | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ea/50/72ea505c-7b2a-17e4-6d1b-26494b75d7a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
@@ -41,7 +41,7 @@ lastUpdated: false
 | Microsoft Lens: PDF Scanner | `2.77.1`| com.microsoft.officelens | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/26/fc/da26fcc9-b2c3-58d5-a2a9-894ab4a65e4b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Work Folders | `2.2.0`| com.microsoft.workfolders | 12.1 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/ed/46/15/ed46150c-83ff-e2bc-4caa-8b5948d65bd2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Power BI | `32.9`| com.microsoft.powerbimobile | 16.4 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/82/27/54822725-7456-5309-7f70-42ec131a8222/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft 365 Admin | `5.4.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b7/21/df/b721df0b-0ce1-2301-17e9-e66015df3ccd/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft 365 Admin | `5.5.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/7e/4f/f77e4f9b-66c5-9030-5da2-5534474807a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Intune Company Portal | `5.2412.0`| com.microsoft.CompanyPortal | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/fe/18/8dfe1824-3627-c77e-f814-ff329bb63432/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Azure Information Protection | `2.1.1`| com.microsoft.rms-sharing | 11.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/92/ec/bb92ece4-b3e9-7fff-de38-a1f64c6a6b20/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft 365 (Office) | `2.92.1`| com.microsoft.officemobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/e2/d2/fae2d288-e2fb-add9-c5c7-4eda842bf39d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
