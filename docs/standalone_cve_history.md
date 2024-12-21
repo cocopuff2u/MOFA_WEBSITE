@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 21, 2024 03:24 AM EST</code> (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 21, 2024 07:37 AM EST</code> (Automatically Updated every 4 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
