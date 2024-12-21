@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>December 20, 2024 11:09 PM EST</last_updated>
+	<last_updated>December 21, 2024 03:09 AM EST</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -62,11 +62,11 @@ Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedbac
 		<name>iOS Microsoft OneDrive</name>
 		<application_name>Microsoft OneDrive</application_name>
 		<bundleId>com.microsoft.skydrive</bundleId>
-		<currentVersionReleaseDate>December 16, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/50/0c/32500c90-0c7d-a50f-9252-d9da7abb41dc/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 20, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/64/04/136404b8-a955-7bed-564e-56abf508cfec/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>17.0</minimumOsVersion>
 		<releaseNotes>This update contains bug fixes and stability improvements.</releaseNotes>
-		<version>16.1.3</version>
+		<version>16.1.5</version>
 	</package>
 	<package>
 		<name>iOS Microsoft Windows App Mobile</name>
@@ -206,12 +206,11 @@ This wouldn't be possible without your feedback. If you run into any issues, ple
 		<name>iOS Microsoft Whiteboard</name>
 		<application_name>Whiteboard - Infinity Canvas</application_name>
 		<bundleId>cn.readpad.tool.iwhiteboard</bundleId>
-		<currentVersionReleaseDate>November 26, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/8d/44/018d4457-0ac2-1b41-1b10-6e839b44c844/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 20, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/dd/3b/53dd3b40-187b-3e1e-a43e-6357165c4685/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>13.0</minimumOsVersion>
-		<releaseNotes>1. Fixed known bugs.
-2. Support Apple Pencil Pro for pinch-to-switch focus mode.</releaseNotes>
-		<version>28.1</version>
+		<releaseNotes>1. Fixed known bugs.</releaseNotes>
+		<version>28.2</version>
 	</package>
 	<package>
 		<name>iOS Microsoft Edge AI Browser</name>
@@ -376,11 +375,11 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 		<name>iOS Microsoft 365 Admin</name>
 		<application_name>Microsoft 365 Admin</application_name>
 		<bundleId>com.microsoft.o365shdmobileapp</bundleId>
-		<currentVersionReleaseDate>February 07, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b7/21/df/b721df0b-0ce1-2301-17e9-e66015df3ccd/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 20, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/7e/4f/f77e4f9b-66c5-9030-5da2-5534474807a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>10.0</minimumOsVersion>
 		<releaseNotes>This release contains few bug fixes to improve the app reliability.</releaseNotes>
-		<version>5.4.0</version>
+		<version>5.5.0</version>
 	</package>
 	<package>
 		<name>iOS Microsoft Intune Company Portal</name>
