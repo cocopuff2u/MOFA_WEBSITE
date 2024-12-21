@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 20, 2024 03:08 PM EST</code> (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 20, 2024 07:37 PM EST</code> (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
@@ -13,7 +13,7 @@ lastUpdated: false
 | Microsoft PowerPoint | `2.92.1`| com.microsoft.Office.Powerpoint | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/93/06/669306e5-e88c-7e5c-714b-e3fe46debaaa/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Outlook | `4.2447.1`| com.microsoft.Office.Outlook | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/f4/44/59f44426-836a-526d-8733-6d99cd9912ff/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft OneNote | `16.92.1`| com.microsoft.onenote | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/f1/66/74f166e6-80b9-33d7-a76a-d9720e4f40a6/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft OneDrive | `16.1.5`| com.microsoft.skydrive | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/64/04/136404b8-a955-7bed-564e-56abf508cfec/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft OneDrive | `16.1.3`| com.microsoft.skydrive | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/50/0c/32500c90-0c7d-a50f-9252-d9da7abb41dc/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Link to Windows | `1.24112.78`| com.microsoft.LinkToWindows | 16.6 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/6f/67/216f6735-f10b-c9bb-94cc-ee4e5a394e64/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Defender: Security | `1.1.60100101`| com.microsoft.scmx | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/af/27/71af2765-64b9-d792-5bbf-e910e3956d65/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Edge: AI Browser | `131.2903.107`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ea/34/7aea34a8-f54b-9375-3858-9bdf586896fa/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
@@ -41,7 +41,7 @@ lastUpdated: false
 | Microsoft Lens: PDF Scanner | `2.77.1`| com.microsoft.officelens | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/26/fc/da26fcc9-b2c3-58d5-a2a9-894ab4a65e4b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Work Folders | `2.2.0`| com.microsoft.workfolders | 12.1 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/ed/46/15/ed46150c-83ff-e2bc-4caa-8b5948d65bd2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Power BI | `32.9`| com.microsoft.powerbimobile | 16.4 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/82/27/54822725-7456-5309-7f70-42ec131a8222/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft 365 Admin | `5.5.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/7e/4f/f77e4f9b-66c5-9030-5da2-5534474807a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft 365 Admin | `5.4.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/b7/21/df/b721df0b-0ce1-2301-17e9-e66015df3ccd/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Intune Company Portal | `5.2412.0`| com.microsoft.CompanyPortal | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/fe/18/8dfe1824-3627-c77e-f814-ff329bb63432/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Azure Information Protection | `2.1.1`| com.microsoft.rms-sharing | 11.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/92/ec/bb92ece4-b3e9-7fff-de38-a1f64c6a6b20/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft 365 (Office) | `2.92.1`| com.microsoft.officemobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/e2/d2/fae2d288-e2fb-add9-c5c7-4eda842bf39d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
