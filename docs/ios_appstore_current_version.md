@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 21, 2024 11:09 PM EST</code> (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 22, 2024 03:09 AM EST</code> (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
@@ -44,7 +44,7 @@ lastUpdated: false
 | Microsoft 365 Admin | `5.5.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/7e/4f/f77e4f9b-66c5-9030-5da2-5534474807a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Intune Company Portal | `5.2412.0`| com.microsoft.CompanyPortal | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/fe/18/8dfe1824-3627-c77e-f814-ff329bb63432/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Azure Information Protection | `2.1.1`| com.microsoft.rms-sharing | 11.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/92/ec/bb92ece4-b3e9-7fff-de38-a1f64c6a6b20/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft 365 (Office) | `2.92.2`| com.microsoft.officemobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/03/04/470304d5-01b5-d817-262d-2e2f3831dec9/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft 365 (Office) | `2.92.1`| com.microsoft.officemobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/e2/d2/fae2d288-e2fb-add9-c5c7-4eda842bf39d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Skype for Business | `6.32.0`| com.microsoft.lync2013.iphone | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/97/5a/c5975a03-81d7-7f7f-ba3b-43b2f69fa78a/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 
 > [!IMPORTANT]
