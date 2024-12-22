@@ -31,15 +31,14 @@ export default defineConfig({
         text: '📦 Standalone Apps',
         collapsed: true,
         items: [
-          { text: 'Current Version', link: '/standalone_current_version' },
-          {
-            text: 'SHA Hashes',
+          { text: 'Current Versions', link: '/standalone_current_version',
             collapsed: true,
             items: [
               { text: 'SHA1 Hashes', link: '/standalone_sha1_hashes' },
               { text: 'SHA256 Hashes', link: '/standalone_sha256_hashes' }
             ]
           },
+          { text: 'Last Supported Versions', link: '/standalone_last_supported_versions' },
           { text: 'Update History', link: '/standalone_update_history' },
           { text: 'CVE (Vulnerabilities)', link: '/standalone_cve_history' },
           { text: 'Raw Feeds', link: '/standalone_raw_feeds' }

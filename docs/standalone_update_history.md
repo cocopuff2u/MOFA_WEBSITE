@@ -2,7 +2,7 @@
 editLink: false
 lastUpdated: false
 ---
-# Standalone Update History
+# <img src="/public/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 22, 2024 03:08 PM EST</code> (Automatically Updated every 4 hours)_</span>
 
