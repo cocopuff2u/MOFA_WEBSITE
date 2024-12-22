@@ -2,12 +2,13 @@
 editLink: false
 lastUpdated: false
 ---
-# <img src="/public/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Packages
+# <img src="/public/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Package & SHA1 Hashes
 
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 22, 2024 03:15 PM EST</code> [**_Raw XML_**](latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 22, 2024 03:15 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+ (Automatically Updated every 4 hours)_</span>
 
 | **Product Package** | **Link** | **<img src="/public/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" /> SHA1 Hash <img src="/public/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" />** |
 |----------------------|----------|------------------|
@@ -33,9 +34,9 @@ lastUpdated: false
 | **Quick Assist Installer** | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg"><img src="/public/images/quickassist.png" alt="Download Image" width="60"></a> | `49db1be5bbb8091ea260631247d7de93c49afb9c` |
 | **Remote Help Installer** | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2411113_updater.pkg"><img src="/public/images/remotehelp.png" alt="Download Image" width="60"></a> | `259da45d79ba21c4988138ed6471ad7f26d8ec74` |
 
-## How to Verify SHA256 Hashes
+## SHA1 Hashes Guide
 
-For a detailed guide on how to verify SHA256 hashes, please refer to [this guide](./guides/how_to_sha1).
+For a detailed guide on how to create/verify SHA1 hashes, please refer to [this guide](./guides/how_to_sha1).
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.
