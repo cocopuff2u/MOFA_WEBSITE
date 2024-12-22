@@ -1,4 +1,4 @@
-last_updated: December 21, 2024 11:09 PM EST
+last_updated: December 22, 2024 03:09 AM EST
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -355,11 +355,11 @@ packages:
   - name: iOS Microsoft 365 Office
     application_name: Microsoft 365 (Office)
     bundleId: com.microsoft.officemobile
-    currentVersionReleaseDate: December 21, 2024
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/03/04/470304d5-01b5-d817-262d-2e2f3831dec9/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: December 13, 2024
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/e2/d2/fae2d288-e2fb-add9-c5c7-4eda842bf39d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.0'
     releaseNotes: "\u2022 Bug fixes"
-    version: 2.92.2
+    version: 2.92.1
   - name: iOS Microsoft Skype for Business
     application_name: Skype for Business
     bundleId: com.microsoft.lync2013.iphone
