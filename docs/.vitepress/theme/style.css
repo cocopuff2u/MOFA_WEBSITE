@@ -138,68 +138,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-
-/**
- * Component: Home.md
- * -------------------------------------------------------------------------- */
-
-
-  /* General Link Styling */
-  a {
-    text-decoration: none;
-    color: inherit; /* Inherit color from parent, so it matches the design */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
-  }
-
-  /* Hover Effects */
-  a:hover {
-    transform: scale(1.05); /* Slightly enlarges the link on hover */
-    text-decoration: underline; /* Adds an underline on hover */
-  }
-
-  /* Styling for the section titles */
-  .gradient-title {
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient effect */
-    color: transparent;
-    background-clip: text;
-    font-weight: bold;
-  }
-
-  /* Flex container for center alignment */
-  .image-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
-  }
-
-  /* Styling for individual link boxes */
-  .link-box {
-    text-align: center;
-    transition: transform 0.3s ease; /* Adds transition to each image box */
-  }
-
-  .link-box:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-  }
-
-  .link-box img {
-    border-radius: 10px; /* Rounded corners for images */
-    transition: transform 0.3s ease; /* Smooth transition for image hover */
-  }
-
-  .link-box img:hover {
-    transform: scale(1.1); /* Slightly enlarges the image on hover */
-  }
-
-  /* Optional: Styling for text inside the link boxes */
-  .link-box div {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 16px;
-  }
-
 /**
  * Component: Custom Font Color
  * -------------------------------------------------------------------------- */
@@ -210,6 +148,7 @@
 
 .gradient-title {
   background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+  font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
