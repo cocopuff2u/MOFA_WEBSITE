@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>December 22, 2024 11:09 PM EST</last_updated>
+	<last_updated>December 23, 2024 07:19 AM EST</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -92,17 +92,16 @@ Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedbac
 		<name>iOS Microsoft Copilot</name>
 		<application_name>Microsoft Edge: AI Browser</application_name>
 		<bundleId>com.microsoft.msedge</bundleId>
-		<currentVersionReleaseDate>December 18, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ea/34/7aea34a8-f54b-9375-3858-9bdf586896fa/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 23, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/51/36/3e5136d8-86a3-7fb5-d881-27d621cafd28/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>Welcome to Microsoft Edge! Check out what's new in this release:
-• Direct PDF Viewing: You can now view PDFs directly within the tab without needing to download them first.
-• AI-generated Page Summary: Go to Menu &gt; Summarize to view an AI-generated page summary in a half-screen view without leaving the web page.
+• Introducing the New Copilot: This update includes an intuitive design with more digestible and faster answers.
 • Bug fixes, stability, and performance improvements.
 Upgrade to the latest version and enjoy a smarter, more efficient Microsoft Edge!
 Want early access to more new features? Join our Beta program at: 
 https://testflight.apple.com/join/JkU2rh21</releaseNotes>
-		<version>131.2903.107</version>
+		<version>131.2903.112</version>
 	</package>
 	<package>
 		<name>iOS Microsoft Loop</name>
@@ -216,17 +215,16 @@ This wouldn't be possible without your feedback. If you run into any issues, ple
 		<name>iOS Microsoft Edge AI Browser</name>
 		<application_name>Microsoft Edge: AI Browser</application_name>
 		<bundleId>com.microsoft.msedge</bundleId>
-		<currentVersionReleaseDate>December 18, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/ea/34/7aea34a8-f54b-9375-3858-9bdf586896fa/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 23, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/51/36/3e5136d8-86a3-7fb5-d881-27d621cafd28/AppIcon-0-1x_U007epad-0-0-0-0-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>Welcome to Microsoft Edge! Check out what's new in this release:
-• Direct PDF Viewing: You can now view PDFs directly within the tab without needing to download them first.
-• AI-generated Page Summary: Go to Menu &gt; Summarize to view an AI-generated page summary in a half-screen view without leaving the web page.
+• Introducing the New Copilot: This update includes an intuitive design with more digestible and faster answers.
 • Bug fixes, stability, and performance improvements.
 Upgrade to the latest version and enjoy a smarter, more efficient Microsoft Edge!
 Want early access to more new features? Join our Beta program at: 
 https://testflight.apple.com/join/JkU2rh21</releaseNotes>
-		<version>131.2903.107</version>
+		<version>131.2903.112</version>
 	</package>
 	<package>
 		<name>iOS Microsoft Seeing AI</name>
@@ -365,11 +363,11 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 		<name>iOS Microsoft Power BI</name>
 		<application_name>Microsoft Power BI</application_name>
 		<bundleId>com.microsoft.powerbimobile</bundleId>
-		<currentVersionReleaseDate>December 08, 2024</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/82/27/54822725-7456-5309-7f70-42ec131a8222/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>December 22, 2024</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/6a/0d/0c6a0d65-f19c-29bf-0ee3-60ec7813f770/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.4</minimumOsVersion>
 		<releaseNotes>- Improved stability and fixed various bugs.​</releaseNotes>
-		<version>32.9</version>
+		<version>33.0</version>
 	</package>
 	<package>
 		<name>iOS Microsoft 365 Admin</name>
