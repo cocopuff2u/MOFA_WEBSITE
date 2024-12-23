@@ -36,7 +36,7 @@ const members2 = [
 
 <VPTeamMembers size="medium" :members="members2" />
 
-## 🚀 We Are Looking for More Contributors! 🛠️
+## 🚀 We Need Contributors! 🛠️
 
 We're always looking for passionate people to contribute to the project. Whether you're a developer, designer, or just someone who loves working on open-source projects, we'd love to have you! 🧑‍💻🌍
 
