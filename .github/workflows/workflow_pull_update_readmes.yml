@@ -1,4 +1,4 @@
-name: Combined Workflow
+name: Update Readmes and Pull Repo Updates
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytz
 
-    - name: Run pull_raw_files script
+     - name: Run pull_raw_files script
       run: python repo_raw_data/pull_raw_files.py
 
     - name: Commit and push changes
@@ -32,14 +32,9 @@ jobs:
       run: |
         git config --global user.name 'cocopuff2u'
         git config --global user.email 'cocopuff2u@yahoo.com'
-        git diff --exit-code
-        if [ $? -ne 0 ]; then
-          git add .
-          git commit -m 'Automated update of raw files and README files'
-          git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/MOFA_WEBSITE.git
-        else
-          echo "No changes detected, skipping commit."
-        fi
+        git add .
+        git commit -m 'Automated update of raw files'
+        git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/MOFA_WEBSITE.git
 
     - name: Run update scripts
       run: |
@@ -51,14 +46,23 @@ jobs:
         python update_readme_scripts/update_macos_appstore_current_version_readme.py
         python update_readme_scripts/update_ios_appstore_current_version_readme.py
 
-    - name: Check for changes and push if needed
+    - name: Set Git config
+      run: |
+        git config --global user.name 'cocopuff2u'
+        git config --global user.email 'cocopuff2u@yahoo.com'
+
+    - name: Check for changes
+      run: |
+        git status --short
+        if [ -n "$(git status --porcelain)" ]; then
+          git add docs/*.md
+          git commit -m 'Automated update of README files'
+        else
+          echo "No changes detected, skipping commit."
+        fi
+
+    - name: Push changes
       env:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        git diff --exit-code
-        if [ $? -ne 0 ]; then
-          git add docs/*.md
-          git commit -m 'Automated update of README files'
-          git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/mofa_website.git
-        else
-          echo "No changes detected, skipping commit."
+        git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/mofa_website.git
