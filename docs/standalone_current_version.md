@@ -7,8 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 30, 2024 03:19 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
- (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 30, 2024 07:39 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 4 hours)_</span>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
@@ -42,7 +41,7 @@ lastUpdated: false
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
-| **Word** <sup>365/2021/2024</sup> **</sup> Standalone Installer** | `16.92.0 (24120731)` | com.microsoft.word | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.92.24120731_Updater.pkg"><img src=".github/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Word** <sup>365/2021/2024</sup> **Standalone Installer** | `16.92.0 (24120731)` | com.microsoft.word | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.92.24120731_Updater.pkg"><img src=".github/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | `16.92.0 (24120731)` | com.microsoft.excel | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.92.24120731_Updater.pkg"><img src=".github/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | `16.92.0 (24120731)` | com.microsoft.powerpoint | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.92.24120731_Updater.pkg"><img src=".github/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<sup>_(Weekly Channel)_</sup>| `16.92.0 (24120731)` | com.microsoft.outlook  | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.92.24120731_Updater.pkg"><img src=".github/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
