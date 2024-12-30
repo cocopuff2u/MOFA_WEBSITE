@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytz
 
-     - name: Run pull_raw_files script
+    - name: Run pull_raw_files script
       run: python repo_raw_data/pull_raw_files.py
 
     - name: Commit and push changes
