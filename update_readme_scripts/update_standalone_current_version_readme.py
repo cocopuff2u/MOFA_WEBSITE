@@ -85,7 +85,19 @@ lastUpdated: false
 
 <span class="extra-small">_**For items without specific release notes, please refer to the release notes for the entire suite.**_</span>
 
-<span class="extra-small">_**All apps include MAU with installation, except for Skype for Business, OneDrive, Defender SHIM, Licensing Helper Tool, Quick Assist, and Remote Help.**_</span>
+<span class="extra-small">_**All apps above include MAU with installation, except for Skype for Business, OneDrive, Defender SHIM, Licensing Helper Tool, Quick Assist, and Remote Help.**_</span>
+
+# <img src="/public/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Packages without MAU
+
+| **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
+|----------------------|----------------------|--------------------------|--------------|
+| **Word** <sup>365/2021/2024</sup> **</sup> Standalone Installer** | `{get_standalone_package_detail(packages, 'Word', 'short_version')}` | com.microsoft.word | <a href="{get_standalone_package_detail(packages, 'Word', 'update_download')}"><img src=".github/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Excel** <sup>365/2021/2024</sup> **Standalone Installer** | `{get_standalone_package_detail(packages, 'Excel', 'short_version')}` | com.microsoft.excel | <a href="{get_standalone_package_detail(packages, 'Excel', 'update_download')}"><img src=".github/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
+| **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | `{get_standalone_package_detail(packages, 'PowerPoint', 'short_version')}` | com.microsoft.powerpoint | <a href="{get_standalone_package_detail(packages, 'PowerPoint', 'update_download')}"><img src=".github/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**<sup>_(Weekly Channel)_</sup>| `{get_standalone_package_detail(packages, 'Outlook', 'short_version')}` | com.microsoft.outlook  | <a href="{get_standalone_package_detail(packages, 'Outlook', 'update_download')}"><img src=".github/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
+| **OneNote** <sup>365/2021/2024</sup> **Standalone Installer** | `{get_standalone_package_detail(packages, 'OneNote', 'short_version')}` | com.microsoft.onenote.mac | <a href="{get_standalone_package_detail(packages, 'OneNote', 'update_download')}"><img src=".github/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+| **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a> | `{get_standalone_package_detail(packages, 'Intune', 'short_version')}` | com.microsoft.CompanyPortalMac | <a href="{get_standalone_package_detail(packages, 'Intune', 'update_download')}"><img src=".github/images/companyportal.png" alt="Download Image" width="80"></a> |
+
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the Microsoft. Please note that it may not always reflect complete accuracy.
