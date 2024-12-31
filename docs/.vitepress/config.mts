@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+the import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/',
