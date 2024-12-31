@@ -34,7 +34,7 @@ jobs:
         git config --global user.email 'cocopuff2u@yahoo.com'
         git add .
         git commit -m 'Automated update of raw files'
-        git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/MOFA_WEBSITE.git main
+        git push https://cocopuff2u:$TOKEN@github.com/cocopuff2u/MOFA_WEBSITE.git main
 
     - name: Run update scripts
       run: |
