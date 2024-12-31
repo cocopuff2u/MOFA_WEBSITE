@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/',
   title: "MOFA",
   description: "Microsoft Overview For Apple",
-  head: [['link', { rel: 'icon', href: '/docs/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     lastUpdated: true,
     cleanUrls: true,
