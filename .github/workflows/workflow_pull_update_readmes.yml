@@ -71,12 +71,12 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const octokit = github.getOctokit(core.getInput('token'));
-          await octokit.actions.createWorkflowDispatch({
+          const octokit = require('@actions/github').getOctokit(core.getInput('token'));
+          await octokit.rest.actions.createWorkflowDispatch({
             owner: 'cocopuff2u',
             repo: 'MOFA_WEBSITE',
             workflow_id: 'deploy.yml',
             ref: 'main'
           });
       env:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
