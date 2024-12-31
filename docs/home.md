@@ -1,88 +1,78 @@
 <div style="text-align: center;">
   <h1>Welcome to <span class="gradient-title">MOFA</span></h1>
   <br>
-<div style="position: relative; display: inline-block; padding: 10px;">
-  <!-- Gradient background only behind the image -->
-  <div style="
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, #00BFFF 50%, #FF3B30 50%);
-    filter: blur(50px);
-    z-index: -1; /* Ensures the gradient stays behind the image */
-    background-size: 100% 100%; /* Adjust gradient size */
-    background-position: left center; /* Align gradient as needed */
-  ">
+  <div style="position: relative; display: inline-block; padding: 10px;">
+    <!-- Gradient background only behind the image -->
+    <div style="
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(-45deg, #00BFFF 50%, #FF3B30 50%);
+      filter: blur(50px);
+      z-index: -1;
+      background-size: 100% 100%;
+      background-position: left center;
+    ">
+    </div>
+    <!-- Image -->
+    <img src="/images/logo_Mofa_NoBackground.png" alt="MOFA Logo" style="max-width: 150px; z-index: 1;" />
   </div>
-
-  <!-- Image -->
-  <img src="/public/images/logo_Mofa_NoBackground.png"
-       alt="MOFA Logo"
-       style="max-width: 150px; z-index: 1;" />
-</div>
-
-
 
   <p><strong>Microsoft Overview Feed for Apple</strong></p>
 </div>
 <br>
 
-<span class="gradient-title">MOFA</span> is your go-to solution for managing **Microsoft applications on Apple devices**. Built on the legacy of [**MacAdmins.software**](https://macadmins.software) and inspired by SOFA for macOS, **MOFA** simplifies workflows, automates updates, and bridges the gap between **Microsoft’s ecosystem** and **Apple’s platform**.
+<span class="gradient-title">MOFA</span> provides **tools, resources**, and **automatically updated data** for **Mac administrators** managing **Microsoft applications** on Apple devices. We make it easy for you to find what you need, access the latest updates, and **make informed decisions**—without the hassle of navigating complex processes.
 
-Whether you're an IT administrator or a tech enthusiast, <span class="gradient-title">MOFA</span> provides **cutting-edge tools** to ensure efficiency, compliance, and seamless integration in mixed-platform environments.
+Inspired by the success of [**MacAdmins.software**](https://macadmins.software) and powered by continuous updates, **MOFA** delivers the most relevant data and tools directly from Microsoft to simplify the management and deployment of Microsoft products on Apple devices.
 
+## 🌟 Why Choose <span class="gradient-title">MOFA</span>?
 
-## 🌟 Why Choose MOFA?
+- **Always Up-to-Date:** Our data is **automatically updated** to match the latest offerings from Microsoft.
+- **Simplified Access:** Quickly find and download the tools and resources you need without having to search through multiple sources.
+- **Efficiency:** Make decisions faster with clear, curated data and resources specifically tailored for Mac administrators.
+- **Open-Source & Transparent:** <span class="gradient-title">MOFA</span> is open-source, meaning the community drives its growth and development.
 
-- **Automation:** Keep Microsoft 365 apps on macOS up-to-date effortlessly.
-- **Integration:** Seamlessly connect Microsoft and Apple platforms.
-- **Community-Driven:** Built collaboratively with transparency and innovation.
-- **Enterprise-Ready:** Tools designed for large-scale IT workflows.
-- **Mobile-Friendly:** Ensure compatibility with iOS and macOS devices.
-- **Open Source:** Backed by a passionate, global community.
+## 🚀 Get Started in Three Simple Steps
 
+1. **Explore the Data Feed:**
+   Visit the [**MOFA GitHub Repository**](https://github.com/cocopuff2u/mofa) to explore the constantly updated data that keeps you in sync with Microsoft's latest offerings.
 
-## 🚀 Get Started
+2. **Access the Resources:**
+   Visit the [**MOFA Website**](https://github.com/cocopuff2u/mofa_website) to access guides, direct downloads, and resources that help you manage Microsoft apps on Apple devices.
 
-1. **Explore the Tool:**
-   Dive into the main project on [**GitHub**](https://github.com/cocopuff2u/mofa) and see how <span class="gradient-title">MOFA</span> can transform your workflows.
-
-2. **Visit the Website:**
-   Check out the [**MOFA Website**](https://github.com/cocopuff2u/mofa_website) for updates, guides, and resources.
-
-3. **Contribute:**
-   Join our open-source community! Submit pull requests, report bugs, or suggest new features to help shape the future of <span class="gradient-title">MOFA</span>.
+3. **Contribute and Stay Informed:**
+   <span class="gradient-title">MOFA</span> thrives on community contributions. You can help improve the tools and resources by submitting pull requests, reporting issues, or suggesting new features.
 
 ## 🌐 Our Mission
-At its core, <span class="gradient-title">MOFA</span> empowers IT professionals to:
-- Streamline the management of **Microsoft apps** on Apple devices.
-- Enhance productivity with **innovative, accessible tools**.
-- Foster collaboration and sustainability in the tech community.
+
+At **<span class="gradient-title">MOFA</span>**, we strive to:
+
+- **Simplify** Microsoft management on Apple devices by providing the right tools and information.
+- Keep Mac admins **informed** with **up-to-date data** that helps make critical decisions.
+- Foster a **community-driven** environment where resources are shared and improved collectively.
 
 ## 💡 Core Values
 
-- **Collaboration:** Your ideas and contributions drive <span class="gradient-title">MOFA</span>.
-- **Transparency:** Open-source and fully accessible.
-- **Innovation:** Staying ahead with advanced tools and solutions.
-- **Accessibility:** Designed for IT administrators at every skill level.
+- **Simplicity:** We focus on what matters most to Mac admins—giving you easy access to the tools and data you need.
+- **Transparency:** <span class="gradient-title">MOFA</span> is completely open-source, ensuring that everyone has access to our code, data, and resources.
+- **Efficiency:** We aim to make your workflow as smooth as possible by providing ready-to-use resources and data.
+- **Community:** We're built by and for the Mac admin community, with contributions from users worldwide.
 
 ## 🔧 Tools & Features
 
-- Automated updates for **Microsoft 365** apps.
-- Raw serialized data for advanced workflows.
-- Tools for compliance and configuration management.
-- Integration with iOS and macOS App Stores.
-- Enterprise-grade scalability and reliability.
+- **Automatically Updated Data:** Our data is continuously refreshed to match Microsoft's latest offerings, saving you time and effort.
+- **Direct Access to Resources:** Download tools, updates, and configuration files directly from the site—no need to search through multiple sources.
+- **Simplified Microsoft App Management:** Tools and data tailored to help Mac admins manage and deploy Microsoft apps with ease.
+- **Open-Source Access:** Use the raw XML, JSON, and YAML files for advanced customization and integration.
 
-### 🎉 Join the MOFA Community
+### 🎉 Join the <span class="gradient-title">MOFA</span> Community
 
-Be a part of the mission to bridge **Microsoft and Apple ecosystems**!
+We invite you to be part of the **<span class="gradient-title">MOFA</span>** community and help shape the future of Mac admins working with Microsoft.
 
-🔗 **[GitHub: Main Project](https://github.com/cocopuff2u/mofa)**
+🔗 **[GitHub: Main Project](https://github.com/cocopuff2u/mofa)**  
 🔗 **[GitHub: MOFA Website](https://github.com/cocopuff2u/mofa_website)**
 
-Connect, contribute, and help redefine IT workflows today!
-
-This version emphasizes a welcoming introduction, clear benefits, and actionable steps for first-time visitors or contributors. Let me know if you'd like any tweaks!
+Contribute, stay informed, and make your Microsoft-on-Apple experience better today!
