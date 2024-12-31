@@ -71,7 +71,7 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const octokit = require('@actions/github').getOctokit(core.getInput('token'));
+          const octokit = require('@actions/github').getOctokit('${{ secrets.GITHUB_TOKEN }}');
           await octokit.rest.actions.createWorkflowDispatch({
             owner: 'cocopuff2u',
             repo: 'MOFA_WEBSITE',
@@ -79,4 +79,4 @@ jobs:
             ref: 'main'
           });
       env:
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
