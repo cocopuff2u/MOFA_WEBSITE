@@ -65,4 +65,4 @@ jobs:
       env:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/mofa_website.git main
+        git push https://cocopuff2u:$TOKEN@github.com/cocopuff2u/mofa_website.git main
