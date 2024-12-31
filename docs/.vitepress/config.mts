@@ -4,6 +4,7 @@ export default defineConfig({
   base: '/MOFA_WEBSITE/',
   title: "MOFA",
   description: "Microsoft Overview For Apple",
+  head: [['link', { rel: 'icon', href: '/MOFA_WEBSITE/favicon.ico' }]],
   themeConfig: {
     lastUpdated: true,
     cleanUrls: true,
