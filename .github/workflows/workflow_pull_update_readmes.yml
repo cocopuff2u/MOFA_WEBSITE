@@ -66,3 +66,17 @@ jobs:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         git push https://github-actions[bot]:$TOKEN@github.com/cocopuff2u/mofa_website.git
+
+    - name: Trigger deploy workflow
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const octokit = github.getOctokit(core.getInput('token'));
+          await octokit.actions.createWorkflowDispatch({
+            owner: 'cocopuff2u',
+            repo: 'MOFA_WEBSITE',
+            workflow_id: 'deploy.yml',
+            ref: 'main'
+          });
+      env:
+        token: ${{ secrets.GITHUB_TOKEN }}
