@@ -50,7 +50,7 @@ def generate_readme_content(last_updated, packages):
 editLink: false
 lastUpdated: false
 ---
-# <img src="/public/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> App Store Latest Updates
+# <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> App Store Latest Updates
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 4 hours)_</span>
@@ -64,7 +64,7 @@ lastUpdated: false
     # Add comment section
     content += """
 > [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the App Store. Please note that it may not always reflect complete accuracy.
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
     logging.info("appstore_latest_readme content generated successfully")

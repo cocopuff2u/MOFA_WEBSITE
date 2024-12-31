@@ -2,7 +2,7 @@
 editLink: false
 lastUpdated: false
 ---
-# <img src="/public/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> App Store Latest Updates
+# <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> App Store Latest Updates
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 31, 2024 07:19 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 4 hours)_</span>
@@ -49,4 +49,4 @@ lastUpdated: false
 | Skype for Business | `6.32.0`| com.microsoft.lync2013.iphone | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/97/5a/c5975a03-81d7-7f7f-ba3b-43b2f69fa78a/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 
 > [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from the App Store. Please note that it may not always reflect complete accuracy.
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).

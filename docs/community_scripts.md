@@ -1,4 +1,4 @@
-# <img src="/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" /> Microsoft Scripts <img src="/public/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" />
+# <img src="/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" /> Microsoft Scripts <img src="/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" />
 
 These scripts automate the process of downloading, installing, updating, and managing Microsoft products.
 

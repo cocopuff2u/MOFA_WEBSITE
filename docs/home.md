@@ -35,7 +35,7 @@ Inspired by the success of [**MacAdmins.software**](https://macadmins.software) 
 - **Efficiency:** Make decisions faster with clear, curated data and resources specifically tailored for Mac administrators.
 - **Open-Source & Transparent:** <span class="gradient-title">MOFA</span> is open-source, meaning the community drives its growth and development.
 
-## 🚀 Get Started in Three Simple Steps
+## 🚀 Three Simple Steps
 
 1. **Explore the Data Feed:**
    Visit the [**MOFA GitHub Repository**](https://github.com/cocopuff2u/mofa) to explore the constantly updated data that keeps you in sync with Microsoft's latest offerings.
