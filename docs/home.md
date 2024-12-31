@@ -72,7 +72,7 @@ At **<span class="gradient-title">MOFA</span>**, we strive to:
 
 We invite you to be part of the **<span class="gradient-title">MOFA</span>** community and help shape the future of Mac admins working with Microsoft.
 
-🔗 **[GitHub: Main Project](https://github.com/cocopuff2u/mofa)**  
+🔗 **[GitHub: MOFA Github](https://github.com/cocopuff2u/mofa)**  
 🔗 **[GitHub: MOFA Website](https://github.com/cocopuff2u/mofa_website)**
 
 Contribute, stay informed, and make your Microsoft-on-Apple experience better today!
