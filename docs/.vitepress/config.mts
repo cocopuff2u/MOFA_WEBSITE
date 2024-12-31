@@ -4,7 +4,16 @@ export default defineConfig({
   base: '/',
   title: "MOFA",
   description: "Microsoft Overview For Apple",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-P45L4Y5WFQ' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P45L4Y5WFQ');
+    `]
+  ],
   themeConfig: {
     lastUpdated: true,
     cleanUrls: true,
