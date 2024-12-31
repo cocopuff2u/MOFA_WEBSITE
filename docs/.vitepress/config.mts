@@ -103,7 +103,8 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' }
+      { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' },
+      { icon: 'buymeacoffee', link: 'https://buymeacoffee.com/cocopuff2u' }
     ],
     footer: {
       message: 'Released under the MIT License.',
