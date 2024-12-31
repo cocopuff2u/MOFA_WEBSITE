@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/public/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 31, 2024 03:14 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 31, 2024 07:19 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -33,7 +33,7 @@ lastUpdated: false
 | Microsoft Planner | `1.17.2`| com.microsoft.PlannerMobile | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/ea/50/72ea505c-7b2a-17e4-6d1b-26494b75d7a2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Azure | `6.10.4`| com.microsoft.azure | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/2c/f7/e72cf706-eeab-4e56-e967-6c41238a4285/AppIcons-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft To Do | `2.137`| com.microsoft.to-do | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/25/61/752561b0-6425-95e6-6fcf-ca548c27ae5f/To-Do-AppStore-0-1x_U007emarketing-0-10-0-sRGB-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft Teams | `6.22.2`| com.microsoft.skype.teams | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/36/58/0a365823-66bd-abd9-52d7-9c9175b27847/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft Teams | `6.22.3`| com.microsoft.skype.teams | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/f5/bc/f9f5bc4d-b790-de82-ff45-8159db54d8b2/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft SharePoint | `4.53.5`| com.microsoft.sharepoint | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/48/3f/56483fb0-9ad8-e7c4-7c88-2450df913fae/SharePointAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Business Central | `4.0.9292`| com.microsoft.dynamics.ProjectMadeira | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/18/ad/5618ad08-9054-c975-1517-43d29b51827c/AppIcon-1x_U007emarketing-0-10-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Power Apps | `3.24122.11`| com.microsoft.msapps | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/f8/70/86f87008-814b-1098-46f0-8ca0fdf25d61/PowerApps_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
