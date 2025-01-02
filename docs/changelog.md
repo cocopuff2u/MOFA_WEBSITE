@@ -15,29 +15,31 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 ## **🌟 Upcoming Features**
 
 ### **🚀 Future Goals**
-1. **Expanding Raw Data Feeds**
-   - Additional data sources will be integrated.
-   - **ETA:** *2025 (Pending website updates)*
 
-2. **Incorporating Update History**
-   - iOS and macOS app update histories will be included.
-   - **ETA:** *2025 (Pending website updates)*
+#### 1. **Add Multilingual Support**
+   - **Target Languages:**  
+      - German (identified via Google Analytics as beneficial for the community).  
+   - **Requirements:**  
+      - Backend layout adjustments.  
+      - Community collaboration to verify translations and ensure accuracy.  
+   - **Estimated Timeline:** *Early 2025 (pending user feedback)*  
 
-3. **Adjust Page Backend Layout**
-   - Adjust the folders on the backend to reflect the sidebar better
-   - **ETA:** *2025 (Pending website updates)*
+#### 2. **Refine Backend Page Layout**
+   - **Objective:**  
+      - Restructure backend folders to better align with the sidebar organization.  
+   - **Estimated Timeline:** *Early 2025 (pending user feedback)*  
 
-### **💡 Have a Feature Idea?**
-We’d love to hear from you!
-If you have suggestions for features or improvements, please [submit your feedback](./feedback).
+#### 3. **Expand Raw Data Feeds**
+   - **Planned Enhancements:**  
+      - Integrate additional data sources to broaden available resources.  
+   - **Estimated Timeline:** *Mid 2025 (pending user feedback)*  
 
 ## **🎯 Current Updates and Goals**
 
 ### **🔄 In Progress**
-- Enhancing the website layout and user experience.
-- Develop MDM guide section
-- Fix raw feeds sections to be unique per app
-- Developing guides for:
-  - Standalone apps.
-  - iOS App Store applications.
-  - macOS App Store applications.
+- **Waiting for User Feedback:**  
+   - Gathering input to determine additional features and improvements that would benefit the community.
+
+## **💡 Have a Feature Idea?**
+We’d love to hear from you!
+If you have suggestions for features or improvements, please [submit your feedback](./feedback).
