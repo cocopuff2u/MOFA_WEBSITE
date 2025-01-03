@@ -1,14 +1,19 @@
 <div style="text-align: center;">
+  
 # <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> Microsoft Office Repair Tools <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" />
 
 > [!IMPORTANT]
 > This page relies on valuable community contributions to expand and enrich its content. Your input is essential for adding more information and making it even better!
 
-### <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> <Badge type="warning" text="No Longer Supported/Maintained" />
-- A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache.
+### <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
+<Badge type="warning" text="No Longer Supported/Maintained" />
 
-### <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs) <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> <Badge type="warning" text="No Longer Supported/Maintained" />
-- Archived copies of the original Office-Reset packages, now saved to this repository. <br>
+A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache.
+
+### <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs) <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
+<Badge type="warning" text="No Longer Supported/Maintained" />
+
+Archived copies of the original Office-Reset packages, now saved to this repository. <br>
 [Mail To Outlook](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/MailToOutlook_2.0.pkg) <br>
 [Microsoft AutoUpdate Reset](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/Microsoft_AutoUpdate_Reset_1.9.1.pkg) <br>
 [Microsoft License Reset](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/Microsoft_License_Reset_1.9.1.pkg) <br>
@@ -29,8 +34,10 @@
 [Zoom Plugin Removal](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/ZoomPlugin_Removal_1.9.pkg) <br>
 [All Folders](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs)
 
-### <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [Office Reset Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> <Badge type="tip" text="Maintained by Community" />
-- Fork and update these scripts from the original packages on office-reset.com. <br>
+### <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [Office Reset Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> 
+<Badge type="tip" text="Maintained by Community" />
+
+Fork and update these scripts from the original packages on office-reset.com. <br>
 [Microsoft AutoUpdate Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_AutoUpdate_Reset.zsh) <br>
 [Microsoft License Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_License_Reset.zsh) <br>
 [Microsoft Office Factory Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Office_Factory_Reset.zsh) <br>
