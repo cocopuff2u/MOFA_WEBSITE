@@ -5,12 +5,12 @@
 > [!IMPORTANT]
 > This page relies on valuable community contributions to expand and enrich its content. Your input is essential for adding more information and making it even better!
 
-### <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
+## <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
 <Badge type="warning" text="No Longer Supported/Maintained" />
 
 A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It offers various packages for resetting settings and clearing cache.
 
-### <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs) <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
+## <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs) <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
 <Badge type="warning" text="No Longer Supported/Maintained" />
 
 Archived copies of the original Office-Reset packages, now saved to this repository. <br>
@@ -34,7 +34,7 @@ Archived copies of the original Office-Reset packages, now saved to this reposit
 [Zoom Plugin Removal](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/ZoomPlugin_Removal_1.9.pkg) <br>
 [All Folders](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_pkgs)
 
-### <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [Office Reset Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> 
+## <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [Office Reset Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> 
 <Badge type="tip" text="Maintained by Community" />
 
 Fork and update these scripts from the original packages on office-reset.com. <br>
