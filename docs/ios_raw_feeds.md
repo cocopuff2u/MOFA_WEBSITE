@@ -7,21 +7,27 @@ This directory `https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files` c
 - **Scripts Location**: All scripts used to retrieve and process the data are located in the `https://github.com/cocopuff2u/MOFA/tree/main/.github/actions` directory of the repository. These scripts automate the fetching and formatting of app data from Microsoft-provided feeds. The raw data is automatically updated every 4 hours using a GitHub Action, which is triggered by workflows located in the `https://github.com/cocopuff2u/MOFA/tree/main/.github/actions` directory.
 - **Purpose**: The scripts collect app metadata, convert it into multiple formats, and ensure the information remains current.
 
-## 📄 File Outputs
+## 📄 File Outputs  
 
-This directory contains the following types of output files:
+This directory provides app-related data in three widely-used formats: XML, JSON, and YAML. Each format contains the same set of files for easy comparison and integration into various workflows. Below is a breakdown of the available files by format:
 
-1. 🧩 **XML Files**
-   - **Description**: These files provide app information in XML format, suitable for systems and applications requiring structured data.
-   - **Use Case**: XML is widely used for data exchange and is ideal for environments requiring standardized, hierarchical data representation.
+### 🧩 XML Files  
+**Description**: XML provides structured app data, ideal for systems requiring hierarchical data representation.  s
 
-2. 🌐 **JSON Files**
-   - **Description**: App information is also provided in JSON format, which is lightweight and easy to parse.
-   - **Use Case**: JSON is commonly used in modern web applications and APIs due to its simplicity and flexibility.
+- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml)**  
+  Provides the latest details about macOS standalone apps.  
 
-3. ✍️ **YAML Files**
-   - **Description**: YAML files offer a human-readable way of representing app data.
-   - **Use Case**: YAML is particularly useful for configuration files and scenarios where readability and simplicity are prioritized.
+### 🌐 JSON Files  
+**Description**: JSON offers lightweight and easy-to-parse data, commonly used in modern development environments.  
+
+- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)**  
+  Provides the latest details about macOS standalone apps.  
+
+### ✍️ YAML Files  
+**Description**: YAML offers a human-readable format, ideal for configurations and manual edits.  
+
+- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml)**  
+  Provides the latest details about macOS standalone apps.  
 
 ## 🌟 Why Provide Multiple Formats?
 
@@ -39,4 +45,4 @@ The choice to provide XML, JSON, and YAML outputs ensures compatibility with a w
 
 ## 🔗 Access the Latest Raw Files
 
-You can access the latest raw files [here](https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files).
+You can access all the latest raw files [here](https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files).
