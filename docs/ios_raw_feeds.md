@@ -14,19 +14,19 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 ### 🧩 XML Files  
 **Description**: XML provides structured app data, ideal for systems requiring hierarchical data representation.  s
 
-- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml)**  
   Provides the latest details about macOS standalone apps.  
 
 ### 🌐 JSON Files  
 **Description**: JSON offers lightweight and easy-to-parse data, commonly used in modern development environments.  
 
-- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)**  
   Provides the latest details about macOS standalone apps.  
 
 ### ✍️ YAML Files  
 **Description**: YAML offers a human-readable format, ideal for configurations and manual edits.  
 
-- **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml)**  
   Provides the latest details about macOS standalone apps.  
 
 ## 🌟 Why Provide Multiple Formats?
