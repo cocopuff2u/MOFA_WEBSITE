@@ -46,6 +46,14 @@ Inspired by the success of [**MacAdmins.software**](https://macadmins.software) 
 3. **Contribute and Stay Informed:**
    <span class="gradient-title">MOFA</span> thrives on community contributions. You can help improve the tools and resources by submitting pull requests, reporting issues, or suggesting new features.
 
+## 🔧 Categories at <span class="gradient-title">MOFA</span>
+
+- **MacOS Standalone Apps:** Direct installer apps provided by Microsoft. These apps can be downloaded and installed directly without needing the Mac App Store.
+  
+- **MacOS AppStore Apps:** Applications available through the macOS App Store, providing a centralized and secure way to install and manage apps.
+
+- **iOS AppStore Apps:** Apps available on the iOS App Store, making it easier for administrators to manage mobile device deployments.
+
 ## 🌐 Our Mission
 
 At **<span class="gradient-title">MOFA</span>**, we strive to:
