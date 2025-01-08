@@ -19,6 +19,10 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 #### 1. **Add Multilingual Support**
    - **Target Languages:**  
       - German (identified via Google Analytics as beneficial for the community).  
+      - Dutch (identified via Google Analytics as beneficial for the community).  
+      - Danish (identified via Google Analytics as beneficial for the community).  
+      - German (identified via Google Analytics as beneficial for the community).  
+      - Spanish (Requested by a user).  
    - **Requirements:**  
       - Backend layout adjustments.  
       - Community collaboration to verify translations and ensure accuracy.  
