@@ -86,7 +86,7 @@ lastUpdated: false
 
 ## SHA1 Hashes Guide
 
-For a detailed guide on how to create/verify SHA1 hashes, please refer to [this guide](/docs/guides/how_to_sha1.md).
+For a detailed guide on how to create/verify SHA1 hashes, please refer to [this guide](/guides/how_to_sha1.md).
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
