@@ -27,7 +27,7 @@ export default defineConfig({
     logo: '/images/logo_Mofa_NoBackground.png',
     nav: [
       { text: 'Get Started', link: '/home' },
-      { text: 'Standalone Apps', link: '/standalone_current_version' },
+      { text: 'Standalone Apps', link: '/standalone_apps/standalone_current_version_en' },
       { text: 'MacOS AppStore', link: '/macos_appstore_current_version' },
       { text: 'iOS AppStore', link: '/ios_appstore_current_version' }
     ],
@@ -41,17 +41,31 @@ export default defineConfig({
         text: '📦 Standalone Apps',
         collapsed: true,
         items: [
-          { text: 'Current Versions', link: '/standalone_current_version',
+          { text: 'Current Versions', link: '/standalone_apps/standalone_current_version_en',
             collapsed: true,
             items: [
-              { text: 'SHA1 Hashes', link: '/standalone_sha1_hashes' },
-              { text: 'SHA256 Hashes', link: '/standalone_sha256_hashes' }
+              { text: 'SHA1 Hashes', link: '/standalone_apps/standalone_sha1_hashes_en' },
+              { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_sha256_hashes_en' }
             ]
           },
-          { text: 'Last Supported Versions', link: '/standalone_last_supported_versions' },
-          { text: 'Update History', link: '/standalone_update_history' },
-          { text: 'CVE (Vulnerabilities)', link: '/standalone_cve_history' },
-          { text: 'Raw Feeds', link: '/standalone_raw_feeds' }
+          { text: 'Preview Versions', link: '/standalone_apps/standalone_preview_version_en',
+            collapsed: true,
+            items: [
+              { text: 'SHA1 Hashes', link: '/standalone_apps/standalone_preview_sha1_hashes_en' },
+              { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_preview_sha256_hashes_en' }
+            ]
+          },
+          { text: 'Beta Versions', link: '/standalone_apps/standalone_beta_version_en',
+            collapsed: true,
+            items: [
+              { text: 'SHA1 Hashes', link: '/standalone_apps/standalone_beta_sha1_hashes_en' },
+              { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_beta_sha256_hashes_en' }
+            ]
+          },
+          { text: 'Last Supported Versions', link: '/standalone_apps/standalone_last_supported_versions_en' },
+          { text: 'Update History', link: '/standalone_apps/standalone_update_history_en' },
+          { text: 'CVE (Vulnerabilities)', link: '/standalone_apps/standalone_cve_history_en' },
+          { text: 'Raw Feeds', link: '/standalone_apps/standalone_raw_feeds_en' }
         ]
       },
       {

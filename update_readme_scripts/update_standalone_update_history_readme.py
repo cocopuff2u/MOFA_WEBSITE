@@ -117,7 +117,7 @@ def overwrite_readme(file_path, content):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_update_history.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/standalone_update_history.md"
+    readme_file_path = "docs/standalone_apps/standalone_update_history_en.md"
 
     # Parse the XML and generate content
     last_scan_date, releases = parse_update_history_xml(xml_file_path)

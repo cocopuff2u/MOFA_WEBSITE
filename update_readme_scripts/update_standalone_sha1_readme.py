@@ -112,7 +112,7 @@ def get_standalone_package_detail(packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/standalone_sha1_hashes.md"
+    readme_file_path = "docs/standalone_apps/standalone_sha1_hashes_en.md"
 
     # Parse the XML and generate content
     global_last_updated, packages = parse_latest_xml(xml_file_path)
