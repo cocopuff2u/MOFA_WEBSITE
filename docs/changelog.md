@@ -8,9 +8,9 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 
 ## **📌 Current Version**
 
-### **v1.0.0** – *December 2024*
+### **v1.1.0** – *January 2025*
 
-- The current version is the website for [GitHub.com/cocopuff2u/MOFA](https://github.com/cocopuff2u/MOFA), featuring all project data and functionality.
+- Added Support for Beta & Preview Versions
 
 ## **🌟 Upcoming Features**
 
