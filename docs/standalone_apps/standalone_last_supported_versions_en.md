@@ -81,6 +81,6 @@ The last supported Microsoft Office Suite versions for macOS 10.13.6 High Sierra
 
 ## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Need a Specific Version?
 
-If you need a specific version of Microsoft Office for your macOS, you can find a full list of all supported versions on the [Update History](/standalone_apps/standalone_update_history.md).
+If you need a specific version of Microsoft Office for your macOS, you can find a full list of all supported versions on the [Update History](./standalone_update_history).
 
 This page provides detailed information on all available versions of Microsoft Office Suite and standalone apps for macOS, including older versions that might still be needed for compatibility reasons.
