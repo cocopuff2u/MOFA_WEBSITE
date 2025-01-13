@@ -20,6 +20,12 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 - **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml)**  
   Provides the latest details about macOS standalone apps.  
 
+- **[macOS Standalone Preview](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml)**  
+  Provides the preview details about macOS standalone apps.  
+
+- **[macOS Standalone Beta](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml)**  
+  Provides the beta details about macOS standalone apps.  
+
 - **[macOS Standalone CVE History](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml)**  
   Documents CVE (Common Vulnerabilities and Exposures) history for macOS standalone apps.  
 
@@ -32,6 +38,12 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 - **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)**  
   Provides the latest details about macOS standalone apps.  
 
+- **[macOS Standalone Preview](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.jsonl)**  
+  Provides the preview details about macOS standalone apps.  
+
+- **[macOS Standalone Beta](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json)**  
+  Provides the beta details about macOS standalone apps.  
+
 - **[macOS Standalone CVE History](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)**  
   Documents CVE history for macOS standalone apps.  
 
@@ -43,6 +55,12 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 
 - **[macOS Standalone Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml)**  
   Provides the latest details about macOS standalone apps.  
+
+- **[macOS Standalone Preview](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml)**  
+  Provides the preview details about macOS standalone apps.  
+
+- **[macOS Standalone Beta](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml)**  
+  Provides the beta details about macOS standalone apps.  
 
 - **[macOS Standalone CVE History](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml)**  
   Documents CVE history for macOS standalone apps.  
