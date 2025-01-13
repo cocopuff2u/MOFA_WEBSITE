@@ -72,6 +72,7 @@ For more detailed information about the Microsoft Auto Update settings, refer to
 1. **HowToCheck**  
    Specifies the method used to check for updates. The default value is `AutomaticDownload`, with the alternative option being `AutomaticCheck`. In this case, `AutomaticDownload` ensures updates are both downloaded and installed automatically. 📥
 
+<p align="center"><img src="/images/mau_preferences_example2.png" /></p>
 
 2. **ChannelName**  
    Defines the update channel for the application. The default value is `Current`, with other options including `Beta`, `CurrentThrottle`, `Custom`, and `Preview`. Here, `Current` specifies that the current production channel is used for updates. 📡
