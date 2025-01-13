@@ -1,15 +1,15 @@
 {
-    "last_updated": "January 13, 2025 08:01 AM EST",
+    "last_updated": "January 13, 2025 01:46 PM EST",
     "packages": [
         {
             "name": "iOS Microsoft Word",
             "application_name": "Microsoft Word",
             "bundleId": "com.microsoft.Office.Word",
-            "currentVersionReleaseDate": "December 13, 2024",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/d8/80/5ed880c9-150c-6288-3f39-4407480478dc/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "January 13, 2025",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/bc/9c/5abc9cc4-061c-5b9e-7c19-87596eeab785/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "17.0",
             "releaseNotes": "\u2022 Bug fixes",
-            "version": "2.92.1"
+            "version": "2.93"
         },
         {
             "name": "iOS Microsoft Excel",
