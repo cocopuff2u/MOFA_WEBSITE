@@ -10,7 +10,7 @@ Welcome to the **Prebuilt Mobile Configurations** page! 🌐 Here, you'll find r
 
 The following **mobileconfig** files are available for download. These files help you manage various settings within Microsoft Office products, such as activation, Teams configurations, and Outlook preferences. 📑
 
-- **[Microsoft Office Activation](URLPLACEHOLDER)**  
+- **[Microsoft Office Activation](#)**  
   A mobileconfig file to automatically activate Microsoft Office apps on macOS devices, streamlining the process without requiring manual input. ✅
 
 - **[Teams Configuration](#)**  
@@ -71,12 +71,12 @@ For more detailed information about the Microsoft Auto Update settings, refer to
 1. **HowToCheck**  
    Specifies the method used to check for updates. The default value is `AutomaticDownload`, with the alternative option being `AutomaticCheck`. In this case, `AutomaticDownload` ensures updates are both downloaded and installed automatically. 📥
 
-   ![HowToCheck Example](URLPLACEHOLDER)
+   ![HowToCheck Example](#)
 
 2. **ChannelName**  
    Defines the update channel for the application. The default value is `Current`, with other options including `Beta`, `CurrentThrottle`, `Custom`, and `Preview`. Here, `Current` specifies that the current production channel is used for updates. 📡
 
-   ![ChannelName Example](URLPLACEHOLDER)
+   ![ChannelName Example](#)
 
 3. **StartDaemonOnAppLaunch**  
    Ensures the update daemon starts automatically when the associated Office application is launched. The default value is `true`, with the option to set it to `false`. 🚀
