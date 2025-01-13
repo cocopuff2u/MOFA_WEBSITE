@@ -10,11 +10,15 @@ Welcome to the **Prebuilt Mobile Configurations** page! 🌐 Here, you'll find r
 
 The following **mobileconfig** files are available for download. These files help you manage various settings within Microsoft Office products, such as activation, Teams configurations, and Outlook preferences. 📑
 
-  A mobileconfig file to automatically activate Microsoft Office apps on macOS devices, streamlining the process without requiring manual input. ✅
+### Microsoft AutoUpdate (MAU) Configuration
 
-  A configuration to manage Microsoft Teams settings, including auto-login and startup preferences. 💬
+These profiles enforce Microsoft AutoUpdate (MAU) settings for macOS, applying a global **3-day**, **7-day**, or **14-day** forced update policy for Microsoft apps like Word, Excel, PowerPoint, and Teams. The “Current” update channel is used with automatic downloads, a 3-day update initiation, 60-minute final countdown before forced quit, and update checks every **360 minutes**. ✅
 
-  A file for setting up email accounts, syncing calendars, and enforcing security policies in Microsoft Outlook. 📧
+- [**3-Day Forced Update Configuration**](https://github.com/cocopuff2u/MOFA/blob/main/mobileconfig_profiles/MOFA_mau_3day_update_v1.mobileconfig)
+- [**7-Day Forced Update Configuration**](https://github.com/cocopuff2u/MOFA/blob/main/mobileconfig_profiles/MOFA_mau_7day_update_v1.mobileconfig)
+- [**14-Day Forced Update Configuration**](https://github.com/cocopuff2u/MOFA/blob/main/mobileconfig_profiles/MOFA_mau_14day_update_v1.mobileconfig)
+
+<small><i>Click the “Download Raw File” button to download the configuration.</i></small>
 
 ## 💻 Example File  
 Let’s take a closer look at how one of these **mobileconfig** files is structured and what each section does. Below is an example of the **`mau_autoupdate_4_day.mobileconfig`** file for the **Microsoft Auto Update application**. 🔄
@@ -68,8 +72,11 @@ For more detailed information about the Microsoft Auto Update settings, refer to
 1. **HowToCheck**  
    Specifies the method used to check for updates. The default value is `AutomaticDownload`, with the alternative option being `AutomaticCheck`. In this case, `AutomaticDownload` ensures updates are both downloaded and installed automatically. 📥
 
+
 2. **ChannelName**  
    Defines the update channel for the application. The default value is `Current`, with other options including `Beta`, `CurrentThrottle`, `Custom`, and `Preview`. Here, `Current` specifies that the current production channel is used for updates. 📡
+
+<p align="center"><img src="/images/mau_preferences_example.png" /></p>
 
 3. **StartDaemonOnAppLaunch**  
    Ensures the update daemon starts automatically when the associated Office application is launched. The default value is `true`, with the option to set it to `false`. 🚀
