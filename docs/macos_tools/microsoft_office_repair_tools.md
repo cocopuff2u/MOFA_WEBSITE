@@ -2,8 +2,8 @@
   
 # <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> Microsoft Office Repair Tools <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" />
 
-> [!IMPORTANT]
-> This page relies on valuable community contributions to expand and enrich its content. Your input is essential for adding more information and making it even better!
+> [!IMPORTANT]  
+> 💡 **This page thrives on community contributions!** Your input is vital to expand and enrich the content. Help us make it even better! 🌟
 
 ## <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
 <Badge type="warning" text="No Longer Supported/Maintained" />
@@ -54,6 +54,6 @@ Fork and update these scripts from the original packages on office-reset.com. <b
 [WebExPT Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/WebExPT_Removal.zsh) <br>
 [Zoom Plugin Removal](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/ZoomPlugin_Removal.zsh) <br>
 [All Folders](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts) <br>
-  
+
 **_<img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Needs More Community Contributions <img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" />_**
 </div>
