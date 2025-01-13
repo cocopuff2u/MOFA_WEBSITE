@@ -10,13 +10,10 @@ Welcome to the **Prebuilt Mobile Configurations** page! 🌐 Here, you'll find r
 
 The following **mobileconfig** files are available for download. These files help you manage various settings within Microsoft Office products, such as activation, Teams configurations, and Outlook preferences. 📑
 
-- **[Microsoft Office Activation](google.com)**  
   A mobileconfig file to automatically activate Microsoft Office apps on macOS devices, streamlining the process without requiring manual input. ✅
 
-- **[Teams Configuration](google.com)**  
   A configuration to manage Microsoft Teams settings, including auto-login and startup preferences. 💬
 
-- **[Outlook Configuration](google.com)**  
   A file for setting up email accounts, syncing calendars, and enforcing security policies in Microsoft Outlook. 📧
 
 ## 💻 Example File  
