@@ -96,7 +96,12 @@ export default defineConfig({
         items: [
           { text: 'Microsoft Office Repair Tools', link: '/macos_tools/microsoft_office_repair_tools' },
           { text: 'Community Scripts', link: '/macos_tools/community_scripts' },
-          { text: 'Prebuilt Mobile Configurations', link: '/macos_tools/prebuilt_mobile_configurations' }
+          { text: 'Preconfigured Profiles', link: '/macos_tools/preconfigured_profiles',
+            collapsed: true,
+            items: [
+              { text: 'Profile Breakdown', link: '/macos_tools/profile_breakdown' }
+            ]
+           }
         ]
       },
       {
