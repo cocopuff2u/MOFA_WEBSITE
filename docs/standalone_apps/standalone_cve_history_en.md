@@ -4,11 +4,13 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 15, 2025 01:43 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 15, 2025 04:38 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 4 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.93 (Build 25011212) | January 14, 2025 | Excel | [CVE-2025-21362](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21362), [CVE-2025-21354](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21354) |
+| 16.93 (Build 25011212) | January 14, 2025 | Word | [CVE-2025-21363](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21363) |
 | 16.92 (Build 24120731) | December 10, 2024 | Excel | [CVE-2024-49069](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2024-49069) |
 | 16.92 (Build 24120731) | December 10, 2024 | Office Suite | [CVE-2024-49065](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2024-49065) |
 | 16.91.1 (Build 24111613) | November 19, 2024 | &nbsp; | &nbsp; |
