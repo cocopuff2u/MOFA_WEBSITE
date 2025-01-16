@@ -28,8 +28,8 @@ export default defineConfig({
     nav: [
       { text: 'Get Started', link: '/home' },
       { text: 'Standalone Apps', link: '/standalone_apps/standalone_current_version_en' },
-      { text: 'MacOS AppStore', link: '/macos_appstore_current_version' },
-      { text: 'iOS AppStore', link: '/ios_appstore_current_version' }
+      { text: 'MacOS AppStore', link: '/macos_appstore/macos_appstore_current_version' },
+      { text: 'iOS AppStore', link: '/ios_appstore/ios_appstore_current_version' }
     ],
     sidebar: [
       {
@@ -108,27 +108,27 @@ export default defineConfig({
         text: '💻 MacOS AppStore',
         collapsed: true,
         items: [
-          { text: 'Current Version', link: '/macos_appstore_current_version' },
-          { text: 'Raw Feeds', link: '/macos_raw_feeds' }
+          { text: 'Current Version', link: '/macos_appstore/macos_appstore_current_version' },
+          { text: 'Raw Feeds', link: '/macos_appstore/macos_raw_feeds' }
         ]
       },
       {
         text: '📱 iOS AppStore',
         collapsed: true,
         items: [
-          { text: 'Current Version', link: '/ios_appstore_current_version' },
-          { text: 'Raw Feeds', link: '/ios_raw_feeds' }
+          { text: 'Current Version', link: '/ios_appstore/ios_appstore_current_version' },
+          { text: 'Raw Feeds', link: '/ios_appstore/ios_raw_feeds' }
         ]
       },
       {
         text: 'ℹ️ About & Support',
         collapsed: true,
         items: [
-          { text: '📖 About', link: '/about' },
-          { text: '📝 Feedback', link: '/feedback' },
-          { text: '👥 Meet The Team', link: '/team' },
-          { text: '🐞 Report Issues', link: '/report_issue' },
-          { text: '🆕 Changelog', link: '/changelog' },
+          { text: '📖 About', link: '/about_support/about' },
+          { text: '📝 Feedback', link: '/about_support/feedback' },
+          { text: '👥 Meet The Team', link: '/about_support/team' },
+          { text: '🐞 Report Issues', link: '/about_support/report_issue' },
+          { text: '🆕 Changelog', link: '/about_support/changelog' },
         ]
       }
     ],
@@ -138,7 +138,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 MOFA All rights reserved.'
+      copyright: 'Copyright © 2025 MOFA All rights reserved.'
     },
     markdown: {
       // Ensure HTML is enabled in markdown options

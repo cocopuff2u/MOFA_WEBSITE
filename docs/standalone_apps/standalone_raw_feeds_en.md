@@ -1,4 +1,4 @@
-# 📂 MOFA RAW Feeds
+# 📂 MOFA Standalone RAW Feeds
 
 This directory `https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files` contains raw output information related to Microsoft Standalone Applications and Mac/iOS App Store applications. These outputs are generated automatically using scripts, providing MacAdmins with the latest information in various formats. This setup simplifies the process of accessing and managing app-related data provided by Microsoft.
 
@@ -65,7 +65,7 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 - **[macOS Standalone CVE History](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml)**  
   Documents CVE history for macOS standalone apps.  
 
-## 🌟 Why Provide Multiple Formats?
+## 🌟 Why Multiple Formats?
 
 The choice to provide XML, JSON, and YAML outputs ensures compatibility with a wide range of tools and systems. By supporting multiple formats, we accommodate diverse user needs:
 

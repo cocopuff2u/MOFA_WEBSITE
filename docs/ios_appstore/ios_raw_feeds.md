@@ -1,4 +1,4 @@
-# 📂 MOFA RAW Feeds
+# 📂 MOFA iOS RAW Feeds
 
 This directory `https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files` contains raw output information related to Microsoft Standalone Applications and Mac/iOS App Store applications. These outputs are generated automatically using scripts, providing MacAdmins with the latest information in various formats. This setup simplifies the process of accessing and managing app-related data provided by Microsoft.
 
@@ -14,22 +14,22 @@ This directory provides app-related data in three widely-used formats: XML, JSON
 ### 🧩 XML Files  
 **Description**: XML provides structured app data, ideal for systems requiring hierarchical data representation.  s
 
-- **[macOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml)**  
   Provides the latest details about macOS standalone apps.  
 
 ### 🌐 JSON Files  
 **Description**: JSON offers lightweight and easy-to-parse data, commonly used in modern development environments.  
 
-- **[macOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)**  
   Provides the latest details about macOS standalone apps.  
 
 ### ✍️ YAML Files  
 **Description**: YAML offers a human-readable format, ideal for configurations and manual edits.  
 
-- **[macOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml)**  
+- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml)**  
   Provides the latest details about macOS standalone apps.  
 
-## 🌟 Why Provide Multiple Formats?
+## 🌟 Why Multiple Formats?
 
 The choice to provide XML, JSON, and YAML outputs ensures compatibility with a wide range of tools and systems. By supporting multiple formats, we accommodate diverse user needs:
 
