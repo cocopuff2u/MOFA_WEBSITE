@@ -4,7 +4,7 @@ import os
 
 # Paths to the XML files
 latest_xml_path = './repo_raw_data/macos_standalone_latest.xml'
-rss_xml_path = './docs/rss_feeds/mau_rss.xml'
+rss_xml_path = './docs/public/rss_feeds/mau_rss.xml'
 
 def indent(elem, level=0):
     i = "\n" + level * "  "
