@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>New Microsoft AutoUpdate Released</title>
+      <release_notes>https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate</release_notes>
+      <description>Version 4.77 (24121924)</description>
+      <pubDate>Thu, 19 Dec 2024</pubDate>
+      <update_download>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.77.24121924_Updater.pkg</update_download>
+    </item>
+  </channel>
+</rss>
