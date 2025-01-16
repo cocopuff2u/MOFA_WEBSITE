@@ -53,6 +53,7 @@ jobs:
         python update_readme_scripts/update_standalone_beta_sha1_readme.py
         python update_readme_scripts/update_macos_appstore_current_version_readme.py
         python update_readme_scripts/update_ios_appstore_current_version_readme.py
+        python update_readme_scripts/update_mau_rss.py
 
     - name: Set Git config
       run: |
@@ -63,7 +64,7 @@ jobs:
       run: |
         git status --short
         if [ -n "$(git status --porcelain)" ]; then
-          git add docs/*.md docs/standalone_apps/*.md docs/macos_appstore/*.md docs/ios_appstore/*.md
+          git add docs/*.md docs/standalone_apps/*.md docs/macos_appstore/*.md docs/ios_appstore/*.md docs/rss_feeds/*.xml
           git commit -m 'Automated update of README files'
         else
           echo "No changes detected, skipping commit."
