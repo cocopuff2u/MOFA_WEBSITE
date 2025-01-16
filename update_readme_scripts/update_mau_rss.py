@@ -66,13 +66,12 @@ rss_tree = ET.parse(rss_xml_path)
 rss_root = rss_tree.getroot()
 channel = rss_root.find('channel')
 
-# Initialize channel-level elements
+# Initialize channel-level elements if they do not exist
 title = channel.find('title')
 link = channel.find('link')
 description = channel.find('description')
 docs = channel.find('docs')
 
-# Add channel-level elements if they do not exist
 if title is None:
     title = ET.SubElement(channel, 'title')
     title.text = "MOFA - MAU RSS Feed"
@@ -86,13 +85,12 @@ if docs is None:
     docs = ET.SubElement(channel, 'docs')
     docs.text = "http://www.rssboard.org/rss-specification"
 
-# Add the <link> element for self-referencing the feed without the Atom namespace
+# Add the <link> element for self-referencing the feed
+# Remove the unnecessary attributes (rel, type, href)
 atom_link = channel.find("link[@rel='self']")
 if atom_link is None:
     atom_link = ET.SubElement(channel, 'link')
-    atom_link.set('href', "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml")
-    atom_link.set('rel', "self")
-    atom_link.set('type', "application/rss+xml")
+    atom_link.text = "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml"
 
 # Add the <image> element above the <item> elements
 image = channel.find('image')
@@ -130,6 +128,7 @@ if not existing_version:
     guid.text = mau_update_download
     guid.set('isPermaLink', 'false')
 
+    # Insert the new item into the RSS feed
     first_item_index = next((i for i, elem in enumerate(channel) if elem.tag == 'item'), len(channel))
     channel.insert(first_item_index, new_item)
 
