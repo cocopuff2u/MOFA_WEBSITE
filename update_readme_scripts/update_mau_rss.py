@@ -79,37 +79,49 @@ if docs is None:
     docs = ET.SubElement(channel, 'docs')
     docs.text = "http://www.rssboard.org/rss-specification"
 
-# Ensure channel elements are in the specified order
-channel_elements = [title, link, description, docs]
-for elem in channel_elements:
-    if elem is not None:
-        channel.remove(elem)
-for elem in reversed(channel_elements):
-    channel.insert(0, elem)
+# Add the <image> element above the <item> elements
+image = channel.find('image')
+if image is None:
+    image = ET.Element('image')
+    url = ET.SubElement(image, 'url')
+    url.text = "https://mofa.cocolabs.dev/images/logo_Mofa_NoBackground.png"  # Your custom image URL
+    title = ET.SubElement(image, 'title')
+    title.text = "MOFA - MAU RSS Update Feed"  # Your custom title
+    link = ET.SubElement(image, 'link')
+    link.text = "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml"  # Your custom link
+    # Insert <image> element before any <item> elements
+    first_item_index = next((i for i, elem in enumerate(channel) if elem.tag == 'item'), len(channel))
+    channel.insert(first_item_index, image)
 
-# Check if the latest MAU version is already in the RSS feed
+# Check if the MAU version already exists in the RSS feed
+existing_version = False
 for item in channel.findall('item'):
+    # Check if the version is already in the title or description
     if mau_short_version in item.find('title').text or f"Version {mau_short_version}" in item.find('description').text:
+        existing_version = True
         print("MAU version already in RSS feed")
-        exit()
+        break
 
-# Create a new RSS item
-new_item = ET.Element('item')
-title = ET.SubElement(new_item, 'title')
-title.text = "New Microsoft AutoUpdate Released"
-update_download_link = ET.SubElement(new_item, 'release_notes')
-update_download_link.text = "https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate"
-description = ET.SubElement(new_item, 'description')
-description.text = f"Version {mau_short_version}"
-pubDate = ET.SubElement(new_item, 'pubDate')
-pubDate.text = datetime.strptime(mau_last_updated, "%B %d, %Y").strftime("%a, %d %b %Y")  # Updated date format
-guid = ET.SubElement(new_item, 'update_download')
-guid.text = mau_update_download  # Use update_download from latest.xml
+# If the version is not already in the feed, add it
+if not existing_version:
+    # Create a new RSS item
+    new_item = ET.Element('item')
+    title = ET.SubElement(new_item, 'title')
+    title.text = "New Microsoft AutoUpdate Released"
+    link = ET.SubElement(new_item, 'link')
+    link.text = mau_update_download  # Use update_download from latest.xml
+    description = ET.SubElement(new_item, 'description')
+    description.text = f"Version {mau_short_version}"
+    pubDate = ET.SubElement(new_item, 'pubDate')
+    pubDate.text = datetime.strptime(mau_last_updated, "%B %d, %Y").strftime("%a, %d %b %Y 00:00:00 +0000")  # Updated date format
+    guid = ET.SubElement(new_item, 'guid')
+    guid.text = mau_short_version  # Use short_version as guid
 
-# Insert the new item at the top of the channel, below the channel elements
-channel.insert(len(channel_elements), new_item)
+    # Insert the new item right after channel-level elements and before any <item> elements
+    first_item_index = next((i for i, elem in enumerate(channel) if elem.tag == 'item'), len(channel))
+    channel.insert(first_item_index, new_item)
 
-# Save the updated RSS feed
-indent(rss_root)
-rss_tree.write(rss_xml_path, encoding='UTF-8', xml_declaration=True)
-print("RSS feed updated with new MAU version")
+    # Save the updated RSS feed
+    indent(rss_root)
+    rss_tree.write(rss_xml_path, encoding='UTF-8', xml_declaration=True)
+    print("RSS feed updated with new MAU version")
