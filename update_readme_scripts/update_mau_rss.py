@@ -59,6 +59,34 @@ rss_tree = ET.parse(rss_xml_path)
 rss_root = rss_tree.getroot()
 channel = rss_root.find('channel')
 
+# Initialize channel-level elements
+title = channel.find('title')
+link = channel.find('link')
+description = channel.find('description')
+docs = channel.find('docs')
+
+# Add channel-level elements if they do not exist
+if title is None:
+    title = ET.SubElement(channel, 'title')
+    title.text = "MOFA - MAU RSS Feed"
+if link is None:
+    link = ET.SubElement(channel, 'link')
+    link.text = "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml"
+if description is None:
+    description = ET.SubElement(channel, 'description')
+    description.text = "Microsoft Office Feed for Apple - MAU RSS Feed"
+if docs is None:
+    docs = ET.SubElement(channel, 'docs')
+    docs.text = "http://www.rssboard.org/rss-specification"
+
+# Ensure channel elements are in the specified order
+channel_elements = [title, link, description, docs]
+for elem in channel_elements:
+    if elem is not None:
+        channel.remove(elem)
+for elem in reversed(channel_elements):
+    channel.insert(0, elem)
+
 # Check if the latest MAU version is already in the RSS feed
 for item in channel.findall('item'):
     if mau_short_version in item.find('title').text or f"Version {mau_short_version}" in item.find('description').text:
@@ -78,8 +106,8 @@ pubDate.text = datetime.strptime(mau_last_updated, "%B %d, %Y").strftime("%a, %d
 guid = ET.SubElement(new_item, 'update_download')
 guid.text = mau_update_download  # Use update_download from latest.xml
 
-# Insert the new item at the top of the channel
-channel.insert(0, new_item)
+# Insert the new item at the top of the channel, below the channel elements
+channel.insert(len(channel_elements), new_item)
 
 # Save the updated RSS feed
 indent(rss_root)
