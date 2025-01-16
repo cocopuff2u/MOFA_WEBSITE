@@ -2,8 +2,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import os
 
-import os
-
 # Get the root directory of the project (assuming the script is inside a subfolder like '/update_readme_scripts/')
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -88,10 +86,10 @@ if docs is None:
     docs = ET.SubElement(channel, 'docs')
     docs.text = "http://www.rssboard.org/rss-specification"
 
-# Add the <atom:link> element for self-referencing the feed
-atom_link = channel.find("{http://www.w3.org/2005/Atom}link")
+# Add the <link> element for self-referencing the feed without the Atom namespace
+atom_link = channel.find("link[@rel='self']")
 if atom_link is None:
-    atom_link = ET.SubElement(channel, '{http://www.w3.org/2005/Atom}link')
+    atom_link = ET.SubElement(channel, 'link')
     atom_link.set('href', "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml")
     atom_link.set('rel', "self")
     atom_link.set('type', "application/rss+xml")
