@@ -1,28 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>MOFA - MAU RSS Feed</title>
     <link>https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml</link>
     <description>Microsoft Office Feed for Apple - MAU RSS Feed</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
+    <ns0:link href="https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://mofa.cocolabs.dev/images/logo_Mofa_NoBackground.png</url>
-      <title>MOFA - MAU RSS Update Feed</title>
+      <title>MOFA - MAU RSS Feed</title>
       <link>https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml</link>
     </image>
     <item>
-      <title>New Microsoft AutoUpdate Released</title>
-      <link>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.77.24121924_Updater.pkg</link>
-      <description>Version 4.77 (24121924)</description>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>4.77 (24121924)</guid>
-    </item>
-    <item>
-      <title>New Microsoft AutoUpdate Released</title>
-      <link>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.77.24121924_Updater.pkg</link>
-      <description>N/A</description>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>N/A</guid>
+      <title>Placeholder: New Microsoft AutoUpdate Released</title>
+      <link>https://mofa.cocolabs.dev/placeholder-link</link>
+      <description>Placeholder for future MAU release. No updates available at the moment.</description>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://mofa.cocolabs.dev/placeholder-link</guid>
     </item>
   </channel>
 </rss>

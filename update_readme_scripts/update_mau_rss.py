@@ -2,9 +2,18 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import os
 
-# Paths to the XML files
-latest_xml_path = './repo_raw_data/macos_standalone_latest.xml'
-rss_xml_path = './docs/public/rss_feeds/mau_rss.xml'
+import os
+
+# Get the root directory of the project (assuming the script is inside a subfolder like '/update_readme_scripts/')
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Define the correct paths based on the project root
+latest_xml_path = os.path.join(project_root, 'repo_raw_data', 'macos_standalone_latest.xml')
+rss_xml_path = os.path.join(project_root, 'docs', 'public', 'rss_feeds', 'mau_rss.xml')
+
+# Print the paths to verify if they are correct
+print(f"Latest XML Path: {latest_xml_path}")
+print(f"RSS XML Path: {rss_xml_path}")
 
 def indent(elem, level=0):
     i = "\n" + level * "  "
@@ -79,24 +88,30 @@ if docs is None:
     docs = ET.SubElement(channel, 'docs')
     docs.text = "http://www.rssboard.org/rss-specification"
 
+# Add the <atom:link> element for self-referencing the feed
+atom_link = channel.find("{http://www.w3.org/2005/Atom}link")
+if atom_link is None:
+    atom_link = ET.SubElement(channel, '{http://www.w3.org/2005/Atom}link')
+    atom_link.set('href', "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml")
+    atom_link.set('rel', "self")
+    atom_link.set('type', "application/rss+xml")
+
 # Add the <image> element above the <item> elements
 image = channel.find('image')
 if image is None:
     image = ET.Element('image')
     url = ET.SubElement(image, 'url')
-    url.text = "https://mofa.cocolabs.dev/images/logo_Mofa_NoBackground.png"  # Your custom image URL
+    url.text = "https://mofa.cocolabs.dev/images/logo_Mofa_NoBackground.png"
     title = ET.SubElement(image, 'title')
-    title.text = "MOFA - MAU RSS Update Feed"  # Your custom title
+    title.text = "MOFA - MAU RSS Feed"
     link = ET.SubElement(image, 'link')
-    link.text = "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml"  # Your custom link
-    # Insert <image> element before any <item> elements
+    link.text = "https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml"
     first_item_index = next((i for i, elem in enumerate(channel) if elem.tag == 'item'), len(channel))
     channel.insert(first_item_index, image)
 
 # Check if the MAU version already exists in the RSS feed
 existing_version = False
 for item in channel.findall('item'):
-    # Check if the version is already in the title or description
     if mau_short_version in item.find('title').text or f"Version {mau_short_version}" in item.find('description').text:
         existing_version = True
         print("MAU version already in RSS feed")
@@ -104,24 +119,22 @@ for item in channel.findall('item'):
 
 # If the version is not already in the feed, add it
 if not existing_version:
-    # Create a new RSS item
     new_item = ET.Element('item')
     title = ET.SubElement(new_item, 'title')
     title.text = "New Microsoft AutoUpdate Released"
     link = ET.SubElement(new_item, 'link')
-    link.text = mau_update_download  # Use update_download from latest.xml
+    link.text = mau_update_download
     description = ET.SubElement(new_item, 'description')
     description.text = f"Version {mau_short_version}"
     pubDate = ET.SubElement(new_item, 'pubDate')
-    pubDate.text = datetime.strptime(mau_last_updated, "%B %d, %Y").strftime("%a, %d %b %Y 00:00:00 +0000")  # Updated date format
+    pubDate.text = datetime.strptime(mau_last_updated, "%B %d, %Y").strftime("%a, %d %b %Y 00:00:00 +0000")
     guid = ET.SubElement(new_item, 'guid')
-    guid.text = mau_short_version  # Use short_version as guid
+    guid.text = mau_update_download
+    guid.set('isPermaLink', 'false')
 
-    # Insert the new item right after channel-level elements and before any <item> elements
     first_item_index = next((i for i, elem in enumerate(channel) if elem.tag == 'item'), len(channel))
     channel.insert(first_item_index, new_item)
 
-    # Save the updated RSS feed
     indent(rss_root)
     rss_tree.write(rss_xml_path, encoding='UTF-8', xml_declaration=True)
     print("RSS feed updated with new MAU version")
