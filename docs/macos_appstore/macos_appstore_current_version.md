@@ -4,12 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 17, 2025 08:52 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 17, 2025 10:38 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 4 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
-| Microsoft Word | `16.92` | com.microsoft.Word | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/c9/ef/e5c9ef36-9531-6cc3-cf35-d86efe9a4371/MSWD.png/512x512bb.png' width='25%' height='25%' /> |
+| Microsoft Word | `16.93` | com.microsoft.Word | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/9c/00/e89c00c6-5d3f-ed1a-a380-bdebe46b0dd1/MSWD.png/512x512bb.png' width='25%' height='25%' /> |
 | Microsoft Excel | `16.93` | com.microsoft.Excel | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/df/5b/44df5bac-32c0-267d-473d-73469cf19a34/XCEL.png/512x512bb.png' width='25%' height='25%' /> |
 | Microsoft PowerPoint | `16.93` | com.microsoft.Powerpoint | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/d1/45/8dd1453e-b64b-267a-6325-abe6b4319d37/PPT3.png/512x512bb.png' width='25%' height='25%' /> |
 | Microsoft Outlook | `16.93` | com.microsoft.Outlook | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/35/ab/4935abd6-389e-cfd4-2d0e-ede5bb1f57df/Outlook.png/512x512bb.png' width='25%' height='25%' /> |
