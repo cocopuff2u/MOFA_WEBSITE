@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 20, 2025 10:38 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 20, 2025 01:42 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 4 hours)_</span>
 
 
@@ -20,7 +20,7 @@ lastUpdated: false
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="60"></a> | `fe0214886ddedf997e3d1ee8be429a579084e503cab76cc76a5f09c109c31a49` |
 | **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**| <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="60"></a> | `ebfe3740141335632d9626ef44ed470f06acf79d56a4fa5017bcec15f1a0ff59` |
 | **OneNote** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="60"></a> | `995b61b5c7b8b01fed892a9ce5f6496f77f92399705fd91cd946973365304c24` |
-| **OneDrive Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="60"></a> | `5ab34e6e49ddf73186823f5468b4269e8065a76ccfeebe1e02b86678fbda0900` |
+| **OneDrive Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="60"></a> | `c4fab7d26a75822ba7633536a3185e3302355d5d6b11839ba690fc4317535301` |
 | **Skype for Business Standalone Installer** | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/SkypeForBusinessUpdater-16.31.11.pkg"><img src="/images/skype_for_business.png" alt="Download Image" width="60"></a> | `81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5` |
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="60"></a> | `432e371e430197754e4aec1e83a0d4560c5e6b65d67b3db42f33c8a70fdb0121` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="60"></a> | `3b53a27a7a4a3fb237959135fb0d9d28ea829ea2a376567ae254df09fb61d2a7` |
