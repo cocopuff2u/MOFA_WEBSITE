@@ -35,8 +35,8 @@ if not os.path.exists(latest_xml_path):
     indent(root)
     tree.write(latest_xml_path, encoding='UTF-8', xml_declaration=True)
 
-# Create the RSS feed file if it doesn't exist
-if not os.path.exists(rss_xml_path):
+# Create the RSS feed file if it doesn't exist or is empty
+if not os.path.exists(rss_xml_path) or os.path.getsize(rss_xml_path) == 0:
     rss = ET.Element('rss', version='2.0')
     channel = ET.SubElement(rss, 'channel')
     tree = ET.ElementTree(rss)
