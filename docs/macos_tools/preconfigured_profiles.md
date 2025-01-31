@@ -9,6 +9,8 @@ Below, you'll find a list of available **mobileconfig** files for download. 📑
 
 This section provides configuration profiles to enforce Microsoft AutoUpdate (MAU) settings for macOS. These profiles apply a global **3-day**, **7-day**, or **14-day** forced update policy for Microsoft apps such as Word, Excel, PowerPoint, and Teams.  
 
+<img src="/images/mau_update_prompt.png" alt="MAU Prompt" style="vertical-align: middle; display: inline-block;" />
+
 Key settings include:  
 - **Update Channel:** Current 🔄  
 - **Automatic Downloads:** Enabled 📥  
