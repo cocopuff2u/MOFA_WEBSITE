@@ -14,7 +14,7 @@ A free tool to fix issues with Microsoft Office apps on macOS (e.g., crashes, pe
 <Badge type="warning" text="No Longer Supported/Maintained" />
 
 Archived copies of the original Office-Reset packages, now saved to this repository. <br>
-[Mail To Outlook](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/MailToOutlook_2.0.pkg) <br>
+[Mail To Outlook](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/MailToOutlook_2.1.pkg) <br>
 [Microsoft AutoUpdate Reset](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/Microsoft_AutoUpdate_Reset_1.9.1.pkg) <br>
 [Microsoft License Reset](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/Microsoft_License_Reset_1.9.1.pkg) <br>
 [Microsoft Office Factory Reset](https://raw.githubusercontent.com/cocopuff2u/MOFA/main/office_reset_pkgs/Microsoft_Office_Factory_Reset_1.9.1.pkg) <br>
