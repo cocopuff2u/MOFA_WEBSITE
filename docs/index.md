@@ -73,7 +73,7 @@ hero:
       <ul style="list-style-type: none; padding: 0; font-family: Inter, sans-serif; font-size: 16px;">
         <li>🌐 Check out our <a href="https://cocolabs.dev" target="_blank" style="text-decoration: none; color: #007BFF;">other projects</a></li>
         <li>💬 <a href="https://macadmins.org/slack" target="_blank" style="text-decoration: none; color: #007BFF;">Join the discussion</a> on the MacAdmins Slack</li>
-        <li>📨 <a href="./about" style="text-decoration: none; color: #007BFF;">Reach out</a> for guidance or collaboration</li>
+        <li>📨 <a href="./about_support/about" style="text-decoration: none; color: #007BFF;">Reach out</a> for guidance or collaboration</li>
       </ul>
       <p style="font-family: Inter, sans-serif; font-size: 16px;">
         We're here to help you make a meaningful impact.
