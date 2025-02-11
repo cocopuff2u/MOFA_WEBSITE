@@ -2,16 +2,16 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/',
-  title: "MOFA",
+  title: "BOFA",
   description: "Microsoft Overview For Apple",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-P45L4Y5WFQ' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=XXXXX' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-P45L4Y5WFQ');
+      gtag('config', 'G-XXXXXXX');
     `]
   ],
   themeConfig: {
@@ -21,15 +21,16 @@ export default defineConfig({
       provider: 'local'
     },
     editLink: {
-      pattern: 'https://github.com/cocopuff2u/mofa_website/edit/main/docs/:path',
+      pattern: 'https://github.com/cocopuff2u/bofa_website/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
-    logo: '/images/logo_Mofa_NoBackground.png',
+    logo: '/images/bofa_logo.png',
     nav: [
       { text: 'Get Started', link: '/home' },
-      { text: 'Standalone Apps', link: '/standalone_apps/standalone_current_version_en' },
-      { text: 'MacOS AppStore', link: '/macos_appstore/macos_appstore_current_version' },
-      { text: 'iOS AppStore', link: '/ios_appstore/ios_appstore_current_version' }
+      { text: 'Google Chrome', link: '/standalone_apps/standalone_current_version_en' },
+      { text: 'Firefox', link: '/macos_appstore/macos_appstore_current_version' },
+      { text: 'Microsoft Edge', link: '/macos_appstore/macos_appstore_current_version' },
+      { text: 'Safari', link: '/ios_appstore/ios_appstore_current_version' }
     ],
     sidebar: [
       {
@@ -133,7 +134,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' },
+      { icon: 'github', link: 'https://github.com/cocopuff2u/BOFA' },
       { icon: 'buymeacoffee', link: 'https://buymeacoffee.com/cocopuff2u' }
     ],
     footer: {
