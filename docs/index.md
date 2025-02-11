@@ -4,7 +4,7 @@ search: false
 
 hero:
   name: "MOFA"
-  text: "Microsoft Overview For Apple"
+  text: "Microsoft Overview Feed For Apple"
   tagline: "Empowering Apple Devices with Microsoft Solutions"
   image:
     src: /images/logo_Mofa_NoBackground.png
