@@ -11,7 +11,7 @@ logging.basicConfig(
 )
 
 def pull_latest_raw_files():
-    repo_url = "https://github.com/cocopuff2u/BOFA.git"
+    repo_url = "https://github.com/cocopuff2u/MOFA.git"
     base_dir = os.path.dirname(os.path.abspath(__file__))
     target_dir = base_dir
     images_dir = os.path.join(target_dir, "images")
