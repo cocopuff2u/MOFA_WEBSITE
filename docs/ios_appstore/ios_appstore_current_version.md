@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 13, 2025 08:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 13, 2025 09:43 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -27,7 +27,7 @@ lastUpdated: false
 | Dynamics 365 Remote Assist | `2025.02.05`| com.microsoft.ramobile | 12.2 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/1e/6f/f61e6f00-e680-7d9c-236d-ad6f67196704/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Remote Assist | `2025.02.05`| com.microsoft.ramobile | 12.2 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/1e/6f/f61e6f00-e680-7d9c-236d-ad6f67196704/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Viva Engage | `10.91.0`| wefwef | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/cb/8f/e4cb8ff3-8607-86b3-8afe-15b9839a85b1/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Whiteboard - Infinity Canvas | `28.6`| cn.readpad.tool.iwhiteboard | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/d6/f6/18d6f620-0e2a-4096-72b4-163593e03d8a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Whiteboard - Infinity Canvas | `28.7`| cn.readpad.tool.iwhiteboard | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/2a/cb/472acb54-b310-01e3-4477-8058ec91aa71/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Edge: AI Browser | `133.3065.54`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/ad/c0/7aadc0f9-074e-3e5f-7f66-249bc8df507a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Seeing AI | `5.5`| com.microsoft.seeingai | 12.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/b9/43/97b943d0-44fe-b87c-b893-fe054db338d8/AppIcons-0-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Planner | `1.17.4`| com.microsoft.PlannerMobile | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/7b/bf/d27bbfd9-afb8-c9c1-2812-96a9d33d7ed0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
