@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 19, 2025 08:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 19, 2025 09:45 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -36,7 +36,7 @@ lastUpdated: false
 | Microsoft Teams | `7.3.0`| com.microsoft.skype.teams | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/c9/bc/cfc9bce6-c3d5-8bdb-f97f-ce1a777dd195/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft SharePoint | `4.54.2`| com.microsoft.sharepoint | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/07/af/2b07af74-1867-8144-4114-d123413adadf/SharePointAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Business Central | `4.0.9292`| com.microsoft.dynamics.ProjectMadeira | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/56/18/ad/5618ad08-9054-c975-1517-43d29b51827c/AppIcon-1x_U007emarketing-0-10-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Power Apps | `3.25021.7`| com.microsoft.msapps | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/b2/90/edb29013-2036-d4c7-216a-d6d44aca0428/PowerApps_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Power Apps | `3.25022.7`| com.microsoft.msapps | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/05/b6/2305b66f-afb9-ddc7-3358-b5e5af0196da/PowerApps_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Authenticator | `6.8.21`| com.microsoft.azureauthenticator | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/5b/af/375baf85-9626-6248-e63a-36e03818bd86/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Advertising | `2.22.7`| com.microsoft.bingadsmobile | 13.4 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/96/33/529633f7-5531-3a49-25d0-bf44ab6d1b24/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Lens: PDF Scanner | `2.77.1`| com.microsoft.officelens | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/da/26/fc/da26fcc9-b2c3-58d5-a2a9-894ab4a65e4b/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
