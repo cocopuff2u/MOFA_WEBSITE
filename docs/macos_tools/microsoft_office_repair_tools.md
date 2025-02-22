@@ -78,4 +78,19 @@ Archived copies of the original `Office-Reset.com` packages, now preserved in th
 
 [**Website Link**](https://office-reset.com/)
 
+## **Got a Need? Let Us Know!**  
+If you need something, here are a few ways to reach out:
+
+💭 **[Start a Discussion](https://github.com/cocopuff2u/MOFA/discussions)**  
+Use this to ask questions, share ideas, or have conversations with the community. It's a great place to get feedback or advice!
+
+🐛 **[Open an Issue](https://github.com/cocopuff2u/MOFA/issues)**  
+If you're experiencing a problem, encountering a bug, or need help with something specific, create an issue here to bring it to our attention.
+
+🔧 **[Submit a Pull Request](https://github.com/cocopuff2u/MOFA/pulls)**  
+If you have improvements, bug fixes, or new features to contribute, submit a pull request and help make the project better!
+
+📬 **[Contact Us](https://mofa.cocolabs.dev/about_support/report_issue.html)**  
+If you're not familiar with GitHub or need assistance outside of the platform, feel free to reach out through our contact page!
+
 </div>

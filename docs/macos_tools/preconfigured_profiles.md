@@ -30,7 +30,7 @@ Key settings include:
 
 <i><small>To download a configuration, click the link and select “Download Raw File.”</small></i> ✅
 
-## 🔒 Data Privacy & Telemetry Control  
+## 🔒 Data Privacy & Telemetry
 **Preferences Domain: `com.microsoft.Excel`, `com.microsoft.Outlook`, `com.microsoft.PowerPoint`, `com.microsoft.Word`, `com.microsoft.OneNote.mac`, `com.microsoft.Office365ServiceV2`, `com.microsoft.AutoUpdate2`** 🖥️
 
 This section provides configuration profiles to disable telemetry data collection across various Microsoft apps like Word, Excel, PowerPoint, Outlook, OneNote, Office365Servicesv2, and MAU. The objective is to strengthen user privacy by limiting the amount of data shared with Microsoft. This is particularly recommended for [**GCC High or DoD environments**](https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/deploy-microsoft-365-apps-gcc-high-dod).
@@ -54,3 +54,23 @@ Key settings include:
 
 ## 📱 How a **mobileconfig** works?  
 Click [here](/macos_tools/profile_breakdown) to get the breakdown and understand its structure!
+
+
+<div style="text-align: center;">
+
+## 💬 **Got a Need? Let Us Know!**  
+If you need something, here are a few ways to reach out:
+
+💭 **[Start a Discussion](https://github.com/cocopuff2u/MOFA/discussions)**  
+Use this to ask questions, share ideas, or have conversations with the community. It's a great place to get feedback or advice!
+
+🐛 **[Open an Issue](https://github.com/cocopuff2u/MOFA/issues)**  
+If you're experiencing a problem, encountering a bug, or need help with something specific, create an issue here to bring it to our attention.
+
+🔧 **[Submit a Pull Request](https://github.com/cocopuff2u/MOFA/pulls)**  
+If you have improvements, bug fixes, or new features to contribute, submit a pull request and help make the project better!
+
+📬 **[Contact Us](https://mofa.cocolabs.dev/about_support/report_issue.html)**  
+If you're not familiar with GitHub or need assistance outside of the platform, feel free to reach out through our contact page!
+
+</div>
