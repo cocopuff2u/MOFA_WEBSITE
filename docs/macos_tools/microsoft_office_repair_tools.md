@@ -5,12 +5,38 @@
 > [!IMPORTANT]  
 > 💡 **This page thrives on community contributions!** Your input is vital to expand and enrich the content. Help us make it even better! 🌟
 
-## <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
-<Badge type="warning" text="No Longer Supported/Maintained" />
+## <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [MOFA Community](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/mofa_community_maintained/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> 
+<Badge type="tip" text="Maintained by Community" /> 
 
-`Office-Reset.com` was a free tool designed to resolve issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It provided several packages for resetting settings and clearing caches. Please note that the site is no longer actively maintained by the original developer, but it remains accessible for now. We maintain a local backup of all resources within the MOFA repository for continued access.
+The MOFA Community scripts are built upon the original `Office-Reset.com` tools, ensuring they remain up-to-date, reliable, and continuously improved. These scripts and packages are maintained by the community, and contributions are always welcome!  
 
-[**Website Link**](https://office-reset.com/)
+### **_<img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Needs More Community Contributions <img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" />_**
+
+We need help with the following:  
+✅ Reviewing and integrating scripts from office-reset.com with the MOFA scripts below.  
+✅ Combining all uninstall scripts into **one comprehensive removal tool** for a seamless experience.  
+
+If you're interested, join us on GitHub, submit improvements, and help refine these tools for Mac admins everywhere!  
+
+### 🔧 Available Scripts 
+
+**Microsoft AutoUpdate Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_AutoUpdate_Reset.zsh) <br>
+**Microsoft Excel Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Excel_Reset.zsh) <br>
+**Microsoft License Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_License_Reset.zsh) <br>
+**Microsoft License Sign-In Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_OfficeLicenseSignIn_Reset.zsh) <br>
+**Microsoft Office Factory Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Office_Factory_Reset.zsh) <br>
+**Microsoft Office Removal** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Office_Removal.zsh) <br>
+**Microsoft OneDrive Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_OneDrive_Reset.zsh) <br>
+**Microsoft OneNote Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_OneNote_Reset.zsh) <br>
+**Microsoft Outlook Data Removal** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Outlook_Data_Removal.zsh) <br>
+**Microsoft Outlook Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Outlook_Reset.zsh) <br>
+**Microsoft PowerPoint Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_PowerPoint_Reset.zsh) <br>
+**Microsoft Skype For Business Removal** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_SkypeForBusiness_Removal.zsh) <br>
+**Microsoft Teams Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Teams_Reset.zsh) <br>
+**Microsoft Word Reset** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_Microsoft_Word_Reset.zsh) <br>
+**WebExPT Removal** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_WebExPT_Removal.zsh) <br>
+**Zoom Plugin Removal** - [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/mofa_community_maintained/scripts/MOFA_Community_ZoomPlugin_Removal.zsh) <br>
+📁 **All Files** - [All Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/mofa_community_maintained/packages) | [All Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/mofa_community_maintained/scripts) <br>
 
 ## <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com Archives](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/office_reset_archived/) <img src="/images/pkg-icon.png" alt="Pkg Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
 <Badge type="warning" text="No Longer Supported/Maintained" />
@@ -43,30 +69,13 @@ Archived copies of the original `Office-Reset.com` packages, now preserved in th
 **Microsoft Word Reset** *V2.0.0* - [Package Version](https://github.com/cocopuff2u/MOFA/raw/refs/heads/main/office_reset_tools/office_reset_archived/packages/Office-Reset.com_Microsoft_Word_Reset_2.0.0.pkg) | [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/office_reset_archived/scripts/Office-Reset.com_Microsoft_Word_Reset_2.0.0.zsh) <br>
 **WebExPT Removal** *V1.9* - [Package Version](https://github.com/cocopuff2u/MOFA/raw/refs/heads/main/office_reset_tools/office_reset_archived/packages/Office-Reset.com_WebExPT_Removal_1.9.pkg) | [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/office_reset_archived/scripts/Office-Reset.com_WebExPT_Removal_1.9.zsh) <br>
 **Zoom Plugin Removal** *V1.9* - [Package Version](https://github.com/cocopuff2u/MOFA/raw/refs/heads/main/office_reset_tools/office_reset_archived/packages/Office-Reset.com_ZoomPlugin_Removal_1.9.pkg) | [Script Version](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_tools/office_reset_archived/scripts/Office-Reset.com_ZoomPlugin_Removal_1.9.zsh) <br>
-**All Files** - [All Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/office_reset_archived/packages) | [All Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/office_reset_archived/scripts) <br>
+📁 **All Files** - [All Packages](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/office_reset_archived/packages) | [All Scripts](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_tools/office_reset_archived/scripts) <br>
 
+## <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> [Office-Reset.com](https://office-reset.com/macadmins/) <img src="/images/Office_Reset_512x512.png" alt="Office Reset Logo" width="25" style="vertical-align: middle; display: inline-block;" /> 
+<Badge type="warning" text="No Longer Supported/Maintained" />
 
-## <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> [MOFA Community](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts/) <img src="/images/repair.png" alt="Repair Image" width="20" style="vertical-align: middle; display: inline-block;" /> 
-<Badge type="tip" text="Maintained by Community" />
+`Office-Reset.com` was a free tool designed to resolve issues with Microsoft Office apps on macOS (e.g., crashes, performance problems). It provided several packages for resetting settings and clearing caches. Please note that the site is no longer actively maintained by the original developer, but it remains accessible for now. We maintain a local backup of all resources within the MOFA repository for continued access.
 
-These scripts and packages are based on the original `Office-Reset.com` tools but are now maintained and enhanced by the community to ensure continued support and growth. Fork and update these resources to help advance the collective knowledge and contribute to ongoing improvements. <br>
+[**Website Link**](https://office-reset.com/)
 
-[Microsoft AutoUpdate Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_AutoUpdate_Reset.zsh) <br>
-[Microsoft License Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_License_Reset.zsh) <br>
-[Microsoft Office Factory Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Office_Factory_Reset.zsh) <br>
-[Microsoft Office Complete Removal](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Office_Removal.zsh) <br>
-[OneDrive Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_OneDrive_Reset.zsh) <br>
-[OneNote Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_OneNote_Reset.zsh) <br>
-[Word Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Word_Reset.zsh) <br>
-[Excel Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Excel_Reset.zsh) <br>
-[PowerPoint Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_PowerPoint_Reset.zsh) <br>
-[Outlook Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Outlook_Reset.zsh) <br>
-[Outlook Data Removal](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Outlook_Data_Removal.zsh) <br>
-[Skype For Business Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_SkypeForBusiness_Removal.zsh) <br>
-[Microsoft Teams Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/Microsoft_Teams_Reset.zsh) <br>
-[WebExPT Reset](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/WebExPT_Removal.zsh) <br>
-[Zoom Plugin Removal](https://github.com/cocopuff2u/MOFA/blob/main/office_reset_scripts/ZoomPlugin_Removal.zsh) <br>
-[All Folders](https://github.com/cocopuff2u/MOFA/tree/main/office_reset_scripts) <br>
-
-**_<img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Needs More Community Contributions <img src="/images/community.png" alt="Community Logo" width="25" style="vertical-align: middle; display: inline-block;" />_**
 </div>
