@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 25, 2025 04:15 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 25, 2025 05:15 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -20,7 +20,7 @@ lastUpdated: false
 | Microsoft Edge: AI Browser | `133.3065.80`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/ab/25/61ab2558-eeae-6301-2fa1-c7007253975d/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Loop | `2.94.1`| com.microsoft.loop | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/cd/fd/a1cdfdcc-dbb9-2b91-0b4e-0a146e7de75d/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Warehouse Management | `3.0.6`| com.microsoft.WarehouseManagement | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/03/5e/e8035edd-1e7f-2c48-8cb4-28f7379987d4/AppIcons-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| WooCommerce | `21.7`| com.automattic.woocommerce | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/b0/44/0bb0444b-33a5-f284-4ea0-42133f61d5a6/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| WooCommerce | `21.6`| com.automattic.woocommerce | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/61/29/78612974-a66f-d062-2bbf-6428e3df72f0/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Sales | `3.24104.15`| com.microsoft.dynamics.iphone.moca.sales | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/c9/01/4bc9019e-a89d-de7f-7d9d-9bbdd3d81b92/Sales_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Excel | `2.94.2`| com.microsoft.Office.Excel | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/8a/85/0d8a8564-7464-56af-d947-c59ca6725ce4/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Dynamics 365 Field Service | `13.24121.10`| com.microsoft.dynamics.iphone.moca.fieldServices | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/e6/91/03e69183-f9f0-94c7-9e2e-2a923805b8ab/FieldServices_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
