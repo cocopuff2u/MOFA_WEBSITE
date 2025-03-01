@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 01, 2025 01:19 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 01, 2025 02:12 AM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -15,7 +15,7 @@ lastUpdated: false
 | Microsoft Outlook | `4.2507.1`| com.microsoft.Office.Outlook | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/39/0b/5b390b01-9661-2a6e-ee91-23601c9865c4/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft OneNote | `16.94.1`| com.microsoft.onenote | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/b9/33/0fb933ef-34f2-1b30-a2fe-9da73570e256/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft OneDrive | `16.5.12`| com.microsoft.skydrive | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/a5/cd/97a5cd15-164a-7c18-808b-453ac7c399a5/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Link to Windows | `1.25011.25`| com.microsoft.LinkToWindows | 16.6 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/17/26/561726dc-2225-7f30-dec9-4e08496deac0/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Link to Windows | `1.25011.28`| com.microsoft.LinkToWindows | 16.6 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/95/30/339530c9-6f05-94d6-e930-0af2106f506d/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Defender: Security | `1.1.62040103`| com.microsoft.scmx | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/d1/c0/f2d1c0ca-0e07-222b-5834-0b9eb76a0f25/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Edge: AI Browser | `133.3065.92`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/c4/5c/69c45cfb-a3e6-e1ef-7fd7-efd3b66e67b3/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Loop | `2.94.1`| com.microsoft.loop | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/cd/fd/a1cdfdcc-dbb9-2b91-0b4e-0a146e7de75d/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
