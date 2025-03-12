@@ -4,11 +4,14 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 11, 2025 08:26 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 11, 2025 09:33 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.95 (Build 25030928) | March 11, 2025 | Excel | [CVE-2025-24081](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24081), [CVE-2025-24075](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24075), [CVE-2025-24082](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24082) |
+| 16.95 (Build 25030928) | March 11, 2025 | Word | [CVE-2025-24079](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24079), [CVE-2025-24078](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24078), [CVE-2025-24077](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24077) |
+| 16.95 (Build 25030928) | March 11, 2025 | Office Suite | [CVE-2025-24083](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24083), [CVE-2025-24057](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24057) |
 | 16.94.2 (Build 25022327) | February 25, 2025 | &nbsp; | &nbsp; |
 | 16.94.1 (Build 25021618) | February 18, 2025 | &nbsp; | &nbsp; |
 | 16.94 (Build 25020927) | February 11, 2025 | Excel | [CVE-2025-21387](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21387), [CVE-2025-21390](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21390), [CVE-2025-21386](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21386), [CVE-2025-21383](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21383), [CVE-2025-21381](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21381), [CVE-2025-21394](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-21394) |
