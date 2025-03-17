@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 16, 2025 08:28 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 16, 2025 09:34 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -41,7 +41,7 @@ lastUpdated: false
 | Microsoft Advertising | `2.22.9`| com.microsoft.bingadsmobile | 13.4 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/6d/0a/156d0acd-9621-4f06-dd8a-3c4f57b2ea77/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Lens: PDF Scanner | `2.94.1`| com.microsoft.officelens | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/01/a9/fb01a986-7208-49d6-d0a3-03df8e6bb285/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Work Folders | `2.2.0`| com.microsoft.workfolders | 12.1 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/ed/46/15/ed46150c-83ff-e2bc-4caa-8b5948d65bd2/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft Power BI | `33.7`| com.microsoft.powerbimobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/46/f4/e746f433-83dd-bd25-fd15-74ca33249ad6/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft Power BI | `33.6`| com.microsoft.powerbimobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/a7/25/a2a7252e-36aa-7f8e-3c3c-137cb7862702/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft 365 Admin | `5.5.0`| com.microsoft.o365shdmobileapp | 10.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/7e/4f/f77e4f9b-66c5-9030-5da2-5534474807a2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Intune Company Portal | `5.2502.0`| com.microsoft.CompanyPortal | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/92/a1/7d92a125-649a-4523-7f55-a80d0acea31b/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Azure Information Protection | `2.1.1`| com.microsoft.rms-sharing | 11.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/92/ec/bb92ece4-b3e9-7fff-de38-a1f64c6a6b20/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
