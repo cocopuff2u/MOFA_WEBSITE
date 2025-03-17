@@ -4,14 +4,14 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 17, 2025 04:09 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 17, 2025 05:07 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
 |------------------|---------|-----------|-------------------|------|
 | Microsoft Word | `16.95` | com.microsoft.Word | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/ad/74/59ad74ba-f11d-467e-940e-2ce7061d9c33/MSWD.png/512x512bb.png' width='25%' height='25%' /> |
 | Microsoft Excel | `16.95` | com.microsoft.Excel | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/f7/74/99f7748d-a8ee-3479-acdb-1789056f16ac/XCEL.png/512x512bb.png' width='25%' height='25%' /> |
-| Microsoft PowerPoint | `16.95` | com.microsoft.Powerpoint | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/79/fa/a679fae8-1c03-f74a-a3cd-10943796a4e9/PPT3.png/512x512bb.png' width='25%' height='25%' /> |
+| N/A | `N/A` | N/A | N/A | <img src='N/A' width='25%' height='25%' /> |
 | Microsoft Outlook | `16.95` | com.microsoft.Outlook | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/cd/7c/06cd7c39-f724-b6ab-a893-ca326be4ab88/Outlook.png/512x512bb.png' width='25%' height='25%' /> |
 | Microsoft OneNote | `16.95` | com.microsoft.onenote.mac | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/cf/be/93cfbe89-995b-b09b-1ea8-dd3cde159c4a/OneNote.png/512x512bb.png' width='25%' height='25%' /> |
 | OneDrive | `25.020.0202` | com.microsoft.OneDrive-mac | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/33/c8/0b33c8a1-f961-cf3c-1aaa-b47056273650/OneDrive.png/512x512bb.png' width='25%' height='25%' /> |
