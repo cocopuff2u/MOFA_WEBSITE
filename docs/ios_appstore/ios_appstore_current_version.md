@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 19, 2025 07:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 19, 2025 08:26 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -46,7 +46,7 @@ lastUpdated: false
 | Intune Company Portal | `5.2502.0`| com.microsoft.CompanyPortal | 14.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7d/92/a1/7d92a125-649a-4523-7f55-a80d0acea31b/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Azure Information Protection | `2.1.1`| com.microsoft.rms-sharing | 11.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/92/ec/bb92ece4-b3e9-7fff-de38-a1f64c6a6b20/AppIcons-1x_U007emarketing-0-6-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft 365 Copilot | `2.95`| com.microsoft.officemobile | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/a9/55/65a9554f-7246-ad3c-5947-14111b564d8a/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Skype for Business | `6.32.0`| com.microsoft.lync2013.iphone | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/97/5a/c5975a03-81d7-7f7f-ba3b-43b2f69fa78a/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Skype for Business | `6.32.112`| com.microsoft.lync2013.iphone | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/b5/87/a1b587ab-1a78-94d2-1999-1f6dcbb5d55b/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
