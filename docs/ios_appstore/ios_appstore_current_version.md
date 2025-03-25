@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 24, 2025 08:27 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 24, 2025 09:34 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -28,7 +28,7 @@ lastUpdated: false
 | Dynamics 365 Remote Assist | `2025.02.05`| com.microsoft.ramobile | 12.2 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/1e/6f/f61e6f00-e680-7d9c-236d-ad6f67196704/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Viva Engage | `10.94.0`| wefwef | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/d9/25/27d925c4-9f94-b791-404d-f3c47f9b85c3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Whiteboard - Infinity Canvas | `28.8`| cn.readpad.tool.iwhiteboard | 13.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/97/00/999700e7-4263-bb14-77ec-b685b08608e6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft Edge: AI Browser | `134.3124.68`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/70/c9/4470c942-947f-c8b7-f323-644964b1096e/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft Edge: AI Browser | `134.3124.77`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/c0/8b/08c08bb5-5c6f-6bb7-5b99-4c420131070f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Seeing AI | `5.5.1`| com.microsoft.seeingai | 12.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/02/c6/0202c6d4-fa33-a4bb-8d25-a01412697cb8/AppIcons-0-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Planner | `1.17.5`| com.microsoft.PlannerMobile | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/a0/ba/3fa0bad2-8f10-259a-0f45-281c1c898093/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Azure | `7.2.4`| com.microsoft.azure | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/16/d0/4916d0d8-fe14-dc85-d6ca-4ead64abda5a/AppIcons-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
