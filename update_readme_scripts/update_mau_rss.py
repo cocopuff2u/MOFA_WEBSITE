@@ -58,7 +58,7 @@ if mau_package is None:
     raise ValueError("MAU package not found in latest.xml")
 
 mau_short_version = mau_package.find('short_version').text
-mau_update_download = mau_package.find('update_download').text
+mau_update_download = mau_package.find('app_only_update_download').text
 mau_last_updated = mau_package.find('last_updated').text
 
 # Parse the RSS feed
