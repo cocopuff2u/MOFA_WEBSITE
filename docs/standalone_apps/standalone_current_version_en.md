@@ -48,58 +48,76 @@ lastUpdated: false
 
 ## <img src="/images/sha-256.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> SHA1 & SHA256 Checksums  
 
-A checksum is a unique string derived from a file’s contents, used to verify its integrity and authenticity.  
+A checksum is a unique string 🔑 derived from a file’s contents, used to verify its integrity and authenticity.  
 
-### Why Checking SHA Is Important  
-It's important to verify the integrity of downloaded installers by comparing the checksum (SHA1/SHA256). This ensures that the installer is authentic and has not been tampered with during the download process.  
+### ✅ Why Checking SHA Is Important  
+It's important to verify the integrity of downloaded installers by comparing the checksum (SHA1/SHA256). This ensures that the installer is **authentic** and has not been tampered with 🛡️ during the download process.  
 
-- **SHA1**: [Link to SHA1 checksums](/standalone_apps/standalone_sha1_hashes_en)  
-- **SHA256**: [Link to SHA256 checksums](/standalone_apps/standalone_sha256_hashes_en)  
+- **SHA1** 🔗: [Link to SHA1 checksums](/standalone_apps/standalone_sha1_hashes_en)  
+- **SHA256** 🔗: [Link to SHA256 checksums](/standalone_apps/standalone_sha256_hashes_en)  
 
-For a guide on how to verify checksums on macOS, follow this [step-by-step guide for SHA1](/guides/how_to_sha1) or [step-by-step guide for SHA256](/guides/how_to_sha256).  
+📖 For a guide on how to verify checksums on macOS, follow this [📜 step-by-step guide for SHA1](/guides/how_to_sha1) or [📜 step-by-step guide for SHA256](/guides/how_to_sha256).  
 
 ---
 
 ## <img src="/images/Microsoft_Logo_512px.png" alt="Microsoft Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Managing Office Updates & Settings  
 
 ### 📄 Prebuilt Configuration Profiles  
-Easily manage Office updates with prebuilt configuration profiles provided by MOFA. A **MobileConfig file** (`.mobileconfig`) is a **plist-based XML file** used to automate settings on macOS and iOS devices, ensuring seamless policy enforcement and configuration.  
+Easily manage Office updates with **prebuilt configuration profiles** provided by MOFA. A **MobileConfig file** (`.mobileconfig`) is a **plist-based XML file** 📝 used to automate settings on macOS and iOS devices, ensuring seamless policy enforcement and configuration.  
 
-- **Download Prebuilt Configuration Files:** [Access preconfigured profiles](/macos_tools/preconfigured_profiles)  
+- **📥 Download Prebuilt Configuration Files:** [Access preconfigured profiles](/macos_tools/preconfigured_profiles)  
 
 ### 🛠️ Building a Configuration Profile  
-- **Create Your Own Configuration File:** [Step-by-step guide](/macos_tools/profile_breakdown)  
+- **📝 Create Your Own Configuration File:** [Step-by-step guide](/macos_tools/profile_breakdown)  
 
 ### 🔹 Mac Admin Community-Driven Preferences List *(Highly Recommended!)*  
-📄 **[View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)**  
+📄 **[🔍 View Google Doc](https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0)**  
 
 ### 📘 Official Microsoft Documentation  
-- **[General PLIST Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)**  
-- **[App-Specific Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/set-preference-per-app)**  
-- **[Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)**  
-- **[Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)**  
+- **📄 [General PLIST Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac)**  
+- **📄 [App-Specific Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/set-preference-per-app)**  
+- **📄 [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)**  
+- **📄 [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)**  
 
 ---
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Versions
+## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Versions  
 
-If you're looking for other Office versions such as Preview, Beta, or App Store versions, please check the following links:
+If you're looking for other Office versions such as **Preview, Beta, or App Store versions**, please check the following links:  
 
-- **Office Preview**: [Link to Preview Version](/standalone_apps/standalone_preview_version_en)
-- **Office Beta**: [Link to Beta Version](/standalone_apps/standalone_beta_version_en)
-- **MacOS App Store Version**: [Link to App Store Version](/macos_appstore/macos_appstore_current_version)
-- **iOS App Store Version**: [Link to App Store Version](/macos_appstore/ios_appstore_current_version)
+- **🚀 Office Preview**: [🔗 Link to Preview Version](/standalone_apps/standalone_preview_version_en)  
+- **🧪 Office Beta**: [🔗 Link to Beta Version](/standalone_apps/standalone_beta_version_en)  
+- **🛍️ MacOS App Store Version**: [🔗 Link to App Store Version](/macos_appstore/macos_appstore_current_version)  
+- **📱 iOS App Store Version**: [🔗 Link to App Store Version](/ios_appstore/ios_appstore_current_version)  
 
 ---
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Repair Tools/Scripts
+## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Repair Tools/Scripts  
 
-If you're looking to deploy or are facing issues with Office installations or updates, you can use the following links for guides and tools:
+If you're looking to **deploy or troubleshoot Office installations or updates**, you can use the following guides and tools:  
 
-- **Office Repair Tools for macOS**: [Link to Office Repair Tools](/macos_tools/microsoft_office_repair_tools)
-- **Office Scripts for MacOS**: [Link to Community Scripts](https://mofa.cocolabs.dev/macos_tools/community_scripts.html)
+- **🛠️ Office Repair Tools for macOS**: [🔗 Link to Office Repair Tools](/macos_tools/microsoft_office_repair_tools)  
+- **📜 Office Scripts for macOS**: [🔗 Link to Community Scripts](https://mofa.cocolabs.dev/macos_tools/community_scripts.html)  
 
-These tools can help resolve common installation or update errors and restore Office to a working state.
+These tools can help resolve common installation or update errors and restore Office to a working state ⚙️.  
+
+---
+
+## 💬 **Got a Need? Let Us Know!**  
+
+If you need something, here are a few ways to reach out:  
+
+💭 **[Start a Discussion](https://github.com/cocopuff2u/MOFA/discussions)**  
+Use this to ask **questions, share ideas, or have conversations** with the community. It's a great place to get feedback or advice!  
+
+🐛 **[Open an Issue](https://github.com/cocopuff2u/MOFA/issues)**  
+If you're experiencing a problem, encountering a **bug**, or need help with something specific, create an issue here to bring it to our attention.  
+
+🔧 **[Submit a Pull Request](https://github.com/cocopuff2u/MOFA/pulls)**  
+If you have **improvements, bug fixes, or new features** to contribute, submit a pull request and help make the project better!  
+
+📬 **[Contact Us](https://mofa.cocolabs.dev/about_support/report_issue.html)**  
+If you're not familiar with GitHub or need assistance outside of the platform, feel free to **reach out through our contact page**!  
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
