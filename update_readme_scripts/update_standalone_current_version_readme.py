@@ -140,7 +140,7 @@ If you're looking for other Office versions such as **Preview, Beta, or App Stor
 - **🚀 Office Preview**: [🔗 Link to Preview Version](/standalone_apps/standalone_preview_version_en)  
 - **🧪 Office Beta**: [🔗 Link to Beta Version](/standalone_apps/standalone_beta_version_en)  
 - **🛍️ MacOS App Store Version**: [🔗 Link to App Store Version](/macos_appstore/macos_appstore_current_version)  
-- **📱 iOS App Store Version**: [🔗 Link to App Store Version](/macos_appstore/ios_appstore_current_version)  
+- **📱 iOS App Store Version**: [🔗 Link to App Store Version](/ios_appstore/ios_appstore_current_version)  
 
 ---
 
