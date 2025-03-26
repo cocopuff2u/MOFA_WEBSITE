@@ -53,8 +53,9 @@ def generate_readme_content(global_last_updated, packages):
     content = f"""---
 editLink: false
 lastUpdated: false
-layout: page
+layout: doc
 navbar: true
+sidebar: false
 ---
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_</span>
 
