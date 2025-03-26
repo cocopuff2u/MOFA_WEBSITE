@@ -60,6 +60,7 @@ navbar: true
 sidebar: false
 footer: false
 aside: false
+pagination: false
 ---
 
 ::: warning UNDER CONSTRUCTION
