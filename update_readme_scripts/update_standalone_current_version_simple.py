@@ -56,8 +56,23 @@ lastUpdated: false
 layout: doc
 navbar: true
 sidebar: false
+footer: false
 ---
+
+::: warning UNDER CONSTRUCTION
+This page is currently under construction.
+
+Stay tuned for updates!
+:::
+
+
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_</span>
+
+
+| **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** | **test** | **test2** |
+|----------------------|----------------------|--------------------------|--------------|--------------|--------------|
+| **Microsoft** <sup>365/2021/2024</sup> **Office Suite Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><sub>_(Includes Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, and MAU)_</sub> | `{get_standalone_package_detail(packages, 'Microsoft Office Suite', 'short_version')}` | com.microsoft.office | <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="/images/suite.png" alt="Download Image" width="80"></a> | dbc35c55751f8b22ec7adf2c5fcf708fbfb1b06a1baa70db89162c5ef89bad3b | dbc35c55751f8b22ec7adf2c5fcf708fbfb1b06a1baa70db89162c5ef89bad3b|
+
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
