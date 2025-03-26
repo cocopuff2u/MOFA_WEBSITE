@@ -68,6 +68,8 @@ This page is currently under construction.
 Stay tuned for updates!
 :::
 
+<center>
+
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_</span>
 
 | **Product Package** | **Bundle Information** | **Download** |
@@ -100,6 +102,8 @@ Stay tuned for updates!
 | **Licensing Helper Tool Installer**<br><br>sha256:<br>`{get_standalone_package_detail(packages, 'Licensing Helper Tool', 'full_update_sha256')}`<br><br>_Last Updated: `{get_standalone_package_detail(packages, 'Licensing Helper Tool', 'last_updated')}`_<br> | Version:<br>`{get_standalone_package_detail(packages, 'Licensing Helper Tool', 'short_version')}`<br><br>Min OS:<br>`{get_standalone_package_detail(packages, 'Licensing Helper Tool', 'min_os')}`<br><br>CFBundle ID:<br>`com.microsoft.licensinghelper` | <a href="{get_standalone_package_detail(packages, 'Licensing Helper Tool', 'full_update_download')}"><img src="/images/pkg-icon.png" alt="Download Image" width="80"></a>|
 | **Quick Assist Installer**<br><br>sha256:<br>`{get_standalone_package_detail(packages, 'Quick Assist', 'full_update_sha256')}`<br><br>_Last Updated: `{get_standalone_package_detail(packages, 'Quick Assist', 'last_updated')}`_<br> | Version:<br>`{get_standalone_package_detail(packages, 'Quick Assist', 'short_version')}`<br><br>Min OS:<br>`{get_standalone_package_detail(packages, 'Quick Assist', 'min_os')}`<br><br>CFBundle ID:<br>`com.microsoft.quickassist` | <a href="{get_standalone_package_detail(packages, 'Quick Assist', 'full_update_download')}"><img src="/images/quickassist.png" alt="Download Image" width="80"></a>|
 | **Remote Help Installer**<br><br>sha256:<br>`{get_standalone_package_detail(packages, 'Remote Help', 'full_update_sha256')}`<br><br>_Last Updated: `{get_standalone_package_detail(packages, 'Remote Help', 'last_updated')}`_<br> | Version:<br>`{get_standalone_package_detail(packages, 'Remote Help', 'short_version')}`<br><br>Min OS:<br>`{get_standalone_package_detail(packages, 'Remote Help', 'min_os')}`<br><br>CFBundle ID:<br>`com.microsoft.remotehelp` | <a href="{get_standalone_package_detail(packages, 'Remote Help', 'full_update_download')}"><img src="/images/remotehelp.png" alt="Download Image" width="80"></a>|
+
+</center>
 """
     logging.info("standalone_current_version content generated successfully")
 
