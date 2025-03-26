@@ -96,8 +96,6 @@ lastUpdated: false
 
 <span class="extra-small">_**Note that App-Only installers may download a newer package compared to standalone installers, which are the recommended choice. Standalone installers are hardlinks and are typically updated within 48 hours after a release. For items without specific release notes, please refer to the release notes for the entire suite.**_</span>
 
----
-
 ## <img src="/images/sha-256.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> SHA1 & SHA256 Checksums  
 
 A checksum is a unique string 🔑 derived from a file’s contents, used to verify its integrity and authenticity.  
@@ -110,9 +108,7 @@ It's important to verify the integrity of downloaded installers by comparing the
 
 📖 For a guide on how to verify checksums on macOS, follow this [📜 step-by-step guide for SHA1](/guides/how_to_sha1) or [📜 step-by-step guide for SHA256](/guides/how_to_sha256).  
 
----
-
-## <img src="/images/Microsoft_Logo_512px.png" alt="Microsoft Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Managing Office Updates & Settings  
+## <img src="/images/Microsoft_Logo_512px.png" alt="Microsoft Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Office Updates & Settings  
 
 ### 📄 Prebuilt Configuration Profiles  
 Easily manage Office updates with **prebuilt configuration profiles** provided by MOFA. A **MobileConfig file** (`.mobileconfig`) is a **plist-based XML file** 📝 used to automate settings on macOS and iOS devices, ensuring seamless policy enforcement and configuration.  
@@ -131,8 +127,6 @@ Easily manage Office updates with **prebuilt configuration profiles** provided b
 - **📄 [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)**  
 - **📄 [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)**  
 
----
-
 ## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Versions  
 
 If you're looking for other Office versions such as **Preview, Beta, or App Store versions**, please check the following links:  
@@ -142,8 +136,6 @@ If you're looking for other Office versions such as **Preview, Beta, or App Stor
 - **🛍️ MacOS App Store Version**: [🔗 Link to App Store Version](/macos_appstore/macos_appstore_current_version)  
 - **📱 iOS App Store Version**: [🔗 Link to App Store Version](/ios_appstore/ios_appstore_current_version)  
 
----
-
 ## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Repair Tools/Scripts  
 
 If you're looking to **deploy or troubleshoot Office installations or updates**, you can use the following guides and tools:  
@@ -152,8 +144,6 @@ If you're looking to **deploy or troubleshoot Office installations or updates**,
 - **📜 Office Scripts for macOS**: [🔗 Link to Community Scripts](https://mofa.cocolabs.dev/macos_tools/community_scripts.html)  
 
 These tools can help resolve common installation or update errors and restore Office to a working state ⚙️.  
-
----
 
 ## 💬 **Got a Need? Let Us Know!**  
 
