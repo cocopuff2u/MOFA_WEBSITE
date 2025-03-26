@@ -5,6 +5,7 @@ layout: doc
 navbar: true
 sidebar: false
 footer: false
+aside: false
 ---
 
 ::: warning UNDER CONSTRUCTION
