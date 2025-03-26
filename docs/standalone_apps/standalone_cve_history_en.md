@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 25, 2025 07:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 25, 2025 08:27 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.95.2 (Build 25032416) | March 25, 2025 | &nbsp; | &nbsp; |
 | 16.95.1 (Build 25031528) | March 18, 2025 | &nbsp; | &nbsp; |
 | 16.95 (Build 25030928) | March 11, 2025 | Excel | [CVE-2025-24081](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24081), [CVE-2025-24075](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24075), [CVE-2025-24082](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24082) |
 | 16.95 (Build 25030928) | March 11, 2025 | Word | [CVE-2025-24079](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24079), [CVE-2025-24078](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24078), [CVE-2025-24077](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-24077) |
