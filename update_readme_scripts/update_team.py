@@ -32,7 +32,11 @@ def get_contributors():
 def generate_team_markdown():
     contributors = get_contributors()
     
-    markdown = """<script setup>
+    markdown = """---
+editLink: false
+lastUpdated: true
+---
+<script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
 const members = ${core_members}
@@ -62,6 +66,9 @@ We're always looking for passionate people to contribute to the project. Whether
 The data powering this project is pulled from the repository [GitHub.com/cocopuff2u/mofa](https://github.com/cocopuff2u/mofa), and the website is hosted in its own repository at [GitHub.com/cocopuff2u/mofa_website](https://github.com/cocopuff2u/mofa_website).
 
 Feel free to fork the repositories and contribute! You can open an issue or submit a pull request once you've made your updates. Let's make something great together! 🎉🚀
+
+> [!IMPORTANT]
+> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
     
     # Format core members for template
