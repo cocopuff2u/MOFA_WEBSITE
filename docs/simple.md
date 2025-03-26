@@ -14,7 +14,7 @@ This page is currently under construction.
 Stay tuned for updates!
 :::
 
-<center>
+<div style="text-align: center;">
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 26, 2025 01:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_</span>
 
@@ -49,4 +49,4 @@ Stay tuned for updates!
 | **Quick Assist Installer**<br><br>sha256:<br>`2fdab5e1815862c9b3583257c485b088aa46c86e5609cad09bfa13a3a092a0e1`<br><br>_Last Updated: `November 12, 2024`_<br> | Version:<br>`1.0.2411113`<br><br>Min OS:<br>`12.0`<br><br>CFBundle ID:<br>`com.microsoft.quickassist` | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2411113_updater.pkg"><img src="/images/quickassist.png" alt="Download Image" width="80"></a>|
 | **Remote Help Installer**<br><br>sha256:<br>`8ffe881653742ce83ebaf60636906f7f47596569e2c36d71aa33f6c85f70536e`<br><br>_Last Updated: `January 24, 2025`_<br> | Version:<br>`1.0.2501211`<br><br>Min OS:<br>`12.0`<br><br>CFBundle ID:<br>`com.microsoft.remotehelp` | <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2501211_updater.pkg"><img src="/images/remotehelp.png" alt="Download Image" width="80"></a>|
 
-</center>
+</div>
