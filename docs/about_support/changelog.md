@@ -8,9 +8,9 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 
 ## **📌 Current Version**
 
-### **v1.1.0** – *January 2025*
+### **v1.2.0** – *March 2025*
 
-- Added Support for Beta & Preview Versions
+- Automating Meet The Team Page
 
 ## **🌟 Upcoming Features**
 
