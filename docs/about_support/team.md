@@ -1,7 +1,7 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
-const members = [{"login": "cocopuff2u", "name": "Cody Keats", "title": "✨ Lead Developer ✨", "links": [{"icon": "github", "link": "https://github.com/cocopuff2u"}, {"icon": "linkedin", "link": "https://linkedin.com/in/cody-keats"}, {"icon": "slack", "link": "https://macadmins.slack.com/"}]}]
+const members = [{"avatar": "https://avatars.githubusercontent.com/u/95243190?s=96&v=4", "name": "Cody Keats", "title": "✨ Lead Developer ✨", "links": [{"icon": "github", "link": "https://github.com/cocopuff2u"}, {"icon": "linkedin", "link": "https://linkedin.com/in/cody-keats"}, {"icon": "slack", "link": "https://macadmins.slack.com/"}]}]
 
 const members2 = [{"avatar": "https://avatars.githubusercontent.com/u/3985769?v=4", "name": "Theile", "title": "🌟 Contributor", "links": [{"icon": "github", "link": "https://github.com/Theile"}]}, {"avatar": "https://avatars.githubusercontent.com/u/91097104?v=4", "name": "darixn", "title": "🌟 Contributor", "links": [{"icon": "github", "link": "https://github.com/darixn"}]}, {"avatar": "https://avatars.githubusercontent.com/u/2012985?v=4", "name": "gilburns", "title": "🌟 Contributor", "links": [{"icon": "github", "link": "https://github.com/gilburns"}]}, {"avatar": "https://avatars.githubusercontent.com/u/618055?v=4", "name": "rtrouton", "title": "🌟 Contributor", "links": [{"icon": "github", "link": "https://github.com/rtrouton"}]}]
 </script>
