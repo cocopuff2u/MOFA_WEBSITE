@@ -59,7 +59,9 @@ lastUpdated: false
 |------------------|---------|-----------|-------------------|------|
 """
     for package in packages:
-        content += f"| {package['application_name']} | `{package['version']}` | {package['bundleId']} | {package['minimumOsVersion']} | <img src='{package['icon_image']}' width='25%' height='25%' /> |\n"
+        # Create icon HTML only if icon_image is not 'NA'
+        icon_html = f"<img src='{package['icon_image']}' width='25%' height='25%' />" if package['icon_image'] != 'NA' else ''
+        content += f"| {package['application_name']} | `{package['version']}` | {package['bundleId']} | {package['minimumOsVersion']} | {icon_html} |\n"
 
     # Add comment section
     content += """
