@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 26, 2025 06:14 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 26, 2025 07:11 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -14,7 +14,7 @@ lastUpdated: false
 | Microsoft PowerPoint | `2.95.2`| com.microsoft.Office.Powerpoint | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/e4/f0/35e4f04a-2dd8-3c33-93ee-5419751584e3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Outlook | `4.2511.0`| com.microsoft.Office.Outlook | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/33/c7/a733c736-9173-1aa3-0f42-3020c803179c/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft OneNote | `16.95`| com.microsoft.onenote | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/fa/c0/e0fac0b4-97ac-04ea-b99b-36e69ea67510/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
-| Microsoft OneDrive | `16.6.3`| com.microsoft.skydrive | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/1f/3e/0f1f3eef-29fb-5544-9073-c9e98180d51e/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
+| Microsoft OneDrive | `16.7.2`| com.microsoft.skydrive | 17.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/1f/0a/831f0a1b-455a-2749-ab1f-6bf1956123c2/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Link to Windows | `1.25011.28`| com.microsoft.LinkToWindows | 16.6 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/95/30/339530c9-6f05-94d6-e930-0af2106f506d/AppIcon-0-1x_U007ephone-0-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Defender: Security | `1.1.63100101`| com.microsoft.scmx | 15.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/cf/73/7fcf737a-1a7d-69ed-13a4-cd7ad6a7c599/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | Microsoft Edge: AI Browser | `134.3124.77`| com.microsoft.msedge | 16.0 | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/c0/8b/08c08bb5-5c6f-6bb7-5b99-4c420131070f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
