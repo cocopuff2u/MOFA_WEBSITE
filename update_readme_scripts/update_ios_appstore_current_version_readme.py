@@ -143,7 +143,7 @@ lastUpdated: false
 """
     for package in packages:
         icon_cell = f"<img src='{package['icon_image']}' width='75%' height='75%' />" if package['icon_image'] != "NA" else ""
-        content += f"| **{package['application_name']}** | `{package['version']}`| `{package['bundleId']}` | `{package['minimumOsVersion']}` | {icon_cell} |\n"
+        content += f"| {package['application_name']} | `{package['version']}`| `{package['bundleId']}` | `{package['minimumOsVersion']}` | {icon_cell} |\n"
 
     content += """
 > [!IMPORTANT]
