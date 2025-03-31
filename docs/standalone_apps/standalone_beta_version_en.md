@@ -8,7 +8,9 @@ lastUpdated: false
 <span class="extra-small">The links always provide the latest version available from Microsoft as of the last update. However, the version details listed below reflect the specific version available at the time this information was last updated. This information is pulled directly from Microsoft, so if no updates are available, it may show an older or current version.</span>
 
 <div style="text-align: center;">
+
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 31, 2025 11:13 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json) (Automatically Updated every 2 hours)_</span>
+
 </div>
 
 <div style="display: flex; justify-content: center;">
@@ -34,7 +36,9 @@ lastUpdated: false
 </div>
 
 <div style="text-align: center;">
+
 <span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
+
 </div>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
