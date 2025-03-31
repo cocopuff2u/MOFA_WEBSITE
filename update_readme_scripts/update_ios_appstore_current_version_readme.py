@@ -138,12 +138,12 @@ lastUpdated: false
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
-| Application Name | Version | Bundle ID | Minimum iOS Version | Icon |
-|------------------|---------|-----------|-------------------|------|
+| Application Name | Bundle Info | Bundle ID | Icon |
+|------------------|---------|-----------|------|
 """
     for package in packages:
         icon_cell = f"<img src='{package['icon_image']}' width='75%' height='75%' />" if package['icon_image'] != "NA" else ""
-        content += f"| {package['application_name']} | `{package['version']}`| `{package['bundleId']}` | `{package['minimumOsVersion']}` | {icon_cell} |\n"
+        content += f"| {package['application_name']} | Version:<br>`{package['version']}`<br><br> Min iOS:<br>`{package['minimumOsVersion']}`| `{package['bundleId']}` | {icon_cell} |\n"
 
     content += """
 > [!IMPORTANT]
