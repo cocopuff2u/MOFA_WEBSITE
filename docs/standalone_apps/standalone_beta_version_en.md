@@ -9,6 +9,8 @@ lastUpdated: false
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 31, 2025 11:13 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json) (Automatically Updated every 2 hours)_</span>
 
+<div style="display: flex; justify-content: center;">
+
 | **Product Package** | **Version Info** | **Download** |
 |----------------------|----------------------|--------------|
 | **Word** <sup>365/2021/2024</sup> **Standalone Installer**<br><br>_**Last Update:**_<br>`March 26, 2025`<br> | **Version:**<br>`16.96.0 (25032616)`<br><br>**Min OS:**<br>`13.0`<br><br>**CFBundle ID:**<br>`com.microsoft.word` | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_Word_16.96.25032616_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
@@ -27,6 +29,7 @@ lastUpdated: false
 | **Visual Studio Code Insider Standalone Installer**<br><a href="https://github.com/microsoft/vscode/labels/iteration-plan" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`March 28, 2025`<br> | **Version:**<br>`1.99.0-insider`<br><br>**Min OS:**<br>`N/A`<br><br>**CFBundle ID:**<br>`com.microsoft.VSCodeInsider` | <a href="https://vscode.download.prss.microsoft.com/dbazure/download/insider/99c9c6c8eb0aef3fce659b0fac1ff3130c4e34a4/VSCode-darwin-universal.zip"><img src="/images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`March 18, 2025`<br> | **Version:**<br>`4.78 (25031830)`<br><br>**Min OS:**<br>`10.14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.autoupdate` | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_AutoUpdate_4.78.25031830_Updater.pkg"><img src="/images/autoupdate.png" alt="Download Image" width="80"></a>|
 
+</div>
 <span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |

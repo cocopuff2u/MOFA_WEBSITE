@@ -59,6 +59,8 @@ lastUpdated: false
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json) (Automatically Updated every 2 hours)_</span>
 
+<div style="display: flex; justify-content: center;">
+
 | **Product Package** | **Version Info** | **Download** |
 |----------------------|----------------------|--------------|
 | **Word** <sup>365/2021/2024</sup> **Standalone Installer**<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Word', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Word', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Word', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.word` | <a href="{get_standalone_package_detail(packages, 'Word', 'update_download')}"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
@@ -77,6 +79,7 @@ lastUpdated: false
 | **Visual Studio Code Insider Standalone Installer**<br><a href="https://github.com/microsoft/vscode/labels/iteration-plan" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Visual', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Visual', 'full_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Visual', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.VSCodeInsider` | <a href="{get_standalone_package_detail(packages, 'Visual', 'update_download')}"><img src="/images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'MAU', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'MAU', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'MAU', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.autoupdate` | <a href="{get_standalone_package_detail(packages, 'MAU', 'update_download')}"><img src="/images/autoupdate.png" alt="Download Image" width="80"></a>|
 
+</div>
 <span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
 
 
