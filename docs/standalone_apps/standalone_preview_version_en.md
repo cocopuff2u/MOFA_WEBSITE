@@ -7,7 +7,9 @@ lastUpdated: false
 <span class="extra-small">All links below point to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links always provide the latest version available from Microsoft as of the last update. However, the version details listed below reflect the specific version available at the time this information was last updated. This information is pulled directly from Microsoft, so if no updates are available, it may show an older or current version.</span>
 
+<div style="text-align: center;">
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 31, 2025 11:13 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json) (Automatically Updated every 2 hours)_</span>
+</div>
 
 <div style="display: flex; justify-content: center;">
 
@@ -30,8 +32,10 @@ lastUpdated: false
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `March 18, 2025`_<br> | **Version:**<br>`4.78 (25031830)`<br><br>**Min OS:**<br>`10.14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.autoupdate` | <a href="https://officecdnmac.microsoft.com/pr/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_AutoUpdate_4.78.25031830_Updater.pkg"><img src="/images/autoupdate.png" alt="Download Image" width="80"></a>|
 
 </div>
-<span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
 
+<div style="text-align: center;">
+<span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
+</div>
 
 | **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
 |----------------------|----------------------|--------------------------|--------------|
