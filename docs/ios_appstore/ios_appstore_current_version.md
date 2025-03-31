@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 31, 2025 05:14 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 31, 2025 06:13 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Bundle Info | Bundle ID | Icon |
@@ -22,7 +22,7 @@ lastUpdated: false
 | **Microsoft Warehouse Management** | **Version:**<br>`3.0.6`<br><br> **Min iOS:**<br>`10.0`| `com.microsoft.WarehouseManagement` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/03/5e/e8035edd-1e7f-2c48-8cb4-28f7379987d4/AppIcons-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **WooCommerce** | **Version:**<br>`21.9`<br><br> **Min iOS:**<br>`16.0`| `com.automattic.woocommerce` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/7b/da/777bda74-38bf-0f2d-c777-831a6b8eb672/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **Dynamics 365 Sales** | **Version:**<br>`3.24104.15`<br><br> **Min iOS:**<br>`14.0`| `com.microsoft.dynamics.iphone.moca.sales` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/c9/01/4bc9019e-a89d-de7f-7d9d-9bbdd3d81b92/Sales_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| **Microsoft Excel** | **Version:**<br>`2.95.2`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.Office.Excel` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/37/51/89375105-8a59-adc0-e70b-ae96b4ba4bde/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| **Microsoft Excel** | **Version:**<br>`2.95.3`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.Office.Excel` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/79/67/69796789-468a-f335-004c-f9dc4558c719/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **Dynamics 365 Field Service** | **Version:**<br>`13.24121.10`<br><br> **Min iOS:**<br>`14.0`| `com.microsoft.dynamics.iphone.moca.fieldServices` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/e6/91/03e69183-f9f0-94c7-9e2e-2a923805b8ab/FieldServices_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **NA** | **Version:**<br>`NA`<br><br> **Min iOS:**<br>`NA`| `NA` |  |
 | **NA** | **Version:**<br>`NA`<br><br> **Min iOS:**<br>`NA`| `NA` |  |
