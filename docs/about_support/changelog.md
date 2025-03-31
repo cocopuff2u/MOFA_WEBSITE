@@ -8,9 +8,10 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 
 ## **📌 Current Version**
 
-### **v1.2.0** – *March 2025*
+### **v1.3.0** – *March 2025*  
 
-- Automating Meet The Team Page
+- Improved column formatting for better readability.
+- Introduced a simplified version display for standalone apps.
 
 ## **🌟 Upcoming Features**
 
@@ -26,12 +27,12 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
    - **Requirements:**  
       - Backend layout adjustments.  
       - Community collaboration to verify translations and ensure accuracy.  
-   - **Estimated Timeline:** *Early 2025 (pending user feedback)*  
+   - **Estimated Timeline:** *Late 2025 (pending user feedback)*  
 
 #### 2. **Refine Backend Page Layout**
    - **Objective:**  
       - Restructure backend folders to better align with the sidebar organization.  
-   - **Estimated Timeline:** *Early 2025 (pending user feedback)*  
+   - **Estimated Timeline:** *Mid 2025 (pending user feedback)*  
 
 #### 3. **Expand Raw Data Feeds**
    - **Planned Enhancements:**  
