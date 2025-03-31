@@ -47,6 +47,7 @@ export default defineConfig({
               { text: 'Simple View', link: '/simple' },
               { text: 'SHA1 Hashes', link: '/standalone_apps/standalone_sha1_hashes_en' },
               { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_sha256_hashes_en' }
+            ]
           },
           { text: 'Preview Versions', link: '/standalone_apps/standalone_preview_version_en',
             collapsed: true,
