@@ -10,7 +10,7 @@ lastUpdated: false
 > [!NOTE]
 > I have yet to locate a reliable pull source that is direct from Microsoft, so I pulled from the only sources I could to provide this table. The table is as accurate as the data sources direct from Microsoft. I know there is an API way of pulling data, and I require assistance to set that up. For now, this is as accurate as I can provide. Here is another good source that can provide more information: [Hans Brender's OneDrive Versions](https://hansbrender.com/all-onedrive-versions-mac/).
 
-| Name | Version & Download  | Last Updated |
+| Ring Version | Bundle Information  | Download |
 |------|---------------------|--------------|
 | **Production Ring** <br><br>Last Updated: <br> `April 10, 2025 07:54 AM` | <br>Version: <br> `25.051.0317` <br><br> SHA1: <br>`58fc6f25e499bd83683acfcc15acc68c7f85943b`<br><br> SHA256:<br>`59024d3ec3198792ea2b01ce86400f5188756e663d89accad44e6b0ec708f553` | [<img src='/images/OneDrive_512x512x32.png' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.051.0317.0003/universal/OneDrive.pkg) |
 | **Upcoming Production Ring** <br><br>Last Updated: <br> `April 10, 2025 07:54 AM` | <br>Version: <br> `25.051.0317` <br><br> SHA1: <br>`58fc6f25e499bd83683acfcc15acc68c7f85943b`<br><br> SHA256:<br>`59024d3ec3198792ea2b01ce86400f5188756e663d89accad44e6b0ec708f553` | [<img src='/images/OneDrive_512x512x32.png' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.051.0317.0003/universal/OneDrive.pkg) |

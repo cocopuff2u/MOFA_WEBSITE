@@ -60,7 +60,7 @@ lastUpdated: false
 > [!NOTE]
 > I have yet to locate a reliable pull source that is direct from Microsoft, so I pulled from the only sources I could to provide this table. The table is as accurate as the data sources direct from Microsoft. I know there is an API way of pulling data, and I require assistance to set that up. For now, this is as accurate as I can provide. Here is another good source that can provide more information: [Hans Brender's OneDrive Versions](https://hansbrender.com/all-onedrive-versions-mac/).
 
-| Name | Version & Download  | Last Updated |
+| Ring Version | Bundle Information  | Download |
 |------|---------------------|--------------|
 """
     for package in packages:
