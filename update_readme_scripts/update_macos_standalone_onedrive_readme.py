@@ -60,14 +60,14 @@ lastUpdated: false
 > [!NOTE]
 > I have yet to locate a reliable pull source that is direct from Microsoft, so I pulled from the only sources I could to provide this table. The table is as accurate as the data sources direct from Microsoft. I know there is an API way of pulling data, and I require assistance to set that up. For now, this is as accurate as I can provide. Here is another good source that can provide more information: [Hans Brender's OneDrive Versions](https://hansbrender.com/all-onedrive-versions-mac/).
 
-| Name | Version & Download | Hashes (SHA1 & SHA256) | Last Updated |
-|------|---------------------|-------------------------|--------------|
+| Name | Version & Download  | Last Updated |
+|------|---------------------|--------------|
 """
     for package in packages:
-        download_image = f"[<img src='/images/OneDrive_512x512x32.png' alt='Download' width='20' style='vertical-align: middle;' />]({package['full_update_download']})"
-        version_and_download = f"{download_image}<br>`{package['short_version']}`"
-        hashes = f"`{package['full_update_sha1']}`<br>`{package['full_update_sha256']}`"
-        content += f"| **{package['name']}** | {version_and_download} | {hashes} | `{package['last_updated']}` |\n"
+        download_image = f"[<img src='/images/OneDrive_512x512x32.png' alt='Download' width='60' style='vertical-align: middle;' />]({package['full_update_download']})"
+        version_and_hash = f"<br>Version: <br> `{package['short_version']}` <br><br> SHA1: <br>`{package['full_update_sha1']}`<br><br> SHA256:<br>`{package['full_update_sha256']}`"
+
+        content += f"| **{package['name']}** <br><br>Last Updated: <br> `{package['last_updated']}` | {version_and_hash} | {download_image} |\n"
 
     # Add comment section
     content += """
