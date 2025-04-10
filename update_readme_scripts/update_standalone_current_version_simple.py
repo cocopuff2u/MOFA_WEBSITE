@@ -42,6 +42,37 @@ def parse_latest_xml(file_path):
 
     return global_last_updated, packages
 
+def parse_onedrive_xml(file_path):
+    logging.info(f"Parsing OneDrive XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("OneDrive XML file parsed successfully")
+
+    # Extract global last_updated
+    global_last_updated = root.find("last_updated").text.strip()
+    logging.info(f"OneDrive XML last_updated: {global_last_updated}")
+
+    # Extract package details
+    onedrive_packages = {}
+    for package in root.findall("package"):
+        name = package.find("name").text.strip()
+        onedrive_packages[name] = {
+            "name": name,
+            "short_version": package.find("short_version").text.strip(),
+            "application_id": package.find("application_id").text.strip(),
+            "application_name": package.find("application_name").text.strip(),
+            "CFBundleVersion": package.find("CFBundleVersion").text.strip(),
+            "full_update_download": package.find("full_update_download").text.strip(),
+            "full_update_sha1": package.find("full_update_sha1").text.strip(),
+            "full_update_sha256": package.find("full_update_sha256").text.strip(),
+            "last_updated": package.find("last_updated").text.strip(),
+        }
+        # logging.debug(f"Extracted OneDrive package: {onedrive_packages[name]}") # Uncomment for debugging
+
+    return global_last_updated, onedrive_packages
+
 def generate_readme_content(global_last_updated, packages):
     logging.info("Generating standalone_main_readme content")
 
@@ -51,6 +82,10 @@ def generate_readme_content(global_last_updated, packages):
     # Get the current time in UTC and convert to EST
     current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
     logging.debug(f"Current time (EST): {current_time}")
+
+    # Parse OneDrive XML
+    onedrive_xml_file_path = "repo_raw_data/macos_standalone_onedrive_all.xml"
+    onedrive_last_updated, onedrive_packages = parse_onedrive_xml(onedrive_xml_file_path)
 
     content = f"""---
 editLink: false
@@ -81,7 +116,7 @@ _Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**
 | **Outlook** <sup>365/2021/2024</sup> **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Outlook', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.outlook` | <a href="{get_standalone_package_detail(packages, 'Outlook', 'app_only_update_download')}"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a>|
 | **OneNote** <sup>365/2021/2024</sup> **Standalone Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'OneNote', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.onenote.mac` | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
 | **OneNote** <sup>365/2021/2024</sup> **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'OneNote', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.onenote.mac` | <a href="{get_standalone_package_detail(packages, 'OneNote', 'app_only_update_download')}"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneDrive Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'OneDrive', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'OneDrive', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'OneDrive', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'OneDrive', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.OneDrive` | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="80"></a> |
+| **OneDrive Standalone Installer** <sup>(Production Ring)</sup> <br><a href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'last_updated')}`_<br> | **Version:**<br>`{get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'short_version')}`<br><br>**Min OS:**<br>`13.0`<br><br>**CFBundle ID:**<br>`{get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'CFBundleVersion')}` | <a href="{get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'full_update_download')}"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Skype for Business Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/follow-the-latest-updates-in-skype-for-business-cece9f93-add1-4d93-9a38-56cc598e5781?ui=en-us&rs=en-us&ad=us" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Skype', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Skype', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Skype', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Skype', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.SkypeForBusiness` | <a href="{get_standalone_package_detail(packages, 'Skype', 'app_only_update_download')}"><img src="/images/skype_for_business.png" alt="Download Image" width="80"></a> |
 | **Teams Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Teams', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Teams', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Teams', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Teams', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.teams2` | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Intune', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
@@ -115,6 +150,15 @@ def get_standalone_package_detail(packages, package_name, detail):
 
     if package_name in packages and detail in packages[package_name]:
         return packages[package_name][detail]
+    else:
+        return None
+
+def get_onedrive_package_detail(onedrive_packages, package_name, detail):
+    package_name = package_name.strip()
+    detail = detail.strip()
+
+    if package_name in onedrive_packages and detail in onedrive_packages[package_name]:
+        return onedrive_packages[package_name][detail]
     else:
         return None
 

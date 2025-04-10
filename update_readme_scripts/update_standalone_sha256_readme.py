@@ -40,7 +40,32 @@ def parse_latest_xml(file_path):
 
     return global_last_updated, packages
 
-def generate_readme_content(global_last_updated, packages):
+def parse_onedrive_xml(file_path):
+    logging.info(f"Parsing OneDrive XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("OneDrive XML file parsed successfully")
+
+    # Extract details for "Upcoming Production Ring"
+    onedrive_details = {}
+    for package in root.findall("package"):
+        name = package.find("name").text.strip()
+        if name == "Upcoming Production Ring":
+            onedrive_details = {
+                "name": name,
+                "short_version": package.find("short_version").text.strip(),
+                "full_update_download": package.find("full_update_download").text.strip(),
+                "full_update_sha256": package.find("full_update_sha256").text.strip(),
+                "last_updated": package.find("last_updated").text.strip(),
+            }
+            logging.info(f"Extracted OneDrive details: {onedrive_details}")
+            break
+
+    return onedrive_details
+
+def generate_readme_content(global_last_updated, packages, onedrive_details):
     logging.info("Generating standalone_sha256_readme content")
 
     # Set timezone to US/Eastern (EST/EDT)
@@ -72,7 +97,7 @@ lastUpdated: false
 | **PowerPoint** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'PowerPoint', 'full_update_sha256')}` |
 | **Outlook** <sup>365/2021/2024</sup> **Standalone Installer**| <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Outlook', 'full_update_sha256')}` |
 | **OneNote** <sup>365/2021/2024</sup> **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'OneNote', 'full_update_sha256')}` |
-| **OneDrive Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=823060"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'OneDrive', 'full_update_sha256')}` |
+| **OneDrive Standalone Installer** | <a href="{onedrive_details['full_update_download']}"><img src="/images/OneDrive_512x512x32.png" alt="Download Image" width="60"></a> | `{onedrive_details['full_update_sha256']}` |
 | **Skype for Business Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Skype', 'app_only_update_download')}"><img src="/images/skype_for_business.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Skype', 'full_update_sha256')}` |
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Teams', 'full_update_sha256')}` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Intune', 'full_update_sha256')}` |
@@ -115,12 +140,14 @@ def get_standalone_package_detail(packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
+    onedrive_xml_file_path = "repo_raw_data/macos_standalone_onedrive_all.xml"
     readme_file_path = "docs/standalone_apps/standalone_sha256_hashes_en.md"
 
     # Parse the XML and generate content
     global_last_updated, packages = parse_latest_xml(xml_file_path)
+    onedrive_details = parse_onedrive_xml(onedrive_xml_file_path)
 
-    readme_content = generate_readme_content(global_last_updated, packages)
+    readme_content = generate_readme_content(global_last_updated, packages, onedrive_details)
 
     # Overwrite the README file
     overwrite_readme(readme_file_path, readme_content)
