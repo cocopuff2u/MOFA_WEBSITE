@@ -64,6 +64,7 @@ export default defineConfig({
             ]
           },
           { text: 'Last Supported Versions', link: '/standalone_apps/standalone_last_supported_versions_en' },
+          { text: 'OneDrive Versions', link: '/standalone_apps/macos_standalone_onedrive_readme' },
           { text: 'Update History', link: '/standalone_apps/standalone_update_history_en' },
           { text: 'CVE (Vulnerabilities)', link: '/standalone_apps/standalone_cve_history_en' },
           { text: 'Raw Feeds', link: '/standalone_apps/standalone_raw_feeds_en' }
