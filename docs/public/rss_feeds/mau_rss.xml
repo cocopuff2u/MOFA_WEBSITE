@@ -13,6 +13,13 @@
     </image>
     <item>
       <title>New Microsoft AutoUpdate Released</title>
+      <link>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.79.25033028_Updater.pkg</link>
+      <description>Version 4.79 (25033028)</description>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.79.25033028_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft AutoUpdate Released</title>
       <link>https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.78.25031830_Updater.pkg</link>
       <description>Version 4.78 (25031830)</description>
       <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
@@ -32,6 +39,7 @@
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_AutoUpdate_4.77.24121924_Updater.pkg</guid>
     </item>
+    <link>https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml</link>
     <link>https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml</link>
     <link>https://mofa.cocolabs.dev/rss_feeds/mau_rss.xml</link>
   </channel>
