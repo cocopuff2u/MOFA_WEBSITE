@@ -38,7 +38,37 @@ def parse_latest_xml(file_path):
 
     return global_last_updated, packages
 
-def generate_readme_content(global_last_updated, packages):
+def parse_edge_xml(file_path):
+    logging.info(f"Parsing Edge XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("Edge XML file parsed successfully")
+
+    # Extract global last_updated
+    edge_last_updated = root.find("last_updated").text.strip()
+    logging.info(f"Edge XML last_updated: {edge_last_updated}")
+
+    # Extract version details
+    edge_versions = {}
+    for version in root.findall("Version"):
+        name = version.find("Name").text.strip().lower()
+        edge_versions[name] = {
+            "name": name,
+            "version": version.find("Version").text.strip(),
+            "application_id": version.find("Application_ID").text.strip(),
+            "application_name": version.find("Application_Name").text.strip(),
+            "cfbundle_version": version.find("CFBundleVersion").text.strip(),
+            "full_update_download": version.find("Full_Update_Download").text.strip(),
+            "full_update_sha256": version.find("Full_Update_Sha256").text.strip(),
+            "last_update": version.find("Last_Update").text.strip(),
+        }
+        # logging.debug(f"Extracted Edge version: {edge_versions[name]}") # Uncomment to see all version details
+
+    return edge_last_updated, edge_versions
+
+def generate_readme_content(global_last_updated, packages, edge_last_updated, edge_versions):
     logging.info("Generating standalone_main_readme content")
 
     # Set timezone to US/Eastern (EST/EDT)
@@ -72,7 +102,9 @@ lastUpdated: false
 | **Skype for Business Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/follow-the-latest-updates-in-skype-for-business-cece9f93-add1-4d93-9a38-56cc598e5781?ui=en-us&rs=en-us&ad=us" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Skype', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Skype', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Skype', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.SkypeForBusiness` | <a href="{get_standalone_package_detail(packages, 'Skype', 'update_download')}"><img src="/images/skype_for_business.png" alt="Download Image" width="80"></a> |
 | **Teams Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Teams', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Teams', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Teams', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.teams2` | <a href="{get_standalone_package_detail(packages, 'Teams', 'update_download')}"><img src="/images/teams_512x512x32.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="{get_standalone_package_detail(packages, 'Intune', 'update_download')}"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
-| **Edge Standalone Installer** <sup>_(Stable Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Edge', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Edge', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Edge', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.edgemac` | <a href="{get_standalone_package_detail(packages, 'Edge', 'update_download')}"><img src="/images/edge_app.png" alt="Download Image" width="80"></a>|
+| **Edge** <sup>_(Beta Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-beta-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{edge_versions['beta']['last_update']}`<br> | **Version:**<br>`{edge_versions['beta']['version']}`<br><br>**Min OS:**<br>`11.0`<br><br>**CFBundle ID:**<br>`{edge_versions['beta']['cfbundle_version']}` | <a href="{edge_versions['beta']['full_update_download']}"><img src="/images/edge_beta.png" alt="Download Image" width="80"></a>|
+| **Edge** <sup>_(Dev Channel)_</sup><br><br>_**Last Update:**_<br>`{edge_versions['dev']['last_update']}`<br> | **Version:**<br>`{edge_versions['dev']['version']}`<br><br>**Min OS:**<br>`11.0`<br><br>**CFBundle ID:**<br>`{edge_versions['dev']['cfbundle_version']}` | <a href="{edge_versions['dev']['full_update_download']}"><img src="/images/edge_dev.png" alt="Download Image" width="80"></a>|
+| **Edge** <sup>_(Canary Channel)_</sup><br><br>_**Last Update:**_<br>`{edge_versions['canary']['last_update']}`<br> | **Version:**<br>`{edge_versions['canary']['version']}`<br><br>**Min OS:**<br>`11.0`<br><br>**CFBundle ID:**<br>`{edge_versions['canary']['cfbundle_version']}` | <a href="{edge_versions['canary']['full_update_download']}"><img src="/images/edge_canary.png" alt="Download Image" width="80"></a>|
 | **Defender for Endpoint Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="{get_standalone_package_detail(packages, 'Defender For Endpoint', 'update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender for Consumers Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="{get_standalone_package_detail(packages, 'Defender For Consumers', 'update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender SHIM Installer**<br><br>_**Last Update:**_<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'last_updated')}`<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav.shim` | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
@@ -115,12 +147,15 @@ def get_standalone_package_detail(packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_beta.xml"  # Update this path if the file is located elsewhere
+    edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"  # Edge XML file path
     readme_file_path = "docs/standalone_apps/standalone_beta_version_en.md"
 
-    # Parse the XML and generate content
+    # Parse the XML files
     global_last_updated, packages = parse_latest_xml(xml_file_path)
+    edge_last_updated, edge_versions = parse_edge_xml(edge_xml_file_path)
 
-    readme_content = generate_readme_content(global_last_updated, packages)
+    # Generate content
+    readme_content = generate_readme_content(global_last_updated, packages, edge_last_updated, edge_versions)
 
     # Overwrite the README file
     overwrite_readme(readme_file_path, readme_content)

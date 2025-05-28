@@ -68,6 +68,34 @@ def parse_onedrive_xml(file_path):
     logging.warning("No 'Upcoming Production Ring' package found in OneDrive XML")
     return None
 
+def parse_edge_xml(file_path):
+    logging.info(f"Parsing Edge-specific XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("Edge XML file parsed successfully")
+
+    # Extract the "current" version details
+    for version in root.findall("Version"):
+        name = version.find("Name").text.strip()
+        if name == "current":
+            edge_details = {
+                "name": name,
+                "version": version.find("Version").text.strip(),
+                "application_id": version.find("Application_ID").text.strip(),
+                "application_name": version.find("Application_Name").text.strip(),
+                "full_update_download": version.find("Full_Update_Download").text.strip(),
+                "full_update_sha1": version.find("Full_Update_Sha1").text.strip(),
+                "full_update_sha256": version.find("Full_Update_Sha256").text.strip(),
+                "last_updated": version.find("Last_Update").text.strip(),
+            }
+            logging.info(f"Extracted Edge 'current' version details: {edge_details}")
+            return edge_details
+
+    logging.warning("No 'current' version found in Edge XML")
+    return None
+
 def generate_readme_content(global_last_updated, packages):
     logging.info("Generating standalone_sha1_readme content")
 
@@ -103,7 +131,7 @@ lastUpdated: false
 | **Skype for Business Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Skype', 'app_only_update_download')}"><img src="/images/skype_for_business.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Skype', 'full_update_sha1')}` |
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Teams', 'full_update_sha1')}` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Intune', 'full_update_sha1')}` |
-| **Edge Standalone Installer** <sup>_(Stable Channel)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="/images/edge_app.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Edge', 'full_update_sha1')}` |
+| **Edge** <sup>_(Current Channel)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="/images/edge_app.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Edge', 'full_update_sha1')}` |
 | **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender For Endpoint', 'full_update_sha1')}` |
 | **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender For Consumers', 'full_update_sha1')}` |
 | **Defender Shim Installer** | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'latest_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender Shim', 'full_update_sha1')}` |
@@ -150,11 +178,13 @@ if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
     onedrive_xml_file_path = "repo_raw_data/macos_standalone_onedrive_all.xml"
+    edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"
     readme_file_path = "docs/standalone_apps/standalone_sha1_hashes_en.md"
 
     # Parse the XML files
     global_last_updated, packages = parse_latest_xml(xml_file_path)
     onedrive_details = parse_onedrive_xml(onedrive_xml_file_path)
+    edge_details = parse_edge_xml(edge_xml_file_path)
 
     # Update OneDrive details in the packages dictionary
     if onedrive_details:
@@ -162,6 +192,14 @@ if __name__ == "__main__":
             "name": "onedrive",
             "full_update_download": get_onedrive_package_detail(onedrive_details, "full_update_download"),
             "full_update_sha1": get_onedrive_package_detail(onedrive_details, "full_update_sha1"),
+        }
+
+    # Update Edge details in the packages dictionary
+    if edge_details:
+        packages["edge"] = {
+            "name": "edge",
+            "full_update_download": edge_details["full_update_download"],
+            "full_update_sha1": edge_details["full_update_sha1"],
         }
 
     # Generate content and overwrite the README file

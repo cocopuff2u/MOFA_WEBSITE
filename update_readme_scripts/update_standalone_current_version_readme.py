@@ -75,7 +75,42 @@ def parse_onedrive_xml(file_path):
 
     return global_last_updated, onedrive_packages
 
-def generate_readme_content(global_last_updated, packages, onedrive_global_last_updated, onedrive_packages):
+def parse_edge_xml(file_path):
+    """
+    Parse the Edge-specific XML file and extract the 'current' version details.
+    """
+    logging.info(f"Parsing Edge XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("Edge XML file parsed successfully")
+
+    # Extract global last_updated
+    global_last_updated = root.find("last_updated").text.strip()
+    logging.info(f"Edge XML last_updated: {global_last_updated}")
+
+    # Extract 'current' version details
+    edge_details = {}
+    for version in root.findall("Version"):
+        name = version.find("Name").text.strip().lower()
+        if name == "current":
+            edge_details = {
+                "name": name,
+                "version": version.find("Version").text.strip(),
+                "application_id": version.find("Application_ID").text.strip(),
+                "application_name": version.find("Application_Name").text.strip(),
+                "cf_bundle_version": version.find("CFBundleVersion").text.strip(),
+                "full_update_download": version.find("Full_Update_Download").text.strip(),
+                "full_update_sha1": version.find("Full_Update_Sha1").text.strip(),
+                "full_update_sha256": version.find("Full_Update_Sha256").text.strip(),
+                "last_updated": version.find("Last_Update").text.strip(),
+            }
+            break
+
+    return global_last_updated, edge_details
+
+def generate_readme_content(global_last_updated, packages, onedrive_global_last_updated, onedrive_packages, edge_details):
     logging.info("Generating standalone_main_readme content")
 
     # Set timezone to US/Eastern (EST/EDT)
@@ -117,7 +152,7 @@ lastUpdated: false
 | **Teams Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Teams', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Teams', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Teams', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.teams2` | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal App Only Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a> <sub>_(Does Not Contain MAU)_</sub><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="{get_standalone_package_detail(packages, 'Intune', 'app_only_update_download')}"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
-| **Edge Standalone Installer** <sup>_(Stable Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Edge', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Edge', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Edge', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.edgemac` | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="/images/edge_app.png" alt="Download Image" width="80"></a>|
+| **Edge** <sup>_(Current Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{edge_details['last_updated']}`_<br> | **Version:**<br>`{edge_details['version']}`<br><br>**Min OS:**<br>`11.0`<br><br>**CFBundle ID:**<br>`{edge_details['cf_bundle_version']}` | <a href="{edge_details['full_update_download']}"><img src="/images/edge_app.png" alt="Download Image" width="80"></a>|
 | **Defender for Endpoint Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender For Endpoint', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender for Consumers Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender For Consumers', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender SHIM Installer**<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender Shim', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav.shim` | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
@@ -228,15 +263,17 @@ def get_onedrive_package_detail(onedrive_packages, package_name, detail):
 
 if __name__ == "__main__":
     # Define file paths
-    xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
+    xml_file_path = "repo_raw_data/macos_standalone_latest.xml"
     onedrive_xml_file_path = "repo_raw_data/macos_standalone_onedrive_all.xml"
+    edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"
     readme_file_path = "docs/standalone_apps/standalone_current_version_en.md"
 
-    # Parse the XML and generate content
+    # Parse the XML files and generate content
     global_last_updated, packages = parse_latest_xml(xml_file_path)
     onedrive_global_last_updated, onedrive_packages = parse_onedrive_xml(onedrive_xml_file_path)
+    edge_global_last_updated, edge_details = parse_edge_xml(edge_xml_file_path)
 
-    readme_content = generate_readme_content(global_last_updated, packages, onedrive_global_last_updated, onedrive_packages)
+    readme_content = generate_readme_content(global_last_updated, packages, onedrive_global_last_updated, onedrive_packages, edge_details)
 
     # Overwrite the README file
     overwrite_readme(readme_file_path, readme_content)

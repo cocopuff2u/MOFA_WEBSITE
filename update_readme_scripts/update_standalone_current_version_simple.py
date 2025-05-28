@@ -73,6 +73,37 @@ def parse_onedrive_xml(file_path):
 
     return global_last_updated, onedrive_packages
 
+def parse_edge_xml(file_path):
+    logging.info(f"Parsing Edge XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("Edge XML file parsed successfully")
+
+    # Extract global last_updated
+    global_last_updated = root.find("last_updated").text.strip()
+    logging.info(f"Edge XML last_updated: {global_last_updated}")
+
+    # Extract "current" version details
+    edge_current_version = {}
+    for version in root.findall("Version"):
+        if version.find("Name").text.strip().lower() == "current":
+            edge_current_version = {
+                "name": version.find("Name").text.strip(),
+                "version": version.find("Version").text.strip(),
+                "application_id": version.find("Application_ID").text.strip(),
+                "application_name": version.find("Application_Name").text.strip(),
+                "cf_bundle_version": version.find("CFBundleVersion").text.strip(),
+                "full_update_download": version.find("Full_Update_Download").text.strip(),
+                "full_update_sha1": version.find("Full_Update_Sha1").text.strip(),
+                "full_update_sha256": version.find("Full_Update_Sha256").text.strip(),
+                "last_updated": version.find("Last_Update").text.strip(),
+            }
+            break
+
+    return global_last_updated, edge_current_version
+
 def generate_readme_content(global_last_updated, packages):
     logging.info("Generating standalone_main_readme content")
 
@@ -86,6 +117,10 @@ def generate_readme_content(global_last_updated, packages):
     # Parse OneDrive XML
     onedrive_xml_file_path = "repo_raw_data/macos_standalone_onedrive_all.xml"
     onedrive_last_updated, onedrive_packages = parse_onedrive_xml(onedrive_xml_file_path)
+
+    # Parse Edge XML
+    edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"
+    edge_last_updated, edge_current_version = parse_edge_xml(edge_xml_file_path)
 
     content = f"""---
 editLink: false
@@ -121,7 +156,7 @@ _Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**
 | **Teams Standalone Installer**<br><a href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Teams', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Teams', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Teams', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Teams', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.teams2` | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal Standalone Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Intune', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
 | **InTune Company Portal App Only Installer**<br><a href="https://aka.ms/intuneupdates" style="text-decoration: none;"><small>_Release Notes_</small></a> <sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Intune', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Intune', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Intune', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Intune', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.CompanyPortalMac` | <a href="{get_standalone_package_detail(packages, 'Intune', 'app_only_update_download')}"><img src="/images/companyportal.png" alt="Download Image" width="80"></a> |
-| **Edge Standalone Installer** <sup>_(Stable Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Edge', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Edge', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Edge', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Edge', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.edgemac` | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="/images/edge_app.png" alt="Download Image" width="80"></a>|
+| **Edge** <sup>_(Current Channel)_</sup><br><a href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{edge_current_version.get('full_update_sha256', 'N/A')}`<br><br>_**Last Update:** `{edge_current_version.get('last_updated', 'N/A')}`_<br> | **Version:**<br>`{edge_current_version.get('version', 'N/A')}`<br><br>**Min OS:**<br>`11.0`<br><br>**CFBundle ID:**<br>`{edge_current_version.get('cf_bundle_version', 'N/A')}` | <a href="{edge_current_version.get('full_update_download', '#')}"><img src="/images/edge_app.png" alt="Download Image" width="80"></a>|
 | **Defender for Endpoint Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender For Endpoint', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Endpoint', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender for Consumers Installer**<br><a href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender For Consumers', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender For Consumers', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav` | <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Defender SHIM Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Defender Shim', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Defender Shim', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav.shim` | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |

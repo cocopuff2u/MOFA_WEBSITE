@@ -38,7 +38,36 @@ def parse_latest_xml(file_path):
 
     return global_last_updated, packages
 
-def generate_readme_content(global_last_updated, packages):
+def parse_edge_xml(file_path):
+    logging.info(f"Parsing Edge XML file: {file_path}")
+
+    # Parse the XML file
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    logging.debug("Edge XML file parsed successfully")
+
+    # Extract global last_updated
+    global_last_updated = root.find("last_updated").text.strip()
+    logging.info(f"Edge XML last_updated: {global_last_updated}")
+
+    # Extract version details
+    edge_versions = {}
+    for version in root.findall("Version"):
+        name = version.find("Name").text.strip().lower()  # Store by lowercase name for easy access
+        edge_versions[name] = {
+            "name": name,
+            "version": version.find("Version").text.strip(),
+            "application_id": version.find("Application_ID").text.strip(),
+            "application_name": version.find("Application_Name").text.strip(),
+            "cf_bundle_version": version.find("CFBundleVersion").text.strip(),
+            "full_update_download": version.find("Full_Update_Download").text.strip(),
+            "full_update_sha1": version.find("Full_Update_Sha1").text.strip(),
+            "full_update_sha256": version.find("Full_Update_Sha256").text.strip(),
+            "last_update": version.find("Last_Update").text.strip(),
+        }
+    return global_last_updated, edge_versions
+
+def generate_readme_content(global_last_updated, packages, edge_versions):
     logging.info("Generating standalone_sha1_readme content")
 
     # Set timezone to US/Eastern (EST/EDT)
@@ -70,7 +99,9 @@ lastUpdated: false
 | **Skype for Business Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Skype', 'update_download')}"><img src="/images/skype_for_business.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Skype', 'sha1')}` |
 | **Teams Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Teams', 'update_download')}"><img src="/images/teams_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Teams', 'sha1')}` |
 | **InTune Company Portal Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Intune', 'update_download')}"><img src="/images/companyportal.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Intune', 'sha1')}` |
-| **Edge Standalone Installer** <sup>_(Stable Channel)_</sup> | <a href="{get_standalone_package_detail(packages, 'Edge', 'update_download')}"><img src="/images/edge_app.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Edge', 'sha1')}` |
+| **Edge** <sup>_(Beta Channel)_</sup> | <a href="{edge_versions['beta']['full_update_download']}"><img src="/images/edge_beta.png" alt="Download Image" width="60"></a> | `{edge_versions['beta']['full_update_sha1']}` |
+| **Edge** <sup>_(Dev Channel)_</sup> | <a href="{edge_versions['dev']['full_update_download']}"><img src="/images/edge_dev.png" alt="Download Image" width="60"></a> | `{edge_versions['dev']['full_update_sha1']}` |
+| **Edge** <sup>_(Canary Channel)_</sup> | <a href="{edge_versions['canary']['full_update_download']}"><img src="/images/edge_canary.png" alt="Download Image" width="60"></a> | `{edge_versions['canary']['full_update_sha1']}` |
 | **Defender For Endpoint Installer** | <a href="{get_standalone_package_detail(packages, 'Defender For Endpoint', 'update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender For Endpoint', 'sha1')}` |
 | **Defender For Consumer Installer** | <a href="{get_standalone_package_detail(packages, 'Defender For Consumers', 'update_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender For Consumers', 'sha1')}` |
 | **Defender Shim Installer** | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'latest_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender Shim', 'sha1')}` |
@@ -111,12 +142,15 @@ def get_standalone_package_detail(packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_beta.xml"  # Update this path if the file is located elsewhere
+    edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"  # New Edge XML file path
     readme_file_path = "docs/standalone_apps/standalone_beta_sha1_hashes_en.md"
 
-    # Parse the XML and generate content
+    # Parse the XML files
     global_last_updated, packages = parse_latest_xml(xml_file_path)
+    edge_last_updated, edge_versions = parse_edge_xml(edge_xml_file_path)
 
-    readme_content = generate_readme_content(global_last_updated, packages)
+    # Generate content
+    readme_content = generate_readme_content(global_last_updated, packages, edge_versions)
 
     # Overwrite the README file
     overwrite_readme(readme_file_path, readme_content)
