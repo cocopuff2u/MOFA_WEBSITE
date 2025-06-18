@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 17, 2025 07:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 17, 2025 08:29 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | **Product Package** | **Link** | **<img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" /> SHA1 Hash <img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" />** |
@@ -24,7 +24,7 @@ lastUpdated: false
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/teams_512x512x32.png" alt="Download Image" width="60"></a> | `d2b5f584e176c7492cbc77d077bbbcd93e2c5ee2` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Download Image" width="60"></a> | `6e33b838a2117fc9b6febfe79645d37543570736` |
 | **Edge** <sup>_(Current Channel)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=2093504"><img src="/images/edge_app.png" alt="Download Image" width="60"></a> | `359f09e2a5eeae607321bf4a7a4178332bd9be1e` |
-| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `01a56596cba1c3a29f9c2b4035f9baeb0bf82755` |
+| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `32e1a55563095960f168e467f4ae2f66a3f58863` |
 | **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `eb0b43efdf1b6ceaac7f394773d00434745cf808` |
 | **Defender Shim Installer** | <a href="None"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `5101228ce261cfcc836d093889eef997e8f62dfd` |
 | **Windows App Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/windowsapp.png" alt="Download Image" width="60"></a> | `b19102053a39f1f20d4a236fe5283f29b1078469` |
