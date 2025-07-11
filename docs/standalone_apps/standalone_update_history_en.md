@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 06, 2025 01:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 11, 2025 09:55 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 <table class="shrink-table">
@@ -21,6 +21,36 @@ lastUpdated: false
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>16.98.3 (25062733)<br><span class='extra-small'>July 01, 2025</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.98.25062733_Updater.pkg">OneNote</a></td>
+    </tr>
+    <tr>
+      <td>16.98.1 (25061520)<br><span class='extra-small'>June 17, 2025</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.98.25061520_Updater.pkg">Outlook</a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>16.98 (25060824)<br><span class='extra-small'>June 10, 2025</span></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.98.25060824_BusinessPro_Installer.pkg">Business</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.98.25060824_Installer.pkg">Suite</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.98.25060824_Updater.pkg">Word</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.98.25060824_Updater.pkg">Excel</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.98.25060824_Updater.pkg">PowerPoint</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.98.25060824_Updater.pkg">Outlook</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.98.25060824_Updater.pkg">OneNote</a></td>
+    </tr>
     <tr>
       <td>16.97.2 (25052611)<br><span class='extra-small'>May 27, 2025</span></td>
       <td>&nbsp;</td>
