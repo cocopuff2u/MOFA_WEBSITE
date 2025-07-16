@@ -4,11 +4,15 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 16, 2025 01:08 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 16, 2025 02:09 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.99 (Build 25071321) | July 15, 2025 | Excel | [CVE-2025-48812](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-48812), [CVE-2025-49711](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49711) |
+| 16.99 (Build 25071321) | July 15, 2025 | PowerPoint | [CVE-2025-49705](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49705) |
+| 16.99 (Build 25071321) | July 15, 2025 | Word | [CVE-2025-49698](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49698), [CVE-2025-49703](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49703) |
+| 16.99 (Build 25071321) | July 15, 2025 | Office Suite | [CVE-2025-49695](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49695), [CVE-2025-49696](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49696), [CVE-2025-49697](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49697), [CVE-2025-49699](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49699), [CVE-2025-49702](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49702) |
 | 16.98.3 (Build 25062733) | July 1, 2025 | &nbsp; | &nbsp; |
 | 16.98.1 (Build 25061520) | June 17, 2025 | &nbsp; | &nbsp; |
 | 16.98 (Build 25060824) | June 10, 2025 | Excel | [CVE-2025-47165](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-47165) |
