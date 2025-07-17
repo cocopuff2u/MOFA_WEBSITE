@@ -28,7 +28,7 @@
 ---
 
 <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Office%20for%20Mac/installOffice365Pro.sh" style="text-decoration: none; color: #4682b4;">💼 Install Office 365 Pro 💼</a>
+  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/installM365Apps.sh" style="text-decoration: none; color: #4682b4;">💼 Install Office 365 Pro 💼</a>
 </div>  
 <div style="text-align: center;">
 
@@ -39,7 +39,7 @@
 ---
 
 <div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Office%20for%20Mac/uninstallOfficeBusinessPro.sh" style="text-decoration: none; color: #4682b4;">💼 Uninstall Office 365 Pro 💼</a>
+  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/uninstallOfficeBusinessPro.sh" style="text-decoration: none; color: #4682b4;">💼 Uninstall Office 365 Pro 💼</a>
 </div>  
 <div style="text-align: center;">
 
