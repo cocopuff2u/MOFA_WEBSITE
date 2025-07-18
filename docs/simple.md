@@ -9,7 +9,7 @@ aside: false
 ---
 <div style="text-align: center;">
 
-_Last Updated: <code style="color : dodgerblue">July 17, 2025 08:31 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
+_Last Updated: <code style="color : dodgerblue">July 17, 2025 09:36 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
 </div>
 <div style="display: flex; justify-content: center;">
 
