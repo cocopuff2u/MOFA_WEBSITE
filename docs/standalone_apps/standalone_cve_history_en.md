@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 29, 2025 08:32 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 29, 2025 09:36 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.99.2 (Build 25072714) | July 29, 2025 | &nbsp; | &nbsp; |
 | 16.99.1 (Build 25072013) | July 22, 2025 | &nbsp; | &nbsp; |
 | 16.99 (Build 25071321) | July 15, 2025 | Excel | [CVE-2025-48812](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-48812), [CVE-2025-49711](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49711) |
 | 16.99 (Build 25071321) | July 15, 2025 | PowerPoint | [CVE-2025-49705](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-49705) |
