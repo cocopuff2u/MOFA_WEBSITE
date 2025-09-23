@@ -15,7 +15,7 @@ hero:
       link: /home
     - theme: alt
       text: 📖 About the Project
-      link: /about
+      link: /about_support/about
 ---
 <style>
   .glow-star {
