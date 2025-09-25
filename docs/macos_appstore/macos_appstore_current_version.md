@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">September 25, 2025 12:08 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">September 25, 2025 01:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -15,7 +15,7 @@ lastUpdated: false
 | **Microsoft Outlook** | `16.101.1` | `com.microsoft.Outlook` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/9c/f9/a99cf98a-9c94-d589-cb3a-b84fc85e3a89/Outlook.png/512x512bb.png' width='25%' height='25%' /> |
 | **Microsoft OneNote** | `16.101.1` | `com.microsoft.onenote.mac` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/f9/27/f1f92731-3cdf-3f2c-d61f-4d72cfa2d219/OneNote.png/512x512bb.png' width='25%' height='25%' /> |
 | **OneDrive** | `25.164.0824` | `com.microsoft.OneDrive-mac` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/7f/2c/637f2ccd-5608-1197-3d9d-6cfb7c35fd20/OneDrive.png/512x512bb.png' width='25%' height='25%' /> |
-| **Windows App** | `11.2.2` | `com.microsoft.rdc.macos` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/2f/49/c72f4946-41be-9d6f-bf69-edb23bf9e5c0/AppIcon-0-0-85-220-0-0-4-0-2x.png/512x512bb.png' width='25%' height='25%' /> |
+| **Windows App** | `11.2.3` | `com.microsoft.rdc.macos` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/52/d7/ce52d7c1-4aed-3358-7843-cd8cb537effc/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png' width='25%' height='25%' /> |
 | **Microsoft To Do** | `2.156` | `com.microsoft.to-do-mac` | `10.15` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/e5/33/a4e533cf-2fa7-3563-f9f9-dfd9608e2064/AppIcon-Release-0-85-220-0-4-2x-sRGB.png/512x512bb.png' width='25%' height='25%' /> |
 | **Azure VPN Client** | `2.7.101` | `com.microsoft.AzureVpnMac` | `10.15` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/60/df/2360df4b-4ac5-4480-bb3e-4f59df6c3e64/AppIcon-85-220-0-4-0-0-2x-0-0.png/512x512bb.png' width='25%' height='25%' /> |
 
