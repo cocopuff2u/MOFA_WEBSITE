@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">September 27, 2025 04:07 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">September 27, 2025 05:06 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Bundle Info | Bundle ID | Icon |
@@ -43,7 +43,7 @@ lastUpdated: false
 | **Microsoft 365 Admin** | **Version:**<br>`5.7.2`<br><br> **Min iOS:**<br>`16.0`| `com.microsoft.o365shdmobileapp` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/0d/b8/e10db871-3c82-f649-3686-5eb88efa87aa/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **Intune Company Portal** | **Version:**<br>`5.2509.1`<br><br> **Min iOS:**<br>`16.0`| `com.microsoft.CompanyPortal` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/1b/0e/091b0e6a-1d33-a735-deda-7045dd528a00/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **Azure Information Protection** | **Version:**<br>`2.1.4`<br><br> **Min iOS:**<br>`14.0`| `com.microsoft.rms-sharing` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/f6/d8/9df6d87e-66ad-d6ab-aad9-d030ef4aa9cb/AppIcons-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg' width='75%' height='75%' /> |
-| **Microsoft 365 Copilot** | **Version:**<br>`2.101.2`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.officemobile` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/07/a1/de07a1ca-0cf4-83f2-c3b7-484633453965/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
+| **Microsoft 365 Copilot** | **Version:**<br>`2.101.1`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.officemobile` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/95/f5/b195f538-362c-9878-ebb5-2fd12087e69a/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 | **Skype for Business** | **Version:**<br>`6.34.119`<br><br> **Min iOS:**<br>`15.0`| `com.microsoft.lync2013.iphone` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/27/ee/b327ee1f-d14c-6650-21cf-71294902677e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg' width='75%' height='75%' /> |
 
 > [!IMPORTANT]
