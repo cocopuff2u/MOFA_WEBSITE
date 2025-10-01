@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below point to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links always provide the latest version available from Microsoft as of the last update. However, the version details listed below reflect the specific version available at the time this information was last updated. This information is pulled directly from Microsoft, so if no updates are available, it may show an older or current version.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 01, 2025 02:10 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 01, 2025 03:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json)
  (Automatically Updated every 2 hours)_</span>
 
 | **Product Package** | **Link** | **<img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" /> SHA1 Hash <img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" />** |
@@ -27,7 +27,7 @@ lastUpdated: false
 | **Defender For Consumer Installer** | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_Defender_101.25082.0005_Individuals_Installer.pkg"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `322cf917eb9380d405a12565f8d86edeb746c7a4` |
 | **Defender Shim Installer** | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `5101228ce261cfcc836d093889eef997e8f62dfd` |
 | **Visual Studio Code Insider Standalone Installer** | <a href="https://vscode.download.prss.microsoft.com/dbazure/download/insider/6e60e679fc6b6a512edbed9a750d7c5811595861/VSCode-darwin-universal.zip"><img src="/images/Code_512x512x32.png" alt="Download Image" width="60"></a> | `09d0ea3c169fc186c29c7d4b3778d3dbe6af2c7c` |
-| **AutoUpdate Standalone Installer** | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_AutoUpdate_4.80.25073044_Updater.pkg"><img src="/images/autoupdate.png" alt="Download Image" width="60"></a> | `7f940094fe60d562d74cec2e2c7a06d39ead4c14` |
+| **AutoUpdate Standalone Installer** | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_AutoUpdate_4.80.25092610_Updater.pkg"><img src="/images/autoupdate.png" alt="Download Image" width="60"></a> | `3a8b0ba79343fdbdba5029cfc6c7db66fe9acfdf` |
 
 <span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
 
