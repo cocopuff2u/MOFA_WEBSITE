@@ -107,12 +107,7 @@ lastUpdated: false
 | **Defender Shim Installer** | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'latest_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender Shim', 'sha256')}` |
 | **Visual Studio Code Insider Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Visual', 'update_download')}"><img src="/images/Code_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Visual', 'sha256')}` |
 | **AutoUpdate Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'MAU', 'update_download')}"><img src="/images/autoupdate.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'MAU', 'sha256')}` |
-
-<span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
-
-| **Product Package** | **Link** | **<img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" /> SHA256 Hash <img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" />** |
-|----------------------|----------|------------------|
-| **Windows App Beta Standalone Installer** | <a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac"><img src="/images/windowsapp.png" alt="Download Image" width="60"></a> | `N/A` |
+| **Windows App Beta** | <a href="{get_standalone_package_detail(packages, 'Windows App Beta', 'update_download')}"><img src="/images/windowsapp.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Windows App Beta', 'sha256')}` |
 
 ## SHA256 Hashes Guide
 

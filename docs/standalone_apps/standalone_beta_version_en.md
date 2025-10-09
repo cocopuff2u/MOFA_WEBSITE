@@ -9,7 +9,7 @@ lastUpdated: false
 
 <div style="text-align: center;">
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2025 01:44 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json) (Automatically Updated every 2 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2025 02:24 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_beta.json) (Automatically Updated every 2 hours)_</span>
 
 </div>
 
@@ -32,18 +32,9 @@ lastUpdated: false
 | **Defender SHIM Installer**<br><br>_**Last Update:**_<br>`October 16, 2024`<br> | **Version:**<br>`101.24080.0001`<br><br>**Min OS:**<br>`12.0`<br><br>**CFBundle ID:**<br>`com.microsoft.wdav.shim` | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/defender_512x512x32.png" alt="Download Image" width="80"></a> |
 | **Visual Studio Code Insider Standalone Installer**<br><a href="https://github.com/microsoft/vscode/labels/iteration-plan" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`October 09, 2025`<br> | **Version:**<br>`1.106.0-insider`<br><br>**Min OS:**<br>`N/A`<br><br>**CFBundle ID:**<br>`com.microsoft.VSCodeInsider` | <a href="https://vscode.download.prss.microsoft.com/dbazure/download/insider/bcbd0b4a9877c49ece744f86f4dc1e2b73477e98/VSCode-darwin-universal.zip"><img src="/images/Code_512x512x32.png" alt="Download Image" width="80"></a>|
 | **AutoUpdate Standalone Installer**<br><a href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`September 26, 2025`<br> | **Version:**<br>`4.80 (25092610)`<br><br>**Min OS:**<br>`10.14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.autoupdate` | <a href="https://officecdnmac.microsoft.com/pr/4B2D7701-0A4F-49C8-B4CB-0C2D4043F51F/MacAutoupdate/Microsoft_AutoUpdate_4.80.25092610_Updater.pkg"><img src="/images/autoupdate.png" alt="Download Image" width="80"></a>|
+| **Windows App Beta Standalone Installer** <sup>_(Remote Desktop <img src="/images/microsoft-remote-desktop-logo.png" alt="Remote Desktop" width="15" style="vertical-align: middle; display: inline-block;" />)_</sup><br><a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a><br><br>_**Last Update:**_<br>`September 30, 2025`<br> | **Version:**<br>`11.2.4`<br><br>**Min OS:**<br>`N/A`<br><br>**CFBundle ID:**<br>`com.microsoft.windows.app` | <a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac"><img src="/images/windowsapp.png" alt="Download Image" width="80"></a> |
 
 </div>
-
-<div style="text-align: center;">
-
-<span class="extra-small">The apps listed below are distributed differently, making it challenging to automate update checks.</span>
-
-</div>
-
-| **Product Package** | **CFBundle Version** | **CFBundle Identifier** | **Download** |
-|----------------------|----------------------|--------------------------|--------------|
-| **Windows App Beta Standalone Installer** <sup>_(Remote Desktop <img src="/images/microsoft-remote-desktop-logo.png" alt="Remote Desktop" width="15" style="vertical-align: middle; display: inline-block;" />)_</sup><br><a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac" style="text-decoration: none;"><small>_Release Notes_</small></a> | `Check Release Notes` | com.microsoft.rdc.macos | <a href="https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac"><img src="/images/windowsapp.png" alt="Download Image" width="80"></a> |
 
 > [!IMPORTANT]
 > This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
