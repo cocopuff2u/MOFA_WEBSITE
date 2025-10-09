@@ -8,12 +8,17 @@ Welcome to the Changelog! Stay updated on the latest features, fixes, and improv
 
 ## **📌 Current Version**
 
-### **v1.3.0** – *March 2025*  
+### **v1.4.0** – *October 2025*  
 
-- Improved column formatting for better readability.
-- Introduced a simplified version display for standalone apps.
+- Updated Icons for iOS/MacOS feeds
+- Preparing for icon overhaul to increase page speeds
+- Preparing to add more custom configs & scripts
 
 ## **🌟 Upcoming Features**
+
+::: warning
+Many upcoming goals require community feedback. Without feedback — and without assistance with translations for various languages — multilingual support and related features will not be possible to deliver.
+:::
 
 ### **🚀 Future Goals**
 
