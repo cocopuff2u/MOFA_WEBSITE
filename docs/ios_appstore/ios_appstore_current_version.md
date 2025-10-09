@@ -4,12 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2025 01:44 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2025 02:09 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Bundle Info | Bundle ID | Icon |
 |------------------|---------|-----------|------|
-| **Microsoft Word** | **Version:**<br>`2.102`<br><br> **Min iOS:**<br>`18.0`| `com.microsoft.Office.Word` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/b1/99/acb199bc-5251-7069-9d0a-bffce58f50d5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' style='border-radius: 12px;' /> |
+| **Microsoft Word** | **Version:**<br>`2.101.3`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.Office.Word` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/d3/06/d4d306d1-2f8e-c9a7-d8d1-41d95e6ea213/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' style='border-radius: 12px;' /> |
 | **Microsoft Excel** | **Version:**<br>`2.101.3`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.Office.Excel` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/79/84/ff798481-6efa-5437-956a-b9ce9485f244/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' style='border-radius: 12px;' /> |
 | **Microsoft PowerPoint** | **Version:**<br>`2.101.3`<br><br> **Min iOS:**<br>`17.0`| `com.microsoft.Office.Powerpoint` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/67/3f/ba673fb3-5638-268d-1965-3036a1a18cd8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' style='border-radius: 12px;' /> |
 | **Microsoft Outlook** | **Version:**<br>`4.2539.0`<br><br> **Min iOS:**<br>`18.0`| `com.microsoft.Office.Outlook` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/f3/c9/edf3c9d9-acbc-6a36-352b-7e59f2553957/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg' width='75%' height='75%' style='border-radius: 12px;' /> |
