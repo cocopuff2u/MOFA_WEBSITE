@@ -79,7 +79,7 @@ def generate_readme_content(global_last_updated, packages, edge_last_updated, ed
 editLink: false
 lastUpdated: false
 ---
-# <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Beta Packages
+# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Beta Packages
 
 <span class="extra-small">All links below point to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links always provide the latest version available from Microsoft as of the last update. However, the version details listed below reflect the specific version available at the time this information was last updated. This information is pulled directly from Microsoft, so if no updates are available, it may show an older or current version.</span>

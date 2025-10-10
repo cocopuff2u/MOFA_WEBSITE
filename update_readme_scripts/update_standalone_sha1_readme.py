@@ -110,7 +110,7 @@ def generate_readme_content(global_last_updated, packages):
 editLink: false
 lastUpdated: false
 ---
-# <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Package & SHA1 Hashes
+# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Microsoft Standalone Package & SHA1 Hashes
 
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
