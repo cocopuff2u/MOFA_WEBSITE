@@ -1,4 +1,4 @@
-# <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Last Supported Office Versions per macOS
+# <img src="/images/last_supported/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Last Supported Office Versions per macOS
 
 This document outlines the last supported versions of Microsoft Office Suite for different macOS releases. The tables below include the file names, versions, and direct clickable image download links for the installers for each supported macOS version.
 
@@ -8,78 +8,149 @@ Each macOS version section will display the following information:
 - **Version**: The specific version of Microsoft Office compatible with the macOS release.
 - **Download**: A clickable image link that allows you to download the installer directly.
 
-## <img src="/images/MacOS_Monterey_logo.png" alt="image" width="35" style="vertical-align: middle; display: inline-block;" /> macOS 12.7.6 Monterey
+> [!TIP]
+> To continue receiving Microsoft 365 and Office for Mac updates, see: [Upgrade macOS to continue receiving updates](https://support.microsoft.com/en-us/office/upgrade-macos-to-continue-receiving-microsoft-365-and-office-for-mac-updates-16b8414f-08ec-4b24-8c91-10a918f649f8).
 
-The last supported Microsoft Office Suite versions for macOS 12.7.6 Monterey are listed below.
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 13 Ventura</span>
 
-| **File Name** | **Version** | **Download** |
-|----------------|-------------|--------------|
-| **Microsoft** **Office Suite Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** **BusinessPro Suite Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_BusinessPro_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Word** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.88.24081116_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.88.24081116_Updater.pkg"><img src="/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
-| **PowerPoint** **Standalone Installer** | `16.88.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.88.24082514_Updater.pkg"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** **Standalone Installer** | `16.88.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.88.24082514_Updater.pkg"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneNote** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.88.24081116_Updater.pkg"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_Ventura_logo.webp" alt="macOS Monterey logo" width="80" />
+</div>
 
-## <img src="/images/MacOS_BigSur_logo.png" alt="image" width="35" style="vertical-align: middle; display: inline-block;" /> macOS 11.7.10 Big Sur
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 13 Ventura are listed below.
+</p>
 
-The last supported Microsoft Office Suite versions for macOS 11.7.10 Big Sur are listed below.
+<div style="display: flex; justify-content: center;">
 
 | **File Name** | **Version** | **Download** |
 |----------------|-------------|--------------|
-| **Microsoft** **Office Suite Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.77.23091003_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** **BusinessPro Suite Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.77.23091003_BusinessPro_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Word** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.77.23091703_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.77.23091703_Updater.pkg"><img src="/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
-| **PowerPoint** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.77.23091703_Updater.pkg"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.77.23091703_Updater.pkg"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneNote** **Standalone Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.77.23091003_Updater.pkg"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Microsoft** **Office Suite Installer** | `16.101` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.101` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.101.3` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.101.3` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.101.3` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.88.24082514_Updater.pkg"><img src="/images/last_supported/2021/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.101.3` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.88.24082514_Updater.pkg"><img src="/images/last_supported/2021/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.101.3` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/OneNote.webp" alt="Download Image" width="80"></a> |
 
-## <img src="/images/MacOS_Catalina_logo.png" alt="image" width="35" style="vertical-align: middle; display: inline-block;" /> macOS 10.15.7 Catalina
+</div>
 
-The last supported Microsoft Office Suite versions for macOS 10.15.7 Catalina are listed below.
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 12 Monterey</span>
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_Monterey_logo.webp" alt="macOS Monterey logo" width="80" />
+</div>
 
-| **File Name** | **Version** | **Download** |
-|----------------|-------------|--------------|
-| **Microsoft** **Office Suite Installer** | `16.66` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.66.22100900_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** **BusinessPro Suite Installer** | `16.66` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.66.22100900_BusinessPro_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Word** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.66.22101101_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.66.22101101_Updater.pkg"><img src="/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
-| **PowerPoint** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.66.22101101_Updater.pkg"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** **Standalone Installer** | `16.66.2` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.66.22102801_Updater.pkg"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneNote** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.66.22101101_Updater.pkg"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 12 Monterey are listed below.
+</p>
 
-## <img src="/images/MacOS_Mojave_logo.png" alt="image" width="35" style="vertical-align: middle; display: inline-block;" /> macOS 10.14.6 Mojave
-
-The last supported Microsoft Office Suite versions for macOS 10.14.6 Mojave are listed below.
+<div style="display: flex; justify-content: center;">
 
 | **File Name** | **Version** | **Download** |
 |----------------|-------------|--------------|
-| **Microsoft** **Office Suite Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.54.21101001_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** **BusinessPro Suite Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.54.21101001_BusinessPro_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Word** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.54.21101001_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.54.21101001_Updater.pkg"><img src="/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
-| **PowerPoint** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.54.21101001_Updater.pkg"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.54.21101001_Updater.pkg"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneNote** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.54.21101001_Updater.pkg"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Microsoft** **Office Suite Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.88.24081116_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.88.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.88.24082514_Updater.pkg"><img src="/images/last_supported/2021/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.88.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.88.24082514_Updater.pkg"><img src="/images/last_supported/2021/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.88` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.88.24081116_Updater.pkg"><img src="/images/last_supported/2021/OneNote.webp" alt="Download Image" width="80"></a> |
 
-## <img src="/images/MacOS_High_Sierra_logo.png" alt="image" width="35" style="vertical-align: middle; display: inline-block;" /> macOS 10.13.6 High Sierra
+</div>
 
-The last supported Microsoft Office Suite versions for macOS 10.13.6 High Sierra are listed below.
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 11 Big Sur</span>
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_Big_Sur_logo.webp" alt="macOS Big Sur logo" width="80" />
+</div>
+
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 11 Big Sur are listed below.
+</p>
+
+<div style="display: flex; justify-content: center;">
 
 | **File Name** | **Version** | **Download** |
 |----------------|-------------|--------------|
-| **Microsoft** **Office Suite Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.43.20110804_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Microsoft** **BusinessPro Suite Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.43.20110804_BusinessPro_Installer.pkg"><img src="/images/suite.png" alt="Download Image" width="80"></a> |
-| **Word** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.43.20110804_Updater.pkg"><img src="/images/MSWD_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Excel** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.43.20110804_Updater.pkg"><img src="/images/XCEL_512x512x32.png" alt="Download Image" width="80"></a> |
-| **PowerPoint** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.43.20110804_Updater.pkg"><img src="/images/PPT3_512x512x32.png" alt="Download Image" width="80"></a> |
-| **Outlook** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.43.20110804_Updater.pkg"><img src="/images/Outlook_512x512x32.png" alt="Download Image" width="80"></a> |
-| **OneNote** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.43.20110804_Updater.pkg"><img src="/images/OneNote_512x512x32.png" alt="Download Image" width="80"></a> |
+| **Microsoft** **Office Suite Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.77.23091003_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.77.23091003_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.77.23091703_Updater.pkg"><img src="/images/last_supported/2021/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.77.23091703_Updater.pkg"><img src="/images/last_supported/2021/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.77.23091703_Updater.pkg"><img src="/images/last_supported/2021/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.77.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.77.23091703_Updater.pkg"><img src="/images/last_supported/2021/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.77` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.77.23091003_Updater.pkg"><img src="/images/last_supported/2021/OneNote.webp" alt="Download Image" width="80"></a> |
 
+</div>
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Need a Specific Version?
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 10.15 Catalina</span>
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_Catalina_logo.webp" alt="macOS Catalina logo" width="80" />
+</div>
+
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 10.15 Catalina are listed below.
+</p>
+
+<div style="display: flex; justify-content: center;">
+
+| **File Name** | **Version** | **Download** |
+|----------------|-------------|--------------|
+| **Microsoft** **Office Suite Installer** | `16.66` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.66.22100900_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.66` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.66.22100900_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.66.22101101_Updater.pkg"><img src="/images/last_supported/2021/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.66.22101101_Updater.pkg"><img src="/images/last_supported/2021/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.66.22101101_Updater.pkg"><img src="/images/last_supported/2021/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.66.2` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.66.22102801_Updater.pkg"><img src="/images/last_supported/2021/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.66.1` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.66.22101101_Updater.pkg"><img src="/images/last_supported/2021/OneNote.webp" alt="Download Image" width="80"></a> |
+
+</div>
+
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 10.14 Mojave</span>
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_Mojave_logo.webp" alt="macOS Mojave logo" width="80" />
+</div>
+
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 10.14 Mojave are listed below.
+</p>
+
+<div style="display: flex; justify-content: center;">
+
+| **File Name** | **Version** | **Download** |
+|----------------|-------------|--------------|
+| **Microsoft** **Office Suite Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.54.21101001_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.54.21101001_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.54.21101001_Updater.pkg"><img src="/images/last_supported/2021/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.54.21101001_Updater.pkg"><img src="/images/last_supported/2021/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.54.21101001_Updater.pkg"><img src="/images/last_supported/2021/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.54.21101001_Updater.pkg"><img src="/images/last_supported/2021/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.54` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.54.21101001_Updater.pkg"><img src="/images/last_supported/2021/OneNote.webp" alt="Download Image" width="80"></a> |
+
+</div>
+
+## <span style="display:inline-block; width:100%; text-align:center;">macOS 10.13 High Sierra</span>
+<div style="display: flex; justify-content: center;">
+  <img src="/images/last_supported/MacOS_High_Sierra_logo.webp" alt="macOS High Sierra logo" width="80" />
+</div>
+
+<p align="center">
+The last supported Microsoft Office Suite versions for macOS 10.13 High Sierra are listed below.
+</p>
+
+<div style="display: flex; justify-content: center;">
+
+| **File Name** | **Version** | **Download** |
+|----------------|-------------|--------------|
+| **Microsoft** **Office Suite Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.43.20110804_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Microsoft** **BusinessPro Suite Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.43.20110804_BusinessPro_Installer.pkg"><img src="/images/last_supported/Office_Suite.webp" alt="Download Image" width="80"></a> |
+| **Word** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.43.20110804_Updater.pkg"><img src="/images/last_supported/2019/Word.webp" alt="Download Image" width="80"></a> |
+| **Excel** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.43.20110804_Updater.pkg"><img src="/images/last_supported/2019/Excel.webp" alt="Download Image" width="80"></a> |
+| **PowerPoint** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.43.20110804_Updater.pkg"><img src="/images/last_supported/2019/PowerPoint.webp" alt="Download Image" width="80"></a> |
+| **Outlook** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.43.20110804_Updater.pkg"><img src="/images/last_supported/2019/Outlook.webp" alt="Download Image" width="80"></a> |
+| **OneNote** **Standalone Installer** | `16.43` | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.43.20110804_Updater.pkg"><img src="/images/last_supported/2019/OneNote.webp" alt="Download Image" width="80"></a> |
+
+</div>
+
+## <img src="/images/last_supported/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Need a Specific Version?
 
 If you need a specific version of Microsoft Office for your macOS, you can find a full list of all supported versions on the [Update History](/standalone_apps/standalone_update_history_en).
 
