@@ -52,7 +52,7 @@ def generate_onedrive_readme_content(last_updated, packages):
 editLink: false
 lastUpdated: false
 ---
-# <img src="/images/OneDrive_macOS.webp" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS Standalone OneDrive Updates
+# <img src="/images/2025/OneDrive.webp" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS Standalone OneDrive Updates
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml)
  (Automatically Updated every 2 hours)_</span>
@@ -64,7 +64,7 @@ lastUpdated: false
 |------|---------------------|--------------|
 """
     for package in packages:
-        download_image = f"[<img src='/images/OneDrive_macOS.webp' alt='Download' width='60' style='vertical-align: middle;' />]({package['full_update_download']})"
+        download_image = f"[<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />]({package['full_update_download']})"
         version_and_hash = f"<br>Version: <br> `{package['short_version']}` <br><br> SHA1: <br>`{package['full_update_sha1']}`<br><br> SHA256:<br>`{package['full_update_sha256']}`"
 
         content += f"| **{package['name']}** <br><br>Last Updated: <br> `{package['last_updated']}` | {version_and_hash} | {download_image} |\n"
