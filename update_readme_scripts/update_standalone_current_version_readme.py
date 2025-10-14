@@ -178,7 +178,7 @@ It's important to verify the integrity of downloaded installers by comparing the
 
 📖 For a guide on how to verify checksums on macOS, follow this [📜 step-by-step guide for SHA1](/guides/how_to_sha1) or [📜 step-by-step guide for SHA256](/guides/how_to_sha256).  
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="Microsoft Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Office Updates & Settings  
+## <img src="/images/Microsoft_Logo.webp" alt="Microsoft Logo" width="25" style="vertical-align: middle; display: inline-block;" /> Office Updates & Settings  
 
 ### 📄 Prebuilt Configuration Profiles  
 Easily manage Office updates with **prebuilt configuration profiles** provided by MOFA. A **MobileConfig file** (`.mobileconfig`) is a **plist-based XML file** 📝 used to automate settings on macOS and iOS devices, ensuring seamless policy enforcement and configuration.  
@@ -197,7 +197,7 @@ Easily manage Office updates with **prebuilt configuration profiles** provided b
 - **📄 [Outlook Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook)**  
 - **📄 [Office Suite Preferences](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office)**  
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Versions  
+## <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Versions  
 
 If you're looking for other Office versions such as **Preview, Beta, or App Store versions**, please check the following links:  
 
@@ -206,7 +206,7 @@ If you're looking for other Office versions such as **Preview, Beta, or App Stor
 - **🛍️ MacOS App Store Version**: [🔗 Link to App Store Version](/macos_appstore/macos_appstore_current_version)  
 - **📱 iOS App Store Version**: [🔗 Link to App Store Version](/ios_appstore/ios_appstore_current_version)  
 
-## <img src="/images/Microsoft_Logo_512px.png" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Repair Tools/Scripts  
+## <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Repair Tools/Scripts  
 
 If you're looking to **deploy or troubleshoot Office installations or updates**, you can use the following guides and tools:  
 
