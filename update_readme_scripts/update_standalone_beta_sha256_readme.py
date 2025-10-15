@@ -107,6 +107,7 @@ lastUpdated: false
 | **Defender Shim Installer** | <a href="{get_standalone_package_detail(packages, 'Defender Shim', 'latest_download')}"><img src="/images/defender_512x512x32.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Defender Shim', 'sha256')}` |
 | **Visual Studio Code Insider Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'Visual', 'update_download')}"><img src="/images/2021/Code_Insider.webp" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Visual', 'sha256')}` |
 | **AutoUpdate Standalone Installer** | <a href="{get_standalone_package_detail(packages, 'MAU', 'update_download')}"><img src="/images/autoupdate.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'MAU', 'sha256')}` |
+| **Microsoft Copilot** | <a href="{get_standalone_package_detail(packages, 'Copilot', 'update_download')}"><img src="/images/2025/Copilot.webp" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Copilot', 'sha256')}` |
 | **Windows App Beta** | <a href="{get_standalone_package_detail(packages, 'Windows App Beta', 'update_download')}"><img src="/images/windowsapp.png" alt="Download Image" width="60"></a> | `{get_standalone_package_detail(packages, 'Windows App Beta', 'sha256')}` |
 
 ## SHA256 Hashes Guide
