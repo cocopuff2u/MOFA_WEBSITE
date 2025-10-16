@@ -136,13 +136,17 @@ def generate_readme_content(global_last_updated, packages):
         if secondary_dl:
             links_html += f' | <a href="{secondary_dl}">App Only</a>'
         cell = f'''
-    <td align="center">
-      <a href="{primary_href}"><img src="{img_src}" alt="{img_alt}" width="80"></a><br>
-      <b>{name_html}</b><br>
-      <em><code>{version_html}</code></em><br><br>
-      <small>Last Update:<br><em><code>{last_updated_html}</code></em></small><br>
-      <a href="{rel_notes_url}" style="text-decoration: none;"><small>Release Notes</small></a><br>
-      <div style="margin-top:6px;">{links_html}</div>
+    <td align="center" class="tile-td">
+      <div class="tile-card">
+        <div class="tile-media">
+          <a href="{primary_href}"><img src="{img_src}" alt="{img_alt or name_html}"></a>
+        </div>
+        <div class="tile-title"><b>{name_html}</b></div>
+        <div class="tile-version"><em><code>{version_html}</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>{last_updated_html}</code></em></small></div>
+        <a href="{rel_notes_url}" style="text-decoration: none;"><small>Release Notes</small></a>
+        <div class="tile-links">{links_html}</div>
+      </div>
     </td>'''.strip()
         return cell
 
@@ -348,13 +352,65 @@ def generate_readme_content(global_last_updated, packages):
     content = f"""---
 editLink: false
 lastUpdated: false
-layout: page
+layout: doc
 navbar: false
 sidebar: false
 footer: true
 aside: false
 prev: false
+next: false 
 ---
+<style>
+  /* Equal-height tile layout */
+  .tile-td {{
+    padding: 12px 10px;
+    vertical-align: top;
+  }}
+  .tile-card {{
+    width: 190px;               /* keeps consistent tile width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+  }}
+  .tile-media {{
+    height: 92px;               /* fixed icon block height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .tile-media img {{
+    max-height: 80px;           /* constrain icon size */
+    width: auto;
+    height: auto;
+  }}
+  .tile-title {{
+    min-height: 44px;           /* fixed title block height for 1-2 lines */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .tile-version {{
+    min-height: 28px;           /* version block height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .tile-updated {{
+    min-height: 44px;           /* ensure consistent space for dates */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .tile-links {{
+    margin-top: 6px;
+  }}
+  @media (min-width: 1280px) {{
+    .tile-card {{ width: 200px; }}
+  }}
+</style>
+
 <div style="text-align: center;">
 
 _Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
