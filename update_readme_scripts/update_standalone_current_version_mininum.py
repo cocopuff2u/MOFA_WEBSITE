@@ -208,7 +208,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Outlook",
         version=get_standalone_package_detail(packages, 'Outlook', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Outlook', 'last_updated'),
-        img_src="/images/2025/PowerPoint.webp",
+        img_src="/images/2025/Outlook.webp",
         rel_notes_url=office_rel_notes,
         primary_dl="https://go.microsoft.com/fwlink/?linkid=525137",
         secondary_dl=get_standalone_package_detail(packages, 'Outlook', 'app_only_update_download')
@@ -346,8 +346,13 @@ def generate_readme_content(global_last_updated, packages):
     for i in range(0, len(tiles), 6):
         row_cells = "\n".join(tiles[i:i+6])
         rows_html.append(f"<tr>\n{row_cells}\n</tr>")
-    # Center the table
-    table_html = '<div style="display:flex; justify-content:center;">\n<table style="margin: 0 auto;">\n' + "\n".join(rows_html) + "\n</table>\n</div>"
+    # Use a full-bleed container and widen the grid to avoid horizontal scroll
+    table_html = (
+        '<div class="full-bleed"><div class="grid-max">'
+        '<table class="grid-table">'
+        + "\n".join(rows_html) +
+        "</table></div></div>"
+    )
 
     content = f"""---
 editLink: false
@@ -361,44 +366,67 @@ prev: false
 next: false 
 ---
 <style>
+  /* Full-bleed and wide grid to fit 6 tiles without horizontal scroll */
+  .full-bleed {{
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }}
+  .grid-max {{
+    max-width: 1440px; /* widen as needed (e.g., 1320-1440 for 6 tiles) */
+    margin: 0 auto;
+    padding: 0 12px;
+  }}
+  .grid-table {{
+    width: 100%;
+    table-layout: fixed;         /* equal column widths */
+    border-collapse: separate;
+    border-spacing: 16px 16px;   /* gaps between tiles */
+  }}
+  .grid-table td {{
+    width: calc(100% / 6);       /* 6 columns per row */
+  }}
+
   /* Equal-height tile layout */
   .tile-td {{
     padding: 12px 10px;
     vertical-align: top;
   }}
   .tile-card {{
-    width: 190px;               /* keeps consistent tile width */
+    width: 100%;                 /* flexible width, fits the column */
+    max-width: 200px;            /* cap tile width for consistency */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
     text-align: center;
+    margin: 0 auto;              /* center card in its cell */
   }}
   .tile-media {{
-    height: 92px;               /* fixed icon block height */
+    height: 92px;                /* fixed icon block height */
     display: flex;
     align-items: center;
     justify-content: center;
   }}
   .tile-media img {{
-    max-height: 80px;           /* constrain icon size */
+    max-height: 80px;            /* constrain icon size */
     width: auto;
     height: auto;
   }}
   .tile-title {{
-    min-height: 44px;           /* fixed title block height for 1-2 lines */
+    min-height: 44px;            /* fixed title block height for 1-2 lines */
     display: flex;
     align-items: center;
     justify-content: center;
   }}
   .tile-version {{
-    min-height: 28px;           /* version block height */
+    min-height: 28px;            /* version block height */
     display: flex;
     align-items: center;
     justify-content: center;
   }}
   .tile-updated {{
-    min-height: 44px;           /* ensure consistent space for dates */
+    min-height: 44px;            /* ensure consistent space for dates */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,8 +434,12 @@ next: false
   .tile-links {{
     margin-top: 6px;
   }}
-  @media (min-width: 1280px) {{
-    .tile-card {{ width: 200px; }}
+
+  /* Optional: slightly tighter at smaller widths while staying no-scroll */
+  @media (max-width: 1100px) {{
+    .grid-table {{ border-spacing: 12px 12px; }}
+    .tile-media {{ height: 84px; }}
+    .tile-media img {{ max-height: 72px; }}
   }}
 </style>
 
