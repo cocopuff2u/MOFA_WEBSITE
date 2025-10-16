@@ -12,6 +12,85 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-P45L4Y5WFQ');
+    `],
+    // Early theme apply to avoid flash (browser only)
+    ['script', { id: 'mofa-theme-early' }, `
+      (function() {
+        if (typeof window === 'undefined' || typeof document === 'undefined') return;
+        try {
+          var KEY = 'vitepress-theme-appearance';
+          var saved = localStorage.getItem(KEY);
+          var sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var mode = (saved === 'dark' || saved === 'light') ? saved : (sysDark ? 'dark' : 'light');
+          var el = document.documentElement;
+          el.classList.toggle('dark', mode === 'dark');
+          el.setAttribute('data-theme', mode);
+          el.style.colorScheme = mode;
+        } catch (_) {}
+      })();
+    `],
+    // Robust SPA-safe toggle and sync (browser only)
+    ['script', { id: 'mofa-theme-toggle', defer: '' }, `
+      (function() {
+        if (typeof window === 'undefined' || typeof document === 'undefined') return;
+        if (window.__mofaThemeInit) return;
+        window.__mofaThemeInit = true;
+
+        var KEY = 'vitepress-theme-appearance';
+
+        function getStored() {
+          try {
+            var v = localStorage.getItem(KEY);
+            if (v === 'dark' || v === 'light') return v;
+          } catch (_) {}
+          return null;
+        }
+        function setStored(mode) {
+          try { localStorage.setItem(KEY, mode); } catch (_) {}
+        }
+        function isDark() {
+          var el = document.documentElement;
+          return el.classList.contains('dark') || el.getAttribute('data-theme') === 'dark';
+        }
+        function apply(mode) {
+          var dark = mode === 'dark';
+          var el = document.documentElement;
+          el.classList.toggle('dark', dark);
+          el.setAttribute('data-theme', dark ? 'dark' : 'light');
+          el.style.colorScheme = dark ? 'dark' : 'light';
+          setStored(dark ? 'dark' : 'light');
+          updateButton(dark);
+        }
+        function updateButton(dark) {
+          var btn = document.getElementById('appearance-toggle');
+          if (!btn) return;
+          btn.setAttribute('aria-checked', String(!!dark));
+          btn.title = dark ? 'Switch to light theme' : 'Switch to dark theme';
+        }
+
+        apply(getStored() || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
+        document.addEventListener('click', function(e) {
+          var btn = e.target && e.target.closest && e.target.closest('#appearance-toggle');
+          if (!btn) return;
+          e.preventDefault();
+          apply(isDark() ? 'light' : 'dark');
+        }, true);
+
+        window.addEventListener('storage', function(e) {
+          if (!e || e.key !== KEY) return;
+          if (e.newValue === 'dark' || e.newValue === 'light') apply(e.newValue);
+        });
+
+        var mo = new MutationObserver(function() { updateButton(isDark()); });
+        mo.observe(document.documentElement, { subtree: true, childList: true });
+
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+          updateButton(isDark());
+        } else {
+          document.addEventListener('DOMContentLoaded', function() { updateButton(isDark()); });
+        }
+      })();
     `]
   ],
   themeConfig: {
