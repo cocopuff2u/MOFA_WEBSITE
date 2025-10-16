@@ -351,8 +351,9 @@ lastUpdated: false
 layout: doc
 navbar: false
 sidebar: false
-footer: true
+footer: false
 aside: false
+prev: false
 ---
 <div style="text-align: center;">
 
