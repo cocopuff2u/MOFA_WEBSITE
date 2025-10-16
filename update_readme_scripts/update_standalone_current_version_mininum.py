@@ -348,10 +348,10 @@ def generate_readme_content(global_last_updated, packages):
     content = f"""---
 editLink: false
 lastUpdated: false
-layout: doc
+layout: page
 navbar: false
 sidebar: false
-footer: false
+footer: true
 aside: false
 prev: false
 ---
