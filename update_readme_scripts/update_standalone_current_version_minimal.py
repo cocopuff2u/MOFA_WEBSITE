@@ -132,22 +132,24 @@ def generate_readme_content(global_last_updated, packages):
         last_updated_html = nz(last_updated)
         img_alt = img_alt or name_html
         primary_href = primary_dl or "#"
-        links_html = f'<a href="{primary_href}">Installer</a>'
+        # Use button-styled links instead of a text separator
+        links_html = f'<a class="btn" href="{primary_href}">Installer</a>'
         if secondary_dl:
-            links_html += f' | <a href="{secondary_dl}">App Only</a>'
+            links_html += f' <a class="btn" href="{secondary_dl}">App Only</a>'
         cell = f'''
-    <td align="center" class="tile-td">
+    <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="{primary_href}"><img src="{img_src}" alt="{img_alt or name_html}"></a>
+          <a href="{primary_href}"><img src="{img_src}" alt="{img_alt}"></a>
         </div>
         <div class="tile-title"><b>{name_html}</b></div>
         <div class="tile-version"><em><code>{version_html}</code></em></div>
         <div class="tile-updated"><small>Last Update:<br><em><code>{last_updated_html}</code></em></small></div>
-        <a href="{rel_notes_url}" style="text-decoration: none;"><small>Release Notes</small></a>
+        <div class="tile-relnotes"><a class="relnotes" href="{rel_notes_url}"><small>Release Notes</small></a></div>
+        <div class="tile-spacer"></div>
         <div class="tile-links">{links_html}</div>
       </div>
-    </td>'''.strip()
+    </div>'''.strip()
         return cell
 
     # Build list of tiles. Primary download favors known FWLinks where used previously; App Only from package when available.
@@ -167,7 +169,7 @@ def generate_readme_content(global_last_updated, packages):
         secondary_dl=None
     ))
     tiles.append(render_tile(
-        name="Microsoft BusinessPro Suite",
+        name="Microsoft Business Pro Suite",
         version=get_standalone_package_detail(packages, 'Microsoft BusinessPro Suite', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Microsoft BusinessPro Suite', 'last_updated'),
         img_src="/images/Office_Suite.webp",
@@ -225,7 +227,7 @@ def generate_readme_content(global_last_updated, packages):
 
     # OneDrive (Production Ring)
     tiles.append(render_tile(
-        name="OneDrive (Production)",
+        name="OneDrive",
         version=get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'short_version'),
         last_updated=get_onedrive_package_detail(onedrive_packages, 'Production Ring', 'last_updated'),
         img_src="/images/2025/OneDrive.webp",
@@ -247,7 +249,7 @@ def generate_readme_content(global_last_updated, packages):
 
     # Intune Company Portal
     tiles.append(render_tile(
-        name="Intune Company Portal",
+        name="Company Portal",
         version=get_standalone_package_detail(packages, 'Intune', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Intune', 'last_updated'),
         img_src="/images/companyportal.png",
@@ -258,7 +260,7 @@ def generate_readme_content(global_last_updated, packages):
 
     # Edge (Current channel)
     tiles.append(render_tile(
-        name="Edge (Current)",
+        name="Edge",
         version=edge_current_version.get('version', 'N/A'),
         last_updated=edge_current_version.get('last_updated', 'N/A'),
         img_src="/images/edge_app.png",
@@ -294,12 +296,12 @@ def generate_readme_content(global_last_updated, packages):
         img_src="/images/defender_512x512x32.png",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl=get_standalone_package_detail(packages, 'Defender Shim', 'full_update_download') or get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download'),
-        secondary_dl=get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download')
+        secondary_dl=None
     ))
 
     # Windows App (Remote Desktop)
     tiles.append(render_tile(
-        name="Windows App (Remote Desktop)",
+        name="Windows App",
         version=get_standalone_package_detail(packages, 'Windows App', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Windows App', 'last_updated'),
         img_src="/images/windowsapp.png",
@@ -332,7 +334,7 @@ def generate_readme_content(global_last_updated, packages):
 
     # MAU
     tiles.append(render_tile(
-        name="Microsoft AutoUpdate (MAU)",
+        name="Microsoft AutoUpdate",
         version=get_standalone_package_detail(packages, 'MAU', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'MAU', 'last_updated'),
         img_src="/images/autoupdate.png",
@@ -341,17 +343,13 @@ def generate_readme_content(global_last_updated, packages):
         secondary_dl=None
     ))
 
-    # Build table with 6 items per row
-    rows_html = []
-    for i in range(0, len(tiles), 6):
-        row_cells = "\n".join(tiles[i:i+6])
-        rows_html.append(f"<tr>\n{row_cells}\n</tr>")
-    # Use a simple 100% width wrapper to avoid horizontal overflow
-    table_html = (
+    # Build responsive grid (max 6 columns; fewer on smaller screens)
+    grid_items_html = "\n".join(tiles)
+    grid_html = (
         '<div class="grid-wrap">'
-        '<table class="grid-table">'
-        + "\n".join(rows_html) +
-        "</table></div>"
+        '<div class="grid">'
+        + grid_items_html +
+        '</div></div>'
     )
 
     content = f"""---
@@ -370,85 +368,460 @@ next: false
   html, body {{
     overflow-x: hidden;
   }}
-
-  /* 100% width grid wrapper (no 100vw to avoid overflow) */
-  .grid-wrap {{
-    width: 100%;
-    margin: 0 auto;
-    overflow-x: hidden;
-  }}
-
-  /* Table sizing: subtract outer border-spacing to avoid overflow */
-  .grid-table {{
-    width: calc(100% - 32px);    /* accounts for left+right border-spacing (16px each) */
-    margin: 0 auto;
-    table-layout: fixed;         /* equal column widths */
-    border-collapse: separate;
-    border-spacing: 16px 16px;   /* gaps between tiles */
-  }}
-
-  /* Equal-height tile layout */
-  .tile-td {{
-    padding: 12px 10px;
-    vertical-align: top;
-  }}
-  .tile-card {{
-    width: 100%;                 /* flexible width, fits the column */
-    max-width: 200px;            /* cap tile width for consistency */
+  /* NEW: Status bar styles (fix Markdown-in-HTML issue and wrapping) */
+  .status-bar {{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 8px;
+  }}
+  .status-line {{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    max-width: 100%;
+  }}
+  .status-line code.status-ts {{
+    color: dodgerblue;
+  }}
+  .status-line a {{
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.9;
+  }}
+  .status-line a:hover {{
+    text-decoration: underline;
+    opacity: 1;
+  }}
+  .status-line .muted {{
+    opacity: 0.8;
+  }}
+
+  /* If color-mix is supported, derive palette from theme vars for better theming */
+  @supports (color: color-mix(in oklab, white 50%, black)) {{
+    .grid-wrap {{
+      --btn-bg1: color-mix(in oklab, var(--vp-c-bg, #ffffff) 90%, white);
+      --btn-bg2: color-mix(in oklab, var(--vp-c-bg, #ffffff) 70%, #d8dde7);
+      --btn-bg1-hover: color-mix(in oklab, var(--btn-bg1) 88%, white);
+      --btn-bg2-hover: color-mix(in oklab, var(--btn-bg2) 88%, white);
+      --btn-border: color-mix(in oklab, var(--vp-c-text, #111) 28%, transparent);
+      --btn-text: color-mix(in oklab, var(--vp-c-text, #111) 98%, black);
+    }}
+    @media (prefers-color-scheme: dark) {{
+      .grid-wrap {{
+        --btn-bg1: color-mix(in oklab, var(--vp-c-bg, #1e1e20) 85%, #3a3a3c);
+        --btn-bg2: color-mix(in oklab, var(--vp-c-bg, #1e1e20) 70%, #2a2a2d);
+        --btn-bg1-hover: color-mix(in oklab, var(--btn-bg1) 88%, #4a4a4d);
+        --btn-bg2-hover: color-mix(in oklab, var(--btn-bg2) 88%, #36363a);
+        --btn-border: color-mix(in oklab, var(--vp-c-text, #ddd) 22%, transparent);
+        --btn-text: color-mix(in oklab, var(--vp-c-text, #ddd) 96%, white);
+      }}
+    }}
+  }}
+
+  /* Inline appearance toggle next to the status line */
+  .appearance-toggle-inline {{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 8px;
+    vertical-align: middle;
+  }}
+
+  .VPSwitch {{
+    position: relative;
+    width: 46px;
+    height: 26px;
+    border-radius: 999px;
+    border: 1px solid var(--vp-c-divider, rgba(0,0,0,0.12));
+    background: var(--vp-c-bg-soft, rgba(0,0,0,0.06));
+    cursor: pointer;
+    transition: background .2s ease, border-color .2s ease;
+    pointer-events: auto;
+  }}
+  .VPSwitch .check {{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--vp-c-bg, #ffffff);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: transform .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .VPSwitch[aria-checked="true"] .check {{
+    transform: translateX(20px);
+  }}
+
+  /* Show sun in light, moon in dark */
+  .VPSwitch .icon .sun, .VPSwitch .icon .moon {{ display: none; }}
+  html:not(.dark) .VPSwitch .icon .sun {{ display: inline-block; }}
+  html.dark .VPSwitch .icon .moon {{ display: inline-block; }}
+
+  /* Center wrapper for the MOFA hero title */
+  .brand-hero {{
+    display: grid;
+    place-items: center;
+    min-height: 0;            /* was 40vh – remove extra vertical gap */
+    padding: 8px 0;           /* small breathing room */
+    overflow: visible;
+  }}
+  @supports (height: 100svh) {{
+    .brand-hero {{ min-height: 0; }}  /* ensure no extra gap on mobile */
+  }}
+
+  /* Ensure the link itself centers and only the text is clickable */
+  .brand-title {{
+    display: inline-block;    /* was block – limit clickable area to text */
+    text-align: center;
+    margin: 0;                /* remove auto margins that add width */
+    line-height: 1.05;
+  }}
+
+  /* Remove underline/highlight for the MOFA link in all states */
+  a.brand-title,
+  a.brand-title:link,
+  a.brand-title:visited,
+  a.brand-title:hover,
+  a.brand-title:active,
+  a.brand-title:focus {{
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }}
+
+  /* Ensure gradient text doesn't fall back to a theme color */
+  .gradient-title-mini {{
+    background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
+    color: transparent; /* keep text transparent; gradient provides color */
+  }}
+
+  /* Responsive grid: max 6 columns; step down on smaller screens */
+  .grid {{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(180px, 1fr));
+    gap: 16px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    align-items: stretch;       /* ensure items stretch to equal height */
+  }}
+
+  .tile {{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }}
+
+  .tile-card {{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;     /* column layout for spacer technique */
     align-items: center;
     gap: 6px;
     text-align: center;
-    margin: 0 auto;              /* center card in its cell */
+    margin: 0 auto;
+    height: 100%;
+
+    background: var(--vp-c-bg, #fff);
+    border: 1px solid var(--vp-c-divider, rgba(0,0,0,0.12));
+    border-radius: 12px;
+    padding: 10px 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   }}
+
   .tile-media {{
-    height: 92px;                /* fixed icon block height */
+    height: 92px;
     display: flex;
     align-items: center;
     justify-content: center;
   }}
   .tile-media img {{
-    max-height: 80px;            /* constrain icon size */
+    max-height: 80px;
     width: auto;
     height: auto;
   }}
+
   .tile-title {{
-    min-height: 44px;            /* fixed title block height for 1-2 lines */
+    min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
   }}
   .tile-version {{
-    min-height: 28px;            /* version block height */
+    min-height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 8px;
+  }}
+  .tile-version code {{
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: var(--vp-c-bg-soft, rgba(0,0,0,0.04));
   }}
   .tile-updated {{
-    min-height: 44px;            /* ensure consistent space for dates */
+    min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
   }}
-  .tile-links {{
-    margin-top: 6px;
+
+  /* Keep Release Notes height consistent */
+  .tile-relnotes {{
+    min-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }}
+  .tile-relnotes a.relnotes {{
+    text-decoration: none;
+    opacity: 0.9;
+  }}
+  .tile-relnotes a.relnotes:hover {{
+    opacity: 1;
+    text-decoration: underline;
   }}
 
-  /* Optional: slightly tighter at smaller widths */
-  @media (max-width: 1100px) {{
-    .grid-table {{ border-spacing: 12px 12px; width: calc(100% - 24px); }}
+  /* Flexible spacer pushes buttons to the bottom, aligning rows visually */
+  .tile-spacer {{
+    flex: 1 1 auto;
+    width: 100%;
+  }}
+
+  .tile-links {{
+    margin-top: 6px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }}
+  .tile-links a {{
+    text-decoration: none;
+  }}
+
+  /* Glass button palette (visible on white in light mode) */
+  .grid-wrap {{
+    /* Neutral gray so it stands out on white */
+    --btn-glass-bg: rgba(142, 142, 147, 0.24);
+    --btn-glass-bg-hover: rgba(142, 142, 147, 0.32);
+    --btn-glass-border: rgba(60, 60, 67, 0.36);
+    /* CHANGED: slightly lighter dark gray for light-mode button text */
+    --btn-glass-text: #4a4a4d;
+  }}
+  /* Use .dark class from your toggle (not OS media query) */
+  html.dark .grid-wrap {{
+    --btn-glass-bg: rgba(255, 255, 255, 0.12);
+    --btn-glass-bg-hover: rgba(255, 255, 255, 0.18);
+    --btn-glass-border: rgba(255, 255, 255, 0.24);
+    --btn-glass-text: #f2f2f4;
+  }}
+
+  /* iOS-like glass buttons: translucent, blurred, no shadows */
+  .grid-wrap .tile-links a.btn {{
+    /* color is driven by --btn-glass-text */
+    color: var(--btn-glass-text) !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 34px;
+    min-width: 108px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    /* Flat translucent fill + clear border (no gradient) */
+    background: var(--btn-glass-bg) !important;
+    background-color: var(--btn-glass-bg) !important; /* ensure visible on white */
+    border: 1px solid var(--btn-glass-border) !important;
+
+    /* frosted glass */
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+    backdrop-filter: saturate(180%) blur(14px);
+
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.2;
+
+    /* ensure visible and crisp */
+    opacity: 1 !important;
+
+    /* no shadows */
+    box-shadow: none !important;
+    text-shadow: none !important;
+
+    transition: background 0.2s ease, transform 0.05s ease, opacity 0.2s ease, border-color 0.2s ease;
+  }}
+  .grid-wrap .tile-links a.btn:hover {{
+    background: var(--btn-glass-bg-hover) !important;
+    background-color: var(--btn-glass-bg-hover) !important;
+    border-color: var(--btn-glass-border) !important;
+    text-decoration: none;
+    opacity: 1 !important;
+    box-shadow: none !important;
+  }}
+  .grid-wrap .tile-links a.btn:active {{
+    transform: translateY(1px);
+    background: var(--btn-glass-bg-hover) !important;
+    opacity: 1 !important;
+    box-shadow: none !important;
+  }}
+  .grid-wrap .tile-links a.btn:focus-visible {{
+    outline: 2px solid color-mix(in oklab, var(--btn-glass-text) 45%, dodgerblue);
+    outline-offset: 2px;
+    box-shadow: none !important;
+  }}
+
+  /* Force light mode edge/text */
+  html:not(.dark) .tile-links a.btn {{
+    color: var(--btn-glass-text) !important;
+    border-color: var(--btn-glass-border) !important;
+    opacity: 1 !important;
+  }}
+
+  /* Breakpoints */
+  @media (max-width: 1400px) {{
+    .grid {{ grid-template-columns: repeat(5, minmax(180px, 1fr)); }}
+  }}
+  @media (max-width: 1200px) {{
+    .grid {{ grid-template-columns: repeat(4, minmax(180px, 1fr)); }}
+  }}
+  @media (max-width: 900px) {{
+    .grid {{ grid-template-columns: repeat(3, minmax(180px, 1fr)); }}
+  }}
+  @media (max-width: 700px) {{
+    .grid {{ grid-template-columns: repeat(2, minmax(160px, 1fr)); gap: 12px; width: calc(100% - 24px); }}
     .tile-media {{ height: 84px; }}
     .tile-media img {{ max-height: 72px; }}
   }}
+  @media (max-width: 420px) {{
+    .grid {{ grid-template-columns: repeat(1, minmax(200px, 1fr)); }}
+  }}
 </style>
 
-<div style="text-align: center;">
-
-_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
+<!-- Centered hero wrapper to prevent cut-off on short screens -->
+<div class="brand-hero">
+  <a class="brand-title gradient-title-mini" href="/">MOFA</a>
 </div>
 
-{table_html}
+<div class="status-bar">
+      <div class="status-line">
+        <span>Last Updated: <code class="status-ts">{global_last_updated}</code></span>
+        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
+        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
+        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
+        <span class="muted">(Automatically updated every 2 hours)</span>
+      </div>
+      <span class="appearance-toggle-inline">
+        <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
+          <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
+        </button>
+      </span>
+    </div>
+
+<script>
+  // Early apply + robust theme toggle (single script, SPA-safe)
+  (function() {{
+    // Early apply: set theme ASAP to avoid flash
+    try {{
+      var KEY = 'vitepress-theme-appearance';
+      var saved = localStorage.getItem(KEY);
+      var sysDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var mode = saved || (sysDark ? 'dark' : 'light');
+      var r = document.documentElement;
+      r.classList.toggle('dark', mode === 'dark');
+      r.setAttribute('data-theme', mode);
+      r.style.colorScheme = mode;
+    }} catch (_) {{}}
+
+    // Prevent duplicate init
+    if (window.__mofaThemeInit) return;
+    window.__mofaThemeInit = true;
+
+    var KEY = 'vitepress-theme-appearance';
+
+    function prefersDark() {{
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }}
+    function getStored() {{
+      try {{
+        var v = localStorage.getItem(KEY);
+        if (v === 'dark' || v === 'light') return v;
+      }} catch (_) {{}}
+      return null;
+    }}
+    function setStored(mode) {{
+      try {{ localStorage.setItem(KEY, mode); }} catch (_) {{}}
+    }}
+    function isDark() {{
+      var el = document.documentElement;
+      return el.classList.contains('dark') || el.getAttribute('data-theme') === 'dark';
+    }}
+    function apply(mode) {{
+      var dark = mode === 'dark';
+      var el = document.documentElement;
+      el.classList.toggle('dark', dark);
+      el.setAttribute('data-theme', dark ? 'dark' : 'light');
+      el.style.colorScheme = dark ? 'dark' : 'light';
+      setStored(dark ? 'dark' : 'light');
+      updateButton(dark);
+    }}
+    function updateButton(dark) {{
+      var btn = document.getElementById('appearance-toggle');
+      if (!btn) return;
+      btn.setAttribute('aria-checked', String(!!dark));
+      btn.title = dark ? 'Switch to light theme' : 'Switch to dark theme';
+    }}
+
+    // Ensure applied and button synced
+    apply(getStored() || (prefersDark() ? 'dark' : 'light'));
+
+    // Delegated click (works across SPA re-renders)
+    document.addEventListener('click', function(e) {{
+      var btn = e.target && e.target.closest && e.target.closest('#appearance-toggle');
+      if (!btn) return;
+      e.preventDefault();
+      apply(isDark() ? 'light' : 'dark');
+    }}, true);
+
+    // Sync if theme changed in another tab
+    window.addEventListener('storage', function(e) {{
+      if (!e || e.key !== KEY) return;
+      if (e.newValue === 'dark' || e.newValue === 'light') apply(e.newValue);
+    }});
+
+    // Keep switch state in sync when it (re)appears
+    var mo = new MutationObserver(function() {{ updateButton(isDark()); }});
+    mo.observe(document.documentElement, {{ subtree: true, childList: true }});
+
+    // Ensure button reflects current mode after DOM is ready
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {{
+      updateButton(isDark());
+    }} else {{
+      document.addEventListener('DOMContentLoaded', function() {{ updateButton(isDark()); }});
+    }}
+  }})();
+</script>
+
+{grid_html}
 """
     logging.info("standalone_current_version content generated successfully")
 
@@ -480,7 +853,7 @@ def get_onedrive_package_detail(onedrive_packages, package_name, detail):
 if __name__ == "__main__":
     # Define file paths
     xml_file_path = "repo_raw_data/macos_standalone_latest.xml"  # Update this path if the file is located elsewhere
-    readme_file_path = "docs/mininum.md"
+    readme_file_path = "docs/minimal.md"
 
     # Parse the XML and generate content
     global_last_updated, packages = parse_latest_xml(xml_file_path)
