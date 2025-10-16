@@ -346,12 +346,12 @@ def generate_readme_content(global_last_updated, packages):
     for i in range(0, len(tiles), 6):
         row_cells = "\n".join(tiles[i:i+6])
         rows_html.append(f"<tr>\n{row_cells}\n</tr>")
-    # Use a full-bleed container and widen the grid to avoid horizontal scroll
+    # Use a simple 100% width wrapper to avoid horizontal overflow
     table_html = (
-        '<div class="full-bleed"><div class="grid-max">'
+        '<div class="grid-wrap">'
         '<table class="grid-table">'
         + "\n".join(rows_html) +
-        "</table></div></div>"
+        "</table></div>"
     )
 
     content = f"""---
@@ -366,25 +366,25 @@ prev: false
 next: false 
 ---
 <style>
-  /* Full-bleed and wide grid to fit 6 tiles without horizontal scroll */
-  .full-bleed {{
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  /* Prevent page horizontal scroll */
+  html, body {{
+    overflow-x: hidden;
   }}
-  .grid-max {{
-    max-width: 1440px; /* widen as needed (e.g., 1320-1440 for 6 tiles) */
-    margin: 0 auto;
-    padding: 0 12px;
-  }}
-  .grid-table {{
+
+  /* 100% width grid wrapper (no 100vw to avoid overflow) */
+  .grid-wrap {{
     width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }}
+
+  /* Table sizing: subtract outer border-spacing to avoid overflow */
+  .grid-table {{
+    width: calc(100% - 32px);    /* accounts for left+right border-spacing (16px each) */
+    margin: 0 auto;
     table-layout: fixed;         /* equal column widths */
     border-collapse: separate;
     border-spacing: 16px 16px;   /* gaps between tiles */
-  }}
-  .grid-table td {{
-    width: calc(100% / 6);       /* 6 columns per row */
   }}
 
   /* Equal-height tile layout */
@@ -435,9 +435,9 @@ next: false
     margin-top: 6px;
   }}
 
-  /* Optional: slightly tighter at smaller widths while staying no-scroll */
+  /* Optional: slightly tighter at smaller widths */
   @media (max-width: 1100px) {{
-    .grid-table {{ border-spacing: 12px 12px; }}
+    .grid-table {{ border-spacing: 12px 12px; width: calc(100% - 24px); }}
     .tile-media {{ height: 84px; }}
     .tile-media img {{ max-height: 72px; }}
   }}

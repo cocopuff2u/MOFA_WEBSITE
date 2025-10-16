@@ -10,25 +10,25 @@ prev: false
 next: false 
 ---
 <style>
-  /* Full-bleed and wide grid to fit 6 tiles without horizontal scroll */
-  .full-bleed {
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  /* Prevent page horizontal scroll */
+  html, body {
+    overflow-x: hidden;
   }
-  .grid-max {
-    max-width: 1440px; /* widen as needed (e.g., 1320-1440 for 6 tiles) */
-    margin: 0 auto;
-    padding: 0 12px;
-  }
-  .grid-table {
+
+  /* 100% width grid wrapper (no 100vw to avoid overflow) */
+  .grid-wrap {
     width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  /* Table sizing: subtract outer border-spacing to avoid overflow */
+  .grid-table {
+    width: calc(100% - 32px);    /* accounts for left+right border-spacing (16px each) */
+    margin: 0 auto;
     table-layout: fixed;         /* equal column widths */
     border-collapse: separate;
     border-spacing: 16px 16px;   /* gaps between tiles */
-  }
-  .grid-table td {
-    width: calc(100% / 6);       /* 6 columns per row */
   }
 
   /* Equal-height tile layout */
@@ -79,9 +79,9 @@ next: false
     margin-top: 6px;
   }
 
-  /* Optional: slightly tighter at smaller widths while staying no-scroll */
+  /* Optional: slightly tighter at smaller widths */
   @media (max-width: 1100px) {
-    .grid-table { border-spacing: 12px 12px; }
+    .grid-table { border-spacing: 12px 12px; width: calc(100% - 24px); }
     .tile-media { height: 84px; }
     .tile-media img { max-height: 72px; }
   }
@@ -92,7 +92,7 @@ next: false
 _Last Updated: <code style="color : dodgerblue">October 16, 2025 09:15 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
 </div>
 
-<div class="full-bleed"><div class="grid-max"><table class="grid-table"><tr>
+<div class="grid-wrap"><table class="grid-table"><tr>
 <td align="center" class="tile-td">
       <div class="tile-card">
         <div class="tile-media">
@@ -313,4 +313,4 @@ _Last Updated: <code style="color : dodgerblue">October 16, 2025 09:15 AM EDT</c
         <div class="tile-links"><a href="https://go.microsoft.com/fwlink/?linkid=830196">Installer</a></div>
       </div>
     </td>
-</tr></table></div></div>
+</tr></table></div>
