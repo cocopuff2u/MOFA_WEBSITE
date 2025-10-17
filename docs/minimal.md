@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">October 17, 2025 01:06 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">October 17, 2025 02:08 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -474,14 +474,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://oneclient.sfx.ms/Mac/Installers/25.184.0921.0004/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
+          <a href="https://oneclient.sfx.ms/Mac/Installers/25.189.0928.0002/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
         </div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>25.184.0921</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>October 13, 2025 05:06 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>25.189.0928</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>October 17, 2025 02:08 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/25.184.0921.0004/universal/OneDrive.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/25.189.0928.0002/universal/OneDrive.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
@@ -607,8 +607,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/autoupdate.png" alt="Microsoft AutoUpdate"></a>
         </div>
         <div class="tile-title"><b>Microsoft AutoUpdate</b></div>
-        <div class="tile-version"><em><code>4.80 (25092610)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 26, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>4.81 (25101344)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>October 13, 2025</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=830196">Installer</a></div>
