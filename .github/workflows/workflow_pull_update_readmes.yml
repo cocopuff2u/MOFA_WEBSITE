@@ -58,10 +58,7 @@ jobs:
         python update_readme_scripts/update_team.py
         python update_readme_scripts/update_standalone_current_version_simple.py
         python update_readme_scripts/update_macos_standalone_onedrive_readme.py
-<<<<<<< HEAD
         python update_readme_scripts/update_standalone_current_version_minimal.py
-=======
->>>>>>> parent of 1cde9ec42d (add minimal page)
 
     - name: Set Git config
       run: |

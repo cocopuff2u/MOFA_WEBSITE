@@ -124,6 +124,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'Simple View', link: '/simple' },
+              { text: 'Minimal View', link: '/minimal' },
               { text: 'SHA1 Hashes', link: '/standalone_apps/standalone_sha1_hashes_en' },
               { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_sha256_hashes_en' }
             ]
