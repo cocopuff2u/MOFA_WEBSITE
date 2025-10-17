@@ -1,1 +1,0 @@
-const s="/images/MSWD_512x512x32.png",_="/images/XCEL_512x512x32.png",o="/images/PPT3_512x512x32.png",t="/images/Outlook_512x512x32.png",a="/images/OneNote_512x512x32.png";export{s as _,_ as a,o as b,t as c,a as d};

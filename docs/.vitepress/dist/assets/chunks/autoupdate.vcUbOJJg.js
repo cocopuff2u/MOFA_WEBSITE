@@ -1,1 +1,0 @@
-const s="/images/OneDrive_512x512x32.png",p="/images/skype_for_business.png",a="/images/teams_512x512x32.png",_="/images/companyportal.png",o="/images/edge_app.png",e="/images/defender_512x512x32.png",n="/images/windowsapp.png",t="/images/Code_512x512x32.png",i="/images/autoupdate.png";export{s as _,p as a,a as b,_ as c,o as d,e,n as f,t as g,i as h};
