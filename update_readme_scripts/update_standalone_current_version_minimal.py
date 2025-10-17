@@ -364,10 +364,6 @@ prev: false
 next: false 
 ---
 <style>
-  /* Prevent page horizontal scroll */
-  html, body {{
-    overflow-x: hidden;
-  }}
   /* NEW: Status bar styles (fix Markdown-in-HTML issue and wrapping) */
   .status-bar {{
     display: flex;
@@ -432,7 +428,8 @@ next: false
     vertical-align: middle;
   }}
 
-  .VPSwitch {{
+  /* SCOPE SWITCH STYLES to this page only to avoid leaking to other pages */
+  .mofa-minimal .VPSwitch {{
     position: relative;
     width: 46px;
     height: 26px;
@@ -443,7 +440,7 @@ next: false
     transition: background .2s ease, border-color .2s ease;
     pointer-events: auto;
   }}
-  .VPSwitch .check {{
+  .mofa-minimal .VPSwitch .check {{
     position: absolute;
     top: 2px;
     left: 2px;
@@ -457,25 +454,25 @@ next: false
     align-items: center;
     justify-content: center;
   }}
-  .VPSwitch[aria-checked="true"] .check {{
+  .mofa-minimal .VPSwitch[aria-checked="true"] .check {{
     transform: translateX(20px);
   }}
 
-  /* Show sun in light, moon in dark */
-  .VPSwitch .icon .sun, .VPSwitch .icon .moon {{ display: none; }}
-  html:not(.dark) .VPSwitch .icon .sun {{ display: inline-block; }}
-  html.dark .VPSwitch .icon .moon {{ display: inline-block; }}
+  /* Show sun in light, moon in dark (scoped) */
+  .mofa-minimal .VPSwitch .icon .sun, .mofa-minimal .VPSwitch .icon .moon {{ display: none; }}
+  html:not(.dark) .mofa-minimal .VPSwitch .icon .sun {{ display: inline-block; }}
+  html.dark .mofa-minimal .VPSwitch .icon .moon {{ display: inline-block; }}
 
   /* Center wrapper for the MOFA hero title */
   .brand-hero {{
     display: grid;
     place-items: center;
-    min-height: 0;            /* was 40vh – remove extra vertical gap */
-    padding: 8px 0;           /* small breathing room */
+    min-height: 0;
+    padding: 8px 0;
     overflow: visible;
   }}
   @supports (height: 100svh) {{
-    .brand-hero {{ min-height: 0; }}  /* ensure no extra gap on mobile */
+    .brand-hero {{ min-height: 0; }}
   }}
 
   /* Ensure the link itself centers and only the text is clickable */
@@ -730,7 +727,7 @@ next: false
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
         <span class="muted">(Automatically updated every 2 hours)</span>
       </div>
-      <span class="appearance-toggle-inline">
+      <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
         </button>
