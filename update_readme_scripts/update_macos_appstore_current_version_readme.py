@@ -55,13 +55,27 @@ lastUpdated: false
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
-| Application Name | Version | Bundle ID | Minimum OS Version | Icon |
-|------------------|---------|-----------|-------------------|------|
+| **Product Package** | **Version Info** | **App Icon** |
+|---------------------|------------------|--------------|
 """
     for package in packages:
-        # Create icon HTML only if icon_image is not 'NA'
-        icon_html = f"<img src='{package['icon_image']}' width='50%' height='50%' />" if package['icon_image'] != 'NA' else ''
-        content += f"| **{package['application_name']}** | `{package['version']}` | `{package['bundleId']}` | `{package['minimumOsVersion']}` | {icon_html} |\n"
+        # Icon in the last column (omit if NA)
+        icon_html = f"<img src='{package['icon_image']}' alt='{package['application_name']} icon' width='80'>" if package['icon_image'] != 'NA' else ''
+
+        # Column 1: Product Package with Last Update
+        product_package_col = (
+            f"**{package['application_name']}**"
+            f"<br><br>_**Last Update:**_ `{package['currentVersionReleaseDate']}`"
+        )
+
+        # Column 2: Version Info (Version, Min OS, CFBundle ID)
+        version_info_col = (
+            f"**Version:**<br>`{package['version']}`"
+            f"<br><br>**Min OS:**<br>`{package['minimumOsVersion']}`"
+            f"<br><br>**CFBundle ID:**<br>`{package['bundleId']}`"
+        )
+
+        content += f"| {product_package_col} | {version_info_col} | {icon_html} |\n"
 
     # Add comment section
     content += """
