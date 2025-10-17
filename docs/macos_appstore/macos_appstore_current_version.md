@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/App_Store_logo.png" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS App Store Latest Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 17, 2025 10:06 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 17, 2025 11:06 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Application Name | Version | Bundle ID | Minimum OS Version | Icon |
@@ -18,7 +18,7 @@ lastUpdated: false
 | **RMS Sharing** | `1.3.4` | `com.microsoft.protection.rms-sharing-mac` | `10.9` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/09/a4/f4/09a4f4b3-7aed-51c0-8e6b-5cb95ec6dada/rmssharing.png/512x512bb.png' width='50%' height='50%' /> |
 | **Windows App** | `11.2.4` | `com.microsoft.rdc.macos` | `13.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/c2/04/eac2049c-e5b5-cf01-b6dc-83415b44ab06/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png' width='50%' height='50%' /> |
 | **Microsoft To Do** | `2.159` | `com.microsoft.to-do-mac` | `10.15` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6f/73/dc6f735a-d9fb-e2eb-bb0e-733a1dec0cad/AppIcon-Release-0-85-220-0-4-2x-sRGB.png/512x512bb.png' width='50%' height='50%' /> |
-| **Microsoft Copilot** | `23.8.431015005` | `com.microsoft.copilot-mac` | `14.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/aa/b7/1daab7e2-576f-9574-ce34-dec5fc0facee/AppIcon-0-85-220-0-5-0-0-2x-0-0.png/512x512bb.png' width='50%' height='50%' /> |
+| **Microsoft Copilot** | `23.7.431011002` | `com.microsoft.copilot-mac` | `14.0` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/8d/45/ba8d4576-57dd-5353-864b-c7bf1e34d914/AppIcon-0-85-220-0-5-0-0-2x-0-0.png/512x512bb.png' width='50%' height='50%' /> |
 | **Azure VPN Client** | `2.7.101` | `com.microsoft.AzureVpnMac` | `10.15` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/60/df/2360df4b-4ac5-4480-bb3e-4f59df6c3e64/AppIcon-85-220-0-4-0-0-2x-0-0.png/512x512bb.png' width='50%' height='50%' /> |
 | **Universal Print** | `1.0.5` | `com.microsoft.universalprintmac` | `14.6.1` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/42/98/35429802-8ef5-c306-5279-ea3873609e14/AppIconProd-85-220-0-4-0-0-2x-0-0.png/512x512bb.png' width='50%' height='50%' /> |
 | **Microsoft Rewards for Safari** | `1.0.0` | `com.microsoft.Microsoft-Rewards-for-Safari` | `11.3` | <img src='https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4b/59/04/4b5904a2-060d-f5e1-707f-c96da43bd11f/AppIcon-85-220-4-2x.png/512x512bb.png' width='50%' height='50%' /> |
