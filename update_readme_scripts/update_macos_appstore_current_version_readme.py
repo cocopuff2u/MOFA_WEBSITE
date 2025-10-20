@@ -30,6 +30,7 @@ def parse_latest_xml(file_path):
             "minimumOsVersion": package.find("minimumOsVersion").text.strip(),
             "releaseNotes": package.find("releaseNotes").text.strip(),
             "version": package.find("version").text.strip(),
+            "app_store_url": package.find("app_store_url").text.strip(),  # NEW: link target for clickable icon
         }
         packages.append(package_info)
         # logging.debug(f"Extracted package: {package_info}") # Uncomment to see all package details
@@ -55,12 +56,18 @@ lastUpdated: false
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
-| **Product Package** | **Version Info** | **App Icon** |
-|---------------------|------------------|--------------|
+| **Product Package** | **Version Info** | **Link** |
+|---------------------|------------------|:--------:|
 """
     for package in packages:
-        # Icon in the last column (omit if NA)
-        icon_html = f"<img src='{package['icon_image']}' alt='{package['application_name']} icon' width='80'>" if package['icon_image'] != 'NA' else ''
+        # Icon in the last column; wrap with link if app_store_url is available
+        if package['icon_image'] != 'NA':
+            if package.get('app_store_url') and package['app_store_url'] != 'NA':
+                icon_html = f"<a href='{package['app_store_url']}' target='_blank' rel='noopener'><img src='{package['icon_image']}' alt='{package['application_name']} icon' width='80'></a>"
+            else:
+                icon_html = f"<img src='{package['icon_image']}' alt='{package['application_name']} icon' width='80'>"
+        else:
+            icon_html = ''
 
         # Column 1: Product Package with Last Update
         product_package_col = (
