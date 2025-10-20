@@ -1,0 +1,1 @@
+const s="/images/2025/Word.webp",o="/images/2025/Excel.webp",e="/images/2025/PowerPoint.webp",t="/images/2025/Outlook.webp",a="/images/2025/OneNote.webp",p="/images/2021/Company_Portal.webp",i="/images/2021/defender.webp",_="/images/2025/Copilot.webp",m="/images/2019/AutoUpdate.webp";export{s as _,o as a,e as b,t as c,a as d,p as e,i as f,_ as g,m as h};

@@ -252,7 +252,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Company Portal",
         version=get_standalone_package_detail(packages, 'Intune', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Intune', 'last_updated'),
-        img_src="/images/companyportal.png",
+        img_src="/images/2021/Company_Portal.webp",
         rel_notes_url="https://aka.ms/intuneupdates",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=853070",
         secondary_dl=get_standalone_package_detail(packages, 'Intune', 'app_only_update_download')
@@ -263,7 +263,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Edge",
         version=edge_current_version.get('version', 'N/A'),
         last_updated=edge_current_version.get('last_updated', 'N/A'),
-        img_src="/images/edge_app.png",
+        img_src="/images/edge/edge.webp",
         rel_notes_url="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel",
         primary_dl=edge_current_version.get('full_update_download'),
         secondary_dl=None,
@@ -275,7 +275,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender for Endpoint",
         version=get_standalone_package_detail(packages, 'Defender For Endpoint', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender For Endpoint', 'last_updated'),
-        img_src="/images/defender_512x512x32.png",
+        img_src="/images/2021/defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2097502",
         secondary_dl=None
@@ -284,7 +284,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender for Consumers",
         version=get_standalone_package_detail(packages, 'Defender For Consumers', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender For Consumers', 'last_updated'),
-        img_src="/images/defender_512x512x32.png",
+        img_src="/images/2021/defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2247001",
         secondary_dl=None
@@ -293,7 +293,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender Shim",
         version=get_standalone_package_detail(packages, 'Defender Shim', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender Shim', 'last_updated'),
-        img_src="/images/defender_512x512x32.png",
+        img_src="/images/2021/defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl=get_standalone_package_detail(packages, 'Defender Shim', 'full_update_download') or get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download'),
         secondary_dl=None
@@ -304,7 +304,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Windows App",
         version=get_standalone_package_detail(packages, 'Windows App', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Windows App', 'last_updated'),
-        img_src="/images/windowsapp.png",
+        img_src="/images/2025/Windows_App.webp",
         rel_notes_url="https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=868963",
         secondary_dl=get_standalone_package_detail(packages, 'Windows App', 'app_only_update_download')
@@ -315,7 +315,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Visual Studio Code",
         version=get_standalone_package_detail(packages, 'Visual', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Visual', 'last_updated'),
-        img_src="/images/Code_512x512x32.png",
+        img_src="/images/2021/Code.webp",
         rel_notes_url="https://code.visualstudio.com/updates/",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2156837",
         secondary_dl=None
@@ -337,7 +337,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Microsoft AutoUpdate",
         version=get_standalone_package_detail(packages, 'MAU', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'MAU', 'last_updated'),
-        img_src="/images/autoupdate.png",
+        img_src="/images/2019/AutoUpdate.webp",
         rel_notes_url="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=830196",
         secondary_dl=None

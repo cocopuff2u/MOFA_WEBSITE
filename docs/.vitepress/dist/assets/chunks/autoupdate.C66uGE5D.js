@@ -1,1 +1,0 @@
-const s="/images/2025/Word.webp",o="/images/2025/Excel.webp",t="/images/2025/PowerPoint.webp",e="/images/2025/Outlook.webp",a="/images/2025/OneNote.webp",p="/images/companyportal.png",i="/images/defender_512x512x32.png",_="/images/2025/Copilot.webp",m="/images/autoupdate.png";export{s as _,o as a,t as b,e as c,a as d,p as e,i as f,_ as g,m as h};

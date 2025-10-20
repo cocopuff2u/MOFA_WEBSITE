@@ -500,7 +500,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/companyportal.png" alt="Company Portal"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Company Portal"></a>
         </div>
         <div class="tile-title"><b>Company Portal</b></div>
         <div class="tile-version"><em><code>5.2508.1</code></em></div>
@@ -513,7 +513,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/856a8ff9-d4dc-4066-8634-f104315b2ca5/MicrosoftEdge-141.0.3537.85.pkg"><img src="/images/edge_app.png" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/856a8ff9-d4dc-4066-8634-f104315b2ca5/MicrosoftEdge-141.0.3537.85.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
         <div class="tile-version"><em><code>141.0.3537.85</code></em></div>
@@ -526,7 +526,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/defender_512x512x32.png" alt="Defender for Endpoint"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2021/defender.webp" alt="Defender for Endpoint"></a>
         </div>
         <div class="tile-title"><b>Defender for Endpoint</b></div>
         <div class="tile-version"><em><code>101.25082.0006</code></em></div>
@@ -539,7 +539,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/defender_512x512x32.png" alt="Defender for Consumers"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/2021/defender.webp" alt="Defender for Consumers"></a>
         </div>
         <div class="tile-title"><b>Defender for Consumers</b></div>
         <div class="tile-version"><em><code>101.25082.0006</code></em></div>
@@ -552,7 +552,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/defender_512x512x32.png" alt="Defender Shim"></a>
+          <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/2021/defender.webp" alt="Defender Shim"></a>
         </div>
         <div class="tile-title"><b>Defender Shim</b></div>
         <div class="tile-version"><em><code>101.24080.0001</code></em></div>
@@ -565,7 +565,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/windowsapp.png" alt="Windows App"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/2025/Windows_App.webp" alt="Windows App"></a>
         </div>
         <div class="tile-title"><b>Windows App</b></div>
         <div class="tile-version"><em><code>11.2.4</code></em></div>
@@ -578,7 +578,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="/images/Code_512x512x32.png" alt="Visual Studio Code"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
         <div class="tile-version"><em><code>1.105.1</code></em></div>
@@ -604,7 +604,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/autoupdate.png" alt="Microsoft AutoUpdate"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Microsoft AutoUpdate"></a>
         </div>
         <div class="tile-title"><b>Microsoft AutoUpdate</b></div>
         <div class="tile-version"><em><code>4.81 (25101344)</code></em></div>
