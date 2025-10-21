@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 21, 2025 03:06 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 21, 2025 04:07 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 <table class="shrink-table">
@@ -22,7 +22,7 @@ lastUpdated: false
   </thead>
   <tbody>
     <tr>
-      <td>16.102.1 (25101223)<br><span class='extra-small'>October 20, 2025</span></td>
+      <td>16.102.1 (25101829)<br><span class='extra-small'>October 20, 2025</span></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.102.25101829_Updater.pkg">Word</a></td>
