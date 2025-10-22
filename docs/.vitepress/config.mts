@@ -177,6 +177,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Microsoft Office Repair Tools', link: '/macos_tools/microsoft_office_repair_tools' },
+          { text: 'App Icons', link: '/macos_tools/app_icons' },
           { text: 'Community Scripts', link: '/macos_tools/community_scripts' },
           { text: 'Preconfigured Profiles', link: '/macos_tools/preconfigured_profiles',
             collapsed: true,
