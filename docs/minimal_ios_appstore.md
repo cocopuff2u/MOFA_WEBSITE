@@ -458,7 +458,7 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="NA" alt="NA"></div>
+        <div class="tile-media"></div>
         <div class="tile-title"><b>NA</b></div>
         <div class="tile-version"><em><code>NA</code></em></div>
         <div class="tile-updated"><small>Last Updated:<br><em><code>NA</code></em></small></div>

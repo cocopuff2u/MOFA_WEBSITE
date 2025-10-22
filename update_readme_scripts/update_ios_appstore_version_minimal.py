@@ -48,7 +48,11 @@ def generate_readme_content(global_last_updated: str, packages: list[dict]) -> s
         title = pkg.get("application_name") or pkg.get("name") or "Unknown App"
         version = pkg.get("version") or "N/A"
         release_date = pkg.get("currentVersionReleaseDate") or "N/A"
-        icon = pkg.get("icon_image") or ""
+
+        # Treat NA-like values as blank for the image
+        icon_raw = pkg.get("icon_image") or ""
+        icon = "" if (str(icon_raw).strip().lower() in {"na", "n/a", "none", "null", "-"}) else icon_raw
+
         app_store_url = pkg.get("app_store_url") or "#"
 
         img_html = f'<img src="{escape(icon)}" alt="{escape(title)}">' if icon else ""
