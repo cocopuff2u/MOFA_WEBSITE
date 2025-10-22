@@ -59,6 +59,8 @@ jobs:
         python update_readme_scripts/update_standalone_current_version_simple.py
         python update_readme_scripts/update_macos_standalone_onedrive_readme.py
         python update_readme_scripts/update_standalone_current_version_minimal.py
+        python update_readme_scripts/update_ios_appstore_version_minimal.py
+        python update_readme_scripts/update_macos_appstore_version_minimal.py
 
     - name: Set Git config
       run: |

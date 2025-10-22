@@ -191,6 +191,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Current Version', link: '/macos_appstore/macos_appstore_current_version' },
+          { text: 'Minimal View', link: '/minimal_macos_appstore' },
           { text: 'Raw Feeds', link: '/macos_appstore/macos_raw_feeds' }
         ]
       },
@@ -199,6 +200,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Current Version', link: '/ios_appstore/ios_appstore_current_version' },
+          { text: 'Minimal View', link: '/minimal_ios_appstore' },
           { text: 'Raw Feeds', link: '/ios_appstore/ios_raw_feeds' }
         ]
       },
