@@ -11,10 +11,11 @@ A curated set of high-resolution Microsoft app icons for macOS.
 - Provided in WEBP (for the web) and PNG (ideal for Company Portal, Self Service, etc.). Other formats available on request.
 - Details reflect the app/version the icon was pulled from.
 - Seeking older, regional, and special-edition variants.
+- Seeking guidance on dark mode icon variants.
 :::
 
 ::: tip Community help needed
-I'm only as good as my research. If you have older icons, special editions (e.g., Pride variants), or corrections to the current data, please open a PR or issue.
+I'm only as good as my research. If you have older icons, special editions (e.g., Pride variants), dark mode, or corrections to the current data, please open a PR or issue.
 :::
 
 
