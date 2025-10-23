@@ -62,6 +62,10 @@ jobs:
         python update_readme_scripts/update_ios_appstore_version_minimal.py
         python update_readme_scripts/update_macos_appstore_version_minimal.py
 
+    - name: Copy macOS standalone RSS feeds
+      run: |
+        cp -a repo_raw_data/macos_standalone_rss/. docs/public/rss_feeds/
+
     - name: Set Git config
       run: |
         git config user.name 'github-actions[bot]'
