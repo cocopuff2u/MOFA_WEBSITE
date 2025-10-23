@@ -34,9 +34,16 @@ def pull_latest_raw_files():
         if item != "README.md":
             src = os.path.join(clone_dir, "latest_raw_files", item)
             dst = os.path.join(target_dir, item)
-            if not os.path.exists(dst) or not filecmp.cmp(src, dst, shallow=False):
-                logging.info(f"Updating {dst} with {src}")
-                subprocess.run(["cp", src, dst])
+            # New: handle directories (e.g., macos_standalone_rss) recursively
+            if os.path.isdir(src):
+                logging.info(f"Syncing directory {src} -> {dst}")
+                if os.path.exists(dst):
+                    subprocess.run(["rm", "-rf", dst])
+                subprocess.run(["cp", "-R", src, dst])
+            else:
+                if not os.path.exists(dst) or not filecmp.cmp(src, dst, shallow=False):
+                    logging.info(f"Updating {dst} with {src}")
+                    subprocess.run(["cp", src, dst])
 
     logging.info(f"Copying images to {images_dir}")
     images_src_dir = os.path.join(clone_dir, ".github", "images")
