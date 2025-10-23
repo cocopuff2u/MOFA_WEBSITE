@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 23, 2025 06:08 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 23, 2025 07:35 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -25,9 +25,9 @@ lastUpdated: false
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2021/Teams.webp" alt="Download Image" width="60"></a> | `a7db40bce271a083b477ccf4a9d7dce2ca2450d7da60aab636d04728e59804ce` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `5a740461bc25d3c28046d4b7b9614edb14eb67c9142dbf8d53ceda459eec6bb9` |
 | **Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8cf3d730-8f90-4d10-9de3-bc4c557e4527/MicrosoftEdge-141.0.3537.92.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `014154cefa1e65bbb3e4e2ba52feb752d457a8b48aa9a4e152afb9618245976f` |
-| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2021/defender.webp" alt="Download Image" width="60"></a> | `b8f06f2b4ad0b2b0697fac6bef18c5aa280dc05efa8276038c8f90b8c7dbac92` |
-| **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2021/defender.webp" alt="Download Image" width="60"></a> | `e3f4bbd91f8d8ce83800cc0354bd7fb4bcee73855372afafe3e057698a20152c` |
-| **Defender Shim Installer** | <a href="None"><img src="/images/2021/defender.webp" alt="Download Image" width="60"></a> | `3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51` |
+| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `b8f06f2b4ad0b2b0697fac6bef18c5aa280dc05efa8276038c8f90b8c7dbac92` |
+| **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `e3f4bbd91f8d8ce83800cc0354bd7fb4bcee73855372afafe3e057698a20152c` |
+| **Defender Shim Installer** | <a href="None"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51` |
 | **Windows App Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/2025/Windows_App.webp" alt="Download Image" width="60"></a> | `fdc1e490d356e4aebc6e4dca4d4a650727031a1a1e29adbb14ed2b8a41546784` |
 | **Visual Studio Code Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="/images/2021/Code.webp" alt="Download Image" width="60"></a> | `7adfbeb55ef3c2da0afae5d25fe6aaf4fd79cf66b4f781d81bd20b88837938fe` |
 | **Microsoft Copilot** | <a href="None"><img src="/images/2025/Copilot.webp" alt="Download Image" width="60"></a> | `9ea908c521bc3cc392088c87e71602d6883e046d4f85ad8173bcde112004255e` |

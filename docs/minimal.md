@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">October 23, 2025 06:08 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">October 23, 2025 07:35 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -526,7 +526,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2021/defender.webp" alt="Defender for Endpoint"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Defender for Endpoint"></a>
         </div>
         <div class="tile-title"><b>Defender for Endpoint</b></div>
         <div class="tile-version"><em><code>101.25082.0006</code></em></div>
@@ -539,7 +539,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/2021/defender.webp" alt="Defender for Consumers"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/2025/Defender.webp" alt="Defender for Consumers"></a>
         </div>
         <div class="tile-title"><b>Defender for Consumers</b></div>
         <div class="tile-version"><em><code>101.25082.0006</code></em></div>
@@ -552,7 +552,7 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/2021/defender.webp" alt="Defender Shim"></a>
+          <a href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/2025/Defender.webp" alt="Defender Shim"></a>
         </div>
         <div class="tile-title"><b>Defender Shim</b></div>
         <div class="tile-version"><em><code>101.24080.0001</code></em></div>
