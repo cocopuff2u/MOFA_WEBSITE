@@ -418,7 +418,7 @@ I'm only as good as my research. If you have older icons, special editions (e.g.
 
 <table>
   <thead>
-    <tr><th>2021</th></tr>
+    <tr><th>2021</th><th>2025</th></tr>
   </thead>
   <tbody>
     <tr>
@@ -427,6 +427,12 @@ I'm only as good as my research. If you have older icons, special editions (e.g.
           <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp" alt="Company Portal 2019" width="144" height="144">
         </a>
         <div><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp">WEBP</a> • <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.png">PNG</a></div>
+      </td>
+      <td>
+        <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp">
+          <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" alt="Company Portal 2019" width="144" height="144">
+        </a>
+        <div><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp">WEBP</a> • <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.png">PNG</a></div>
       </td>
     </tr>
   </tbody>

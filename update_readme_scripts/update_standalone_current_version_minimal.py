@@ -275,7 +275,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender for Endpoint",
         version=get_standalone_package_detail(packages, 'Defender For Endpoint', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender For Endpoint', 'last_updated'),
-        img_src="/images/2021/defender.webp",
+        img_src="/images/2025/Defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2097502",
         secondary_dl=None
@@ -284,7 +284,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender for Consumers",
         version=get_standalone_package_detail(packages, 'Defender For Consumers', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender For Consumers', 'last_updated'),
-        img_src="/images/2021/defender.webp",
+        img_src="/images/2025/Defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2247001",
         secondary_dl=None
@@ -293,7 +293,7 @@ def generate_readme_content(global_last_updated, packages):
         name="Defender Shim",
         version=get_standalone_package_detail(packages, 'Defender Shim', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Defender Shim', 'last_updated'),
-        img_src="/images/2021/defender.webp",
+        img_src="/images/2025/Defender.webp",
         rel_notes_url="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew",
         primary_dl=get_standalone_package_detail(packages, 'Defender Shim', 'full_update_download') or get_standalone_package_detail(packages, 'Defender Shim', 'app_only_update_download'),
         secondary_dl=None
