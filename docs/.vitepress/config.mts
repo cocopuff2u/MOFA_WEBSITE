@@ -219,7 +219,7 @@ export default defineConfig({
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' },
-      { icon: 'rss', link: 'https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files/macos_standalone_rss' },
+      { icon: 'rss', link: 'https://mofa.cocolabs.dev/standalone_apps/standalone_raw_feeds_en.html#%F0%9F%93%B0-rss-feeds' },
       { icon: 'buymeacoffee', link: 'https://buymeacoffee.com/cocopuff2u' }
     ],
     footer: {
