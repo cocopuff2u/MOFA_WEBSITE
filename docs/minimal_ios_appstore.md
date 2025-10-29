@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">October 29, 2025 01:07 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">October 29, 2025 02:10 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -458,10 +458,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/07/f2/3b07f2e4-35e2-334f-b72f-d5dadf527430/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Azure"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/e4/b0/fae4b0f5-5b98-bece-d1a4-625782fae270/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Azure"></div>
         <div class="tile-title"><b>Microsoft Azure</b></div>
-        <div class="tile-version"><em><code>7.9.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>October 27, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>7.9.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>October 08, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-azure/id1219013620?uo=4">App Store</a>
