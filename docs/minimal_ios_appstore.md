@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">November 09, 2025 04:05 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">November 09, 2025 05:06 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -254,13 +254,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/f2/0c/b3f20c96-c0fe-70df-193d-9ccf40e3189b/MailAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Yahoo Mail"></div>
-        <div class="tile-title"><b>Yahoo Mail</b></div>
-        <div class="tile-version"><em><code>7.76.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 08, 2025</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/13/53/d1135323-dab8-bf3a-3579-8b1f4eaac535/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
+        <div class="tile-title"><b>Microsoft Outlook</b></div>
+        <div class="tile-version"><em><code>5.2543.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 04, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/yahoo-mail/id577586159?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4">App Store</a>
         </div>
       </div>
     </div>
