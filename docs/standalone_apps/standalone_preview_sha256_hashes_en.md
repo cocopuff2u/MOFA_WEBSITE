@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below point to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links always provide the latest version available from Microsoft as of the last update. However, the version details listed below reflect the specific version available at the time this information was last updated. This information is pulled directly from Microsoft, so if no updates are available, it may show an older or current version.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 11, 2025 12:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 11, 2025 01:09 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json)
  (Automatically Updated every 2 hours)_</span>
 
 | **Product Package** | **Link** | **<img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" /> SHA256 Hash <img src="/images/sha-256.png" alt="image" width="20" style="vertical-align: middle; display: inline-block;" />** |
@@ -25,7 +25,7 @@ lastUpdated: false
 | **Defender Shim Installer** | <a href="https://officecdnmac.microsoft.com/pr/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51` |
 | **Microsoft Copilot** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_365_Copilot_universal_1.2511.0501_Updater.pkg"><img src="/images/2025/Copilot.webp" alt="Download Image" width="60"></a> | `7f655a38d9416c70fd0ecff81a5cd861a61e0c5f25a11d292d52565ea2910476` |
 | **Visual Studio Code Insider Standalone Installer** | <a href="https://vscode.download.prss.microsoft.com/dbazure/download/insider/ac4cbdf48759c7d8c3eb91ffe6bb04316e263c57/VSCode-darwin-universal.zip"><img src="/images/2021/Code_Insider.webp" alt="Download Image" width="60"></a> | `0c71eea1886ee481a8ddf4ca9f27b882afe4e7f7f2ce5123cce85782b9b3a6f3` |
-| **AutoUpdate Standalone Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_AutoUpdate_4.81.25101344_Updater.pkg"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `396de9c54f596834985e6af644a52831e6cb658838e06486a01bc754baceb513` |
+| **AutoUpdate Standalone Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_AutoUpdate_4.81.25111027_Updater.pkg"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `07c055a24521a102bf9154fe36a699bb4fb92cdb820f87024ffdb80938666632` |
 
 ## SHA256 Hashes Guide
 
