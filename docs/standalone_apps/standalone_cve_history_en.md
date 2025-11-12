@@ -4,11 +4,13 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 11, 2025 05:07 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 11, 2025 06:13 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.103 (Build 25110922) | November 11, 2025 | Excel | [CVE-2025-60728](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60728), [CVE-2025-62201](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62201), [CVE-2025-62202](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62202) |
+| 16.103 (Build 25110922) | November 11, 2025 | Office Suite | [CVE-2025-62199](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62199), [CVE-2025-60724](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60724) |
 | 16.102.3 (Build 25110228) | November 4, 2025 | &nbsp; | &nbsp; |
 | 16.102.2 (Build 25102623) | October 28, 2025 | &nbsp; | &nbsp; |
 | 16.102.1 (Build 25101829) | October 20, 2025 | &nbsp; | &nbsp; |
