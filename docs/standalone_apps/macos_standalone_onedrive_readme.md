@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/2025/OneDrive.webp" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS Standalone OneDrive Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 14, 2025 01:09 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 14, 2025 02:07 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml)
  (Automatically Updated every 2 hours)_</span>
 
 > [!NOTE]
@@ -12,8 +12,8 @@ lastUpdated: false
 
 | Ring Version | Bundle Information  | Download |
 |------|---------------------|--------------|
-| **Production Ring** <br><br>Last Updated: <br> `November 07, 2025 01:10 PM EST` | <br>Version: <br> `25.206.1021` <br><br> SHA1: <br>`aca2e7f34dcf514629dedf7024fa611999e58d69`<br><br> SHA256:<br>`85ee1bd8f12dc8d50f97f7a5f9daa97ee71b4181cda0fe6ab5636c80547149f0` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.206.1021.0003/universal/OneDrive.pkg) |
-| **Upcoming Production Ring** <br><br>Last Updated: <br> `November 07, 2025 01:10 PM EST` | <br>Version: <br> `25.206.1021` <br><br> SHA1: <br>`aca2e7f34dcf514629dedf7024fa611999e58d69`<br><br> SHA256:<br>`85ee1bd8f12dc8d50f97f7a5f9daa97ee71b4181cda0fe6ab5636c80547149f0` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.206.1021.0003/universal/OneDrive.pkg) |
+| **Production Ring** <br><br>Last Updated: <br> `November 14, 2025 02:07 PM EST` | <br>Version: <br> `25.209.1026` <br><br> SHA1: <br>`2a835d0e4618caa7f162c9bbe630a51d8da13229`<br><br> SHA256:<br>`507e5241cd5aa0664caccca23a909cb371fb40b8345ce1f557fd71ecbfaf7ea3` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.209.1026.0002/universal/OneDrive.pkg) |
+| **Upcoming Production Ring** <br><br>Last Updated: <br> `November 14, 2025 02:07 PM EST` | <br>Version: <br> `25.209.1026` <br><br> SHA1: <br>`2a835d0e4618caa7f162c9bbe630a51d8da13229`<br><br> SHA256:<br>`507e5241cd5aa0664caccca23a909cb371fb40b8345ce1f557fd71ecbfaf7ea3` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.209.1026.0002/universal/OneDrive.pkg) |
 | **Deferred Ring** <br><br>Last Updated: <br> `October 18, 2025 03:06 AM EDT` | <br>Version: <br> `25.137.0715` <br><br> SHA1: <br>`fa17ac4bfa94ff3da5533b7354a4e9089be39548`<br><br> SHA256:<br>`90cf7dab78d0632bf3479f52b3b1218c1c5df0cbde310a0264575e0e132568e1` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://go.microsoft.com/fwlink/?linkid=861009) |
 | **Upcoming Deferred  Ring** <br><br>Last Updated: <br> `October 18, 2025 03:06 AM EDT` | <br>Version: <br> `25.179.0914` <br><br> SHA1: <br>`0c3009cc89d8e8cd65152f4c8572462d9b1e144d`<br><br> SHA256:<br>`414aec9b3892fe0bf207fe67408072c274d064aadf1ce062473cff91f3d276b0` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://go.microsoft.com/fwlink/?linkid=861010) |
 | **Insider Ring** <br><br>Last Updated: <br> `November 14, 2025 01:09 PM EST` | <br>Version: <br> `25.209.1026` <br><br> SHA1: <br>`2a835d0e4618caa7f162c9bbe630a51d8da13229`<br><br> SHA256:<br>`507e5241cd5aa0664caccca23a909cb371fb40b8345ce1f557fd71ecbfaf7ea3` | [<img src='/images/2025/OneDrive.webp' alt='Download' width='60' style='vertical-align: middle;' />](https://oneclient.sfx.ms/Mac/Installers/25.209.1026.0002/universal/OneDrive.pkg) |
