@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">November 18, 2025 12:07 PM EST</code></span>
+        <span>Last Updated: <code class="status-ts">November 18, 2025 01:10 PM EST</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -425,11 +425,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525135"><img src="/images/2025/Excel.webp" alt="Excel"></a>
         </div>
         <div class="tile-title"><b>Excel</b></div>
-        <div class="tile-version"><em><code>16.103.0 (25110922)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>November 09, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.103.1 (25111624)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>November 16, 2025</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525135">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25110922_Updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525135">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25111624_Updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
@@ -438,11 +438,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="/images/2025/PowerPoint.webp" alt="PowerPoint"></a>
         </div>
         <div class="tile-title"><b>PowerPoint</b></div>
-        <div class="tile-version"><em><code>16.103.0 (25110922)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>November 09, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.103.1 (25111719)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>November 17, 2025</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525136">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25110922_Updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525136">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25111719_Updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
@@ -464,11 +464,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/2025/OneNote.webp" alt="OneNote"></a>
         </div>
         <div class="tile-title"><b>OneNote</b></div>
-        <div class="tile-version"><em><code>16.103.0 (25110922)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>November 09, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.103.1 (25111624)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>November 16, 2025</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=820886">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25110922_Updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=820886">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25111624_Updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
