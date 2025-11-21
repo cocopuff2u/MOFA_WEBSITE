@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 20, 2025 05:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">November 20, 2025 06:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 <table class="shrink-table">
@@ -21,6 +21,36 @@ lastUpdated: false
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>16.103.1 (25111719)<br><span class='extra-small'>November 18, 2025</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25111719_Updater.pkg">PowerPoint</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>16.103.1 (25111624)<br><span class='extra-small'>November 18, 2025</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25111624_Updater.pkg">Excel</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25111624_Updater.pkg">OneNote</a></td>
+    </tr>
+    <tr>
+      <td>16.103.1 (25111410)<br><span class='extra-small'>November 14, 2025</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25111410_Updater.pkg">Word</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
     <tr>
       <td>16.103 (25110922)<br><span class='extra-small'>November 11, 2025</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.103.25110922_BusinessPro_Installer.pkg">Business</a></td>
@@ -45,11 +75,11 @@ lastUpdated: false
       <td>16.102.2 (25102623)<br><span class='extra-small'>October 28, 2025</span></td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
-      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.101.25100321_Updater.pkg">Word</a></td>
-      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.101.25100321_Updater.pkg">Excel</a></td>
-      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.101.25100321_Updater.pkg">PowerPoint</a></td>
-      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.101.25100321_Updater.pkg">Outlook</a></td>
-      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.101.25100321_Updater.pkg">OneNote</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.102.25102623_Updater.pkg">Word</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.102.25102623_Updater.pkg">Excel</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.102.25102623_Updater.pkg">PowerPoint</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.102.25102623_Updater.pkg">Outlook</a></td>
+      <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25102623_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.102.1 (25101829)<br><span class='extra-small'>October 20, 2025</span></td>
