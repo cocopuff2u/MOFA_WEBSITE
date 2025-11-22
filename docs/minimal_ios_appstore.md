@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">November 22, 2025 02:06 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">November 22, 2025 03:08 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/58/b8/1058b8f3-eabf-392a-b1b2-bfeac08adc3e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/66/a2/ca66a2a1-443e-62f0-c9f7-276b542fdc6b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.103.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 21, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.103.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 17, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/94/dd/a994dd51-bea0-71ae-43dd-ed60fb8521ba/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/89/40/0a8940e6-429a-619b-392b-2a6cd03901a2/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>30.0.431121003</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 22, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.431118005</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 18, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4">App Store</a>
@@ -362,13 +362,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/c9/01/4bc9019e-a89d-de7f-7d9d-9bbdd3d81b92/Sales_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Sales"></div>
-        <div class="tile-title"><b>Dynamics 365 Sales</b></div>
-        <div class="tile-version"><em><code>3.24104.15</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 11, 2024</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/86/68/0b866877-ca04-1d24-cfdd-07aa2da2cda9/Dynamics_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 for phones"></div>
+        <div class="tile-title"><b>Dynamics 365 for phones</b></div>
+        <div class="tile-version"><em><code>13.24093.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 11, 2024</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-sales/id1485578688?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-for-phones/id1003997947?uo=4">App Store</a>
         </div>
       </div>
     </div>
