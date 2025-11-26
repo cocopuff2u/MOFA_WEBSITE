@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">November 26, 2025 05:08 AM EST</code></span>
+        <span>Last Updated: <code class="status-ts">November 26, 2025 06:06 AM EST</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -503,11 +503,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Company Portal"></a>
         </div>
         <div class="tile-title"><b>Company Portal</b></div>
-        <div class="tile-version"><em><code>5.2510.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>October 22, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>5.2510.1</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>November 20, 2025</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://aka.ms/intuneupdates"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=853070">Installer</a> <a class="btn" href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2510.0-Upgrade.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=853070">Installer</a> <a class="btn" href="https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal_5.2510.1-Upgrade.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
