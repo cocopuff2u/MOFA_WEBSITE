@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 05, 2025 03:09 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 05, 2025 04:08 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/a3/3c/6aa33c12-dbe9-fb5b-9e6a-e816afaef22a/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/ac/0f/dbac0f39-47c7-76e7-ee3f-1f7a1156d8c4/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>25.206.1021</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 18, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>25.216.1104</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 04, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
@@ -302,10 +302,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/32/ce/be32cee8-86df-68d5-be15-f59c2f99d700/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png" alt="Windows App"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/d9/88/0dd9884f-36a5-d722-230d-0b4e8412a9a6/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png" alt="Windows App"></div>
         <div class="tile-title"><b>Windows App</b></div>
-        <div class="tile-version"><em><code>11.2.9</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 21, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>11.3.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 03, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12&amp;uo=4">App Store</a>
@@ -326,10 +326,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/65/2e/8a652e11-1b3a-91cc-626c-f57d730ee81a/AppIcon-0-85-220-0-5-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/29/e1/d329e1d1-c691-9727-3992-42db99e7f49f/AppIcon-0-85-220-0-5-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>24.4.431125002</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 28, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>24.5.431203002</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 04, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6738511300?mt=12&amp;uo=4">App Store</a>
