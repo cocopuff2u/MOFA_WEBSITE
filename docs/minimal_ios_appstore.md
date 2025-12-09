@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 09, 2025 04:06 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 09, 2025 05:07 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -254,10 +254,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/82/a0/1d82a0f7-10e2-16b6-1aa4-66971bb0ea87/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/5f/d6/4f5fd69a-39c3-2e51-b297-176246c116c6/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
         <div class="tile-title"><b>Microsoft Outlook</b></div>
-        <div class="tile-version"><em><code>5.2548.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>5.2547.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 02, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4">App Store</a>
@@ -386,10 +386,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/e9/5d/3ce95d85-a73c-6789-1064-146c69fccaa6/FieldServices_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Field Service"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/c0/5e/efc05e55-0573-beff-c8cf-bcf3f6f79023/FieldServices_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Field Service"></div>
         <div class="tile-title"><b>Dynamics 365 Field Service</b></div>
-        <div class="tile-version"><em><code>13.25091.10</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 30, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>13.25112.9</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-field-service/id1485579247?uo=4">App Store</a>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/fd/46/74fd461f-2065-afc4-6939-6c92c468c529/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/65/ef/4a65efac-a527-5aa6-8307-bfa9600826c9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
         <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>142.3595.107</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 01, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>143.3650.72</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 09, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
