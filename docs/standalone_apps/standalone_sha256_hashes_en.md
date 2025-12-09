@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 08, 2025 05:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 08, 2025 06:06 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -25,8 +25,8 @@ lastUpdated: false
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2021/Teams.webp" alt="Download Image" width="60"></a> | `0d7f4ed037e0ed8832e1892f0587e0e336abbc0e6376059bfcb58f278ffcab48` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `39cd03d2aed11b0f10f48dd33d6c80fbfacf4e24e289d6a33bd25cbe2eb3df43` |
 | **Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d45a1a8b-e452-454b-8e78-5f6103c85ea4/MicrosoftEdge-143.0.3650.66.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `a1e692f86eb5da20fe3ccad50b98755b203684fb36f9c804c30d5843ffac9677` |
-| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `b8f06f2b4ad0b2b0697fac6bef18c5aa280dc05efa8276038c8f90b8c7dbac92` |
-| **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `e3f4bbd91f8d8ce83800cc0354bd7fb4bcee73855372afafe3e057698a20152c` |
+| **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `9b1178764d7185f352cf8a6dc5ce03e35991db16685356b900911ef5bb9b66df` |
+| **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `4b4a4c06988d7eff45a790dbd3b62f5ee821f5887cb0085a1e59f93ea1a25cf2` |
 | **Defender Shim Installer** | <a href="None"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51` |
 | **Windows App Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/2025/Windows_App.webp" alt="Download Image" width="60"></a> | `8ba0ef6835021237c9ca0f01c9b181dc4818c38d6b0b87bc3c51d663e535100e` |
 | **Visual Studio Code Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="/images/2021/Code.webp" alt="Download Image" width="60"></a> | `ac73b075e6867a51f7b50b2c546c18117a5d2b0bfb145848c7a535fc8c3c2b58` |
