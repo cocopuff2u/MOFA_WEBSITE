@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 10, 2025 10:08 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 10, 2025 11:09 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/6d/78/376d78e3-f0ea-e707-cd5e-47f13076a9c7/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/22/94/3f22944d-9e30-0da6-6333-f642c3a57c17/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>30.0.431209005</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 09, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.431210001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 10, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4">App Store</a>
