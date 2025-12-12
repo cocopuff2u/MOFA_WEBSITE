@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 12, 2025 08:17 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 12, 2025 09:08 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/d6/21/52d6216e-0bbc-b749-641e-e0d292773b6c/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/0c/a3/ea0ca35a-1226-5855-2767-f0de00def18b/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.25121.6</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 09, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>3.25121.11</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 10, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
