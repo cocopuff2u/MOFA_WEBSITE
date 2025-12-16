@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 16, 2025 07:13 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 16, 2025 08:18 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -290,10 +290,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/2d/19/962d19c2-49b4-370d-588b-37ab6b1a7153/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/16/2b/31162bf1-371c-ab88-cbfd-fab847ffcabb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
         <div class="tile-title"><b>Windows App Mobile</b></div>
-        <div class="tile-version"><em><code>11.2.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>11.2.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4">App Store</a>
@@ -350,10 +350,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/1a/ab/901aaba4-ef27-57ff-e8ad-88c196f1fb56/appicon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Store Commerce"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/f9/b9/94f9b99a-595d-4f3a-fe82-b6f37cd7631b/appicon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Store Commerce"></div>
         <div class="tile-title"><b>Store Commerce</b></div>
-        <div class="tile-version"><em><code>9.55.25314</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 16, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>9.55.25344</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/store-commerce/id1630004521?uo=4">App Store</a>
