@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 15, 2025 05:07 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 15, 2025 06:07 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a9/5e/a6a95efb-35ac-38af-9a61-4b26ce8e254d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/82/98/95829812-d0f7-09d2-137f-b80b0868e915/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.104</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>2.103.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/97/03/e09703cd-38dd-a049-c8d4-f12d9d443b9d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/4f/37/ff4f37c1-46a3-4a7a-95a6-e14a125ca58b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.104</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>2.103.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/8e/2a/a88e2ad1-d43b-4656-4fdb-6d8690e94a4c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/05/f1/ff05f115-09af-195a-1615-7c61db88fe16/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.103.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 08, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.104</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -482,10 +482,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/45/54/6c455417-0904-9b31-1de5-f56041fb2fb2/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Teams"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/99/1f/87991fd9-43b2-57fb-b98a-cf01096c7187/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Teams"></div>
         <div class="tile-title"><b>Microsoft Teams</b></div>
-        <div class="tile-version"><em><code>7.22.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 14, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>7.22.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 12, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-teams/id1113153706?uo=4">App Store</a>
