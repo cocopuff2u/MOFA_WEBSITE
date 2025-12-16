@@ -4,30 +4,27 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 16, 2025 04:07 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">December 16, 2025 05:07 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.104 (Build 25121423) | December 16, 2025 | Excel | [CVE-2025-62556](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62556), [CVE-2025-62560](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62560), [CVE-2025-62561](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62561), [CVE-2025-62563](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62563), [CVE-2025-62564](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62564) |
+| 16.104 (Build 25121423) | December 16, 2025 | Outlook | [CVE-2025-62562](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62562) |
+| 16.104 (Build 25121423) | December 16, 2025 | Word | [CVE-2025-62555](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62555), [CVE-2025-62558](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62558), [CVE-2025-62559](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62559) |
+| 16.104 (Build 25121423) | December 16, 2025 | Office Suite | [CVE-2025-62554](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62554), [CVE-2025-62557](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62557) |
 | 16.103.4 (25120717) | December 09, 2025 | &nbsp; | &nbsp; |
 | 16.103.3 (25113013) | December 02, 2025 | &nbsp; | &nbsp; |
 | 16.103.2 (Build 25112216) | November 25, 2025 | &nbsp; | &nbsp; |
 | 16.103.1 (Build 25111624) - Excel, OneNote;16.103.1 (Build 276111719) - PowerPoint | November 18, 2025 | &nbsp; | &nbsp; |
 | 16.103.1 (Build 25111410) | November 14, 2025 | &nbsp; | &nbsp; |
-| 16.103 (Build 25110922) | November 11, 2025 | Excel | [CVE-2025-60728](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60728), [CVE-2025-62201](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62201), [CVE-2025-62202](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62202), [CVE-2025-60726](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60726), [CVE-2025-60727](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60727), [CVE-2025-62203](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62203) |
-| 16.103 (Build 25110922) | November 11, 2025 | Office Suite | [CVE-2025-62199](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62199), [CVE-2025-60724](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-60724) |
+| 16.103 (Build 25110922) | November 11, 2025 | &nbsp; | &nbsp; |
 | 16.102.3 (Build 25110228) | November 4, 2025 | &nbsp; | &nbsp; |
 | 16.102.2 (Build 25102623) | October 28, 2025 | &nbsp; | &nbsp; |
 | 16.102.1 (Build 25101829) | October 20, 2025 | &nbsp; | &nbsp; |
-| 16.102 (Build 25101223) | October 14, 2025 | Excel | [CVE-2025-59223](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59223), [CVE-2025-59224](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59224), [CVE-2025-59225](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59225), [CVE-2025-59231](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59231), [CVE-2025-59232](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59232), [CVE-2025-59233](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59233), [CVE-2025-59235](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59235), [CVE-2025-59236](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59236) |
-| 16.102 (Build 25101223) | October 14, 2025 | Word | [CVE-2025-59221](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59221), [CVE-2025-59222](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59222) |
-| 16.102 (Build 25101223) | October 14, 2025 | Office Suite | [CVE-2025-59227](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59227), [CVE-2025-59234](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-59234) |
+| 16.102 (Build 25101223) | October 14, 2025 | &nbsp; | &nbsp; |
 | 16.101.3 (Build 25092825) | October 7, 2025 | &nbsp; | &nbsp; |
-| 16.101.2 (Build 25092825) | September 30, 2025 | &nbsp; | &nbsp; |
-| 16.101.1 (Build 25092124) | September 23, 2025 | &nbsp; | &nbsp; |
-| 16.101 (Build 25091314) | September 16, 2025 | Excel | [CVE-2025-54898](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54898), [CVE-2025-54899](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54899), [CVE-2025-54900](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54900), [CVE-2025-54901](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54901), [CVE-2025-54902](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54902), [CVE-2025-54903](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54903), [CVE-2025-54904](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54904), [CVE-2025-54896](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54896) |
-| 16.101 (Build 25091314) | September 16, 2025 | Word | [CVE-2025-54905](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54905) |
-| 16.101 (Build 25091314) | September 16, 2025 | Office Suite | [CVE-2025-54906](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54906), [CVE-2025-54910](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-54910) |
+| 16.101 (Build 25091314) | September 16, 2025 | &nbsp; | &nbsp; |
 | 16.100.4 (Build 25090553) | September 09, 2025 | &nbsp; | &nbsp; |
 | 16.100.3 (Build 25083017) | September 2, 2025 | &nbsp; | &nbsp; |
 | 16.100.2 (Build 25082415) | August 26, 2025 | &nbsp; | &nbsp; |
