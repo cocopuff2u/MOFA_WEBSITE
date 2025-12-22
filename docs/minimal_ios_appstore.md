@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">December 22, 2025 06:06 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">December 22, 2025 07:13 AM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/c4/73/22c473a3-ec94-238d-68f7-84bd41ee338c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/f8/4f/0df84f77-e154-56e1-1f3b-f885c4d67b54/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
         <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>143.3650.97</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 22, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>143.3650.82</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 15, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
@@ -578,10 +578,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/27/06/ff270656-6b6b-7f96-c2a4-87a618577951/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Power BI"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/d8/3d/59d83d92-9cf4-a87c-6503-ed4908e426ec/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Power BI"></div>
         <div class="tile-title"><b>Microsoft Power BI</b></div>
-        <div class="tile-version"><em><code>36.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>December 07, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>36.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 21, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-power-bi/id929738808?uo=4">App Store</a>
