@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">January 05, 2026 12:09 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">January 05, 2026 01:11 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/22/a7/f522a7fb-2435-b1ab-1feb-ac2da1c7f584/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/b7/dd/f5b7dd47-02f4-eb1a-20e7-eb1331bc300f/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.104.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 05, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.104.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 18, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/85/60/178560c6-8c20-ba8f-4d20-8bbf970bcedc/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/bc/ef/9ebcefd2-df77-fc9f-2c0b-b7589cde53ee/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.104.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 05, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.104.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 18, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -242,10 +242,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/2c/d4/982cd4df-f2d6-3b77-12ae-e30d59011b97/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/62/df/8562df87-b2a8-f801-3a73-c3b155eccf60/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
         <div class="tile-title"><b>Microsoft PowerPoint</b></div>
-        <div class="tile-version"><em><code>2.104.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 05, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.104.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>December 18, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-powerpoint/id586449534?uo=4">App Store</a>
