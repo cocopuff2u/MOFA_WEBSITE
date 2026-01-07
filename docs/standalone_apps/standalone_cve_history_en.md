@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 06, 2026 10:36 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">January 06, 2026 11:22 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.104.1 (Build 26010228) | January 06, 2026 | &nbsp; | &nbsp; |
 | 16.104 (Build 25121423) | December 16, 2025 | Excel | [CVE-2025-62556](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62556), [CVE-2025-62560](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62560), [CVE-2025-62561](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62561), [CVE-2025-62563](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62563), [CVE-2025-62564](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62564) |
 | 16.104 (Build 25121423) | December 16, 2025 | Outlook | [CVE-2025-62562](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62562) |
 | 16.104 (Build 25121423) | December 16, 2025 | Word | [CVE-2025-62555](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62555), [CVE-2025-62558](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62558), [CVE-2025-62559](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2025-62559) |
