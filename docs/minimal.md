@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">January 14, 2026 02:07 PM EST</code></span>
+        <span>Last Updated: <code class="status-ts">January 14, 2026 03:07 PM EST</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -386,8 +386,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="/images/Office_Suite.webp" alt="Microsoft Office Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Office Suite</b></div>
-        <div class="tile-version"><em><code>16.104.0 (25121423)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>December 14, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.105.0 (26011018)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>January 10, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525133">Installer</a></div>
@@ -399,8 +399,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="/images/Office_Suite.webp" alt="Microsoft Business Pro Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Business Pro Suite</b></div>
-        <div class="tile-version"><em><code>16.104.0 (25121423)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>December 14, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>16.105.0 (26011018)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>January 10, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2009112">Installer</a></div>
@@ -581,8 +581,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2156837"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.108.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>January 08, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.108.1</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>January 14, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2156837">Installer</a></div>
