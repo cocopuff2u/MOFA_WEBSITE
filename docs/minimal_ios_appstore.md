@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">January 28, 2026 11:13 AM EST</code></span>
+    <span>Last Updated: <code class="status-ts">January 28, 2026 12:15 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/d9/3f/3bd93f83-10d5-dacc-9e98-0defcff9537d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/f0/57/2cf0570d-911a-bae0-1bdb-4f1fb5bd65b3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.105.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.105.2</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>January 26, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/a3/b0/2da3b0f8-58aa-351a-773b-b02f6af69325/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/01/94/4b019434-61c9-36a7-279a-817cf68599d4/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
         <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>144.3719.99</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>144.3719.91</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>January 26, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/b4/b9/e6b4b939-025b-f754-25ed-4ff6b4b97f46/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/14/95/4c149527-9a04-0cce-13c2-7cd67d7fec42/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.26012.14</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 20, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.26013.8</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>January 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
