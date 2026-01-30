@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">January 30, 2026 01:21 AM EST</code></span>
+        <span>Last Updated: <code class="status-ts">January 30, 2026 02:20 AM EST</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -594,8 +594,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2325438"><img src="/images/2025/Copilot.webp" alt="Microsoft Copilot"></a>
         </div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>1.2601 (2101)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>January 21, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.2601 (2601)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>January 26, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes?tabs=mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2325438">Installer</a></div>
