@@ -500,6 +500,34 @@ I'm only as good as my research. If you have older icons, special editions (e.g.
 
 <div style="text-align: center;">
 
+## Microsoft 365 Bundle
+
+</div>
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr><th>2025</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp">
+          <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" alt="Microsoft 365 Bundle" width="144" height="144">
+        </a>
+        <div><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp">WEBP</a> • <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.png">PNG</a></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/microsoft_365_bundle">All icons for Microsoft 365 Bundle</a></p>
+
+</div>
+
+<div style="text-align: center;">
+
 ## Edge
 
 </div>
