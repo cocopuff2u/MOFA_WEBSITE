@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">February 10, 2026 03:20 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">February 10, 2026 04:20 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -494,10 +494,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/a7/ef/d0a7ef08-137e-28cb-4d09-db58afbc7984/SharePointAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Microsoft SharePoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/cd/d8/a0cdd882-b3b5-8847-c5e3-c235d9d7b016/SharePointAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Microsoft SharePoint"></div>
         <div class="tile-title"><b>Microsoft SharePoint</b></div>
-        <div class="tile-version"><em><code>4.55.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 16, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>4.55.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>February 10, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-sharepoint/id1091505266?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/bc/02/5abc02df-5a3a-c31e-e34d-6e869ed07049/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Microsoft Lens: PDF Scanner"></div>
-        <div class="tile-title"><b>Microsoft Lens: PDF Scanner</b></div>
-        <div class="tile-version"><em><code>2.106.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>January 09, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/77/83/ad7783dd-6d5c-0d09-4838-1933ca666f7c/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Scanner ·"></div>
+        <div class="tile-title"><b>Scanner ·</b></div>
+        <div class="tile-version"><em><code>2.10.10</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>February 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/microsoft-lens-pdf-scanner/id975925059?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/scanner/id1291962681?uo=4">App Store</a>
         </div>
       </div>
     </div>
