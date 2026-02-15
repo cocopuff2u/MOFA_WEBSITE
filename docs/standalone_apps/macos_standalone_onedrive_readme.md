@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/2025/OneDrive.webp" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> MacOS Standalone OneDrive Updates
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 15, 2026 02:11 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 15, 2026 03:09 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml)
  (Automatically Updated every 2 hours)_</span>
 
 > [!NOTE]
