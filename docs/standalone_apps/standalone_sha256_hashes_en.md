@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 18, 2026 03:16 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">February 18, 2026 04:17 PM EST</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -29,7 +29,7 @@ lastUpdated: false
 | **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `fcd5c8b3456ca0eb5b8ab87f427176504548e0bc0774401a1b26977f18453f35` |
 | **Defender Shim Installer** | <a href="None"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51` |
 | **Windows App Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/2025/Windows_App.webp" alt="Download Image" width="60"></a> | `7f58640f68c3d25559d66d075fb72687db51f73c8d21575f9637b0122368710a` |
-| **Visual Studio Code Standalone Installer** | <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Download Image" width="60"></a> | `N/A` |
+| **Visual Studio Code Standalone Installer** | <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Download Image" width="60"></a> | `cd7f2d0728fa63af920322d562123985c008969fba941b42778e330ef6b85a0a` |
 | **Microsoft Copilot** | <a href="None"><img src="/images/2025/Copilot.webp" alt="Download Image" width="60"></a> | `4117852de300b90a012c4a00a0c5622b1f664a9af7d5eb62d32502b25e461882` |
 | **AutoUpdate Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `c0801456f39feb52f9bbca50be9e6c9dbfe05bbb043e2802aac5ce3f24a71567` |
 | **Licensing Helper Tool Installer** | <a href="None"><img src="/images/pkg-icon.png" alt="Download Image" width="60"></a> | `2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905` |
