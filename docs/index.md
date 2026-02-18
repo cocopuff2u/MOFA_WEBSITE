@@ -93,8 +93,8 @@ hero:
   <div style="text-align: center; padding: 20px;">
     <p style="margin-bottom: 10px;">🌟 <strong>Star</strong> this repo to support the project!</p>
     <div class="glow-star" style="display: inline-flex; text-align: center; padding: 5px;">
-      <a href="https://github.com/cocopuff2u/mofa" target="_blank" style="text-decoration: none;">
-        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cocopuff2u/mofa" style="transform: scale(1.5); display: inline-block;" />
+      <a href="https://github.com/cocopuff2u/MOFA" target="_blank" style="text-decoration: none;">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cocopuff2u/MOFA" style="transform: scale(1.5); display: inline-block;" />
       </a>
     </div>
   </div>
