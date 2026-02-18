@@ -317,7 +317,7 @@ def generate_readme_content(global_last_updated, packages):
         last_updated=get_standalone_package_detail(packages, 'Visual', 'last_updated'),
         img_src="/images/2021/Code.webp",
         rel_notes_url="https://code.visualstudio.com/updates/",
-        primary_dl="https://go.microsoft.com/fwlink/?linkid=2156837",
+        primary_dl="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg",
         secondary_dl=None
     ))
 

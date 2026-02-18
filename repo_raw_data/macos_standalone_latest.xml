@@ -237,7 +237,7 @@
         <app_only_update_download>https://vscode.download.prss.microsoft.com/dbazure/download/stable/c3a26841a84f20dfe0850d0a5a9bd01da4f003ea/VSCode-darwin-universal.zip</app_only_update_download>
         <app_update_sha1>8a5065b392976065b8c8cd12e771717798dbe103</app_update_sha1>
         <app_update_sha256>35b696d8de43d42a3d63ee292302d517a40f978b38242b21c950e3689da4f459</app_update_sha256>
-        <full_update_download>https://go.microsoft.com/fwlink/?linkid=2156837</full_update_download>
+        <full_update_download>https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg</full_update_download>
         <full_update_sha1>N/A</full_update_sha1>
         <full_update_sha256>N/A</full_update_sha256>
     </package>
