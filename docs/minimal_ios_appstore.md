@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">February 24, 2026 10:07 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">February 24, 2026 11:42 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -338,10 +338,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/66/d4/a466d4c0-8979-346d-bd2f-a0e57b4ce7d7/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="Microsoft Warehouse Management"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/2a/28/a72a28e8-4600-ff6e-961c-86a4390fc76c/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="Microsoft Warehouse Management"></div>
         <div class="tile-title"><b>Microsoft Warehouse Management</b></div>
-        <div class="tile-version"><em><code>4.0.37</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 24, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>4.0.36</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>February 23, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-warehouse-management/id6444014310?uo=4">App Store</a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/8c/fd/a08cfdd3-fe7a-9968-b9bb-dae692d4556c/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/c2/5e/bcc25ed9-7a11-2b2b-d065-b5e5875ae197/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.26022.12</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 24, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.26014.9</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>February 10, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
