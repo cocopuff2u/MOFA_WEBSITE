@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 05, 2026 04:14 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">March 05, 2026 05:11 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/2a/82/202a82bc-c5b3-006f-7bbe-447855fda240/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot AI Assistant"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/9b/75/e59b75fd-d257-d6bd-c21e-90f021b4fa8a/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot AI Assistant"></div>
         <div class="tile-title"><b>Microsoft Copilot AI Assistant</b></div>
-        <div class="tile-version"><em><code>30.0.440217001</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 18, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.440304005</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 05, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4">App Store</a>
@@ -542,10 +542,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/32/37/553237da-6a44-5f30-7715-78bbffe433b0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/91/1f/0a911f29-c944-09c7-4bb1-57a6206ee196/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
         <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>465.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 05, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>464.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/7e/3f/807e3fde-b4c4-9f7b-6f44-d7d01702c254/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
-        <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
-        <div class="tile-version"><em><code>7.12.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 09, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/5e/76/815e767c-5d6f-0a9a-c854-fff6a9a96148/AppIcon-0-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Scanner App. JPG, Photo to PDF"></div>
+        <div class="tile-title"><b>Scanner App. JPG, Photo to PDF</b></div>
+        <div class="tile-version"><em><code>2.6.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/scanner-app-jpg-photo-to-pdf/id1425891150?uo=4">App Store</a>
         </div>
       </div>
     </div>
