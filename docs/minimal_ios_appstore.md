@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 07, 2026 03:08 PM EST</code></span>
+    <span>Last Updated: <code class="status-ts">March 07, 2026 04:07 PM EST</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -362,13 +362,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/86/68/0b866877-ca04-1d24-cfdd-07aa2da2cda9/Dynamics_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 for phones"></div>
-        <div class="tile-title"><b>Dynamics 365 for phones</b></div>
-        <div class="tile-version"><em><code>13.24093.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 11, 2024</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/c9/01/4bc9019e-a89d-de7f-7d9d-9bbdd3d81b92/Sales_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Sales"></div>
+        <div class="tile-title"><b>Dynamics 365 Sales</b></div>
+        <div class="tile-version"><em><code>3.24104.15</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 11, 2024</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-for-phones/id1003997947?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-sales/id1485578688?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/4d/e4/864de45c-f722-b682-9fd8-aa361f38f2bd/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/1e/b2/2a1eb229-203b-46eb-bd23-9ac6ed70adfd/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
         <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>145.3800.92</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 05, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>145.3800.99</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
@@ -542,13 +542,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/32/37/553237da-6a44-5f30-7715-78bbffe433b0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
-        <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>465.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 05, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/46/45/f846454d-aa6d-a6c7-8f90-785a06cd3835/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Bing Search"></div>
+        <div class="tile-title"><b>Microsoft Bing Search</b></div>
+        <div class="tile-version"><em><code>32.8.440228001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 04, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-bing-search/id345323231?uo=4">App Store</a>
         </div>
       </div>
     </div>
