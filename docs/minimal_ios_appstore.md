@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 09, 2026 05:12 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 09, 2026 06:11 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -242,10 +242,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/a7/57/76a75731-c20b-a9a6-a33e-794da303159c/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/29/25/93292566-4691-947d-4328-e016c06e424f/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
         <div class="tile-title"><b>Microsoft PowerPoint</b></div>
-        <div class="tile-version"><em><code>2.106.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 02, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.107</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-powerpoint/id586449534?uo=4">App Store</a>
@@ -326,10 +326,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/36/5f/79365f19-27a9-b7e0-d0b3-3caaa75fc826/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Loop"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/f9/fc/0ff9fcad-6d47-3579-6025-2bf463f08898/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Loop"></div>
         <div class="tile-title"><b>Microsoft Loop</b></div>
-        <div class="tile-version"><em><code>2.106</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.107</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-loop/id1637682491?uo=4">App Store</a>
@@ -374,10 +374,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/91/e4/7491e4b5-0352-3c01-50f8-c3e6faa96056/To-Do-AppStore-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft To Do"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/01/52/e101525b-283c-ff27-26b5-5da5e6919cd4/To-Do-AppStore-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft To Do"></div>
         <div class="tile-title"><b>Microsoft To Do</b></div>
-        <div class="tile-version"><em><code>2.161</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 12, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>2.169</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-to-do/id1212616790?uo=4">App Store</a>
@@ -470,10 +470,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/01/52/e101525b-283c-ff27-26b5-5da5e6919cd4/To-Do-AppStore-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft To Do"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/91/e4/7491e4b5-0352-3c01-50f8-c3e6faa96056/To-Do-AppStore-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft To Do"></div>
         <div class="tile-title"><b>Microsoft To Do</b></div>
-        <div class="tile-version"><em><code>2.169</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.161</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 12, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-to-do/id1212616790?uo=4">App Store</a>
@@ -554,10 +554,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/7e/3f/807e3fde-b4c4-9f7b-6f44-d7d01702c254/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/75/06/9d75065a-227e-c061-872a-595b8f1c53f1/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
         <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
-        <div class="tile-version"><em><code>7.12.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>7.13.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
