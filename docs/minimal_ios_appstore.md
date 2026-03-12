@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 12, 2026 06:18 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 12, 2026 07:16 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -302,10 +302,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/0b/c0/db0bc048-1cc8-7bf7-85cf-7440e3f351db/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Defender: Security"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/3e/33/e03e3333-ca64-e1e9-2a1c-b0c7e9e4e6d9/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Defender: Security"></div>
         <div class="tile-title"><b>Microsoft Defender: Security</b></div>
-        <div class="tile-version"><em><code>1.1.74260102</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>February 27, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.1.74260104</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 12, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-defender-security/id1526737990?uo=4">App Store</a>
