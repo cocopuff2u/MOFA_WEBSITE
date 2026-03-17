@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 17, 2026 01:33 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 17, 2026 02:30 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/71/4c/7e714c41-6f2b-226a-6b9b-3c019212f4b9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/39/ef/f139ef4f-ab4e-18af-066e-4c3dc58276bc/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.107.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 16, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.107</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -542,13 +542,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/b4/2a/16b42a2d-a07f-c80d-656b-e1c0621dac8b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
-        <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>466</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 12, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/46/45/f846454d-aa6d-a6c7-8f90-785a06cd3835/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Bing Search"></div>
+        <div class="tile-title"><b>Microsoft Bing Search</b></div>
+        <div class="tile-version"><em><code>32.8.440228001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 04, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-bing-search/id345323231?uo=4">App Store</a>
         </div>
       </div>
     </div>
