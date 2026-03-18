@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">March 18, 2026 09:37 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">March 18, 2026 10:34 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -517,7 +517,7 @@ next: false
         </div>
         <div class="tile-title"><b>Edge</b></div>
         <div class="tile-version"><em><code>146.0.3856.62</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>March 16, 2026 08:42 PM EDT</code></em></small></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>March 18, 2026 09:38 AM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/81867c47-21b9-47b8-8a23-37a6b3c53c7e/MicrosoftEdge-146.0.3856.62.pkg">Installer</a></div>
@@ -581,8 +581,8 @@ next: false
           <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.111.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>March 07, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.112.0</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>March 17, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg">Installer</a></div>
