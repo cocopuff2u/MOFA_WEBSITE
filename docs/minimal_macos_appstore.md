@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 17, 2026 09:39 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 17, 2026 11:09 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -326,9 +326,9 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/c1/2f/9ac12ff3-eb21-5b08-5142-569ae3dc1c13/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/2c/c7/382cc711-efb5-4ac9-f96b-5d9bd6d975e4/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>25.6.440316004</code></em></div>
+        <div class="tile-version"><em><code>25.6.440317001</code></em></div>
         <div class="tile-updated"><small>Last Updated:<br><em><code>March 17, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
