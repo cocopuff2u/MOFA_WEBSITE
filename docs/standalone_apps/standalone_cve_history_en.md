@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 18, 2026 11:09 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">March 19, 2026 12:44 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.107.1 (Build 26031524) | March 17, 2026 | &nbsp; | &nbsp; |
 | 16.107 (Build 26030819) | March 10, 2026 | Excel | [CVE-2026-26107](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26107), [CVE-2026-26108](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26108), [CVE-2026-26109](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26109), [CVE-2026-26112](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26112) |
 | 16.107 (Build 26030819) | March 10, 2026 | Office Suite | [CVE-2026-26110](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26110), [CVE-2026-26113](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26113) |
 | 16.106.3 (Build 26030211) | March 03, 2026 | &nbsp; | &nbsp; |
