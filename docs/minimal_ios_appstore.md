@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 20, 2026 02:25 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 20, 2026 03:24 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -254,10 +254,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/2f/6d/102f6d56-16d3-ffbd-e60e-bd137f210fbf/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/81/b2/eb81b2b6-f12f-32e7-fee3-b019c7187154/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
         <div class="tile-title"><b>Microsoft Outlook</b></div>
-        <div class="tile-version"><em><code>5.2610.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 16, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>5.2610.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 20, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4">App Store</a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/c0/d6/bac0d6df-bfcc-81f2-aca9-545d09ce8a0d/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot AI Assistant"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/42/63/8c426356-1868-834b-def5-5321d9c33e90/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot AI Assistant"></div>
         <div class="tile-title"><b>Microsoft Copilot AI Assistant</b></div>
-        <div class="tile-version"><em><code>30.0.440319003</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 20, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.440318005</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 19, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4">App Store</a>
@@ -626,10 +626,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/ae/23/bfae2366-7ace-efde-0462-646ee63499fd/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/30/f4/4030f45c-7ffd-3f1c-86fc-2bea97d8fc2b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
         <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
-        <div class="tile-version"><em><code>2.108</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 13, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.108.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 19, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4">App Store</a>
