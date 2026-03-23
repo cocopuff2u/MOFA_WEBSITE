@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">March 23, 2026 11:27 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">March 23, 2026 12:25 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/c6/b1/e6c6b13f-693b-f9bf-4eda-18a193a06edd/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/57/60/f05760e0-7a4b-fade-630d-b3fc00622a2c/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.107.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 23, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.107.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 16, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/b7/42/87b742a7-a99d-911e-acce-f3e376af7572/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/71/4c/7e714c41-6f2b-226a-6b9b-3c019212f4b9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.107.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 23, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.107.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>March 16, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
