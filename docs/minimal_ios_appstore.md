@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">April 02, 2026 11:10 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">April 03, 2026 12:51 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/98/85/cf9885d7-fe35-d886-b93e-b9fdba0cf32b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/2c/25/712c2562-3108-e1e8-48e9-5665710bba2f/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
         <div class="tile-title"><b>Microsoft OneDrive</b></div>
-        <div class="tile-version"><em><code>16.36.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.36.5</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4">App Store</a>
@@ -314,13 +314,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/14/eb/1914ebe9-41f0-0c9d-a3bb-d670ec9acb36/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
-        <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>30.0.440325003</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 25, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/26/28/b42628df-cc58-92c5-47cc-52d47912f4b9/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot AI Assistant"></div>
+        <div class="tile-title"><b>Microsoft Copilot AI Assistant</b></div>
+        <div class="tile-version"><em><code>30.0.440401002</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4">App Store</a>
         </div>
       </div>
     </div>
