@@ -1,13 +1,13 @@
-last_updated: April 06, 2026 05:16 PM EDT
+last_updated: April 06, 2026 06:14 PM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
     bundleId: com.microsoft.Office.Word
-    currentVersionReleaseDate: March 30, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/a0/7d/b7a07d5d-4fae-4e85-0e46-1c231accc8d5/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 06, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/e4/3b/5ee43b5f-e62a-daa8-47fb-55d5f15a2fa6/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "\u2022 General quality and performance enhancements."
-    version: 2.107.3
+    version: 2.107.4
     app_store_url: https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4
   - name: iOS Microsoft Excel
     application_name: Microsoft Excel
@@ -67,23 +67,17 @@ packages:
   - name: iOS Microsoft Windows App Mobile
     application_name: Windows App Mobile
     bundleId: com.microsoft.rdc.ios
-    currentVersionReleaseDate: April 06, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/02/51/1202518b-aeee-b085-adb0-6fdbd38b6960/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg
-    minimumOsVersion: '26.0'
-    releaseNotes: "It's time for a refresh! We've made some updates to the app UI\
-      \ as a result of upgrading to the new iOS SDK. Here's what's new:\n\n\u2022\
-      \ Incorporated Liquid Glass styling and elements throughout the app!\n\u2022\
-      \ Added a new Personalization section (under Settings) to customize how the\
-      \ app looks and feels.\n\u2022 The Favorites page has moved. You can now find\
-      \ your favorite devices and apps pinned to the top of the Devices and Apps pages\
-      \ respectively.\n\u2022 Gracefully handled errors encountered when connecting\
-      \ to a Windows Cloud Input Protection-enabled PC endpoint.\n\nWe've also added\
-      \ support for audio and video stream optimizations when connecting to Azure\
-      \ Virtual Desktop (AVD) session hosts that support Teams redirection (see  https://docs.microsoft.com/en-us/azure/virtual-desktop/teams-on-avd\
-      \ for more details).\n\nNote that starting from this release we only support\
-      \ iOS 26.\n\nIf you encounter any errors, you can contact us via Settings >\
-      \ Submit Feedback."
-    version: 11.3.0
+    currentVersionReleaseDate: December 18, 2025
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/95/21/339521a0-181c-987b-fca4-161a61a47fb4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+    minimumOsVersion: '17.0'
+    releaseNotes: "In this release we made the following updates:\n\n\u2022 Enabled\
+      \ AVD screen capture protection by leveraging Intune app\u2011protection controls.\n\
+      \u2022 Added a checkbox to the General settings to control the usage of UDP.\n\
+      \u2022 Audio from optimized Teams meetings will now play through iPhone speakers.\n\
+      \u2022 Terminated objects that were wasting processing cycles and memory.\n\u2022\
+      \ Made behind-the-scenes updates to lay the groundwork for upcoming features.\n\
+      \nIf you encounter any errors, you can contact us via Settings > Submit Feedback."
+    version: 11.2.5
     app_store_url: https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4
   - name: iOS Microsoft Defender Security
     application_name: 'Microsoft Defender: Security'
@@ -328,14 +322,14 @@ packages:
     version: '469.0'
     app_store_url: https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4
   - name: iOS Microsoft Lens PDF Scanner
-    application_name: Scanner App. JPG, Photo to PDF
-    bundleId: app.scanz
-    currentVersionReleaseDate: March 13, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9c/5f/ec/9c5fec30-0f68-f625-d99a-488d55a90f27/AppIcon-0-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg
-    minimumOsVersion: '16.4'
-    releaseNotes: '- Bug fixes and performance improvements'
-    version: 2.6.3
-    app_store_url: https://apps.apple.com/us/app/scanner-app-jpg-photo-to-pdf/id1425891150?uo=4
+    application_name: 'Lens: Translate & Image Search'
+    bundleId: com.searchdodo.ios
+    currentVersionReleaseDate: March 16, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/97/3d/d2973def-ec62-f57f-3aa7-27b7b51b794b/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg
+    minimumOsVersion: '15.6'
+    releaseNotes: Bug fixes and performance improvements
+    version: 3.1.7
+    app_store_url: https://apps.apple.com/us/app/lens-translate-image-search/id1587316791?uo=4
   - name: iOS Microsoft Work Folders
     application_name: Work Folders
     bundleId: com.microsoft.workfolders
