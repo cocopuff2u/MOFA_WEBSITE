@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 07, 2026 07:24 AM EDT</last_updated>
+	<last_updated>April 07, 2026 08:28 AM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -38,13 +38,13 @@
 		<name>iOS Microsoft Outlook</name>
 		<application_name>Microsoft Outlook</application_name>
 		<bundleId>com.microsoft.Office.Outlook</bundleId>
-		<currentVersionReleaseDate>April 06, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/23/55/f92355fe-1946-8e8a-26bf-77a80fdc6f97/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>March 30, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/f5/e3/ecf5e3b9-a038-6f59-6f66-1d7f57dd1a31/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>18.0</minimumOsVersion>
 		<releaseNotes>This update includes performance improvements and bug fixes to make Outlook better for you.
 
 Feel free to send us any comments or questions by going to Settings &gt; Help &amp; Feedback – we’d love to hear from you.</releaseNotes>
-		<version>5.2613.0</version>
+		<version>5.2612.0</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4</app_store_url>
 	</package>
 	<package>
@@ -78,19 +78,22 @@ Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedbac
 		<name>iOS Microsoft Windows App Mobile</name>
 		<application_name>Windows App Mobile</application_name>
 		<bundleId>com.microsoft.rdc.ios</bundleId>
-		<currentVersionReleaseDate>December 18, 2025</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/95/21/339521a0-181c-987b-fca4-161a61a47fb4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg</icon_image>
-		<minimumOsVersion>17.0</minimumOsVersion>
-		<releaseNotes>In this release we made the following updates:
+		<currentVersionReleaseDate>April 06, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/02/51/1202518b-aeee-b085-adb0-6fdbd38b6960/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg</icon_image>
+		<minimumOsVersion>26.0</minimumOsVersion>
+		<releaseNotes>It's time for a refresh! We've made some updates to the app UI as a result of upgrading to the new iOS SDK. Here's what's new:
 
-• Enabled AVD screen capture protection by leveraging Intune app‑protection controls.
-• Added a checkbox to the General settings to control the usage of UDP.
-• Audio from optimized Teams meetings will now play through iPhone speakers.
-• Terminated objects that were wasting processing cycles and memory.
-• Made behind-the-scenes updates to lay the groundwork for upcoming features.
+• Incorporated Liquid Glass styling and elements throughout the app!
+• Added a new Personalization section (under Settings) to customize how the app looks and feels.
+• The Favorites page has moved. You can now find your favorite devices and apps pinned to the top of the Devices and Apps pages respectively.
+• Gracefully handled errors encountered when connecting to a Windows Cloud Input Protection-enabled PC endpoint.
+
+We've also added support for audio and video stream optimizations when connecting to Azure Virtual Desktop (AVD) session hosts that support Teams redirection (see  https://docs.microsoft.com/en-us/azure/virtual-desktop/teams-on-avd for more details).
+
+Note that starting from this release we only support iOS 26.
 
 If you encounter any errors, you can contact us via Settings &gt; Submit Feedback.</releaseNotes>
-		<version>11.2.5</version>
+		<version>11.3.0</version>
 		<app_store_url>https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4</app_store_url>
 	</package>
 	<package>
