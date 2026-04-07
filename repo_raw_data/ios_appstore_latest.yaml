@@ -1,4 +1,4 @@
-last_updated: April 07, 2026 08:28 AM EDT
+last_updated: April 07, 2026 09:37 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -30,14 +30,14 @@ packages:
   - name: iOS Microsoft Outlook
     application_name: Microsoft Outlook
     bundleId: com.microsoft.Office.Outlook
-    currentVersionReleaseDate: March 30, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/f5/e3/ecf5e3b9-a038-6f59-6f66-1d7f57dd1a31/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 06, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/23/55/f92355fe-1946-8e8a-26bf-77a80fdc6f97/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "This update includes performance improvements and bug fixes to\
       \ make Outlook better for you.\n\nFeel free to send us any comments or questions\
       \ by going to Settings > Help & Feedback \u2013 we\u2019d love to hear from\
       \ you."
-    version: 5.2612.0
+    version: 5.2613.0
     app_store_url: https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4
   - name: iOS Microsoft OneNote
     application_name: Microsoft OneNote
@@ -67,23 +67,17 @@ packages:
   - name: iOS Microsoft Windows App Mobile
     application_name: Windows App Mobile
     bundleId: com.microsoft.rdc.ios
-    currentVersionReleaseDate: April 06, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/02/51/1202518b-aeee-b085-adb0-6fdbd38b6960/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg
-    minimumOsVersion: '26.0'
-    releaseNotes: "It's time for a refresh! We've made some updates to the app UI\
-      \ as a result of upgrading to the new iOS SDK. Here's what's new:\n\n\u2022\
-      \ Incorporated Liquid Glass styling and elements throughout the app!\n\u2022\
-      \ Added a new Personalization section (under Settings) to customize how the\
-      \ app looks and feels.\n\u2022 The Favorites page has moved. You can now find\
-      \ your favorite devices and apps pinned to the top of the Devices and Apps pages\
-      \ respectively.\n\u2022 Gracefully handled errors encountered when connecting\
-      \ to a Windows Cloud Input Protection-enabled PC endpoint.\n\nWe've also added\
-      \ support for audio and video stream optimizations when connecting to Azure\
-      \ Virtual Desktop (AVD) session hosts that support Teams redirection (see  https://docs.microsoft.com/en-us/azure/virtual-desktop/teams-on-avd\
-      \ for more details).\n\nNote that starting from this release we only support\
-      \ iOS 26.\n\nIf you encounter any errors, you can contact us via Settings >\
-      \ Submit Feedback."
-    version: 11.3.0
+    currentVersionReleaseDate: December 18, 2025
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/95/21/339521a0-181c-987b-fca4-161a61a47fb4/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+    minimumOsVersion: '17.0'
+    releaseNotes: "In this release we made the following updates:\n\n\u2022 Enabled\
+      \ AVD screen capture protection by leveraging Intune app\u2011protection controls.\n\
+      \u2022 Added a checkbox to the General settings to control the usage of UDP.\n\
+      \u2022 Audio from optimized Teams meetings will now play through iPhone speakers.\n\
+      \u2022 Terminated objects that were wasting processing cycles and memory.\n\u2022\
+      \ Made behind-the-scenes updates to lay the groundwork for upcoming features.\n\
+      \nIf you encounter any errors, you can contact us via Settings > Submit Feedback."
+    version: 11.2.5
     app_store_url: https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4
   - name: iOS Microsoft Defender Security
     application_name: 'Microsoft Defender: Security'
