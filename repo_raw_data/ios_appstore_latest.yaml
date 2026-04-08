@@ -1,4 +1,4 @@
-last_updated: April 08, 2026 04:33 AM EDT
+last_updated: April 08, 2026 05:31 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -95,10 +95,10 @@ packages:
     version: 1.1.75270101
     app_store_url: https://apps.apple.com/us/app/microsoft-defender-security/id1526737990?uo=4
   - name: iOS Microsoft Copilot
-    application_name: Microsoft Copilot AI Assistant
+    application_name: Microsoft Copilot
     bundleId: com.microsoft.copilot
-    currentVersionReleaseDate: April 07, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1a/f1/6e1af134-a167-aa6d-4dc5-ef914221430d/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 02, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/ac/e2/6eace2fe-96d3-d302-75ce-47f477dc23d7/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg
     minimumOsVersion: '16.0'
     releaseNotes: 'Introducing the New Copilot: Your AI Companion
 
@@ -109,8 +109,8 @@ packages:
 
       Copilot Daily: Start your day with a news and weather summary. Clean, simple,
       and easy to digest.'
-    version: 30.0.440407005
-    app_store_url: https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4
+    version: 30.0.440402001
+    app_store_url: https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4
   - name: iOS Microsoft Loop
     application_name: Microsoft Loop
     bundleId: com.microsoft.loop
@@ -303,11 +303,11 @@ packages:
   - name: iOS Microsoft Power Apps
     application_name: Power Apps
     bundleId: com.microsoft.msapps
-    currentVersionReleaseDate: March 31, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/50/64/c75064cf-9eb9-c3e0-48a9-4cf7a3ded021/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+    currentVersionReleaseDate: April 07, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/53/8d/f3538d2b-9534-0002-6da6-7ccd48746f0a/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
     minimumOsVersion: '16.0'
     releaseNotes: "\u2022 Bug fixes and performance improvements"
-    version: 3.26034.11
+    version: 3.26035.9
     app_store_url: https://apps.apple.com/us/app/power-apps/id1047318566?uo=4
   - name: iOS Microsoft Authenticator
     application_name: Microsoft Authenticator
@@ -321,15 +321,14 @@ packages:
     version: 6.8.44
     app_store_url: https://apps.apple.com/us/app/microsoft-authenticator/id983156458?uo=4
   - name: iOS Microsoft Advertising
-    application_name: Google Ads
-    bundleId: com.google.AdWords
+    application_name: Meta Ads Manager
+    bundleId: com.facebook.MAdMan
     currentVersionReleaseDate: April 02, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/98/85/0f988540-42ec-9aba-016c-066763cc58fd/logo_ads_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg
-    minimumOsVersion: '16.0'
-    releaseNotes: We regularly update the Google Ads mobile app to provide you with
-      a better experience managing your account on the go.
-    version: 3.27.20079932
-    app_store_url: https://apps.apple.com/us/app/google-ads/id1037457231?uo=4
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/23/fb/dd23fbfe-603a-e0c8-7d82-44fb24d0d616/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+    minimumOsVersion: '15.1'
+    releaseNotes: Bug fixes and performance updates
+    version: '469.0'
+    app_store_url: https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4
   - name: iOS Microsoft Lens PDF Scanner
     application_name: CamScanner - PDF Scanner App
     bundleId: com.intsig.CamScannerLite
