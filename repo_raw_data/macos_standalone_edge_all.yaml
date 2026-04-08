@@ -1,5 +1,5 @@
 EdgeInsiderVersions:
-  last_updated: April 08, 2026 08:28 AM EDT
+  last_updated: April 08, 2026 09:38 AM EDT
   Version:
   - Name: current
     Version: 146.0.3856.97
@@ -11,14 +11,14 @@ EdgeInsiderVersions:
     Full_Update_Sha256: 2f45139a58c79fa384d974935989268a257785ba5e662515a4751b44044419ea
     Last_Update: April 03, 2026 12:08 AM EDT
   - Name: canary
-    Version: 148.0.3965.0
+    Version: 148.0.3966.0
     Application_ID: EDGE01
     Application_Name: Microsoft Edge.app
     CFBundleVersion: com.microsoft.edgemac
-    Full_Update_Download: https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f430d75a-b824-416e-9413-23bf2fccd305/MicrosoftEdgeCanary-148.0.3965.0.pkg
-    Full_Update_Sha1: 703c6341010fa0153043940d51a05e0ef411df06
-    Full_Update_Sha256: efe960de1f3b6b4e9ea18ac884f0c310ef2e592f29e2bdf86128f9077f23ec04
-    Last_Update: April 07, 2026 07:24 PM EDT
+    Full_Update_Download: https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/140e87ab-6467-4fa9-9f19-387fb7910b0b/MicrosoftEdgeCanary-148.0.3966.0.pkg
+    Full_Update_Sha1: b87d685ff5b12c23b4430fd2cf6521ecdfe05b3b
+    Full_Update_Sha256: a4f1c92508b96062747bd866fc0cef107c83cfe5cf7b20d258b668a758ca5acb
+    Last_Update: April 08, 2026 08:40 AM EDT
   - Name: dev
     Version: 148.0.3956.0
     Application_ID: EDGE01
