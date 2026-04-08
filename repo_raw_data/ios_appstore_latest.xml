@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 08, 2026 12:55 AM EDT</last_updated>
+	<last_updated>April 08, 2026 01:39 AM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -109,17 +109,17 @@ If you encounter any errors, you can contact us via Settings &gt; Submit Feedbac
 	</package>
 	<package>
 		<name>iOS Microsoft Copilot</name>
-		<application_name>Microsoft Copilot AI Assistant</application_name>
+		<application_name>Microsoft Copilot</application_name>
 		<bundleId>com.microsoft.copilot</bundleId>
-		<currentVersionReleaseDate>April 07, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1a/f1/6e1af134-a167-aa6d-4dc5-ef914221430d/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 02, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/ac/e2/6eace2fe-96d3-d302-75ce-47f477dc23d7/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>Introducing the New Copilot: Your AI Companion
 This update includes an intuitive design with more digestible and faster answers, plus new features.
 Copilot Voice: Perfect for brainstorming, quick questions, or just venting.
 Copilot Daily: Start your day with a news and weather summary. Clean, simple, and easy to digest.</releaseNotes>
-		<version>30.0.440407005</version>
-		<app_store_url>https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4</app_store_url>
+		<version>30.0.440402001</version>
+		<app_store_url>https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4</app_store_url>
 	</package>
 	<package>
 		<name>iOS Microsoft Loop</name>
@@ -346,11 +346,11 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 		<name>iOS Microsoft Power Apps</name>
 		<application_name>Power Apps</application_name>
 		<bundleId>com.microsoft.msapps</bundleId>
-		<currentVersionReleaseDate>March 31, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/50/64/c75064cf-9eb9-c3e0-48a9-4cf7a3ded021/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 07, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/53/8d/f3538d2b-9534-0002-6da6-7ccd48746f0a/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>• Bug fixes and performance improvements</releaseNotes>
-		<version>3.26034.11</version>
+		<version>3.26035.9</version>
 		<app_store_url>https://apps.apple.com/us/app/power-apps/id1047318566?uo=4</app_store_url>
 	</package>
 	<package>
@@ -366,14 +366,14 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 	</package>
 	<package>
 		<name>iOS Microsoft Advertising</name>
-		<application_name>Google Ads</application_name>
-		<bundleId>com.google.AdWords</bundleId>
+		<application_name>Meta Ads Manager</application_name>
+		<bundleId>com.facebook.MAdMan</bundleId>
 		<currentVersionReleaseDate>April 02, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/98/85/0f988540-42ec-9aba-016c-066763cc58fd/logo_ads_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg</icon_image>
-		<minimumOsVersion>16.0</minimumOsVersion>
-		<releaseNotes>We regularly update the Google Ads mobile app to provide you with a better experience managing your account on the go.</releaseNotes>
-		<version>3.27.20079932</version>
-		<app_store_url>https://apps.apple.com/us/app/google-ads/id1037457231?uo=4</app_store_url>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/23/fb/dd23fbfe-603a-e0c8-7d82-44fb24d0d616/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg</icon_image>
+		<minimumOsVersion>15.1</minimumOsVersion>
+		<releaseNotes>Bug fixes and performance updates</releaseNotes>
+		<version>469.0</version>
+		<app_store_url>https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4</app_store_url>
 	</package>
 	<package>
 		<name>iOS Microsoft Lens PDF Scanner</name>
