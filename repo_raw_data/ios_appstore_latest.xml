@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 09, 2026 08:45 PM EDT</last_updated>
+	<last_updated>April 09, 2026 09:40 PM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -109,7 +109,7 @@ If you encounter any errors, you can contact us via Settings &gt; Submit Feedbac
 	</package>
 	<package>
 		<name>iOS Microsoft Copilot</name>
-		<application_name>Microsoft Copilot AI Assistant</application_name>
+		<application_name>Microsoft Copilot</application_name>
 		<bundleId>com.microsoft.copilot</bundleId>
 		<currentVersionReleaseDate>April 07, 2026</currentVersionReleaseDate>
 		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1a/f1/6e1af134-a167-aa6d-4dc5-ef914221430d/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg</icon_image>
@@ -119,7 +119,7 @@ This update includes an intuitive design with more digestible and faster answers
 Copilot Voice: Perfect for brainstorming, quick questions, or just venting.
 Copilot Daily: Start your day with a news and weather summary. Clean, simple, and easy to digest.</releaseNotes>
 		<version>30.0.440407005</version>
-		<app_store_url>https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4</app_store_url>
+		<app_store_url>https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4</app_store_url>
 	</package>
 	<package>
 		<name>iOS Microsoft Loop</name>
@@ -289,13 +289,13 @@ Upgrade now to enjoy a smarter, faster, and more productive Microsoft Edge.</rel
 		<name>iOS Microsoft Azure</name>
 		<application_name>Microsoft Azure</application_name>
 		<bundleId>com.microsoft.azure</bundleId>
-		<currentVersionReleaseDate>March 17, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/65/98/5d659850-7778-8a52-e165-08dfd1b4f297/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 08, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/a3/7d/0aa37d49-6654-c9a5-e73f-41b42c6f391d/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>Thank you for using the Azure app. Our regular updates include performance improvements and bug fixes to make the app faster and more reliable.
 
 Please reach out to us for any questions, concerns, or feature requests.</releaseNotes>
-		<version>8.1.3</version>
+		<version>8.1.5</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-azure/id1219013620?uo=4</app_store_url>
 	</package>
 	<package>
@@ -313,11 +313,11 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 		<name>iOS Microsoft Teams</name>
 		<application_name>Microsoft Teams</application_name>
 		<bundleId>com.microsoft.skype.teams</bundleId>
-		<currentVersionReleaseDate>April 03, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/10/0f/6b100f89-0b27-811b-00df-040b482c6900/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 08, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/da/c3/96dac333-2b5f-99fb-07c6-0b3c15510ef2/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>17.0</minimumOsVersion>
 		<releaseNotes>Bug fixes and performance improvements</releaseNotes>
-		<version>8.6.0</version>
+		<version>8.6.1</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-teams/id1113153706?uo=4</app_store_url>
 	</package>
 	<package>
