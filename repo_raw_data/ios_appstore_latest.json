@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 10, 2026 09:36 AM EDT",
+    "last_updated": "April 10, 2026 10:28 AM EDT",
     "packages": [
         {
             "name": "iOS Microsoft Word",
@@ -91,14 +91,14 @@
         },
         {
             "name": "iOS Microsoft Copilot",
-            "application_name": "Microsoft Copilot AI Assistant",
+            "application_name": "Microsoft Copilot",
             "bundleId": "com.microsoft.copilot",
             "currentVersionReleaseDate": "April 07, 2026",
             "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/1a/f1/6e1af134-a167-aa6d-4dc5-ef914221430d/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "16.0",
             "releaseNotes": "Introducing the New Copilot: Your AI Companion\nThis update includes an intuitive design with more digestible and faster answers, plus new features.\nCopilot Voice: Perfect for brainstorming, quick questions, or just venting.\nCopilot Daily: Start your day with a news and weather summary. Clean, simple, and easy to digest.",
             "version": "30.0.440407005",
-            "app_store_url": "https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4"
+            "app_store_url": "https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4"
         },
         {
             "name": "iOS Microsoft Loop",
@@ -313,11 +313,11 @@
             "name": "iOS Microsoft Lens PDF Scanner",
             "application_name": "CamScanner - PDF Scanner App",
             "bundleId": "com.intsig.CamScannerLite",
-            "currentVersionReleaseDate": "April 10, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/d7/1e/8fd71e65-222d-0966-5b30-70f702e93da2/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 07, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/4d/32/704d32a1-070b-8369-39ba-7c87cecb7c10/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "13.0",
             "releaseNotes": "\u00b7 Various improvements for a better experience.\n\u00b7 We'll keep refining the app to bring you clearer scans and a smoother editing experience.",
-            "version": "7.15.5",
+            "version": "7.15.0",
             "app_store_url": "https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4"
         },
         {
