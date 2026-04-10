@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">April 10, 2026 11:22 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">April 10, 2026 12:23 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -302,10 +302,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/8f/8c/e88f8c92-e1c4-915b-7b2b-ab18cad91a91/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png" alt="Windows App"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/05/af/d505af56-2a8d-2b1b-6412-9a3c2e9ca59e/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Windows App"></div>
         <div class="tile-title"><b>Windows App</b></div>
-        <div class="tile-version"><em><code>11.3.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 03, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.3.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 10, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/windows-app/id1295203466?mt=12&amp;uo=4">App Store</a>
