@@ -1,4 +1,4 @@
-last_updated: April 10, 2026 08:43 PM EDT
+last_updated: April 10, 2026 09:39 PM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -332,12 +332,12 @@ packages:
   - name: iOS Microsoft Lens PDF Scanner
     application_name: CamScanner - PDF Scanner App
     bundleId: com.intsig.CamScannerLite
-    currentVersionReleaseDate: April 10, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/d7/1e/8fd71e65-222d-0966-5b30-70f702e93da2/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 07, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/4d/32/704d32a1-070b-8369-39ba-7c87cecb7c10/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg
     minimumOsVersion: '13.0'
     releaseNotes: "\xB7 Various improvements for a better experience.\n\xB7 We'll\
       \ keep refining the app to bring you clearer scans and a smoother editing experience."
-    version: 7.15.5
+    version: 7.15.0
     app_store_url: https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4
   - name: iOS Microsoft Work Folders
     application_name: Work Folders
