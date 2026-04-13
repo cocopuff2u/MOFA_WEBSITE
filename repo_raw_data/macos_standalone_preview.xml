@@ -1,75 +1,75 @@
 <?xml version="1.0" ?>
 <latest>
-    <last_updated>April 13, 2026 01:28 PM EDT</last_updated>
+    <last_updated>April 13, 2026 02:33 PM EDT</last_updated>
     <package>
         <name>Word</name>
         <application_id>MSWD2019</application_id>
         <application_name>Microsoft Word.app</application_name>
         <CFBundleVersion>com.microsoft.word</CFBundleVersion>
-        <short_version>16.108.0 (26040629)</short_version>
-        <full_version>16.108.26040629</full_version>
-        <last_updated>April 06, 2026</last_updated>
+        <short_version>16.108.0 (26041219)</short_version>
+        <full_version>16.108.26041219</full_version>
+        <last_updated>April 12, 2026</last_updated>
         <min_os>14.0</min_os>
-        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.108.26040629_Updater.pkg</update_download>
-        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.108.26040629_Updater.pkg</latest_download>
-        <sha1>f7dfdc3e55e4fa7fd977ba6c20b787ec8cac87ad</sha1>
-        <sha256>ba9f17bf2313e190afc3bff93185b2442952e0dccd60b3b4b969fbcd08f036a4</sha256>
+        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.108.26041219_Updater.pkg</update_download>
+        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.108.26041219_Updater.pkg</latest_download>
+        <sha1>f5fb3a5fd6569aa27a64f9125378df1e17f65786</sha1>
+        <sha256>1a729e3b6463f826c98cc30c761967797f2a262147a2e2f9748cdc4ca2770ed3</sha256>
     </package>
     <package>
         <name>Excel</name>
         <application_id>XCEL2019</application_id>
         <application_name>Microsoft Excel.app</application_name>
         <CFBundleVersion>com.microsoft.excel</CFBundleVersion>
-        <short_version>16.108.0 (26040629)</short_version>
-        <full_version>16.108.26040629</full_version>
-        <last_updated>April 06, 2026</last_updated>
+        <short_version>16.108.0 (26041219)</short_version>
+        <full_version>16.108.26041219</full_version>
+        <last_updated>April 12, 2026</last_updated>
         <min_os>14.0</min_os>
-        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Excel_16.108.26040629_Updater.pkg</update_download>
-        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Excel_16.108.26040629_Updater.pkg</latest_download>
-        <sha1>dd17fdd1b72459d4747130d6fc09007a475fd696</sha1>
-        <sha256>e961e1dd65d5dbfe29f365bc3816e50b8249221185e28ddfe57261f1701d7127</sha256>
+        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Excel_16.108.26041219_Updater.pkg</update_download>
+        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Excel_16.108.26041219_Updater.pkg</latest_download>
+        <sha1>d2960d35ec7b5a71d6cba3ca3aed93e635a8c87f</sha1>
+        <sha256>4fc5fe344e05cb701a8a8dfba1bc98e2dcecc0757f295208c501ba8aca016620</sha256>
     </package>
     <package>
         <name>PowerPoint</name>
         <application_id>PPT32019</application_id>
         <application_name>Microsoft PowerPoint.app</application_name>
         <CFBundleVersion>com.microsoft.powerpoint</CFBundleVersion>
-        <short_version>16.108.0 (26040629)</short_version>
-        <full_version>16.108.26040629</full_version>
-        <last_updated>April 06, 2026</last_updated>
+        <short_version>16.108.0 (26041219)</short_version>
+        <full_version>16.108.26041219</full_version>
+        <last_updated>April 12, 2026</last_updated>
         <min_os>14.0</min_os>
-        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_PowerPoint_16.108.26040629_Updater.pkg</update_download>
-        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_PowerPoint_16.108.26040629_Updater.pkg</latest_download>
-        <sha1>58ff1cb9c17da3b3dff90b8d2177c485b98c84b4</sha1>
-        <sha256>9f56b65a95aa9cfd898b250fccc1fc95fb998bd0abf301381e7ecbe92a30a22e</sha256>
+        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_PowerPoint_16.108.26041219_Updater.pkg</update_download>
+        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_PowerPoint_16.108.26041219_Updater.pkg</latest_download>
+        <sha1>a35687a5ea6545743d1e38685c45fb5c0264e2f5</sha1>
+        <sha256>519b1aa53364c3e561c953ec852279a3cf84faf3af8a8c4db54f7fb3bd7565ad</sha256>
     </package>
     <package>
         <name>Outlook</name>
         <application_id>OPIM2019</application_id>
         <application_name>Microsoft Outlook.app</application_name>
         <CFBundleVersion>com.microsoft.outlook</CFBundleVersion>
-        <short_version>16.108.0 (26040629)</short_version>
-        <full_version>16.108.26040629</full_version>
-        <last_updated>April 06, 2026</last_updated>
+        <short_version>16.108.0 (26041219)</short_version>
+        <full_version>16.108.26041219</full_version>
+        <last_updated>April 12, 2026</last_updated>
         <min_os>14.0</min_os>
-        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Outlook_16.108.26040629_Updater.pkg</update_download>
-        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Outlook_16.108.26040629_Updater.pkg</latest_download>
-        <sha1>e90ab04c433f112071ec5e277253dbe4ec55c809</sha1>
-        <sha256>549d343bf125e32e6d51955a314f595d6ff6e5341eccd91c98d1b7b258011c18</sha256>
+        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Outlook_16.108.26041219_Updater.pkg</update_download>
+        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Outlook_16.108.26041219_Updater.pkg</latest_download>
+        <sha1>28d2a7e19ea857aebbccfa1247d1964b84af0d83</sha1>
+        <sha256>bc04818debc7fb468eee328c5410e0be70a6f1c22497e6a7d8f0fb6ada103c40</sha256>
     </package>
     <package>
         <name>OneNote</name>
         <application_id>ONMC2019</application_id>
         <application_name>Microsoft OneNote.app</application_name>
         <CFBundleVersion>com.microsoft.onenote</CFBundleVersion>
-        <short_version>16.108.0 (26040629)</short_version>
-        <full_version>16.108.26040629</full_version>
-        <last_updated>April 06, 2026</last_updated>
+        <short_version>16.108.0 (26041219)</short_version>
+        <full_version>16.108.26041219</full_version>
+        <last_updated>April 12, 2026</last_updated>
         <min_os>14.0</min_os>
-        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_OneNote_16.108.26040629_Updater.pkg</update_download>
-        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_OneNote_16.108.26040629_Updater.pkg</latest_download>
-        <sha1>3a81f44d5071b8d9cfa5dbf65c6265fc6a443333</sha1>
-        <sha256>e4243bf53eed01a09c2ec5ed1435a8242fe8cba1ceeb8bddc82611254eb6f9df</sha256>
+        <update_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_OneNote_16.108.26041219_Updater.pkg</update_download>
+        <latest_download>https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_OneNote_16.108.26041219_Updater.pkg</latest_download>
+        <sha1>eab01af488e8112a872ac4397756c9fb74aef501</sha1>
+        <sha256>8ab244e4f4a9ea0b2b221c85a48b0ecfecbe52db7f69ae03a78912186f90f6ca</sha256>
     </package>
     <package>
         <name>Skype</name>
