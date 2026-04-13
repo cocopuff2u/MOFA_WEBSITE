@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 13, 2026 09:38 AM EDT",
+    "last_updated": "April 13, 2026 10:40 AM EDT",
     "packages": [
         {
             "name": "Microsoft Office Suite",
@@ -214,16 +214,16 @@
             "application_id": "MSRD10",
             "application_name": "Windows App.app",
             "CFBundleVersion": "com.microsoft.windows.app",
-            "short_version": "11.3.4",
-            "full_version": "2943",
-            "last_updated": "April 06, 2026",
+            "short_version": "11.3.5",
+            "full_version": "2947",
+            "last_updated": "April 13, 2026",
             "min_os": "12.0",
-            "app_only_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.4_updater.pkg",
-            "app_update_sha1": "4f5cb3b5b162bbe85fc02c77f89c2a7309bd7f1f",
-            "app_update_sha256": "53e334ac8f4bc55e77efb479b24adb834cbccd16a53382c131d022d9d0594d99",
+            "app_only_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.5_updater.pkg",
+            "app_update_sha1": "f328cdb127f5df8b6baab74bc94b7e79ac56fe73",
+            "app_update_sha256": "06976c997b610f3cfd8f63416b895c38b47e18cbf4e88f8d4f2ebbe7c1493792",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=868963",
-            "full_update_sha1": "fe868789a182e09d9fc28644f31575d8b5b4bb43",
-            "full_update_sha256": "2cd505c3b0b042477276dd8beb48bd0162aaaab5b3aaab1c6954f219a2a74ec5"
+            "full_update_sha1": "a3f793f479b91cd335334d02bb15f2edf45697e3",
+            "full_update_sha256": "980f09a9e1cbf8a53e09f9ada31b03e977e4c75751d705b94e02a875192d4f3f"
         },
         {
             "name": "Visual",
