@@ -1,4 +1,4 @@
-last_updated: April 13, 2026 09:39 PM EDT
+last_updated: April 13, 2026 11:11 PM EDT
 packages:
   - name: MacOS Microsoft Word
     application_name: Microsoft Word
@@ -72,8 +72,8 @@ packages:
   - name: MacOS Microsoft Windows App
     application_name: Windows App
     bundleId: com.microsoft.rdc.macos
-    currentVersionReleaseDate: April 10, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/05/af/d505af56-2a8d-2b1b-6412-9a3c2e9ca59e/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png
+    currentVersionReleaseDate: April 13, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/db/ad/30dbadcc-f7c3-3def-723a-76e89ee9e238/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png
     minimumOsVersion: '14.0'
     releaseNotes: "In this release we made the following updates:\n\n\u2022 Incorporated\
       \ Liquid Glass styling and elements throughout the app (requires macOS 26 or\
@@ -103,7 +103,7 @@ packages:
       \ that were showing up in error reporting.\n\nThis update requires macOS 14\
       \ and later. macOS 13 is no longer supported.\n\nIf you encounter any errors,\
       \ you can contact us via Help > Submit Feedback."
-    version: 11.3.4
+    version: 11.3.5
     app_store_url: https://apps.apple.com/us/app/windows-app/id1295203466?mt=12&uo=4
   - name: MacOS Microsoft To-Do
     application_name: Microsoft To Do

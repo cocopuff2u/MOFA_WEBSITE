@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 13, 2026 09:39 PM EDT</last_updated>
+	<last_updated>April 13, 2026 11:11 PM EDT</last_updated>
 	<package>
 		<name>MacOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -87,8 +87,8 @@ Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedbac
 		<name>MacOS Microsoft Windows App</name>
 		<application_name>Windows App</application_name>
 		<bundleId>com.microsoft.rdc.macos</bundleId>
-		<currentVersionReleaseDate>April 10, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/05/af/d505af56-2a8d-2b1b-6412-9a3c2e9ca59e/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png</icon_image>
+		<currentVersionReleaseDate>April 13, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/db/ad/30dbadcc-f7c3-3def-723a-76e89ee9e238/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png</icon_image>
 		<minimumOsVersion>14.0</minimumOsVersion>
 		<releaseNotes>In this release we made the following updates:
 
@@ -116,7 +116,7 @@ Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedbac
 This update requires macOS 14 and later. macOS 13 is no longer supported.
 
 If you encounter any errors, you can contact us via Help &gt; Submit Feedback.</releaseNotes>
-		<version>11.3.4</version>
+		<version>11.3.5</version>
 		<app_store_url>https://apps.apple.com/us/app/windows-app/id1295203466?mt=12&amp;uo=4</app_store_url>
 	</package>
 	<package>

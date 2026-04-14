@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 13, 2026 09:39 PM EDT",
+    "last_updated": "April 13, 2026 11:11 PM EDT",
     "packages": [
         {
             "name": "iOS Microsoft Word",
@@ -104,11 +104,11 @@
             "name": "iOS Microsoft Loop",
             "application_name": "Microsoft Loop",
             "bundleId": "com.microsoft.loop",
-            "currentVersionReleaseDate": "April 13, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/d6/04/0dd60498-7339-3aed-7642-3b4426ef4a86/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "March 09, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/f9/fc/0ff9fcad-6d47-3579-6025-2bf463f08898/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "18.0",
             "releaseNotes": "\u2022 General quality and performance enhancements.",
-            "version": "2.108",
+            "version": "2.107",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-loop/id1637682491?uo=4"
         },
         {
@@ -170,11 +170,11 @@
             "name": "iOS Microsoft Viva Engage",
             "application_name": "Viva Engage",
             "bundleId": "wefwef",
-            "currentVersionReleaseDate": "March 23, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/b1/f1/40b1f177-21a4-7c77-ac14-1061e160d8fb/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
-            "minimumOsVersion": "16.0",
+            "currentVersionReleaseDate": "April 13, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/53/5d/87535d6c-b33e-f188-c503-2b9722e4025f/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+            "minimumOsVersion": "17.6",
             "releaseNotes": "This update includes stability enhancements and bug fixes to improve your overall experience.",
-            "version": "11.32.0",
+            "version": "11.36.0",
             "app_store_url": "https://apps.apple.com/us/app/viva-engage/id289559439?uo=4"
         },
         {
