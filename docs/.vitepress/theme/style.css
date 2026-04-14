@@ -186,16 +186,481 @@
   max-width: 1168px !important;
 }
 
-/* Apply to all tables */
-.markdown-body table {
-  width: 50%;
+/* Center images inside table cells */
+.vp-doc table td img {
+  display: block;
   margin: 0 auto;
-  font-size: 0.8rem;
+  max-width: 100%;
 }
 
-/* Or, apply to a specific table using a class */
-.markdown-body table.shrink-table {
-  width: 50%;
-  margin: 0 auto;
-  font-size: 0.8rem;
+.vp-doc table td div {
+  text-align: center;
+}
+
+/* Standalone tables (outside section blocks) */
+.vp-doc table {
+  width: 100%;
+  margin: 1.25rem auto;
+  font-size: 0.85rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  display: table;
+}
+
+.vp-doc table th {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  text-align: center;
+}
+
+.vp-doc table td {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid var(--vp-c-divider);
+  text-align: center;
+}
+
+.vp-doc table tr:nth-child(even) td {
+  background: var(--vp-c-bg-alt);
+}
+
+
+/* Section block: unified card per section */
+.section-block {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2.5rem 0;
+}
+
+.section-block--active {
+  border-top: 3px solid #00BFFF;
+}
+
+.section-block--archived {
+  border-top: 3px solid #FF3B30;
+  opacity: 0.8;
+}
+
+/* Banner: centered header inside the block */
+.section-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  background: var(--vp-c-bg-soft);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.section-block--active .section-banner {
+  background: rgba(0, 191, 255, 0.06);
+}
+
+.section-block--archived .section-banner {
+  background: rgba(255, 59, 48, 0.04);
+}
+
+.section-banner-icon {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+}
+
+/* Invisible ## anchors for the outline — zero height, stays in DOM flow */
+.vp-doc h2:has(+ .section-block) {
+  height: 0;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.section-banner-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--vp-c-text-1) !important;
+  text-decoration: none !important;
+  margin-bottom: 0.3rem;
+  display: block;
+  transition: color 0.15s ease;
+}
+
+.section-banner-name:hover {
+  color: #00BFFF !important;
+}
+
+.section-banner-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.section-banner-desc {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  max-width: 560px;
+}
+
+/* Feature list inside a section block (between banner and table) */
+.section-body {
+  padding: 0.85rem 1.75rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.section-body ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.section-body li {
+  margin: 0.25rem 0;
+  color: var(--vp-c-text-2);
+}
+
+/* Note callout inside section block */
+.section-note {
+  padding: 0.85rem 1.75rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
+
+.section-block--active .section-note {
+  background: var(--vp-c-bg);
+  border-left: 3px solid rgba(0, 191, 255, 0.5);
+}
+
+.section-block--archived .section-note {
+  background: var(--vp-c-bg);
+  border-left: 3px solid rgba(255, 59, 48, 0.45);
+}
+
+.section-note .note-title {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.section-block--active .section-note .note-title {
+  color: #007aa3;
+}
+
+.dark .section-block--active .section-note .note-title {
+  color: #00BFFF;
+}
+
+.section-block--archived .section-note .note-title {
+  color: var(--vp-c-danger-1);
+}
+
+.section-note ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.section-note li {
+  margin: 0.25rem 0;
+}
+
+/* Tables inside section blocks */
+.section-block table {
+  width: 100%;
+  font-size: 0.85rem;
+  border-collapse: collapse;
+  display: table;
+  margin: 0;
+}
+
+.section-block table th {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.section-block--active table th {
+  background: rgba(0, 191, 255, 0.1);
+}
+
+.section-block--archived table th {
+  background: rgba(255, 59, 48, 0.07);
+}
+
+.section-block table td {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid var(--vp-c-divider);
+  text-align: center;
+}
+
+.section-block table tr:nth-child(even) td {
+  background: var(--vp-c-bg-alt);
+}
+
+.section-block--active table tr:hover td {
+  background: var(--vp-c-default-soft);
+  transition: background 0.15s ease;
+}
+
+.section-block--archived table tr:hover td {
+  background: var(--vp-c-default-soft);
+  transition: background 0.15s ease;
+}
+
+.banner-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.banner-badge--tip {
+  background: rgba(0, 191, 255, 0.15);
+  color: #007aa3;
+}
+
+.dark .banner-badge--tip {
+  background: rgba(0, 191, 255, 0.2);
+  color: #00BFFF;
+}
+
+.banner-badge--danger {
+  background: var(--vp-c-danger-soft);
+  color: var(--vp-c-danger-1);
+}
+
+.banner-badge--warning {
+  background: var(--vp-c-warning-soft);
+  color: var(--vp-c-warning-1);
+}
+
+/* Script card grid */
+.script-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.85rem;
+  padding: 1.25rem;
+  background: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.script-card {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.script-card:hover {
+  border-color: #00BFFF;
+  box-shadow: 0 2px 10px rgba(0, 191, 255, 0.12);
+}
+
+.script-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+  width: 100%;
+  transition: color 0.15s ease;
+}
+
+.script-card:hover .script-card-title {
+  color: #00BFFF;
+}
+
+.script-card-author {
+  font-size: 0.78rem;
+  color: var(--vp-c-text-3);
+  margin-bottom: 0.15rem;
+}
+
+.script-card-desc {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+  margin: 0.1rem 0 0;
+}
+
+/* CTA contribution grid */
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.cta-grid p {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+  font-size: 0.9rem;
+}
+
+/* Icon gallery — category divider */
+.icon-category-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2.5rem 0 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+}
+
+.icon-category-divider::before,
+.icon-category-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--vp-c-divider);
+}
+
+/* Icon grid */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.icon-grid-label {
+  padding: 0.6rem 1.5rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  background: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* Icon card */
+.icon-card {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 14px;
+  padding: 1.25rem 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.icon-card:hover {
+  border-color: #00BFFF;
+  box-shadow: 0 4px 16px rgba(0, 191, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+.icon-card img {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 20px;
+  display: block;
+}
+
+.icon-card-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  letter-spacing: -0.01em;
+}
+
+.icon-card-links {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.1rem;
+}
+
+/* Download pill buttons */
+.icon-pill {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  background: rgba(0, 191, 255, 0.1);
+  color: #007aa3;
+  border: 1px solid rgba(0, 191, 255, 0.2);
+  transition: background 0.15s ease;
+}
+
+.dark .icon-pill {
+  background: rgba(0, 191, 255, 0.15);
+  color: #00BFFF;
+  border-color: rgba(0, 191, 255, 0.3);
+}
+
+.icon-pill:hover {
+  background: rgba(0, 191, 255, 0.22);
+}
+
+/* All icons footer link */
+.icon-all-link {
+  display: block;
+  text-align: center;
+  padding: 0.65rem;
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+  border-top: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  text-decoration: none !important;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.icon-all-link:hover {
+  color: #00BFFF;
+  background: rgba(0, 191, 255, 0.04);
 }

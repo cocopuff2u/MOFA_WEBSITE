@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>MOFA - OneNote RSS Feed</title>
+    <link>https://mofa.cocolabs.dev/</link>
+    <description>Microsoft Office Feed for Apple - OneNote RSS Feed</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <atom:link href="https://mofa.cocolabs.dev/rss_feeds/onenote_rss.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <ttl>60</ttl>
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mofa.cocolabs.dev/images/logo_Mofa_NoBackground.png</url>
+      <title>MOFA - OneNote RSS Feed</title>
+      <link>https://mofa.cocolabs.dev/</link>
+    </image>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26040410_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.107.4 (26040410)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26040410_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26032814_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.107.3 (26032814)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26032814_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26032211_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.107.2 (26032211)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26032211_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26031524_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.107.1 (26031524)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26031524_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26030819_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.107.0 (26030819)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26030819_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26030211_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.106.3 (26030211)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26030211_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26022219_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.106.2 (26022219)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26022219_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26021521_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.106.1 (26021521)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26021521_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26020821_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.106.0 (26020821)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.106.26020821_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26020123_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.105.3 (26020123)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26020123_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26012530_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.105.2 (26012530)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26012530_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26011816_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.105.1 (26011816)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26011816_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26011018_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.105.0 (26011018)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26011018_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.26010228_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.104.1 (26010228)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.26010228_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.25121423_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.104.0 (25121423)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.25121423_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25120717_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.103.4 (25120717)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25120717_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25113013_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.103.3 (25113013)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25113013_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25112216_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.103.2 (25112216)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25112216_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25111624_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.103.1 (25111624)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25111624_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25110922_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.103.0 (25110922)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25110922_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25110228_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.102.3 (25110228)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25110228_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25102623_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.102.2 (25102623)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25102623_Updater.pkg</guid>
+    </item>
+    <item>
+      <title>New Microsoft OneNote Release</title>
+      <link>https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25101829_Updater.pkg</link>
+      <description>Microsoft AutoUpdate&lt;br&gt;Version: 16.102.1 (25101829)&lt;br&gt;Release Notes: &lt;a href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"&gt;Release Notes&lt;/a&gt;</description>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25101829_Updater.pkg</guid>
+    </item>
+  </channel>
+</rss>

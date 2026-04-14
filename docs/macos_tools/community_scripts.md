@@ -2,94 +2,84 @@
 
 # <img src="/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" /> Microsoft Scripts <img src="/images/script.png" alt="Script Image" width="20" style="vertical-align: middle; display: inline-block;" />
 
-🚀 These scripts are community driven to automate the process of downloading, installing, updating, and managing Microsoft products. 🔧
+🚀 Community-driven scripts to automate downloading, installing, updating, and managing Microsoft products on macOS.
+
 </div>
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > 💡 **This page thrives on community contributions!** Your input is vital to expand and enrich the content. Help us make it even better! 🌟
 
-<div style="text-align: center;">
+## Office Script Deployments
 
-## <div style="text-align: center; font-size: 1.5em; font-weight: bold;"> 🖥️ Office Script Deployments </div>
-
-📜 These scripts are designed to facilitate the deployment of the Microsoft Office suite.  
-<br>  
+<div class="section-block section-block--active">
+<div class="section-banner">
+  <img src="/images/script.png" alt="Script Deployments" class="section-banner-icon" />
+  <p class="section-banner-name">Office Script Deployments</p>
+  <div class="section-banner-badges">
+    <span class="banner-badge banner-badge--tip">Community Maintained</span>
+  </div>
+  <p class="section-banner-desc">Scripts designed to facilitate the deployment of the Microsoft Office suite on macOS.</p>
+</div>
+<div class="script-grid">
+<a class="script-card" href="https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17">
+  <span class="script-card-title">⬇️ Download & Install Microsoft Products</span>
+  <span class="script-card-author">by TalkingMoose</span>
+  <p class="script-card-desc">Automates downloading and installing the latest Microsoft products using direct links, with optional SHA256 verification for added security.</p>
+</a>
+<a class="script-card" href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/installM365Apps.sh">
+  <span class="script-card-title">💼 Install Office 365 Pro</span>
+  <span class="script-card-author">by Microsoft</span>
+  <p class="script-card-desc">Automates the downloading and installation of Office 365 Pro via Microsoft's Intune shell samples.</p>
+</a>
+<a class="script-card" href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/uninstallOfficeBusinessPro.sh">
+  <span class="script-card-title">🗑️ Uninstall Office 365 Pro</span>
+  <span class="script-card-author">by Microsoft</span>
+  <p class="script-card-desc">Automates the complete removal of Office 365 Pro from macOS via Microsoft's Intune shell samples.</p>
+</a>
+<a class="script-card" href="https://github.com/Installomator/Installomator">
+  <span class="script-card-title">⚙️ Installomator</span>
+  <span class="script-card-author">by Installomator</span>
+  <p class="script-card-desc">A powerful tool for automating deployment of Microsoft Office on macOS — simplifies downloading, installation, and updates in one script.</p>
+</a>
+</div>
 </div>
 
-<div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://gist.github.com/talkingmoose/b6637160b65b751824943ede022daa17" style="text-decoration: none; color: #4682b4;">⬇️ Download & Install Microsoft Products ⬇️</a>
-</div>  
-<div style="text-align: center;">
+## Office Tools
 
-  by [TalkingMoose](https://github.com/talkingmoose)  
-  This script automates the downloading and installation of the latest Microsoft products using direct links and includes optional SHA256 verification for added security.
+<div class="section-block section-block--active">
+<div class="section-banner">
+  <img src="/images/suite.png" alt="Office Tools" class="section-banner-icon" />
+  <p class="section-banner-name">Office Tools</p>
+  <div class="section-banner-badges">
+    <span class="banner-badge banner-badge--tip">Community Maintained</span>
+  </div>
+  <p class="section-banner-desc">Scripts and tools to enhance, repair, and streamline the Microsoft Office experience on macOS.</p>
+</div>
+<div class="script-grid">
+<div class="script-card">
+  <span class="script-card-title">🔧 Various Tools</span>
+  <span class="script-card-author">by pbowden-msft</span>
+  <p class="script-card-desc">A collection of tools for repairing, setting up, and automating Microsoft Office products on macOS.</p>
+</div>
+</div>
 </div>
 
----
+## Got a Need? Let Us Know!
 
-<div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/installM365Apps.sh" style="text-decoration: none; color: #4682b4;">💼 Install Office 365 Pro 💼</a>
-</div>  
-<div style="text-align: center;">
-
-  by [Microsoft](https://github.com/microsoft)  
-  This script automates the downloading and installation of Office 365 Pro.
-</div>
-
----
-
-<div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/microsoft/shell-intune-samples/blob/master/macOS/Apps/Microsoft%20365%20Apps%20for%20Mac/uninstallOfficeBusinessPro.sh" style="text-decoration: none; color: #4682b4;">💼 Uninstall Office 365 Pro 💼</a>
-</div>  
-<div style="text-align: center;">
-
-  by [Microsoft](https://github.com/microsoft)  
-  This script automates the uninstall of Office 365 Pro.
-</div>
-
----
-
-<div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/Installomator/Installomator" style="text-decoration: none; color: #4682b4;">⚙️ Installomator ⚙️</a>
-</div>  
-<div style="text-align: center;">
-
-  by [Installomator](https://github.com/Installomator)  
-  A powerful tool for automating the deployment of Microsoft Office products on macOS, simplifying downloading, installation, and updates.
-</div>
-
-<div style="text-align: center;">
-
-## <div style="text-align: center; font-size: 1.5em; font-weight: bold;"> 🛠️ Office Tools  </div>
-
-📋 These scripts offer tools to enhance and streamline the use of the Microsoft Office suite.  
-<br>  
-</div>
-
-<div style="text-align: center; font-size: 1.5em; font-weight: bold; color: #4682b4;">
-  <a href="https://github.com/pbowden-msft?tab=repositories" style="text-decoration: none; color: #4682b4;">🔧 Various Tools 🔧</a>
-</div>  
-<div style="text-align: center;">
-
-  by [pbowden-msft](https://github.com/pbowden-msft)  
-  A collection of tools for repairing, setting up, and automating Microsoft Office products.
-</div>
-
-<div style="text-align: center;">
-
-## 💬 **Got a Need? Let Us Know!**  
 If you need something, here are a few ways to reach out:
 
+<div class="cta-grid">
+
 💭 **[Start a Discussion](https://github.com/cocopuff2u/MOFA/discussions)**  
-Use this to ask questions, share ideas, or have conversations with the community. It's a great place to get feedback or advice!
+Ask questions, share ideas, or chat with the community.
 
 🐛 **[Open an Issue](https://github.com/cocopuff2u/MOFA/issues)**  
-If you're experiencing a problem, encountering a bug, or need help with something specific, create an issue here to bring it to our attention.
+Report a problem or bug and bring it to our attention.
 
 🔧 **[Submit a Pull Request](https://github.com/cocopuff2u/MOFA/pulls)**  
-If you have improvements, bug fixes, or new features to contribute, submit a pull request and help make the project better!
+Contribute improvements, fixes, or new features.
 
 📬 **[Contact Us](https://mofa.cocolabs.dev/about_support/report_issue.html)**  
-If you're not familiar with GitHub or need assistance outside of the platform, feel free to reach out through our contact page!
+Not on GitHub? Reach out through our contact page.
 
 </div>
