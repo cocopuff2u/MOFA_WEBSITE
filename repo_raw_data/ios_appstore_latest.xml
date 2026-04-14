@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 13, 2026 06:21 PM EDT</last_updated>
+	<last_updated>April 13, 2026 07:21 PM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
 		<bundleId>com.microsoft.Office.Word</bundleId>
-		<currentVersionReleaseDate>April 13, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/b7/88/f9b78847-2dff-4918-700f-48cf7bf2a01f/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 06, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/e4/3b/5ee43b5f-e62a-daa8-47fb-55d5f15a2fa6/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>18.0</minimumOsVersion>
-		<releaseNotes>• A New Effortless Commenting Experience: The latest update introduces a new streamlined commenting experience, enabling you to view threads, reply, and navigate seamlessly without losing context.</releaseNotes>
-		<version>2.108</version>
+		<releaseNotes>• General quality and performance enhancements.</releaseNotes>
+		<version>2.107.4</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4</app_store_url>
 	</package>
 	<package>
@@ -27,11 +27,11 @@
 		<name>iOS Microsoft PowerPoint</name>
 		<application_name>Microsoft PowerPoint</application_name>
 		<bundleId>com.microsoft.Office.Powerpoint</bundleId>
-		<currentVersionReleaseDate>April 13, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/ea/cf/adeacf9d-e260-83e6-2310-486249953291/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 06, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/10/d5/2510d5b8-f11e-61ce-66c3-b22c44ef5b7e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>18.0</minimumOsVersion>
 		<releaseNotes>• General quality and performance enhancements.</releaseNotes>
-		<version>2.108</version>
+		<version>2.107.4</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-powerpoint/id586449534?uo=4</app_store_url>
 	</package>
 	<package>
