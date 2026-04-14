@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 14, 2026 01:02 AM EDT</last_updated>
+	<last_updated>April 14, 2026 01:48 AM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -123,14 +123,14 @@ Copilot Daily: Start your day with a news and weather summary. Clean, simple, an
 	</package>
 	<package>
 		<name>iOS Microsoft Loop</name>
-		<application_name>Microsoft Loop</application_name>
-		<bundleId>com.microsoft.loop</bundleId>
-		<currentVersionReleaseDate>March 09, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/f9/fc/0ff9fcad-6d47-3579-6025-2bf463f08898/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<application_name>Microsoft 365 Copilot</application_name>
+		<bundleId>com.microsoft.officemobile</bundleId>
+		<currentVersionReleaseDate>April 08, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/02/3b/bd023b0f-13aa-3ea0-8ce4-30efe7a8464e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>18.0</minimumOsVersion>
 		<releaseNotes>• General quality and performance enhancements.</releaseNotes>
-		<version>2.107</version>
-		<app_store_url>https://apps.apple.com/us/app/microsoft-loop/id1637682491?uo=4</app_store_url>
+		<version>2.108.4</version>
+		<app_store_url>https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4</app_store_url>
 	</package>
 	<package>
 		<name>iOS Microsoft Warehouse Management</name>
@@ -200,11 +200,11 @@ Copilot Daily: Start your day with a news and weather summary. Clean, simple, an
 		<name>iOS Microsoft Viva Engage</name>
 		<application_name>Viva Engage</application_name>
 		<bundleId>wefwef</bundleId>
-		<currentVersionReleaseDate>April 13, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/53/5d/87535d6c-b33e-f188-c503-2b9722e4025f/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
-		<minimumOsVersion>17.6</minimumOsVersion>
+		<currentVersionReleaseDate>March 23, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/b1/f1/40b1f177-21a4-7c77-ac14-1061e160d8fb/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg</icon_image>
+		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>This update includes stability enhancements and bug fixes to improve your overall experience.</releaseNotes>
-		<version>11.36.0</version>
+		<version>11.32.0</version>
 		<app_store_url>https://apps.apple.com/us/app/viva-engage/id289559439?uo=4</app_store_url>
 	</package>
 	<package>
