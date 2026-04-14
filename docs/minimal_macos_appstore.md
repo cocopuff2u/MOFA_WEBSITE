@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">April 14, 2026 05:21 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">April 14, 2026 06:20 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/55/cc/6a55cc0c-c1c1-d50e-e3ce-f63bf579f267/Word_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/cf/97/abcf978f-d158-6ec6-b538-8b5ccb95c691/Word_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>16.107.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 07, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.108</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 14, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id462054704?mt=12&amp;uo=4">App Store</a>
@@ -242,10 +242,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/ac/30/f4ac30ca-d22f-544f-08e6-ad01d659d4f5/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft PowerPoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/a8/4d/78a84d93-b349-dcb4-4b5b-a91cff33471b/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft PowerPoint"></div>
         <div class="tile-title"><b>Microsoft PowerPoint</b></div>
-        <div class="tile-version"><em><code>16.108</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.107.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-powerpoint/id462062816?mt=12&amp;uo=4">App Store</a>
@@ -326,10 +326,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/2c/c7/382cc711-efb5-4ac9-f96b-5d9bd6d975e4/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/11/ba/6611baa0-ea44-814f-1b2c-27a608b12d50/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>25.6.440317001</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>March 17, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>25.6.440413001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 14, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6738511300?mt=12&amp;uo=4">App Store</a>
