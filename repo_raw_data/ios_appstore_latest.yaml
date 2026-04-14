@@ -1,4 +1,4 @@
-last_updated: April 14, 2026 02:45 AM EDT
+last_updated: April 14, 2026 03:39 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -114,14 +114,14 @@ packages:
     version: 30.0.440407005
     app_store_url: https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4
   - name: iOS Microsoft Loop
-    application_name: Microsoft Loop
-    bundleId: com.microsoft.loop
-    currentVersionReleaseDate: April 13, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/d6/04/0dd60498-7339-3aed-7642-3b4426ef4a86/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+    application_name: Microsoft 365 Copilot
+    bundleId: com.microsoft.officemobile
+    currentVersionReleaseDate: April 08, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/02/3b/bd023b0f-13aa-3ea0-8ce4-30efe7a8464e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "\u2022 General quality and performance enhancements."
-    version: '2.108'
-    app_store_url: https://apps.apple.com/us/app/microsoft-loop/id1637682491?uo=4
+    version: 2.108.4
+    app_store_url: https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4
   - name: iOS Microsoft Warehouse Management
     application_name: Microsoft Warehouse Management
     bundleId: com.microsoft.WarehouseManagement
