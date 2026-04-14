@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">April 14, 2026 11:31 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">April 14, 2026 12:31 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -386,8 +386,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="/images/Office_Suite.webp" alt="Microsoft Office Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Office Suite</b></div>
-        <div class="tile-version"><em><code>16.107.0 (26030937)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>March 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.108.0 (26041219)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>April 12, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525133">Installer</a></div>
@@ -399,8 +399,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="/images/Office_Suite.webp" alt="Microsoft Business Pro Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Business Pro Suite</b></div>
-        <div class="tile-version"><em><code>16.107.0 (26030937)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>March 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.108.0 (26041219)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>April 12, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2009112">Installer</a></div>
