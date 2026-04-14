@@ -92,7 +92,7 @@ Archived copies of the original `Office-Reset.com` packages, now preserved in th
 
 [**~~Website Link~~**](https://office-reset.com/)
 
-<img src="https://raw.githubusercontent.com/dan-snelson/Microsoft-365-Reset/refs/heads/main/images/Microsoft_365_Reset.png" alt="Office Reset Logo" width="128" style="vertical-align: middle; display: inline-block;" />
+<img src="../public/images/Microsoft_365_Reset.png" alt="Microsoft 365 Reset" width="128" style="vertical-align: middle; display: inline-block;" />
 
 ## Microsoft 365 Reset
 
