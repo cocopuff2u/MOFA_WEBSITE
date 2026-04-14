@@ -92,6 +92,19 @@ Archived copies of the original `Office-Reset.com` packages, now preserved in th
 
 [**~~Website Link~~**](https://office-reset.com/)
 
+<img src="https://raw.githubusercontent.com/dan-snelson/Microsoft-365-Reset/refs/heads/main/images/Microsoft_365_Reset.png" alt="Office Reset Logo" width="128" style="vertical-align: middle; display: inline-block;" />
+
+## Microsoft 365 Reset
+
+A modern, unified `zsh` script that can **repair, reset, or remove** Microsoft 365 applications and components (Word, Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams, AutoUpdate, licensing, credentials, etc.) in a single tool.
+
+- Interactive mode with **swiftDialog** UI (great for Self Service)
+- Silent mode for MDM/Jamf Pro deployments
+- Smart dependency handling and logging
+- Successor to the older per-app reset tools
+
+**Repository:** [github.com/dan-snelson/Microsoft-365-Reset](https://github.com/dan-snelson/Microsoft-365-Reset)
+
 ## **Got a Need? Let Us Know!**  
 If you need something, here are a few ways to reach out:
 
