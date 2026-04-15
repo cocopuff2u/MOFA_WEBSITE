@@ -1,5 +1,31 @@
-last_scan_date: April 15, 2026 02:31 PM EDT
+last_scan_date: April 15, 2026 03:34 PM EDT
 updates:
+- date_text: March 14, 2026
+  security_updates:
+    Excel:
+    - cve_name: CVE-2026-32188
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32188
+    - cve_name: CVE-2026-32189
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32189
+    - cve_name: CVE-2026-32197
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32197
+    - cve_name: CVE-2026-32198
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32198
+    - cve_name: CVE-2026-32199
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32199
+    Office Suite:
+    - cve_name: CVE-2026-32190
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32190
+    Word:
+    - cve_name: CVE-2026-33095
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33095
+    - cve_name: CVE-2026-33822
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33822
+    - cve_name: CVE-2026-33114
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33114
+    - cve_name: CVE-2026-33115
+      url: https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33115
+  version: Version 16.108 (Build 26041219)
 - date_text: April 08, 2026
   security_updates:
     N/A:

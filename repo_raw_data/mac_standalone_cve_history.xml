@@ -1,6 +1,41 @@
 <?xml version="1.0" ?>
 <Updates>
-    <last_scan_date>April 15, 2026 02:31 PM EDT</last_scan_date>
+    <last_scan_date>April 15, 2026 03:34 PM EDT</last_scan_date>
+    <Update>
+        <Date>March 14, 2026</Date>
+        <Version>Version 16.108 (Build 26041219)</Version>
+        <SecurityUpdates>
+            <Application>
+                <Name>Excel</Name>
+                <CVE>CVE-2026-32188</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32188</URL>
+                <CVE>CVE-2026-32189</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32189</URL>
+                <CVE>CVE-2026-32197</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32197</URL>
+                <CVE>CVE-2026-32198</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32198</URL>
+                <CVE>CVE-2026-32199</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32199</URL>
+            </Application>
+            <Application>
+                <Name>Office Suite</Name>
+                <CVE>CVE-2026-32190</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32190</URL>
+            </Application>
+            <Application>
+                <Name>Word</Name>
+                <CVE>CVE-2026-33095</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33095</URL>
+                <CVE>CVE-2026-33822</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33822</URL>
+                <CVE>CVE-2026-33114</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33114</URL>
+                <CVE>CVE-2026-33115</CVE>
+                <URL>https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-33115</URL>
+            </Application>
+        </SecurityUpdates>
+    </Update>
     <Update>
         <Date>April 08, 2026</Date>
         <Version>Version 16.107.4 (Build 26040410)</Version>
