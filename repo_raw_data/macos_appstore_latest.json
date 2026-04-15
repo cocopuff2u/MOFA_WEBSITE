@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 15, 2026 12:28 PM EDT",
+    "last_updated": "April 15, 2026 01:28 PM EDT",
     "packages": [
         {
             "name": "MacOS Microsoft Word",
@@ -16,11 +16,11 @@
             "name": "MacOS Microsoft Excel",
             "application_name": "Microsoft Excel",
             "bundleId": "com.microsoft.Excel",
-            "currentVersionReleaseDate": "April 14, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/31/fc/5931fc99-e2d9-40fb-3e80-44b8e5405f73/Excel_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
+            "currentVersionReleaseDate": "April 07, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/2c/55/0b2c5504-e83e-fc8c-6ee6-d1e94ab9259d/Excel_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
             "minimumOsVersion": "14.0",
-            "releaseNotes": "\u2022 Office Scripts Redesign: The UI redesign refreshes the Office Scripts experience so it\u2019s easier to find, create, manage, and share scripts\u2014whether you\u2019re just getting started or already building advanced automations.",
-            "version": "16.108",
+            "releaseNotes": "\u2022 General quality and performance enhancements.",
+            "version": "16.107.4",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-excel/id462058435?mt=12&uo=4"
         },
         {
@@ -38,22 +38,22 @@
             "name": "MacOS Microsoft Outlook",
             "application_name": "Microsoft Outlook",
             "bundleId": "com.microsoft.Outlook",
-            "currentVersionReleaseDate": "April 07, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/91/b5/0d91b504-fce0-2a1a-c29b-4dd2a6979bcb/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
+            "currentVersionReleaseDate": "April 14, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/50/dc/2c50dc64-be1f-5f73-db1b-b0c8491e8b60/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
             "minimumOsVersion": "14.0",
-            "releaseNotes": "\u2022 General quality and performance enhancements.",
-            "version": "16.107.4",
+            "releaseNotes": "Feature Updates: \n\u2022 Settings: Outlook for Mac now features a completely redesigned Settings experience with a modern, intuitive user interface. The refreshed UX makes it easier to discover, navigate, and manage your account preferences and app configurations in one place.\n\u2022 Mail: Outlook for Mac now supports opening and importing Outlook .msg files. You can seamlessly view messages saved outside of Outlook and import them directly into your mailbox for easier access and organization.\n\u2022 Calendar: Outlook now allows you to duplicate appointments and events on your calendar.\n \nResolved Issues:\n\u2022 MIP: Fixed the issue that Sent Items were not encrypted\n\u2022 Mail: Fixed an issue where messages were not grouped correctly when sorting by subject in the message list, making it easier to keep related conversations organized and quickly find the emails you need.\n\u2022 Delegation: Users now have the option to send permission summary email to delegate when configuring permissions.",
+            "version": "16.108",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-outlook/id985367838?mt=12&uo=4"
         },
         {
             "name": "MacOS Microsoft OneNote",
             "application_name": "Microsoft OneNote",
             "bundleId": "com.microsoft.onenote.mac",
-            "currentVersionReleaseDate": "April 07, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/6d/a1/0f6da120-ec6b-91ee-dab5-034bcf62fb45/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
+            "currentVersionReleaseDate": "April 14, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/93/61/68936113-c8c2-7349-498a-420d8d8458b9/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png",
             "minimumOsVersion": "14.0",
             "releaseNotes": "This month\u2019s update is bug fixes only.\n\nThanks for using OneNote! We listened to your feedback and updated the application with optimizations to help improve your note taking experience. \n \nHaving trouble? Send feedback in the app by clicking on the smiley face in the top-right of the app.\nHave an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedback",
-            "version": "16.107.4",
+            "version": "16.108",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-onenote/id784801555?mt=12&uo=4"
         },
         {
