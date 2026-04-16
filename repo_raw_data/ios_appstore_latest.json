@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 16, 2026 06:35 AM EDT",
+    "last_updated": "April 16, 2026 04:21 PM EDT",
     "packages": [
         {
             "name": "iOS Microsoft Word",
@@ -192,11 +192,11 @@
             "name": "iOS Microsoft Edge AI Browser",
             "application_name": "Microsoft Edge: AI Browser",
             "bundleId": "com.microsoft.msedge",
-            "currentVersionReleaseDate": "April 14, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/7f/f9/7e7ff95d-b9f0-bfe3-4fb6-6a1f68332337/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 16, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/0d/29/580d290f-f41d-ce4a-13f8-9f1d2b643b2c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "17.0",
             "releaseNotes": "Welcome to Microsoft Edge! Here's what's new in this release:\n\u2022 Introducing Copilot Vision: Browse hands-free with your voice. Talk to Copilot on any page to get help, ask questions, and explore content without lifting a finger.\nUpgrade now to enjoy a smarter, faster, and more productive Microsoft Edge.",
-            "version": "147.3912.60",
+            "version": "147.3912.71",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4"
         },
         {
@@ -247,11 +247,11 @@
             "name": "iOS Microsoft Teams",
             "application_name": "Microsoft Teams",
             "bundleId": "com.microsoft.skype.teams",
-            "currentVersionReleaseDate": "April 08, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/da/c3/96dac333-2b5f-99fb-07c6-0b3c15510ef2/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 15, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/d1/87/5cd18756-0569-3433-0fd5-60b5dd6ab09f/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "17.0",
             "releaseNotes": "Bug fixes and performance improvements",
-            "version": "8.6.1",
+            "version": "8.6.2",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-teams/id1113153706?uo=4"
         },
         {
