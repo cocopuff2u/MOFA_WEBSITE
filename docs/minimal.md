@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">April 16, 2026 10:41 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">April 16, 2026 11:38 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -607,8 +607,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Microsoft AutoUpdate"></a>
         </div>
         <div class="tile-title"><b>Microsoft AutoUpdate</b></div>
-        <div class="tile-version"><em><code>4.82 (26020434)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>February 04, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>4.83 (26040910)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>April 09, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-history-microsoft-autoupdate"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=830196">Installer</a></div>
