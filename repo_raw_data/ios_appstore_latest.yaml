@@ -1,4 +1,4 @@
-last_updated: April 15, 2026 11:12 PM EDT
+last_updated: April 16, 2026 01:06 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -304,11 +304,11 @@ packages:
   - name: iOS Microsoft Power Apps
     application_name: Power Apps
     bundleId: com.microsoft.msapps
-    currentVersionReleaseDate: April 07, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/53/8d/f3538d2b-9534-0002-6da6-7ccd48746f0a/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+    currentVersionReleaseDate: April 14, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/52/da/8252da67-5dae-54a5-16a0-1465b974a5d9/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
     minimumOsVersion: '16.0'
     releaseNotes: "\u2022 Bug fixes and performance improvements"
-    version: 3.26035.9
+    version: 3.26041.16
     app_store_url: https://apps.apple.com/us/app/power-apps/id1047318566?uo=4
   - name: iOS Microsoft Authenticator
     application_name: Microsoft Authenticator
@@ -392,11 +392,11 @@ packages:
   - name: iOS Microsoft 365 Office
     application_name: Microsoft 365 Copilot
     bundleId: com.microsoft.officemobile
-    currentVersionReleaseDate: April 15, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/70/a5/b170a5eb-a269-36a7-8da8-d1a4118d6507/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 08, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/02/3b/bd023b0f-13aa-3ea0-8ce4-30efe7a8464e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "\u2022 General quality and performance enhancements."
-    version: '2.109'
+    version: 2.108.4
     app_store_url: https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4
   - name: iOS Microsoft Skype for Business
     application_name: Skype for Business
