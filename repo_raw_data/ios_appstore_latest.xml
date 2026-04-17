@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 17, 2026 04:19 PM EDT</last_updated>
+	<last_updated>April 17, 2026 05:20 PM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -189,11 +189,11 @@ Copilot Daily: Start your day with a news and weather summary. Clean, simple, an
 		<name>iOS Microsoft Dynamics 365 Field Service</name>
 		<application_name>Dynamics 365 Field Service</application_name>
 		<bundleId>com.microsoft.dynamics.iphone.moca.fieldServices</bundleId>
-		<currentVersionReleaseDate>March 27, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/31/c7/2831c7c3-6244-a56d-0a61-5420ff8c44b3/FieldServices_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 16, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/fc/8f/fffc8fa4-015a-4dad-c3a7-7f571fa5acfc/FieldServices_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>16.0</minimumOsVersion>
 		<releaseNotes>Minor updates, bug fixes, and performance improvements.</releaseNotes>
-		<version>13.26021.11</version>
+		<version>13.26041.13</version>
 		<app_store_url>https://apps.apple.com/us/app/dynamics-365-field-service/id1485579247?uo=4</app_store_url>
 	</package>
 	<package>
@@ -254,13 +254,13 @@ Like Whiteboard?
 		<name>iOS Microsoft Edge AI Browser</name>
 		<application_name>Microsoft Edge: AI Browser</application_name>
 		<bundleId>com.microsoft.msedge</bundleId>
-		<currentVersionReleaseDate>April 14, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/7f/f9/7e7ff95d-b9f0-bfe3-4fb6-6a1f68332337/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 16, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/0d/29/580d290f-f41d-ce4a-13f8-9f1d2b643b2c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>17.0</minimumOsVersion>
 		<releaseNotes>Welcome to Microsoft Edge! Here's what's new in this release:
 • Introducing Copilot Vision: Browse hands-free with your voice. Talk to Copilot on any page to get help, ask questions, and explore content without lifting a finger.
 Upgrade now to enjoy a smarter, faster, and more productive Microsoft Edge.</releaseNotes>
-		<version>147.3912.60</version>
+		<version>147.3912.71</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4</app_store_url>
 	</package>
 	<package>
