@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">April 17, 2026 05:37 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">April 17, 2026 06:31 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/7f/f9/7e7ff95d-b9f0-bfe3-4fb6-6a1f68332337/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/0d/29/580d290f-f41d-ce4a-13f8-9f1d2b643b2c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
         <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>147.3912.60</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>147.3912.71</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>April 16, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
