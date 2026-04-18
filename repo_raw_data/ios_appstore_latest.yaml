@@ -1,4 +1,4 @@
-last_updated: April 18, 2026 07:17 AM EDT
+last_updated: April 18, 2026 08:19 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -57,13 +57,13 @@ packages:
   - name: iOS Microsoft OneDrive
     application_name: Microsoft OneDrive
     bundleId: com.microsoft.skydrive
-    currentVersionReleaseDate: April 17, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/bb/b4/9ebbb4af-ca47-9cd1-9945-28fcd925b48b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 13, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/b5/a4/3eb5a426-2f6c-0ca1-5324-4397c75330fc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.0'
     releaseNotes: This is the last version of the OneDrive iOS and iPadOS apps that
       can be installed on devices with iOS 17 or iPadOS 17. The next one will only
       support iOS 18 and 26 and iPadOS 18 and 26.
-    version: 16.37.4
+    version: 16.37.3
     app_store_url: https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4
   - name: iOS Microsoft Windows App Mobile
     application_name: Windows App Mobile
