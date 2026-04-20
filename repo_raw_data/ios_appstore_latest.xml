@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 20, 2026 01:27 PM EDT</last_updated>
+	<last_updated>April 20, 2026 02:28 PM EDT</last_updated>
 	<package>
 		<name>iOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
@@ -254,13 +254,13 @@ Like Whiteboard?
 		<name>iOS Microsoft Edge AI Browser</name>
 		<application_name>Microsoft Edge: AI Browser</application_name>
 		<bundleId>com.microsoft.msedge</bundleId>
-		<currentVersionReleaseDate>April 20, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/37/2d/13372d48-d9e5-0356-1004-934ee67385e3/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 16, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/58/0d/29/580d290f-f41d-ce4a-13f8-9f1d2b643b2c/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>17.0</minimumOsVersion>
 		<releaseNotes>Welcome to Microsoft Edge! Here's what's new in this release:
 • Introducing Copilot Vision: Browse hands-free with your voice. Talk to Copilot on any page to get help, ask questions, and explore content without lifting a finger.
 Upgrade now to enjoy a smarter, faster, and more productive Microsoft Edge.</releaseNotes>
-		<version>147.3912.75</version>
+		<version>147.3912.71</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4</app_store_url>
 	</package>
 	<package>
@@ -379,12 +379,12 @@ Please reach out to us for any questions, concerns, or feature requests.</releas
 		<name>iOS Microsoft Lens PDF Scanner</name>
 		<application_name>CamScanner - PDF Scanner App</application_name>
 		<bundleId>com.intsig.CamScannerLite</bundleId>
-		<currentVersionReleaseDate>April 20, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/61/bf/8561bf3b-ab4e-10b2-0355-cb3277538f4d/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg</icon_image>
+		<currentVersionReleaseDate>April 10, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/d7/1e/8fd71e65-222d-0966-5b30-70f702e93da2/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg</icon_image>
 		<minimumOsVersion>13.0</minimumOsVersion>
 		<releaseNotes>· Various improvements for a better experience.
 · We'll keep refining the app to bring you clearer scans and a smoother editing experience.</releaseNotes>
-		<version>7.16.0</version>
+		<version>7.15.5</version>
 		<app_store_url>https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4</app_store_url>
 	</package>
 	<package>
