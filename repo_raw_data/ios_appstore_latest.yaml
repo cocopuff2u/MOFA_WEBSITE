@@ -1,4 +1,4 @@
-last_updated: April 21, 2026 03:39 AM EDT
+last_updated: April 21, 2026 04:45 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -12,11 +12,11 @@ packages:
   - name: iOS Microsoft Excel
     application_name: Microsoft Excel
     bundleId: com.microsoft.Office.Excel
-    currentVersionReleaseDate: April 13, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/3a/85/5d3a852a-0815-5088-fb98-b97d052bf25e/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 20, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/57/17/1857173e-cc70-08c4-eb7f-1274f2aca1db/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "\u2022 General quality and performance enhancements."
-    version: '2.108'
+    version: 2.108.1
     app_store_url: https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4
   - name: iOS Microsoft PowerPoint
     application_name: Microsoft PowerPoint
@@ -182,12 +182,12 @@ packages:
   - name: iOS Microsoft Viva Engage
     application_name: Viva Engage
     bundleId: wefwef
-    currentVersionReleaseDate: April 13, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/53/5d/87535d6c-b33e-f188-c503-2b9722e4025f/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 20, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/82/d8/9382d8cd-1293-c091-f11b-27f260723cd3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.6'
     releaseNotes: This update includes stability enhancements and bug fixes to improve
       your overall experience.
-    version: 11.36.0
+    version: 11.37.0
     app_store_url: https://apps.apple.com/us/app/viva-engage/id289559439?uo=4
   - name: iOS Microsoft Whiteboard
     application_name: 'Whiteboard: just draw together'
