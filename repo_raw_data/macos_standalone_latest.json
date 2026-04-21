@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 21, 2026 03:09 PM EDT",
+    "last_updated": "April 21, 2026 03:36 PM EDT",
     "packages": [
         {
             "name": "Microsoft Office Suite",
@@ -14,8 +14,8 @@
             "app_update_sha1": "N/A",
             "app_update_sha256": "N/A",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=525133",
-            "full_update_sha1": "9107601b06a17f9f6ac2c3c9c9baeb346f52cd09",
-            "full_update_sha256": "ebf2ce07e0a545bd92fd2cf4d3e1aa50b5dcf3cade61ba46181332e9bd27d030"
+            "full_update_sha1": "6c3ec9968df2abca254a2f91c1ed9bb6560dbc99",
+            "full_update_sha256": "d4e69f77cadfd568f97536906650d7b9c6d2fad9f529cc656a7a00b7acdab64c"
         },
         {
             "name": "Microsoft BusinessPro Suite",
@@ -30,8 +30,8 @@
             "app_update_sha1": "N/A",
             "app_update_sha256": "N/A",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=2009112",
-            "full_update_sha1": "25bdedf235cdc1f033569a5ef8e323bcf0b8a023",
-            "full_update_sha256": "cbc3140b4fc132f62b826bae5caa7cd3e1b118a6dbb776585b563235f4187260"
+            "full_update_sha1": "36a127b4c12780f3fdb7e19e036c5282339cd60d",
+            "full_update_sha256": "6e4bcd420f2ce4550f46c010c9fa5e37dd64e3f515cfb713dc8730cb2e56ad67"
         },
         {
             "name": "Word",
@@ -158,8 +158,8 @@
             "app_update_sha1": "d01e5197c5ce58160634958ad53d752d76ea3b18",
             "app_update_sha256": "126dcaaf74474d11c1354472288f51bc2d542c17486190ea1489fd9275be18d7",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=853070",
-            "full_update_sha1": "038c7f0889c326229280f8c6e0a21613bd7215d7",
-            "full_update_sha256": "0c9d0b2f0a9ede954fe55911735b69c1200bb4a5ab2d5bde4e5b1d283d13c0ba"
+            "full_update_sha1": "56fbceba5ec32cdaf24a22627847299d08f926da",
+            "full_update_sha256": "e6806ea3d60c2d7a4f241d3b741c3a661580c85d4a97654a6ef429927d9682da"
         },
         {
             "name": "Defender For Endpoint",
@@ -190,8 +190,8 @@
             "app_update_sha1": "0ecf74ba86b588628a425bc267a21af4e51516bf",
             "app_update_sha256": "8d7a33f79ad00e8fdc2d75b1f826f7e75327c0c9cf72b0955d254ddb6b878b21",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=2247001",
-            "full_update_sha1": "3ee796d0106fcb0c3f62433346fc46283651fe7a",
-            "full_update_sha256": "b97fc4c743f5b148f46650c714200d8694d70cc83bd83f09dec177b13837e9a3"
+            "full_update_sha1": "0ecf74ba86b588628a425bc267a21af4e51516bf",
+            "full_update_sha256": "8d7a33f79ad00e8fdc2d75b1f826f7e75327c0c9cf72b0955d254ddb6b878b21"
         },
         {
             "name": "Defender Shim",
@@ -222,8 +222,8 @@
             "app_update_sha1": "f328cdb127f5df8b6baab74bc94b7e79ac56fe73",
             "app_update_sha256": "06976c997b610f3cfd8f63416b895c38b47e18cbf4e88f8d4f2ebbe7c1493792",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=868963",
-            "full_update_sha1": "a3f793f479b91cd335334d02bb15f2edf45697e3",
-            "full_update_sha256": "980f09a9e1cbf8a53e09f9ada31b03e977e4c75751d705b94e02a875192d4f3f"
+            "full_update_sha1": "71d969d8968b7542b46d162ca80bedfccc8c41cd",
+            "full_update_sha256": "f725f2a4e48203c6e943d11507f0467938433aeafd220e950456f63638ac05fb"
         },
         {
             "name": "Visual",
@@ -254,8 +254,8 @@
             "app_update_sha1": "0aa1c0595557bb57216ed8d003813d7b5a1b6fa3",
             "app_update_sha256": "879d8c3d07acddc6940611bb2cfdc11e2ff9b8ae0ecb8583d4179d314260c7a2",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=2325438",
-            "full_update_sha1": "2d66047aa557c078f7c75a73c8ecd41f0d9a03ae",
-            "full_update_sha256": "553285392b80e7016fbc397e67c13361f4ca3ea0d64868be7f46a100e3f670a0"
+            "full_update_sha1": "f0a35350d63863764a4cf4664d043e58fb326b8b",
+            "full_update_sha256": "c8a8bdf84cdf928b3868eecfc4784b2b369ecf2b8231f1d6a547eb28f5aa47eb"
         },
         {
             "name": "MAU",
