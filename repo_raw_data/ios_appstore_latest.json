@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 21, 2026 06:19 PM EDT",
+    "last_updated": "April 21, 2026 07:17 PM EDT",
     "packages": [
         {
             "name": "iOS Microsoft Word",
@@ -38,11 +38,11 @@
             "name": "iOS Microsoft Outlook",
             "application_name": "Microsoft Outlook",
             "bundleId": "com.microsoft.Office.Outlook",
-            "currentVersionReleaseDate": "April 21, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/af/06/57af06a5-d078-f2e7-64ca-eaf83573e93e/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 15, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/2c/d8/c82cd86f-0b5a-1423-5679-6b539a0ed38d/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "18.0",
             "releaseNotes": "This update includes performance improvements and bug fixes to make Outlook better for you.\n\nFeel free to send us any comments or questions by going to Settings > Help & Feedback \u2013 we\u2019d love to hear from you.",
-            "version": "5.2615.0",
+            "version": "5.2614.0",
             "app_store_url": "https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4"
         },
         {
@@ -280,11 +280,11 @@
             "name": "iOS Microsoft Power Apps",
             "application_name": "Power Apps",
             "bundleId": "com.microsoft.msapps",
-            "currentVersionReleaseDate": "April 14, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/52/da/8252da67-5dae-54a5-16a0-1465b974a5d9/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 21, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/42/6c/ce426cfe-6cb7-046a-e6d7-7de72b449242/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
             "minimumOsVersion": "16.0",
             "releaseNotes": "\u2022 Bug fixes and performance improvements",
-            "version": "3.26041.16",
+            "version": "3.26042.13",
             "app_store_url": "https://apps.apple.com/us/app/power-apps/id1047318566?uo=4"
         },
         {
@@ -302,11 +302,11 @@
             "name": "iOS Microsoft Advertising",
             "application_name": "Meta Ads Manager",
             "bundleId": "com.facebook.MAdMan",
-            "currentVersionReleaseDate": "April 21, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/15/44/031544e8-6594-9747-9021-56abcf017720/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+            "currentVersionReleaseDate": "April 14, 2026",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/2a/c1/472ac1bf-9e62-450c-ce51-b13d0bd55d78/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
             "minimumOsVersion": "15.1",
             "releaseNotes": "Bug fixes and performance updates",
-            "version": "471.0",
+            "version": "470.0",
             "app_store_url": "https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4"
         },
         {
