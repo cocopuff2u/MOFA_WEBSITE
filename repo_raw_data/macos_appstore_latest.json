@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 22, 2026 05:38 AM EDT",
+    "last_updated": "April 22, 2026 06:35 AM EDT",
     "packages": [
         {
             "name": "MacOS Microsoft Word",
@@ -115,11 +115,11 @@
             "name": "MacOS Microsoft Azure VPN Client",
             "application_name": "Azure VPN Client",
             "bundleId": "com.microsoft.AzureVpnMac",
-            "currentVersionReleaseDate": "April 21, 2026",
-            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/94/e8/f994e826-d24a-7241-deb8-1cb0f1634431/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png",
+            "currentVersionReleaseDate": "October 28, 2025",
+            "icon_image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/e1/79/fde1796c-45de-a318-3f02-419cdd1d2003/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png",
             "minimumOsVersion": "13.0",
-            "releaseNotes": "1. Always-On VPN connections feature\n2. Feedback prompts and leave a review feature\n3. Accessibility improvements - Keyboard navigation improvements\n4. Bug fixes for SSO experience (ie Blank screen, buffering, phantom window)",
-            "version": "3.0.100",
+            "releaseNotes": "1. macOS minimum version supported updated to 13.0 (Earlier 10.15) \n2. Server HA feature disabled \n3. Phantom window bug fix during Entra login",
+            "version": "2.8.100",
             "app_store_url": "https://apps.apple.com/us/app/azure-vpn-client/id1553936137?mt=12&uo=4"
         },
         {
