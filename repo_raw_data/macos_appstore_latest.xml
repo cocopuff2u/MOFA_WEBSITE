@@ -1,15 +1,15 @@
 <?xml version="1.0" ?>
 <latest>
-	<last_updated>April 22, 2026 06:35 AM EDT</last_updated>
+	<last_updated>April 22, 2026 07:29 AM EDT</last_updated>
 	<package>
 		<name>MacOS Microsoft Word</name>
 		<application_name>Microsoft Word</application_name>
 		<bundleId>com.microsoft.Word</bundleId>
-		<currentVersionReleaseDate>April 14, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/cf/97/abcf978f-d158-6ec6-b538-8b5ccb95c691/Word_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
+		<currentVersionReleaseDate>April 21, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/bd/6e/67bd6efb-70d4-0dcb-4959-35b74382cf4d/Word_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
 		<minimumOsVersion>14.0</minimumOsVersion>
 		<releaseNotes>• General quality and performance enhancements.</releaseNotes>
-		<version>16.108</version>
+		<version>16.108.1</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-word/id462054704?mt=12&amp;uo=4</app_store_url>
 	</package>
 	<package>
@@ -27,11 +27,11 @@
 		<name>MacOS Microsoft PowerPoint</name>
 		<application_name>Microsoft PowerPoint</application_name>
 		<bundleId>com.microsoft.Powerpoint</bundleId>
-		<currentVersionReleaseDate>April 14, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/ac/30/f4ac30ca-d22f-544f-08e6-ad01d659d4f5/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
+		<currentVersionReleaseDate>April 21, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/52/23/2d5223e1-ed5b-f6e5-a96c-c2a49565d7e5/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
 		<minimumOsVersion>14.0</minimumOsVersion>
 		<releaseNotes>• General quality and performance enhancements.</releaseNotes>
-		<version>16.108</version>
+		<version>16.108.1</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-powerpoint/id462062816?mt=12&amp;uo=4</app_store_url>
 	</package>
 	<package>
@@ -57,8 +57,8 @@ Resolved Issues:
 		<name>MacOS Microsoft OneNote</name>
 		<application_name>Microsoft OneNote</application_name>
 		<bundleId>com.microsoft.onenote.mac</bundleId>
-		<currentVersionReleaseDate>April 14, 2026</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/68/93/61/68936113-c8c2-7349-498a-420d8d8458b9/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
+		<currentVersionReleaseDate>April 21, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/b0/3c/9fb03c12-c2e6-d856-cc24-2294f29c1eba/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png</icon_image>
 		<minimumOsVersion>14.0</minimumOsVersion>
 		<releaseNotes>This month’s update is bug fixes only.
 
@@ -66,7 +66,7 @@ Thanks for using OneNote! We listened to your feedback and updated the applicati
  
 Having trouble? Send feedback in the app by clicking on the smiley face in the top-right of the app.
 Have an idea? Add to our feature suggestion box at https://aka.ms/onenotefeedback</releaseNotes>
-		<version>16.108</version>
+		<version>16.108.1</version>
 		<app_store_url>https://apps.apple.com/us/app/microsoft-onenote/id784801555?mt=12&amp;uo=4</app_store_url>
 	</package>
 	<package>
@@ -153,13 +153,14 @@ If you encounter any errors, you can contact us via Help &gt; Submit Feedback.</
 		<name>MacOS Microsoft Azure VPN Client</name>
 		<application_name>Azure VPN Client</application_name>
 		<bundleId>com.microsoft.AzureVpnMac</bundleId>
-		<currentVersionReleaseDate>October 28, 2025</currentVersionReleaseDate>
-		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/e1/79/fde1796c-45de-a318-3f02-419cdd1d2003/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png</icon_image>
+		<currentVersionReleaseDate>April 21, 2026</currentVersionReleaseDate>
+		<icon_image>https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/94/e8/f994e826-d24a-7241-deb8-1cb0f1634431/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png</icon_image>
 		<minimumOsVersion>13.0</minimumOsVersion>
-		<releaseNotes>1. macOS minimum version supported updated to 13.0 (Earlier 10.15) 
-2. Server HA feature disabled 
-3. Phantom window bug fix during Entra login</releaseNotes>
-		<version>2.8.100</version>
+		<releaseNotes>1. Always-On VPN connections feature
+2. Feedback prompts and leave a review feature
+3. Accessibility improvements - Keyboard navigation improvements
+4. Bug fixes for SSO experience (ie Blank screen, buffering, phantom window)</releaseNotes>
+		<version>3.0.100</version>
 		<app_store_url>https://apps.apple.com/us/app/azure-vpn-client/id1553936137?mt=12&amp;uo=4</app_store_url>
 	</package>
 	<package>
