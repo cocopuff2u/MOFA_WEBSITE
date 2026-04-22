@@ -1,5 +1,5 @@
 {
-    "last_updated": "April 22, 2026 09:38 AM EDT",
+    "last_updated": "April 22, 2026 10:39 AM EDT",
     "packages": [
         {
             "name": "Microsoft Office Suite",
@@ -198,16 +198,16 @@
             "application_id": "WDAVSHIM",
             "application_name": "N/A",
             "CFBundleVersion": "com.microsoft.defender.endpoint",
-            "short_version": "101.24080.0001",
-            "full_version": "101.24080.0001",
-            "last_updated": "October 16, 2024",
+            "short_version": "101.26010.0007",
+            "full_version": "101.26010.0007",
+            "last_updated": "March 27, 2026",
             "min_os": "12.0",
-            "app_only_update_download": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg",
-            "app_update_sha1": "5101228ce261cfcc836d093889eef997e8f62dfd",
-            "app_update_sha256": "3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51",
-            "full_update_download": "https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.24080.0001_Individuals_Shim_Installer.pkg",
-            "full_update_sha1": "5101228ce261cfcc836d093889eef997e8f62dfd",
-            "full_update_sha256": "3c455357808b67ec0ebbed62825e5d7f4652f3f53a1d3d58510e82099981bb51"
+            "app_only_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26010.0007_Individuals_Shim_Installer.pkg",
+            "app_update_sha1": "f7bab1d7b3e148945058b505ce5a05caa276b279",
+            "app_update_sha256": "b9a721194c03c457dd04ff3bc6c4f617b270f799f500c41f38af88c13f7f656b",
+            "full_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26010.0007_Individuals_Shim_Installer.pkg",
+            "full_update_sha1": "f7bab1d7b3e148945058b505ce5a05caa276b279",
+            "full_update_sha256": "b9a721194c03c457dd04ff3bc6c4f617b270f799f500c41f38af88c13f7f656b"
         },
         {
             "name": "Windows App",
@@ -246,13 +246,13 @@
             "application_id": "MSCP10",
             "application_name": "Microsoft 365 Copilot.app",
             "CFBundleVersion": "com.microsoft.m365copilot",
-            "short_version": "1.2604 (0601)",
-            "full_version": "1.2604.0601",
-            "last_updated": "April 06, 2026",
+            "short_version": "1.2604 (2102)",
+            "full_version": "1.2604.2102",
+            "last_updated": "April 22, 2026",
             "min_os": "14.0",
-            "app_only_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2604.0601_Updater.pkg",
-            "app_update_sha1": "0aa1c0595557bb57216ed8d003813d7b5a1b6fa3",
-            "app_update_sha256": "879d8c3d07acddc6940611bb2cfdc11e2ff9b8ae0ecb8583d4179d314260c7a2",
+            "app_only_update_download": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_Copilot_universal_1.2604.2102_Updater.pkg",
+            "app_update_sha1": "0e6a9789ffd7f8aa309769c03df61f3f60add0c6",
+            "app_update_sha256": "0a244f592c50999ed29aea2ba6ee625b5c38c7169a9464eef25ac4a4a8b8a8e6",
             "full_update_download": "https://go.microsoft.com/fwlink/?linkid=2325438",
             "full_update_sha1": "f0a35350d63863764a4cf4664d043e58fb326b8b",
             "full_update_sha256": "c8a8bdf84cdf928b3868eecfc4784b2b369ecf2b8231f1d6a547eb28f5aa47eb"
