@@ -1,4 +1,4 @@
-last_updated: April 28, 2026 03:04 AM EDT
+last_updated: April 28, 2026 04:57 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -227,15 +227,15 @@ packages:
   - name: iOS Microsoft Edge AI Browser
     application_name: 'Microsoft Edge: AI Browser'
     bundleId: com.microsoft.msedge
-    currentVersionReleaseDate: April 20, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/37/2d/13372d48-d9e5-0356-1004-934ee67385e3/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 28, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/b1/3b/6ab13b3d-9531-e6e3-7d7f-1db16d9dacc8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.0'
     releaseNotes: "Welcome to Microsoft Edge! Here's what's new in this release:\n\
       \u2022 Introducing Copilot Vision: Browse hands-free with your voice. Talk to\
       \ Copilot on any page to get help, ask questions, and explore content without\
       \ lifting a finger.\nUpgrade now to enjoy a smarter, faster, and more productive\
       \ Microsoft Edge."
-    version: 147.3912.75
+    version: 147.3912.87
     app_store_url: https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4
   - name: iOS Microsoft Seeing AI
     application_name: Seeing AI
