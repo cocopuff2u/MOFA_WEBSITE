@@ -1,4 +1,4 @@
-last_updated: April 28, 2026 04:57 AM EDT
+last_updated: April 28, 2026 05:52 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -55,19 +55,13 @@ packages:
   - name: iOS Microsoft OneDrive
     application_name: Microsoft OneDrive
     bundleId: com.microsoft.skydrive
-    currentVersionReleaseDate: April 27, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/7e/7c/6d7e7cb7-de62-d184-24f6-23fdef4aace0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
-    minimumOsVersion: '18.0'
-    releaseNotes: 'This version of OneDrive supports iOS/iPadOS versions 18 or newer
-
-
-
-      iCloud optimized photo backup is now available to all OneDrive consumer users,
-      including free tier. Previously limited to Microsoft 365 premium subscribers,
-      users can now back up iCloud-optimized photos and Live Photos via Camera Backup
-      to access them across devices and Microsoft 365 apps. Turn on Camera Backup
-      today to get started!'
-    version: 18.0.2
+    currentVersionReleaseDate: April 17, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/bb/b4/9ebbb4af-ca47-9cd1-9945-28fcd925b48b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg
+    minimumOsVersion: '17.0'
+    releaseNotes: This is the last version of the OneDrive iOS and iPadOS apps that
+      can be installed on devices with iOS 17 or iPadOS 17. The next one will only
+      support iOS 18 and 26 and iPadOS 18 and 26.
+    version: 16.37.4
     app_store_url: https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4
   - name: iOS Microsoft Windows App Mobile
     application_name: Windows App Mobile
@@ -227,15 +221,15 @@ packages:
   - name: iOS Microsoft Edge AI Browser
     application_name: 'Microsoft Edge: AI Browser'
     bundleId: com.microsoft.msedge
-    currentVersionReleaseDate: April 28, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/b1/3b/6ab13b3d-9531-e6e3-7d7f-1db16d9dacc8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 20, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/37/2d/13372d48-d9e5-0356-1004-934ee67385e3/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.0'
     releaseNotes: "Welcome to Microsoft Edge! Here's what's new in this release:\n\
       \u2022 Introducing Copilot Vision: Browse hands-free with your voice. Talk to\
       \ Copilot on any page to get help, ask questions, and explore content without\
       \ lifting a finger.\nUpgrade now to enjoy a smarter, faster, and more productive\
       \ Microsoft Edge."
-    version: 147.3912.87
+    version: 147.3912.75
     app_store_url: https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4
   - name: iOS Microsoft Seeing AI
     application_name: Seeing AI
@@ -308,11 +302,11 @@ packages:
   - name: iOS Microsoft Power Apps
     application_name: Power Apps
     bundleId: com.microsoft.msapps
-    currentVersionReleaseDate: April 21, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/42/6c/ce426cfe-6cb7-046a-e6d7-7de72b449242/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
+    currentVersionReleaseDate: April 27, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/db/b1/39dbb190-9c47-ee66-a613-1a99d81d9ad0/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg
     minimumOsVersion: '16.0'
     releaseNotes: "\u2022 Bug fixes and performance improvements"
-    version: 3.26042.13
+    version: 3.26043.16
     app_store_url: https://apps.apple.com/us/app/power-apps/id1047318566?uo=4
   - name: iOS Microsoft Authenticator
     application_name: Microsoft Authenticator
