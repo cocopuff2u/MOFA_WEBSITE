@@ -1,4 +1,4 @@
-last_updated: April 29, 2026 12:38 PM EDT
+last_updated: April 29, 2026 01:36 PM EDT
 packages:
 - name: Word
   application_id: MSWD2019
@@ -150,9 +150,9 @@ packages:
   CFBundleVersion: com.microsoft.VSCodeInsiders
   short_version: 1.119.0-
   full_version: 1.119.0-insider
-  last_updated: April 28, 2026
+  last_updated: April 29, 2026
   min_os: N/A
-  update_download: https://vscode.download.prss.microsoft.com/dbazure/download/insider/81e19a693faea10313612a2f5e31f4e61b0f7f98/VSCode-darwin-universal.zip
+  update_download: https://vscode.download.prss.microsoft.com/dbazure/download/insider/19b3119b33abe84b1db20da870ce7a1e2c34fece/VSCode-darwin-universal.zip
   latest_download: https://code.visualstudio.com/sha/download?build=insider&os=darwin-universal
   sha1: N/A
   sha256: N/A
@@ -184,11 +184,11 @@ packages:
   application_id: N/A
   application_name: Windows App Beta.app
   CFBundleVersion: com.microsoft.windows.app
-  short_version: 11.3.4
-  full_version: 11.3.4
-  last_updated: March 05, 2026
+  short_version: 11.3.6
+  full_version: 11.3.6
+  last_updated: April 29, 2026
   min_os: N/A
-  update_download: https://appcenter-filemanagement-distrib3ede6f06e-h5anddcdhqfxdafd.z01.azurefd.net/595bac36-8e21-4892-899a-1b36b9a9f8ad/Windows%20App%20Beta.app.zip?sv=2019-07-07&sr=c&sig=47qb6r%2BQo6enljlXQF8VUkABGBf0mb3k5l%2FlYFVeVU8%3D&skoid=05571020-ed2f-4af9-8176-0df11ddebe41&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-03-05T13%3A49%3A11Z&ske=2026-03-06T13%3A54%3A11Z&sks=b&skv=2019-07-07&se=2026-03-06T13%3A54%3A11Z&sp=r
-  latest_download: https://appcenter-filemanagement-distrib3ede6f06e-h5anddcdhqfxdafd.z01.azurefd.net/595bac36-8e21-4892-899a-1b36b9a9f8ad/Windows%20App%20Beta.app.zip?sv=2019-07-07&sr=c&sig=47qb6r%2BQo6enljlXQF8VUkABGBf0mb3k5l%2FlYFVeVU8%3D&skoid=05571020-ed2f-4af9-8176-0df11ddebe41&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-03-05T13%3A49%3A11Z&ske=2026-03-06T13%3A54%3A11Z&sks=b&skv=2019-07-07&se=2026-03-06T13%3A54%3A11Z&sp=r
-  sha1: ef28019bcca97f3c7456e147811b4c7cb60a488d
-  sha256: 8239ffe798c0258855adb080e66e5a551b57bd38bb99bd58fdfff39d3aaa88ba
+  update_download: https://appcenter-filemanagement-distrib3ede6f06e-h5anddcdhqfxdafd.z01.azurefd.net/e5dfb809-fb4c-47e6-8a5c-1e9a39b0c278/Windows%20App%20Beta.app.zip?sv=2019-07-07&sr=c&sig=2%2BwjYNSDK2HCltvDi8NqlbGu3SHU2UJOn%2B7lO%2F90mLk%3D&skoid=05571020-ed2f-4af9-8176-0df11ddebe41&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-04-29T17%3A05%3A12Z&ske=2026-04-30T17%3A10%3A12Z&sks=b&skv=2019-07-07&se=2026-04-30T17%3A10%3A12Z&sp=r
+  latest_download: https://appcenter-filemanagement-distrib3ede6f06e-h5anddcdhqfxdafd.z01.azurefd.net/e5dfb809-fb4c-47e6-8a5c-1e9a39b0c278/Windows%20App%20Beta.app.zip?sv=2019-07-07&sr=c&sig=2%2BwjYNSDK2HCltvDi8NqlbGu3SHU2UJOn%2B7lO%2F90mLk%3D&skoid=05571020-ed2f-4af9-8176-0df11ddebe41&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2026-04-29T17%3A05%3A12Z&ske=2026-04-30T17%3A10%3A12Z&sks=b&skv=2019-07-07&se=2026-04-30T17%3A10%3A12Z&sp=r
+  sha1: f92559174f641bd12e100c2fec89b40a239dbd6b
+  sha256: c435664f7a474d5cafb04fb65632b25a375190cc000ba8ea81ebcb489abfb5b8
