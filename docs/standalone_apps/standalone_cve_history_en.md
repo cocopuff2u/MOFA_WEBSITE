@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">April 28, 2026 11:14 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">April 29, 2026 01:11 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.108.2 (Build 26042616) | April 28, 2026 | &nbsp; | &nbsp; |
 | 16.108.1 (Build 26041915) | April 21, 2026 | &nbsp; | &nbsp; |
 | 16.108 (Build 26041219) | April 14, 2026 | Excel | [CVE-2026-32188](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32188), [CVE-2026-32189](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32189), [CVE-2026-32197](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32197), [CVE-2026-32198](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32198), [CVE-2026-32199](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32199) |
 | 16.108 (Build 26041219) | April 14, 2026 | Office Suite | [CVE-2026-32190](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32190) |
