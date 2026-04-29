@@ -1,4 +1,4 @@
-last_updated: April 29, 2026 10:51 AM EDT
+last_updated: April 29, 2026 11:44 AM EDT
 packages:
   - name: iOS Microsoft Word
     application_name: Microsoft Word
@@ -102,8 +102,8 @@ packages:
   - name: iOS Microsoft Copilot
     application_name: Microsoft Copilot
     bundleId: com.microsoft.copilot
-    currentVersionReleaseDate: April 28, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/44/cd/2a44cd77-a334-6589-7a6c-5cd63a443eec/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 22, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/87/c1/9b/87c19b8a-00da-eb1e-38b5-18374a2eb4ae/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg
     minimumOsVersion: '16.0'
     releaseNotes: 'Introducing the New Copilot: Your AI Companion
 
@@ -114,7 +114,7 @@ packages:
 
       Copilot Daily: Start your day with a news and weather summary. Clean, simple,
       and easy to digest.'
-    version: 30.0.440427001
+    version: 30.0.440422001
     app_store_url: https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4
   - name: iOS Microsoft Loop
     application_name: Microsoft Loop
@@ -188,12 +188,12 @@ packages:
   - name: iOS Microsoft Viva Engage
     application_name: Viva Engage
     bundleId: wefwef
-    currentVersionReleaseDate: April 28, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/e6/86/bbe686aa-2133-8739-4892-0ac9e3baac64/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 20, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/82/d8/9382d8cd-1293-c091-f11b-27f260723cd3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.6'
     releaseNotes: This update includes stability enhancements and bug fixes to improve
       your overall experience.
-    version: 11.38.0
+    version: 11.37.0
     app_store_url: https://apps.apple.com/us/app/viva-engage/id289559439?uo=4
   - name: iOS Microsoft Whiteboard
     application_name: 'Whiteboard: just draw together'
@@ -281,11 +281,11 @@ packages:
   - name: iOS Microsoft Teams
     application_name: Microsoft Teams
     bundleId: com.microsoft.skype.teams
-    currentVersionReleaseDate: April 29, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/bc/8d/63bc8d26-ce72-b7c6-4b53-d63e188c5f1c/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 23, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/10/e8/2110e815-f064-1490-8aad-b1b2d6ccd471/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '17.0'
     releaseNotes: Bug fixes and performance improvements
-    version: 8.7.1
+    version: 8.7.0
     app_store_url: https://apps.apple.com/us/app/microsoft-teams/id1113153706?uo=4
   - name: iOS Microsoft Sharepoint
     application_name: Microsoft SharePoint
@@ -395,11 +395,11 @@ packages:
   - name: iOS Microsoft 365 Office
     application_name: Microsoft 365 Copilot
     bundleId: com.microsoft.officemobile
-    currentVersionReleaseDate: April 29, 2026
-    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/aa/41/26aa417e-d775-1b0c-4f3a-6a6561668c4c/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
+    currentVersionReleaseDate: April 24, 2026
+    icon_image: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/ca/8f/c6ca8f2b-d367-8aba-e38f-2dbe677ab52b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg
     minimumOsVersion: '18.0'
     releaseNotes: "\u2022 General quality and performance enhancements."
-    version: 2.109.3
+    version: 2.109.2
     app_store_url: https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4
   - name: iOS Microsoft Skype for Business
     application_name: Skype for Business
