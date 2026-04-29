@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">April 29, 2026 05:47 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">April 29, 2026 06:41 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -581,8 +581,8 @@ next: false
           <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.117.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>April 21, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.118.0</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>April 29, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg">Installer</a></div>
