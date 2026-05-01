@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">May 01, 2026 05:38 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">May 01, 2026 06:35 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -594,7 +594,7 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2325438"><img src="/images/2025/Copilot.webp" alt="Microsoft Copilot"></a>
         </div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>1.2604 (2102)</code></em></div>
+        <div class="tile-version"><em><code>1.2604 (2103)</code></em></div>
         <div class="tile-updated"><small>Last Update:<br><em><code>April 22, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes?tabs=mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
