@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 04, 2026 09:41 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 05, 2026 01:09 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -530,10 +530,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/5d/9d/7c5d9d54-5a0b-ec09-7b86-01f48b09b262/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft Authenticator"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/8a/5f/478a5f2c-470b-b776-8568-da6433409c49/AppIcon-0-1x_U007emarketing-0-11-0-sRGB-85-220-0.png/512x512bb.jpg" alt="Microsoft Authenticator"></div>
         <div class="tile-title"><b>Microsoft Authenticator</b></div>
-        <div class="tile-version"><em><code>6.8.45</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>6.8.46</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 04, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-authenticator/id983156458?uo=4">App Store</a>
@@ -626,10 +626,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/aa/41/26aa417e-d775-1b0c-4f3a-6a6561668c4c/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/0e/23/bc0e2356-d9d2-6dca-0a83-a539741ec0b6/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
         <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
-        <div class="tile-version"><em><code>2.109.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 29, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 04, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4">App Store</a>
