@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">May 06, 2026 12:41 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">May 06, 2026 01:37 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -552,14 +552,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26010.0007_Individuals_Shim_Installer.pkg"><img src="/images/2025/Defender.webp" alt="Defender Shim"></a>
+          <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26020.0000_Individuals_Shim_Installer.pkg"><img src="/images/2025/Defender.webp" alt="Defender Shim"></a>
         </div>
         <div class="tile-title"><b>Defender Shim</b></div>
-        <div class="tile-version"><em><code>101.26010.0007</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>March 27, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>101.26020.0000</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>April 22, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26010.0007_Individuals_Shim_Installer.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Defender_101.26020.0000_Individuals_Shim_Installer.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
