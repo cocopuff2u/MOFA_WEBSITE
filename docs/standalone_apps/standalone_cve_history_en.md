@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 05, 2026 06:25 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 05, 2026 07:22 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.108.3 (Build 26050324) | May 05, 2026 | &nbsp; | &nbsp; |
 | 16.108.2 (Build 26042616) | April 28, 2026 | &nbsp; | &nbsp; |
 | 16.108.1 (Build 26041915) | April 21, 2026 | &nbsp; | &nbsp; |
 | 16.108 (Build 26041219) | April 14, 2026 | Excel | [CVE-2026-32188](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32188), [CVE-2026-32189](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32189), [CVE-2026-32197](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32197), [CVE-2026-32198](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32198), [CVE-2026-32199](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-32199) |
@@ -39,7 +40,7 @@ lastUpdated: false
 | 16.103.4 (25120717) | December 09, 2025 | &nbsp; | &nbsp; |
 | 16.103.3 (25113013) | December 02, 2025 | &nbsp; | &nbsp; |
 | 16.103.2 (Build 25112216) | November 25, 2025 | &nbsp; | &nbsp; |
-| 16.103.1 (Build 25111624) - Excel, OneNote;16.103.1 (Build 276111719) - PowerPoint | November 18, 2025 | &nbsp; | &nbsp; |
+| 16.103.1 (Build 25111624) - Excel, OneNote;16.103.1 (Build 25111719) - PowerPoint | November 18, 2025 | &nbsp; | &nbsp; |
 | 16.103.1 (Build 25111410) | November 14, 2025 | &nbsp; | &nbsp; |
 | 16.103 (Build 25110922) | November 11, 2025 | &nbsp; | &nbsp; |
 | 16.102.3 (Build 25110228) | November 4, 2025 | &nbsp; | &nbsp; |
