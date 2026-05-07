@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">May 07, 2026 02:42 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">May 07, 2026 03:35 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -513,14 +513,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ef4985e-fb35-40a3-b56b-3de67c008f23/MicrosoftEdge-147.0.3912.98.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="N/A"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>147.0.3912.98</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>May 02, 2026 04:33 AM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>148.0.3967.54</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>May 07, 2026 03:32 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ef4985e-fb35-40a3-b56b-3de67c008f23/MicrosoftEdge-147.0.3912.98.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="N/A">Installer</a></div>
       </div>
     </div>
 <div class="tile">
