@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 11, 2026 11:09 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 11, 2026 01:00 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/11/5c/44115c2a-8fc2-6841-b50e-51b12158beab/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/e8/aa/88e8aac1-fc95-de90-6ee3-5c5e543a096d/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.108.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 04, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/bf/d1/e5bfd14a-2f5f-d7a0-38aa-2ef9fea52842/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/0d/dc/9a0ddc9e-8f18-2631-7ef3-0e1aff8f64b7/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.108.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 04, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.109</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -326,10 +326,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/d6/04/0dd60498-7339-3aed-7642-3b4426ef4a86/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Loop"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/80/1b/2f801bf1-0268-ceef-6ff3-2559e8ab229a/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Loop"></div>
         <div class="tile-title"><b>Microsoft Loop</b></div>
-        <div class="tile-version"><em><code>2.108</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 13, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-loop/id1637682491?uo=4">App Store</a>
@@ -422,13 +422,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/b1/3b/6ab13b3d-9531-e6e3-7d7f-1db16d9dacc8/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge: AI Browser"></div>
-        <div class="tile-title"><b>Microsoft Edge: AI Browser</b></div>
-        <div class="tile-version"><em><code>147.3912.87</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 28, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/83/cf/bb83cf62-a855-d20c-b8a2-416ce6cad08b/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg" alt="Opera: AI browser with VPN"></div>
+        <div class="tile-title"><b>Opera: AI browser with VPN</b></div>
+        <div class="tile-version"><em><code>6.5.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 03, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge-ai-browser/id1288723196?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/66/c3/3d66c350-8522-566e-999e-e4baa9ad9f13/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Adobe Scan: PDF &amp; OCR Scanner"></div>
-        <div class="tile-title"><b>Adobe Scan: PDF &amp; OCR Scanner</b></div>
-        <div class="tile-version"><em><code>26.04.17</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 20, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ad/a9/f9ada9bb-ed92-17de-7a7e-9bff756d8c80/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
+        <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
+        <div class="tile-version"><em><code>7.17.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
         </div>
       </div>
     </div>
