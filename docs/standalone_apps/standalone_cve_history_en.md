@@ -4,11 +4,14 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 12, 2026 04:38 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 12, 2026 05:33 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.109 (Build 26051019) | May 12, 2026 | Excel | [CVE-2026-40359](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40359), [CVE-2026-40360](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40360), [CVE-2026-40362](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40362) |
+| 16.109 (Build 26051019) | May 12, 2026 | Office Suite | [CVE-2026-40358](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40358), [CVE-2026-40363](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40363) |
+| 16.109 (Build 26051019) | May 12, 2026 | Word | [CVE-2026-40361](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40361), [CVE-2026-40364](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40364), [CVE-2026-40366](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40366), [CVE-2026-40367](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2026-40367) |
 | 16.108.3 (Build 26050324) | May 05, 2026 | &nbsp; | &nbsp; |
 | 16.108.2 (Build 26042616) | April 28, 2026 | &nbsp; | &nbsp; |
 | 16.108.1 (Build 26041915) | April 21, 2026 | &nbsp; | &nbsp; |
