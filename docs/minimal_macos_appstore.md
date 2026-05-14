@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 13, 2026 09:00 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 13, 2026 09:46 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/ca/8a/10ca8ad7-0c7b-11a4-438d-b04e64325248/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/14/f9/3814f950-ebdc-bd1a-56b5-8d82d9bc625f/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.070.0414</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.074.0420</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 13, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
