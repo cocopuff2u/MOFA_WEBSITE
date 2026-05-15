@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 14, 2026 06:29 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 14, 2026 07:24 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -602,10 +602,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/81/d7/df81d7be-ad3d-b7e6-1e7c-c37cf306da2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Intune Company Portal"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/f1/16/baf116ae-4c70-0b76-3237-4e3496249aa3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Intune Company Portal"></div>
         <div class="tile-title"><b>Intune Company Portal</b></div>
-        <div class="tile-version"><em><code>5.2603.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 29, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>5.2604.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 14, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/intune-company-portal/id719171358?uo=4">App Store</a>
@@ -626,10 +626,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/fa/22/16fa220d-475a-3030-4cd8-2e35e796a55a/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/49/09/f349090a-8afa-fd4b-a456-efd0473d51d8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
         <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
-        <div class="tile-version"><em><code>2.110</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 11, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.110.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 14, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4">App Store</a>
