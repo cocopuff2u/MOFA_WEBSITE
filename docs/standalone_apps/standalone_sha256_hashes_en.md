@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 20, 2026 01:11 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">May 20, 2026 02:55 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -23,7 +23,7 @@ lastUpdated: false
 | **OneDrive Standalone Installer** | <a href="https://oneclient.sfx.ms/Mac/Installers/26.078.0426.0002/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="Download Image" width="60"></a> | `c500f9fbc51e856fc890832d6e9352c2c0af6a5400a4c4b3e2e2c0ef48ecbbab` |
 | **Skype for Business Standalone Installer** | <a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/SkypeForBusinessUpdater-16.31.11.pkg"><img src="/images/Skype_For_Business.webp" alt="Download Image" width="60"></a> | `81f484842e86a39c9f33abc4d35b4e7dbb87189ca3c424a6396e15d96ea2dbd5` |
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2021/Teams.webp" alt="Download Image" width="60"></a> | `b0db820dfeee43898f931dd732994fdc61209fedd4587e5324f19bc0cd83d0e9` |
-| **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `e7b11deb0fae8709d75670f0f9b8cbf877acdc9688e244da159b14eb71563469` |
+| **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `3270f616616c98a9d2d819024ef406ddb7b3a86fcf0e2da54f091372c4f24273` |
 | **Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5619858e-e3cb-4684-8509-f2fc1e7815f9/MicrosoftEdge-148.0.3967.70.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `db81e1b3cf5fc6d115b43ae39c1c411b0d86b15523fceb328120d8182e5036a5` |
 | **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `N/A` |
 | **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `8d7a33f79ad00e8fdc2d75b1f826f7e75327c0c9cf72b0955d254ddb6b878b21` |

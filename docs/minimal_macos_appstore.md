@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 20, 2026 01:11 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 20, 2026 02:55 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -254,10 +254,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/db/3dd5db06-c695-6146-9f79-69c7d8dd93f3/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Outlook"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/34/c7/c334c7f4-ef2f-e706-b5cc-8786b93f347d/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Outlook"></div>
         <div class="tile-title"><b>Microsoft Outlook</b></div>
-        <div class="tile-version"><em><code>16.109.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 19, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.109</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 12, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id985367838?mt=12&amp;uo=4">App Store</a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/14/f9/3814f950-ebdc-bd1a-56b5-8d82d9bc625f/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/24/4f/3c244f6e-6faf-b38e-7b24-eab35c5a1ce9/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.074.0420</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 13, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.078.0426</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 20, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
