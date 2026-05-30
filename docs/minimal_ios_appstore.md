@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 29, 2026 07:34 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 29, 2026 09:01 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/cf/1c/07cf1cb1-6a96-5171-a5ba-a3115876cc94/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/0f/ac/e00fac2d-a6e1-b9d9-d769-4790c6b66e57/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>30.0.440527004</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.440528001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 29, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4">App Store</a>
@@ -542,13 +542,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/ce/dc/bbcedc92-59ef-ae36-7834-cea50f0e24a2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
-        <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>476.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 22, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/48/3c/0b483cef-522c-7db8-4b82-a705113d0920/app_icon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg" alt="Yelp for Business App"></div>
+        <div class="tile-title"><b>Yelp for Business App</b></div>
+        <div class="tile-version"><em><code>26.22.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 26, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/yelp-for-business-app/id936983378?uo=4">App Store</a>
         </div>
       </div>
     </div>
