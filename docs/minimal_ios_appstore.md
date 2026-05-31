@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 30, 2026 07:26 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 30, 2026 09:08 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/0b/94/c80b94de-f755-9419-2d15-51c648eb1156/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/fd/da/5afdda8a-ff15-4075-6c50-ed7bb9b767de/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
         <div class="tile-title"><b>Microsoft OneDrive</b></div>
-        <div class="tile-version"><em><code>18.2.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>18.2.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 29, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4">App Store</a>
@@ -542,25 +542,25 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/48/3c/0b483cef-522c-7db8-4b82-a705113d0920/app_icon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg" alt="Yelp for Business App"></div>
-        <div class="tile-title"><b>Yelp for Business App</b></div>
-        <div class="tile-version"><em><code>26.22.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 26, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/eb/01/efeb01f9-8fdb-fe23-2ed6-e72a1a036e59/AppIcon_1-0-0-1x_U007epad-0-11-0-0-85-220.png/512x512bb.jpg" alt="Advertisement Maker"></div>
+        <div class="tile-title"><b>Advertisement Maker</b></div>
+        <div class="tile-version"><em><code>1.36</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 06, 2025</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/yelp-for-business-app/id936983378?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/advertisement-maker/id1362417191?uo=4">App Store</a>
         </div>
       </div>
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/fe/02/c7fe024b-d36a-46e6-6a3b-f3d1e417cb67/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
-        <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
-        <div class="tile-version"><em><code>7.18.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/90/14/f490147a-8345-e22b-8176-c388e95a0da2/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg" alt="Lens: Translate &amp; Image Search"></div>
+        <div class="tile-title"><b>Lens: Translate &amp; Image Search</b></div>
+        <div class="tile-version"><em><code>3.1.11</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 05, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/lens-translate-image-search/id1587316791?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -626,13 +626,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/a9/70/a3a970f7-1dc6-7dcd-f57f-ba79ab86037c/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
-        <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
-        <div class="tile-version"><em><code>2.110.3</code></em></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/0f/0a/0d0f0ae7-d0e9-24b3-8f53-c19bf4795613/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-title"><b>Microsoft Word</b></div>
+        <div class="tile-version"><em><code>2.109.2</code></em></div>
         <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
         </div>
       </div>
     </div>
