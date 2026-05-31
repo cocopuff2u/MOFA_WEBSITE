@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">May 30, 2026 09:08 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">May 30, 2026 11:18 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -422,13 +422,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/45/69/da456992-bf6f-cfba-d0f0-87a52dd26d9a/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg" alt="Opera: AI browser with VPN"></div>
-        <div class="tile-title"><b>Opera: AI browser with VPN</b></div>
-        <div class="tile-version"><em><code>6.5.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 28, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/95/4b/80/954b802a-a6c2-8ee8-fbf2-8a6a953ed6fc/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft Edge"></div>
+        <div class="tile-title"><b>Microsoft Edge</b></div>
+        <div class="tile-version"><em><code>148.3967.84</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-edge/id1288723196?uo=4">App Store</a>
         </div>
       </div>
     </div>
