@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 01, 2026 07:35 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 01, 2026 09:09 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/5a/ea/f35aea66-e798-f183-8e78-3c0ef9105d5b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/0f/0a/0d0f0ae7-d0e9-24b3-8f53-c19bf4795613/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.109.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 01, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109.2</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/6a/07/9b6a07e7-60df-50d3-1370-f8d4cab835df/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/be/a3/a8bea3c4-802e-fba4-5e86-ba51287a3c07/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.109.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/66/c3/3d66c350-8522-566e-999e-e4baa9ad9f13/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Adobe Scan: PDF &amp; OCR Scanner"></div>
-        <div class="tile-title"><b>Adobe Scan: PDF &amp; OCR Scanner</b></div>
-        <div class="tile-version"><em><code>26.04.17</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>April 20, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/bb/e2/5cbbe2e1-d8b6-55a3-3186-29446e656924/AppIcon-0-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Scanner App. JPG, Photo to PDF"></div>
+        <div class="tile-title"><b>Scanner App. JPG, Photo to PDF</b></div>
+        <div class="tile-version"><em><code>2.7.2</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 12, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/scanner-app-jpg-photo-to-pdf/id1425891150?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -626,10 +626,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/5a/ea/f35aea66-e798-f183-8e78-3c0ef9105d5b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/0f/0a/0d0f0ae7-d0e9-24b3-8f53-c19bf4795613/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.109.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 01, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.109.2</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
