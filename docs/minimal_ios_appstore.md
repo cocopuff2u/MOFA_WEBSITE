@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 02, 2026 09:16 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 02, 2026 11:19 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -314,10 +314,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/77/f6/6177f6b8-8746-812b-d2ba-5e3c3de9d4ab/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/0f/ac/e00fac2d-a6e1-b9d9-d769-4790c6b66e57/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>30.0.440529001</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 02, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>30.0.440528001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 29, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6472538445?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/bb/e2/5cbbe2e1-d8b6-55a3-3186-29446e656924/AppIcon-0-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Scanner App. JPG, Photo to PDF"></div>
-        <div class="tile-title"><b>Scanner App. JPG, Photo to PDF</b></div>
-        <div class="tile-version"><em><code>2.7.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 12, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/b2/40/33b240d0-f463-ad31-2607-78dd9f484d63/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="Adobe Scan: PDF &amp; OCR Scanner"></div>
+        <div class="tile-title"><b>Adobe Scan: PDF &amp; OCR Scanner</b></div>
+        <div class="tile-version"><em><code>26.06.01</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/scanner-app-jpg-photo-to-pdf/id1425891150?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/adobe-scan-pdf-ocr-scanner/id1199564834?uo=4">App Store</a>
         </div>
       </div>
     </div>
