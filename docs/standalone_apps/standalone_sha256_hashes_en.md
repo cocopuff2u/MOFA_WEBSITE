@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 04, 2026 05:27 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 04, 2026 07:09 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -34,7 +34,7 @@ lastUpdated: false
 | **AutoUpdate Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `a307dc89adfd60c0f9d60ad869efd19e22798ec7fd11015a351378e0249325cd` |
 | **Licensing Helper Tool Installer** | <a href="None"><img src="/images/pkg-icon.png" alt="Download Image" width="60"></a> | `2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905` |
 | **Quick Assist Installer** | <a href="None"><img src="/images/quickassist.png" alt="Download Image" width="60"></a> | `294bed3d1cab280056ff20b22c65486381c976b10c1e4e2ae9559404484ec55a` |
-| **Remote Help Installer** | <a href="None"><img src="/images/remotehelp.png" alt="Download Image" width="60"></a> | `686c9fe7b54ff006b574653abc2fe616afe9244d561d5bd9fd84a99971a8c423` |
+| **Remote Help Installer** | <a href="None"><img src="/images/remotehelp.png" alt="Download Image" width="60"></a> | `18d0dede3f099987cf3d8266920eb923f350258377cc453301876a9b750c7840` |
 
 ## SHA256 Hashes Guide
 
