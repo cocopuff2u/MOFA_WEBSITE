@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official Content Delivery Network (CDN).</span>
 <span class="extra-small">The links provided will always download the latest version offered by Microsoft. However, the version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 04, 2026 02:55 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">June 04, 2026 03:45 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json)
  (Automatically Updated every 2 hours)_</span>
 
 
@@ -24,7 +24,7 @@ lastUpdated: false
 | **Skype for Business Standalone Installer** | <a href="https://download.microsoft.com/download/5ea1d93d-e654-4865-a75a-0d90256e4f25/Skype%20for%20Business%20on%20Mac%20Installer%2016.31.0.31.pkg"><img src="/images/Skype_For_Business.webp" alt="Download Image" width="60"></a> | `891dbba7518645642e6bfe4287071b984830994c528fad82490b4df6b14e4312` |
 | **Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2021/Teams.webp" alt="Download Image" width="60"></a> | `f52fcbb899b6318444bf9559c220b6d6600b8271d18a44b41f2b005db7be87ee` |
 | **InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `3270f616616c98a9d2d819024ef406ddb7b3a86fcf0e2da54f091372c4f24273` |
-| **Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/eff0de67-2c4d-45ce-b8e2-f1ce8c69c595/MicrosoftEdge-148.0.3967.96.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `d2056a5eb9972b7d7a3cb34fbfa313b43c2ddcd9c7282b1bbba7a48b55028087` |
+| **Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/20523184-11bb-436b-a567-0e33fcaff5f2/MicrosoftEdge-149.0.4022.52.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `d5c2e2616d8f397bda51b13fbcb87497cbc988662add896ffac4a093dd144195` |
 | **Defender For Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `N/A` |
 | **Defender For Consumer Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097001"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `8d7a33f79ad00e8fdc2d75b1f826f7e75327c0c9cf72b0955d254ddb6b878b21` |
 | **Defender Shim Installer** | <a href="None"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `ad92e2b5cc9935b614aa271e5548f44fb6506c37b0296f46a666c29f88ebf466` |
@@ -34,7 +34,7 @@ lastUpdated: false
 | **AutoUpdate Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `a307dc89adfd60c0f9d60ad869efd19e22798ec7fd11015a351378e0249325cd` |
 | **Licensing Helper Tool Installer** | <a href="None"><img src="/images/pkg-icon.png" alt="Download Image" width="60"></a> | `2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905` |
 | **Quick Assist Installer** | <a href="None"><img src="/images/quickassist.png" alt="Download Image" width="60"></a> | `294bed3d1cab280056ff20b22c65486381c976b10c1e4e2ae9559404484ec55a` |
-| **Remote Help Installer** | <a href="None"><img src="/images/remotehelp.png" alt="Download Image" width="60"></a> | `18d0dede3f099987cf3d8266920eb923f350258377cc453301876a9b750c7840` |
+| **Remote Help Installer** | <a href="None"><img src="/images/remotehelp.png" alt="Download Image" width="60"></a> | `686c9fe7b54ff006b574653abc2fe616afe9244d561d5bd9fd84a99971a8c423` |
 
 ## SHA256 Hashes Guide
 
