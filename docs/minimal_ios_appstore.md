@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 07, 2026 11:19 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 08, 2026 01:43 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -410,10 +410,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/bc/82/ebbc82df-64f5-b0d8-5a3b-e4d503b7f67b/AppIcon-0-1x_U007epad-0-1-P3-85-220-0.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/12/20/cf12204a-2b70-d7d2-3fcb-bb3ed1e2030f/AppIcon-0-1x_U007epad-0-1-P3-85-220-0.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
         <div class="tile-title"><b>Whiteboard: just draw together</b></div>
-        <div class="tile-version"><em><code>2.7.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 22, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.7.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/whiteboard-just-draw-together/id1160517834?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/bb/e2/5cbbe2e1-d8b6-55a3-3186-29446e656924/AppIcon-0-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg" alt="Scanner App. JPG, Photo to PDF"></div>
-        <div class="tile-title"><b>Scanner App. JPG, Photo to PDF</b></div>
-        <div class="tile-version"><em><code>2.7.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 12, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/e9/2f/3ee92fdd-e169-e830-0237-3bc0815b9048/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
+        <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
+        <div class="tile-version"><em><code>7.18.5</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/scanner-app-jpg-photo-to-pdf/id1425891150?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -578,10 +578,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/b1/41/c1b14110-f688-46d5-5493-99f78c3c225e/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Power BI"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/f9/98/c2f998c2-6087-2046-572f-050a60ffa94d/AppIcon-0-1x_U007emarketing-0-8-0-0-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Power BI"></div>
         <div class="tile-title"><b>Microsoft Power BI</b></div>
-        <div class="tile-version"><em><code>37.5</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>37.6</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-power-bi/id929738808?uo=4">App Store</a>
