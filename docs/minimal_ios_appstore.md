@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 10, 2026 03:52 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 10, 2026 05:44 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -446,10 +446,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/0b/aa/290baa52-9160-a5b8-bc25-823dd85ab19a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Microsoft Planner"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/90/06/329006bd-332c-cdef-9964-0f795e6458c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Microsoft Planner"></div>
         <div class="tile-title"><b>Microsoft Planner</b></div>
-        <div class="tile-version"><em><code>1.17.17</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 10, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.17.16</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 03, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-planner/id1219301037?uo=4">App Store</a>
