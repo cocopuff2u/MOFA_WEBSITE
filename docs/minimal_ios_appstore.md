@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 12, 2026 04:50 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 12, 2026 05:38 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -422,10 +422,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/47/1b/cb471b4d-b358-45af-d857-55c0c0ce177f/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg" alt="Opera: AI browser with VPN"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/45/69/da456992-bf6f-cfba-d0f0-87a52dd26d9a/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg" alt="Opera: AI browser with VPN"></div>
         <div class="tile-title"><b>Opera: AI browser with VPN</b></div>
-        <div class="tile-version"><em><code>6.5.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 11, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>6.5.2</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>May 28, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974?uo=4">App Store</a>
