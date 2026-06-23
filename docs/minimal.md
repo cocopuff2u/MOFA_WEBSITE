@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">June 23, 2026 03:41 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">June 23, 2026 04:49 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -464,11 +464,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/2025/OneNote.webp" alt="OneNote"></a>
         </div>
         <div class="tile-title"><b>OneNote</b></div>
-        <div class="tile-version"><em><code>16.110.0 (26061317)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>June 13, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.110.1 (26062112)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>June 21, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=820886">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.110.26061317_Updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=820886">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.110.26062112_Updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
@@ -529,8 +529,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Defender for Endpoint"></a>
         </div>
         <div class="tile-title"><b>Defender for Endpoint</b></div>
-        <div class="tile-version"><em><code>101.26032.0016</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>April 15, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>101.26042.0020</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>June 12, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2097502">Installer</a></div>
@@ -542,8 +542,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/2025/Defender.webp" alt="Defender for Consumers"></a>
         </div>
         <div class="tile-title"><b>Defender for Consumers</b></div>
-        <div class="tile-version"><em><code>101.26032.0016</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>April 15, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>101.26042.0020</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>June 12, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2247001">Installer</a></div>
