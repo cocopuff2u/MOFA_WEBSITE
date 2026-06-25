@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">June 25, 2026 02:52 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">June 25, 2026 03:38 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -518,13 +518,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/79/d3/6379d30f-e935-3d81-1649-4780751e9992/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="Power Apps Developer"></div>
-        <div class="tile-title"><b>Power Apps Developer</b></div>
-        <div class="tile-version"><em><code>1.0.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 23, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/04/f6/5c04f6a1-7238-ed91-3400-5baf3fdc9699/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-title"><b>Power Apps</b></div>
+        <div class="tile-version"><em><code>3.26063.8</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>June 24, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/power-apps-developer/id6753083462?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
         </div>
       </div>
     </div>
