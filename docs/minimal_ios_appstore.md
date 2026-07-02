@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">July 02, 2026 01:42 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">July 02, 2026 03:18 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -554,10 +554,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/0b/10/340b10e6-4d98-bf4c-fea6-893dd22cc36d/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg" alt="Lens: Translate &amp; Image Search"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/3f/15/3e3f158c-8e23-cd7d-495d-d5a9a34ecb14/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg" alt="Lens: Translate &amp; Image Search"></div>
         <div class="tile-title"><b>Lens: Translate &amp; Image Search</b></div>
-        <div class="tile-version"><em><code>3.1.13</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 16, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.1.14</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/lens-translate-image-search/id1587316791?uo=4">App Store</a>
