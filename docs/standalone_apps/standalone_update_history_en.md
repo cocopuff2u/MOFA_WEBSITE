@@ -4,7 +4,7 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 07, 2026 03:49 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 07, 2026 05:20 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 <table class="shrink-table">
@@ -21,6 +21,16 @@ lastUpdated: false
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>16.110.3 (26070318)<br><span class='extra-small'>July 7, 2026</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.110.26062818_Updater.pkg">Word</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.110.26062818_Updater.pkg">Excel</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.110.26062818_Updater.pkg">PowerPoint</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.110.26062818_Updater.pkg">Outlook</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.110.26062818_Updater.pkg">OneNote</a></td>
+    </tr>
     <tr>
       <td>16.110.2 (26062818)<br><span class='extra-small'>June 30, 2026</span></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.110.26062818_BusinessPro_Installer.pkg">Business</a></td>

@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 07, 2026 03:49 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 07, 2026 05:20 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.110.3 (Build 26070318) | July 07, 2026 | &nbsp; | &nbsp; |
 | 16.110.2 (Build 26062818) | June 30, 2026 | &nbsp; | &nbsp; |
 | 16.110.1 (Build 26062112) | June 23, 2026 | &nbsp; | &nbsp; |
 | 16.110 (Build 26061317) | June 16, 2026 | Excel | [CVE-2026-44817](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44817), [CVE-2026-44818](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44818), [CVE-2026-44820](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44820), [CVE-2026-44822](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44822), [CVE-2026-44823](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44823), [CVE-2026-45455](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45455), [CVE-2026-45459](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45459), [CVE-2026-45469](https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45469) |
