@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">July 14, 2026 01:10 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">July 14, 2026 03:13 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -362,10 +362,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/fe/78/71fe7828-44a4-8773-545c-636bf4dd568c/Sales_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Sales"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/c9/01/4bc9019e-a89d-de7f-7d9d-9bbdd3d81b92/Sales_AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg" alt="Dynamics 365 Sales"></div>
         <div class="tile-title"><b>Dynamics 365 Sales</b></div>
-        <div class="tile-version"><em><code>3.26073.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 13, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.24104.15</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 11, 2024</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/dynamics-365-sales/id1485578688?uo=4">App Store</a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/f0/0b/5af00b00-6dfd-4cc9-39d7-b537875dca8d/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/db/59/23db59de-3664-98d7-b69a-96a29139c107/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.26071.8</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.26065.7</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
