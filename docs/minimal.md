@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">July 17, 2026 03:17 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">July 17, 2026 04:49 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -513,14 +513,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/476a3e62-4d12-40a3-b58b-8286bbef07fc/MicrosoftEdge-150.0.4078.80.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a746c1d3-7688-46d9-93de-9ececc350dfe/MicrosoftEdge-150.0.4078.83.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>150.0.4078.80</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>July 16, 2026 07:03 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>150.0.4078.83</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>July 17, 2026 03:47 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/476a3e62-4d12-40a3-b58b-8286bbef07fc/MicrosoftEdge-150.0.4078.80.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a746c1d3-7688-46d9-93de-9ececc350dfe/MicrosoftEdge-150.0.4078.83.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
@@ -581,8 +581,8 @@ next: false
           <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.129.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>July 15, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.129.1</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>July 17, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg">Installer</a></div>
