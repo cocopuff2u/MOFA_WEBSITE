@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">July 17, 2026 10:39 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">July 17, 2026 12:11 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -474,14 +474,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://oneclient.sfx.ms/Mac/Installers/26.119.0622.0003/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
+          <a href="https://oneclient.sfx.ms/Mac/Installers/26.123.0628.0001/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
         </div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.119.0622</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>July 13, 2026 10:05 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>26.123.0628</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>July 17, 2026 12:11 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.119.0622.0003/universal/OneDrive.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.123.0628.0001/universal/OneDrive.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
