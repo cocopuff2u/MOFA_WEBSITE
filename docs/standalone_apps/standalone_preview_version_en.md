@@ -9,7 +9,7 @@ lastUpdated: false
 
 <div style="text-align: center;">
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 21, 2026 10:13 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json) (Automatically Updated every 2 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">July 22, 2026 01:45 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_preview.json) (Automatically Updated every 2 hours)_</span>
 
 </div>
 
@@ -17,7 +17,7 @@ lastUpdated: false
 
 | **Product Package** | **Version Info** | **Download** |
 |----------------------|----------------------|--------------|
-| **Word** (365/2021/2024) **Standalone Installer**<br><br>_**Last Update:** `July 19, 2026`_<br> | **Version:**<br>`16.111.1 (26071913)`<br><br>**Min OS:**<br>`14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.word` | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.111.26071913_Updater.pkg"><img src="/images/2025/Word.webp" alt="Download Image" width="80"></a> |
+| **Word** (365/2021/2024) **Standalone Installer**<br><br>_**Last Update:** `July 13, 2026`_<br> | **Version:**<br>`16.111.0 (26071325)`<br><br>**Min OS:**<br>`14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.word` | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Word_16.111.26071325_Updater.pkg"><img src="/images/2025/Word.webp" alt="Download Image" width="80"></a> |
 | **Excel** (365/2021/2024) **Standalone Installer**<br><br>_**Last Update:** `July 19, 2026`_<br> | **Version:**<br>`16.111.1 (26071913)`<br><br>**Min OS:**<br>`14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.excel` | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Excel_16.111.26071913_Updater.pkg"><img src="/images/2025/Excel.webp" alt="Download Image" width="80"></a> |
 | **PowerPoint** (365/2021/2024) **Standalone Installer**<br><br>_**Last Update:** `July 19, 2026`_<br> | **Version:**<br>`16.111.1 (26071913)`<br><br>**Min OS:**<br>`14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.powerpoint` | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_PowerPoint_16.111.26071913_Updater.pkg"><img src="/images/2025/PowerPoint.webp" alt="Download Image" width="80"></a> |
 | **Outlook** (365/2021/2024) **Standalone Installer**<br><br>_**Last Update:** `July 19, 2026`_<br> | **Version:**<br>`16.111.1 (26071913)`<br><br>**Min OS:**<br>`14.0`<br><br>**CFBundle ID:**<br>`com.microsoft.outlook` | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/1ac37578-5a24-40fb-892e-b89d85b6dfaa/MacAutoupdate/Microsoft_Outlook_16.111.26071913_Updater.pkg"><img src="/images/2025/Outlook.webp" alt="Download Image" width="80"></a>|
