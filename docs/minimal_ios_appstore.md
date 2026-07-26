@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">July 26, 2026 07:59 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">July 26, 2026 09:19 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -410,10 +410,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/12/20/cf12204a-2b70-d7d2-3fcb-bb3ed1e2030f/AppIcon-0-1x_U007epad-0-1-P3-85-220-0.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/ca/19/c0ca1945-8d1a-8d48-04b5-e9c41fd684f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
         <div class="tile-title"><b>Whiteboard: just draw together</b></div>
-        <div class="tile-version"><em><code>2.7.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>June 07, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.8.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/whiteboard-just-draw-together/id1160517834?uo=4">App Store</a>
