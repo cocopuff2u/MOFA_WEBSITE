@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">July 27, 2026 04:19 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">July 27, 2026 06:02 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/80/99/88809990-20e3-acfe-f7f7-951ec9e57c87/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/47/86/4747869d-aa6c-6dfd-de01-6a45e3f873a3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.112</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 20, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.112.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -242,10 +242,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/38/b0/4938b097-be32-e2d1-32d6-74e466e6aa3b/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/aa/2d/08aa2d00-bfa2-b212-ecde-9fdff833dc95/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft PowerPoint"></div>
         <div class="tile-title"><b>Microsoft PowerPoint</b></div>
-        <div class="tile-version"><em><code>2.112</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 20, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.112.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-powerpoint/id586449534?uo=4">App Store</a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/39/05/81390527-1a7d-0f1e-1039-07175c7b136c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/00/ce/0f00ce3f-844b-7e86-941a-e6ed1d7bbf80/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.112</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 20, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -398,10 +398,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/2e/72/fd2e72c5-6384-5714-8891-9dce6bd4e2ca/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Viva Engage"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/d4/61/e5d46183-fc78-b170-047f-34d182d1713a/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Viva Engage"></div>
         <div class="tile-title"><b>Viva Engage</b></div>
-        <div class="tile-version"><em><code>11.49.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.47.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 14, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/viva-engage/id289559439?uo=4">App Store</a>
@@ -410,10 +410,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/ca/19/c0ca1945-8d1a-8d48-04b5-e9c41fd684f1/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/7d/fc/c07dfc51-ccf3-a11f-55cc-fbe9b31336d9/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg" alt="Whiteboard: just draw together"></div>
         <div class="tile-title"><b>Whiteboard: just draw together</b></div>
-        <div class="tile-version"><em><code>2.8.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 25, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.8.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/whiteboard-just-draw-together/id1160517834?uo=4">App Store</a>
