@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">July 27, 2026 06:02 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">July 27, 2026 07:12 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -568,11 +568,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=868963"><img src="/images/2025/Windows_App.webp" alt="Windows App"></a>
         </div>
         <div class="tile-title"><b>Windows App</b></div>
-        <div class="tile-version"><em><code>11.3.7</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>June 23, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.3.8</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>July 20, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/windows-app/whats-new?tabs=macos"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=868963">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.7_updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=868963">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Windows_App_11.3.8_updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
