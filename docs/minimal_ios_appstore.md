@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">July 29, 2026 10:00 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">July 29, 2026 11:49 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/54/56/c35456fa-40e1-a889-9ab6-bdff1ed3389e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/00/ce/0f00ce3f-844b-7e86-941a-e6ed1d7bbf80/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.112.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 27, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id410395246?uo=4">App Store</a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/02/46/c0024655-4df4-5cd6-edb6-f14c6d1a5efe/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/6f/68/876f686c-95a6-b89c-4260-7d2e7e5b5721/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.26073.7</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.26072.5</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 21, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
