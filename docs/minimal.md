@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">July 31, 2026 03:18 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">July 31, 2026 05:00 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -513,14 +513,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/716145f5-d360-45d2-b483-c2e902fd004b/MicrosoftEdge-150.0.4078.105.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ea921391-7ff2-42bb-9044-9ac25c36970b/MicrosoftEdge-151.0.4129.59.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>150.0.4078.105</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>July 29, 2026 02:44 AM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>151.0.4129.59</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>July 31, 2026 04:50 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/716145f5-d360-45d2-b483-c2e902fd004b/MicrosoftEdge-150.0.4078.105.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ea921391-7ff2-42bb-9044-9ac25c36970b/MicrosoftEdge-151.0.4129.59.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
