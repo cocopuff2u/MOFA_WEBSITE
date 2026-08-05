@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">August 05, 2026 09:58 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">August 05, 2026 11:59 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -542,10 +542,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/45/bd/ff/45bdff64-af9b-26c3-f2db-ba7fea162a65/AppIcon-MetaBrand-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/8c/58/618c58c8-37d6-b356-1255-2ab892de9ce4/AppIcon-MetaBrand-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
         <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>486.1</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 04, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>486.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 31, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a0/ef/a6a0ef3d-67f6-7483-e8d5-22e05016e106/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg" alt="Lens: Translate &amp; Photo Finder"></div>
-        <div class="tile-title"><b>Lens: Translate &amp; Photo Finder</b></div>
-        <div class="tile-version"><em><code>3.1.15</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 14, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/36/91/0c36918d-aa5a-20f6-1ac7-f46f37900ec0/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg" alt="Lens - PDF Scanner and Editor"></div>
+        <div class="tile-title"><b>Lens - PDF Scanner and Editor</b></div>
+        <div class="tile-version"><em><code>1.3.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 23, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/lens-translate-photo-finder/id1587316791?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/lens-pdf-scanner-and-editor/id6748651078?uo=4">App Store</a>
         </div>
       </div>
     </div>
