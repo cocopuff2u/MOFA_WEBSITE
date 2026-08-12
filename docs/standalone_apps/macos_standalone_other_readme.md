@@ -7,7 +7,7 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official release sources (GitHub releases, Microsoft CDN, or Homebrew).</span>
 <span class="extra-small">The version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">August 12, 2026 05:09 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json) (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">August 12, 2026 06:59 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json) (Automatically Updated every 4 hours)_</span>
 
 | **Product Package** | **Bundle Information** | **Download** |
 |----------------------|----------------------|--------------|
@@ -20,7 +20,7 @@ lastUpdated: false
 | **Azure Developer CLI (azd)**<br><br>_**Last Update:** `August 05, 2026`_<br> | **Version:**<br>`1.30.0` | <a href="https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.30.0/azd-darwin-arm64.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
 | **AzCopy**<br><br>_**Last Update:** `July 09, 2026`_<br> | **Version:**<br>`10.32.6` | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.32.6/azcopy_darwin_arm64_10.32.6.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
 | **Bicep CLI**<br><br>_**Last Update:** `July 30, 2026`_<br> | **Version:**<br>`0.46.1` | <a href="https://github.com/Azure/bicep/releases/download/v0.46.1/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> |
-| **Azure CLI**<br><br>_**Last Update:** `August 04, 2026`_<br> | **Version:**<br>`2.89.0` | <img src="/images/2025/Azure.png" alt="Azure CLI" width="80"><br>`brew install azure-cli` |
+| **Azure CLI**<br><br>_**Last Update:** `August 12, 2026`_<br> | **Version:**<br>`2.89.1` | <img src="/images/2025/Azure.png" alt="Azure CLI" width="80"><br>`brew install azure-cli` |
 | **sqlcmd**<br><br>_**Last Update:** `March 03, 2026`_<br> | **Version:**<br>`1.10.0` | <img src="/images/2025/Sqlcmd.png" alt="sqlcmd" width="80"><br>`brew install sqlcmd` |
 
 ## <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> SHA256 Information
