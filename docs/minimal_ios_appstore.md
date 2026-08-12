@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">August 11, 2026 06:36 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">August 11, 2026 07:34 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -290,10 +290,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/85/a9/a685a954-fe7d-4fd8-fbe9-3f32988a984a/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/f4/53/0af45388-cb1c-a3ec-3764-88bcb9a597f1/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
         <div class="tile-title"><b>Windows App Mobile</b></div>
-        <div class="tile-version"><em><code>11.3.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 29, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.3.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/a0/ef/a6a0ef3d-67f6-7483-e8d5-22e05016e106/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg" alt="Lens: Translate &amp; Photo Finder"></div>
-        <div class="tile-title"><b>Lens: Translate &amp; Photo Finder</b></div>
-        <div class="tile-version"><em><code>3.1.15</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 14, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/36/91/0c36918d-aa5a-20f6-1ac7-f46f37900ec0/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg" alt="Lens - PDF Scanner and Editor"></div>
+        <div class="tile-title"><b>Lens - PDF Scanner and Editor</b></div>
+        <div class="tile-version"><em><code>1.3.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 23, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/lens-translate-photo-finder/id1587316791?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/lens-pdf-scanner-and-editor/id6748651078?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -602,10 +602,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/a1/a3/bda1a30f-4d89-9da7-b23b-36b5c7e0d3af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Intune Company Portal"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/96/7e/73967e6d-3368-4f87-1ffa-a878582a8e98/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Intune Company Portal"></div>
         <div class="tile-title"><b>Intune Company Portal</b></div>
-        <div class="tile-version"><em><code>5.2606.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 11, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>5.2606.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>July 08, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/intune-company-portal/id719171358?uo=4">App Store</a>
