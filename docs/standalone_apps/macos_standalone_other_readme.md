@@ -7,11 +7,11 @@ lastUpdated: false
 <span class="extra-small">All links below direct to Microsoft's official release sources (GitHub releases, Microsoft CDN, or Homebrew).</span>
 <span class="extra-small">The version information listed below reflects the version available at the time of this update.</span>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">August 14, 2026 12:56 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json) (Automatically Updated every 4 hours)_</span>
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">August 14, 2026 01:50 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json) (Automatically Updated every 4 hours)_</span>
 
 | **Product Package** | **Bundle Information** | **Download** |
 |----------------------|----------------------|--------------|
-| **PowerShell**<br><br>_**Last Update:** `July 20, 2026`_<br> | **Version:**<br>`7.6.4` | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.6.4/powershell-7.6.4-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> |
+| **PowerShell**<br><br>_**Last Update:** `August 14, 2026`_<br> | **Version:**<br>`7.6.5` | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.6.5/powershell-7.6.5-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> |
 | **.NET SDK 10 (LTS)**<br><br>_**Last Update:** `August 11, 2026`_<br> | **Version:**<br>`10.0.400` | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.400/dotnet-sdk-10.0.400-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> |
 | **.NET SDK 11 (Preview)**<br><br>_**Last Update:** `August 11, 2026`_<br> | **Version:**<br>`11.0.100-preview.7.26381.103` | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.7.26381.103/dotnet-sdk-11.0.100-preview.7.26381.103-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> |
 | **.NET SDK 9 (STS)**<br><br>_**Last Update:** `August 11, 2026`_<br> | **Version:**<br>`9.0.317` | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.317/dotnet-sdk-9.0.317-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> |
@@ -27,7 +27,7 @@ lastUpdated: false
 
 | **Product Package** | **Download** | **SHA256** |
 |----------------------|-----------------|------------|
-| **PowerShell** | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.6.4/powershell-7.6.4-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> | `0f79ff3f9c41b110b2873b87aba65f52aaca20aeaa6dd7bc3f6920a61d5dca2f` |
+| **PowerShell** | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.6.5/powershell-7.6.5-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> | `6ea58f4e91ab2df133ac18a42e291e4e870a623e3c5ab6f8368259cd9ac22770` |
 | **.NET SDK 10 (LTS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.400/dotnet-sdk-10.0.400-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `d500222f6e3a007ce2b020b40f4de23816a815d3eb1d7ba280321debafcf32f7` |
 | **.NET SDK 11 (Preview)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100-preview.7.26381.103/dotnet-sdk-11.0.100-preview.7.26381.103-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `df7704195094f778abd9d862288ac61d141ee0bd47b4ff66add4bb9078bd0201` |
 | **.NET SDK 9 (STS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.317/dotnet-sdk-9.0.317-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `62b62ede499c2703e075afad4570e4acd1506b6d8b0b927185485a7c7983973a` |
