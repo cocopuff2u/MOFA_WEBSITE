@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">August 18, 2026 10:28 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">August 18, 2026 11:26 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -218,10 +218,10 @@ next: false
   <div class="grid">
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/a1/c7/47a1c75a-17e0-0828-2713-79d235ec1db4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/55/bf/9955bf5f-7c91-1859-4038-ceea2f8d31b3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Word"></div>
         <div class="tile-title"><b>Microsoft Word</b></div>
-        <div class="tile-version"><em><code>2.113</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 17, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.112.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 10, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-word/id586447913?uo=4">App Store</a>
@@ -314,13 +314,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/89/1f/ff891f1a-eb30-c457-902a-f30474b9ee28/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg" alt="Copilot: Your AI Assistant"></div>
-        <div class="tile-title"><b>Copilot: Your AI Assistant</b></div>
-        <div class="tile-version"><em><code>30.0.440813001</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 18, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/6d/d8/c06dd84a-fdb9-6b38-8ad1-2cc68b848b13/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg" alt="Microsoft 365 Copilot"></div>
+        <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
+        <div class="tile-version"><em><code>2.113</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 10, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/copilot-your-ai-assistant/id6472538445?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/microsoft-365-copilot/id541164041?uo=4">App Store</a>
         </div>
       </div>
     </div>
