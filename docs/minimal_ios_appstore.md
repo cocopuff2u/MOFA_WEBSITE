@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">August 19, 2026 03:20 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">August 19, 2026 04:21 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/8f/0c/6e8f0caf-a993-d648-1900-09ac260bdef5/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/32/de/ac32de55-4c18-c864-5d17-a7436a3fe515/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Microsoft OneDrive"></div>
         <div class="tile-title"><b>Microsoft OneDrive</b></div>
-        <div class="tile-version"><em><code>18.8.2</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 18, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>18.7.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 06, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onedrive/id477537958?uo=4">App Store</a>
