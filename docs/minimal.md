@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">August 20, 2026 05:23 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">August 20, 2026 06:21 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -542,8 +542,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2247001"><img src="/images/2025/Defender.webp" alt="Defender for Consumers"></a>
         </div>
         <div class="tile-title"><b>Defender for Consumers</b></div>
-        <div class="tile-version"><em><code>101.26062.0011</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>July 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>101.26062.0012</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>August 12, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/microsoft-365/security/defender-endpoint/mac-whatsnew"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2247001">Installer</a></div>
