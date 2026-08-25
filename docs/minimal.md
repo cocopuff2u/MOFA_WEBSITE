@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">August 25, 2026 03:27 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">August 25, 2026 04:23 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -517,7 +517,7 @@ next: false
         </div>
         <div class="tile-title"><b>Edge</b></div>
         <div class="tile-version"><em><code>151.0.4129.107</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>August 24, 2026 03:43 AM EDT</code></em></small></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>August 25, 2026 04:24 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d00ded44-4955-41cd-bbc6-aff5a6e507b6/MicrosoftEdge-151.0.4129.107.pkg">Installer</a></div>
