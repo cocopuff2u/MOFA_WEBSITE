@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">August 28, 2026 04:50 AM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">August 28, 2026 04:39 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -290,13 +290,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/47/47/49/4747496e-8352-5fe7-1a6c-828600ea4921/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="ShareMe: File Sharing &amp; MeDrop"></div>
-        <div class="tile-title"><b>ShareMe: File Sharing &amp; MeDrop</b></div>
-        <div class="tile-version"><em><code>1.0.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 21, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/5d/dc/3f5ddc81-ff32-0083-dbd4-f17f74f97806/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Share-A-Cart"></div>
+        <div class="tile-title"><b>Share-A-Cart</b></div>
+        <div class="tile-version"><em><code>3.20.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 25, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/shareme-file-sharing-medrop/id6783182140?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/share-a-cart/id1537641390?uo=4">App Store</a>
         </div>
       </div>
     </div>
