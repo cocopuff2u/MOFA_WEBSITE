@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">September 02, 2026 02:23 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">September 02, 2026 05:32 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -490,8 +490,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Teams"></a>
         </div>
         <div class="tile-title"><b>Teams</b></div>
-        <div class="tile-version"><em><code>26213.1006.5011.1671</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>August 12, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26225.1704.5081.2906</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 02, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2249065">Installer</a></div>
@@ -513,14 +513,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e1d846ad-7733-4ec3-814c-02462484c4b3/MicrosoftEdge-152.0.4191.53.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5d6715c7-1ec1-4375-87b1-2a7780b0aa60/MicrosoftEdge-152.0.4191.62.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>152.0.4191.53</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>August 29, 2026 03:19 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>152.0.4191.62</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 02, 2026 04:05 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e1d846ad-7733-4ec3-814c-02462484c4b3/MicrosoftEdge-152.0.4191.53.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5d6715c7-1ec1-4375-87b1-2a7780b0aa60/MicrosoftEdge-152.0.4191.62.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
