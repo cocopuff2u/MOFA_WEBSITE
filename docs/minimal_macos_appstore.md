@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 03, 2026 06:12 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 03, 2026 08:42 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -290,13 +290,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/db/57/29db57ea-3dc1-2af7-4422-cc3a79442980/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg" alt="File transfer &amp; Data Sharing"></div>
-        <div class="tile-title"><b>File transfer &amp; Data Sharing</b></div>
-        <div class="tile-version"><em><code>1.0.17</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 22, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/0e/e4/3b0ee45e-a411-073a-27e5-b11d412e5d3e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="ShareMe: File Sharing &amp; MeDrop"></div>
+        <div class="tile-title"><b>ShareMe: File Sharing &amp; MeDrop</b></div>
+        <div class="tile-version"><em><code>1.0.6</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 03, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/file-transfer-data-sharing/id1535420575?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/shareme-file-sharing-medrop/id6783182140?uo=4">App Store</a>
         </div>
       </div>
     </div>
@@ -326,10 +326,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/46/c2/6846c228-56fc-81bd-e2fa-79d324091107/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/94/04/b39404b4-3746-b6bf-0e3b-d20db7959540/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>25.7.440828004</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>25.7.440902001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 03, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6738511300?mt=12&amp;uo=4">App Store</a>
