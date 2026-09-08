@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">September 08, 2026 01:02 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">September 08, 2026 03:49 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -490,8 +490,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Teams"></a>
         </div>
         <div class="tile-title"><b>Teams</b></div>
-        <div class="tile-version"><em><code>26225.1704.5081.2906</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 02, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26225.1706.5101.3140</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 08, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2249065">Installer</a></div>
@@ -581,8 +581,8 @@ next: false
           <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.136.1</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 03, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.136.2</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 04, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg">Installer</a></div>

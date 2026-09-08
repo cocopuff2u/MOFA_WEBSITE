@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 08, 2026 01:02 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 08, 2026 03:50 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -254,10 +254,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/c5/d8/c2c5d8ba-1bd8-b3ac-8cae-732f19764c52/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/ed/b9/89edb95b-48b4-d6f0-7e2f-09545c933aca/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Outlook"></div>
         <div class="tile-title"><b>Microsoft Outlook</b></div>
-        <div class="tile-version"><em><code>5.2634.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>5.2635.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 08, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id951937596?uo=4">App Store</a>
@@ -518,10 +518,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/95/86/8b958658-0792-20a1-0330-eee9d9ec7a4c/PowerApps_AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Power Apps"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/e2/4d/98e24d50-24d4-64ad-9153-16502f0ecaa9/PowerApps_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Power Apps"></div>
         <div class="tile-title"><b>Power Apps</b></div>
-        <div class="tile-version"><em><code>3.26084.7</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 01, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.26085.7</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 08, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/power-apps/id1047318566?uo=4">App Store</a>
@@ -554,13 +554,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/ff/f2/26fff2c0-729b-5216-0c13-7d0499f10940/AppIconLite-0-0-1x_U007ephone-0-6-0-0-sRGB-85-220.png/512x512bb.jpg" alt="CamScanner - PDF Scanner App"></div>
-        <div class="tile-title"><b>CamScanner - PDF Scanner App</b></div>
-        <div class="tile-version"><em><code>7.25.5</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 07, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/35/cb/2935cb4b-c5c7-bcae-57bd-40c8d10defaf/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg" alt="Lens - PDF Scanner and Editor"></div>
+        <div class="tile-title"><b>Lens - PDF Scanner and Editor</b></div>
+        <div class="tile-version"><em><code>1.4.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>August 28, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/camscanner-pdf-scanner-app/id388627783?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/lens-pdf-scanner-and-editor/id6748651078?uo=4">App Store</a>
         </div>
       </div>
     </div>
