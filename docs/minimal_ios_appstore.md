@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 08, 2026 06:19 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 08, 2026 09:00 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/38/b0/4638b03e-e27d-3d85-447e-012985100fd4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/d9/d3/35d9d370-5d64-8913-1d82-068228313dca/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>2.113.3</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>2.113.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id586683407?uo=4">App Store</a>
@@ -338,10 +338,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/ef/b2/79efb2d6-d239-b3d5-e6da-9543d8f4d11c/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="Microsoft Warehouse Management"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/a0/54/c0a05449-d259-9597-2698-9b8d68321225/AppIcon-0-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg" alt="Microsoft Warehouse Management"></div>
         <div class="tile-title"><b>Microsoft Warehouse Management</b></div>
-        <div class="tile-version"><em><code>4.1.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>4.1.6</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 07, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-warehouse-management/id6444014310?uo=4">App Store</a>
@@ -398,10 +398,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/52/7e/41527e22-a992-fc2b-b7d6-38286673e5ae/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Viva Engage"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/46/10/19461088-f792-3dce-6ff9-df53994ba188/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg" alt="Viva Engage"></div>
         <div class="tile-title"><b>Viva Engage</b></div>
-        <div class="tile-version"><em><code>11.54.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>August 31, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.55.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 08, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/viva-engage/id289559439?uo=4">App Store</a>
