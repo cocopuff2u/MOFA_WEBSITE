@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 10, 2026 03:27 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 10, 2026 06:13 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -230,10 +230,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/d7/c1/c9d7c127-86ac-95ff-5525-abd02b4450bb/Excel_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Excel"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/a6/d8/27a6d8bb-a2bf-0f4b-a6f8-81258ca40f12/Excel_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Excel"></div>
         <div class="tile-title"><b>Microsoft Excel</b></div>
-        <div class="tile-version"><em><code>16.112.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 10, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-excel/id462058435?mt=12&amp;uo=4">App Store</a>
@@ -242,10 +242,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/a8/36/dca836e5-40d2-48fb-2ddc-3b329d92d125/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft PowerPoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/99/c6/a499c608-9ef4-effb-7bfa-a231667303c6/Powerpoint_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft PowerPoint"></div>
         <div class="tile-title"><b>Microsoft PowerPoint</b></div>
-        <div class="tile-version"><em><code>16.112.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 10, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-powerpoint/id462062816?mt=12&amp;uo=4">App Store</a>
@@ -254,10 +254,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/f3/0b/18f30b38-af02-5788-44b7-7a9a1391f700/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Outlook"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/10/38/6310386c-6895-53b0-c33b-d5217f49ce8b/Outlook_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft Outlook"></div>
         <div class="tile-title"><b>Microsoft Outlook</b></div>
-        <div class="tile-version"><em><code>16.112.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 10, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-outlook/id985367838?mt=12&amp;uo=4">App Store</a>
@@ -266,10 +266,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/f9/46/6ef946f0-3473-d873-5bd4-6aa6479e43d6/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft OneNote"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/bf/3a/dbbf3afe-435f-e515-06b2-9ed926a26da9/OneNote_macOS-0-0-85-220-0-0-0-6-0-2x.png/512x512bb.png" alt="Microsoft OneNote"></div>
         <div class="tile-title"><b>Microsoft OneNote</b></div>
-        <div class="tile-version"><em><code>16.112.4</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 10, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.112.3</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 01, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-onenote/id784801555?mt=12&amp;uo=4">App Store</a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/f8/4c/6cf84cef-3c34-bcc2-c832-8d5eb815d093/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/fb/8c/c3fb8ce9-a9b2-576c-c0f7-326f011b363b/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.158.0816</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 09, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.153.0809</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 03, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
