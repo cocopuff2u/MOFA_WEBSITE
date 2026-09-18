@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">September 18, 2026 12:55 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">September 18, 2026 03:25 PM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -474,14 +474,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://oneclient.sfx.ms/Mac/Installers/26.163.0823.0004/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
+          <a href="https://oneclient.sfx.ms/Mac/Installers/26.168.0830.0004/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
         </div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.163.0823</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 11, 2026 05:31 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>26.168.0830</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 18, 2026 03:25 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.163.0823.0004/universal/OneDrive.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.168.0830.0004/universal/OneDrive.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
@@ -513,14 +513,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3628e620-b7aa-4ad1-8b86-f8616341549a/MicrosoftEdge-153.0.4234.46.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8aa4efa6-ccfc-45df-9f57-bf678d2faf18/MicrosoftEdge-153.0.4234.48.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>153.0.4234.46</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 17, 2026 02:52 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>153.0.4234.48</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 18, 2026 02:09 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/3628e620-b7aa-4ad1-8b86-f8616341549a/MicrosoftEdge-153.0.4234.46.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8aa4efa6-ccfc-45df-9f57-bf678d2faf18/MicrosoftEdge-153.0.4234.48.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
