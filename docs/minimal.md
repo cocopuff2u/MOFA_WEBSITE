@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">September 18, 2026 08:55 PM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">September 19, 2026 01:27 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -386,8 +386,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525133"><img src="/images/Office_Suite.webp" alt="Microsoft Office Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Office Suite</b></div>
-        <div class="tile-version"><em><code>16.113.0 (26091433)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.113.1 (26091740)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 17, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525133">Installer</a></div>
@@ -399,8 +399,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2009112"><img src="/images/Office_Suite.webp" alt="Microsoft Business Pro Suite"></a>
         </div>
         <div class="tile-title"><b>Microsoft Business Pro Suite</b></div>
-        <div class="tile-version"><em><code>16.113.0 (26091433)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.113.1 (26091740)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 17, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2009112">Installer</a></div>
@@ -412,11 +412,11 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=525134"><img src="/images/2025/Word.webp" alt="Word"></a>
         </div>
         <div class="tile-title"><b>Word</b></div>
-        <div class="tile-version"><em><code>16.113.0 (26091433)</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 14, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>16.113.1 (26091740)</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 17, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525134">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.113.26091433_Updater.pkg">App Only</a></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=525134">Installer</a> <a class="btn" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.113.26091740_Updater.pkg">App Only</a></div>
       </div>
     </div>
 <div class="tile">
