@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 18, 2026 06:13 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 18, 2026 08:57 PM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -290,10 +290,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/3b/d1/ee3bd131-2867-20cb-4bb6-4ea44358bf8a/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/4e/82/2c4e8298-4519-1111-8165-4f5564907fd5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Windows App Mobile"></div>
         <div class="tile-title"><b>Windows App Mobile</b></div>
-        <div class="tile-version"><em><code>11.3.7</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 17, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>11.3.6</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 09, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/windows-app-mobile/id714464092?uo=4">App Store</a>
@@ -494,10 +494,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ba/13/31/ba133196-43a4-23d6-99c6-8215d1cf0479/SharePointAppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg" alt="Microsoft SharePoint"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/de/d0/c7ded070-6dde-beb5-b57a-d5ffa0444fad/SharePointAppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg" alt="Microsoft SharePoint"></div>
         <div class="tile-title"><b>Microsoft SharePoint</b></div>
-        <div class="tile-version"><em><code>5.1.5</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 18, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>5.1.4</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 17, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-sharepoint/id1091505266?uo=4">App Store</a>
@@ -542,10 +542,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/7c/b4/e97cb41b-51ec-86c9-1e37-dd9fa74c4122/AppIcon-MetaBrand-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/c4/2c/a7c42c8c-f044-6f73-586a-ce6213c71ca5/AppIcon-MetaBrand-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg" alt="Meta Ads Manager"></div>
         <div class="tile-title"><b>Meta Ads Manager</b></div>
-        <div class="tile-version"><em><code>493.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 18, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>492.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 11, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/meta-ads-manager/id964397083?uo=4">App Store</a>
@@ -614,10 +614,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/a0/f7/08a0f7ea-6851-719b-3185-7a7867fe8dcc/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Azure"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/26/6b/33266b19-abbb-c0fe-5ff2-9e998dce1f86/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="Microsoft Azure"></div>
         <div class="tile-title"><b>Microsoft Azure</b></div>
-        <div class="tile-version"><em><code>8.1.10</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 21, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>8.1.12</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 17, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-azure/id1219013620?uo=4">App Store</a>
