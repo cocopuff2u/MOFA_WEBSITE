@@ -201,7 +201,7 @@ next: false
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
   <div class="status-line">
-    <span>Last Updated: <code class="status-ts">September 28, 2026 11:59 PM EDT</code></span>
+    <span>Last Updated: <code class="status-ts">September 29, 2026 06:26 AM EDT</code></span>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml"><strong>Raw XML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml"><strong>Raw YAML</strong></a>
     <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json"><strong>Raw JSON</strong></a>
@@ -278,10 +278,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/0c/51/be0c5106-dfe3-f562-9fca-a3984a223bfd/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/c5/8f/8dc58fe8-a436-532f-086b-355200fd1516/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.163.0823</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 16, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.168.0830</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 28, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
@@ -350,10 +350,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/42/98/35429802-8ef5-c306-5279-ea3873609e14/AppIconProd-85-220-0-4-0-0-2x-0-0.png/512x512bb.png" alt="Universal Print"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/8b/dd/f38bdd4b-9c98-61e1-b30b-6a57cd562347/AppIconProd-85-220-0-4-0-0-2x-0-0.png/512x512bb.png" alt="Universal Print"></div>
         <div class="tile-title"><b>Universal Print</b></div>
-        <div class="tile-version"><em><code>1.0.5</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>May 30, 2025</code></em></small></div>
+        <div class="tile-version"><em><code>1.1.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>September 28, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/universal-print/id6450432292?mt=12&amp;uo=4">App Store</a>
