@@ -321,15 +321,26 @@ def generate_readme_content(global_last_updated, packages):
         secondary_dl=None
     ))
 
-    # Copilot
+    # Microsoft 365 Copilot (legacy; transitioning into the Copilot app)
     tiles.append(render_tile(
-        name="Microsoft Copilot",
+        name="Microsoft 365 Copilot",
         version=get_standalone_package_detail(packages, 'Copilot', 'short_version'),
         last_updated=get_standalone_package_detail(packages, 'Copilot', 'last_updated'),
         img_src="/images/2025/Copilot.webp",
         rel_notes_url="https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes?tabs=mac",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2325438",
         secondary_dl=None
+    ))
+
+    # Copilot app (replaces Microsoft 365 Copilot; updated by EdgeUpdater, not MAU)
+    tiles.append(render_tile(
+        name="Microsoft Copilot",
+        version=get_standalone_package_detail(packages, 'Copilot App', 'short_version'),
+        last_updated=get_standalone_package_detail(packages, 'Copilot App', 'last_updated'),
+        img_src="/images/2026/Copilot_App.webp",
+        rel_notes_url="https://support.microsoft.com/en-us/microsoft-365-copilot/the-microsoft-365-app-transition-to-the-microsoft-365-copilot-app",
+        primary_dl="https://go.microsoft.com/fwlink/?linkid=2325114",
+        secondary_dl=None  # direct CDN link is the same installer as the fwlink
     ))
 
     # MAU

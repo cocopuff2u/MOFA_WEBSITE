@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">October 01, 2026 04:14 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">October 01, 2026 10:07 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -591,14 +591,27 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://go.microsoft.com/fwlink/?linkid=2325438"><img src="/images/2025/Copilot.webp" alt="Microsoft Copilot"></a>
+          <a href="https://go.microsoft.com/fwlink/?linkid=2325438"><img src="/images/2025/Copilot.webp" alt="Microsoft 365 Copilot"></a>
         </div>
-        <div class="tile-title"><b>Microsoft Copilot</b></div>
+        <div class="tile-title"><b>Microsoft 365 Copilot</b></div>
         <div class="tile-version"><em><code>1.2609 (2301)</code></em></div>
         <div class="tile-updated"><small>Last Update:<br><em><code>September 25, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes?tabs=mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2325438">Installer</a></div>
+      </div>
+    </div>
+<div class="tile">
+      <div class="tile-card">
+        <div class="tile-media">
+          <a href="https://go.microsoft.com/fwlink/?linkid=2325114"><img src="/images/2026/Copilot_App.webp" alt="Microsoft Copilot"></a>
+        </div>
+        <div class="tile-title"><b>Microsoft Copilot</b></div>
+        <div class="tile-version"><em><code>153.0.4234.38</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 17, 2026</code></em></small></div>
+        <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/microsoft-365-copilot/the-microsoft-365-app-transition-to-the-microsoft-365-copilot-app"><small>Release Notes</small></a></div>
+        <div class="tile-spacer"></div>
+        <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2325114">Installer</a></div>
       </div>
     </div>
 <div class="tile">

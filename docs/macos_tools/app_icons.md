@@ -454,9 +454,9 @@ If you have older icons, special editions (e.g., Pride variants), dark mode, or 
   <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" alt="Copilot" class="section-banner-icon" />
   <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/copilot">Copilot</a>
   <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">1 Variant</span>
+    <span class="banner-badge banner-badge--tip">2 Variants</span>
   </div>
-  <p class="section-banner-desc">Microsoft Copilot icon for macOS.</p>
+  <p class="section-banner-desc">Microsoft Copilot icons for macOS (Microsoft 365 Copilot 2025 and the converged Copilot app 2026).</p>
 </div>
 <div class="icon-grid">
   <div class="icon-card">
@@ -467,6 +467,16 @@ If you have older icons, special editions (e.g., Pride variants), dark mode, or 
     <div class="icon-card-links">
       <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp">WEBP</a>
       <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.png">PNG</a>
+    </div>
+  </div>
+  <div class="icon-card">
+    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp">
+      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp" alt="Copilot App 2026" />
+    </a>
+    <span class="icon-card-label">2026 (Copilot App)</span>
+    <div class="icon-card-links">
+      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp">WEBP</a>
+      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.png">PNG</a>
     </div>
   </div>
 </div>
