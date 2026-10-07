@@ -4,11 +4,12 @@ lastUpdated: false
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 06, 2026 01:51 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 06, 2026 06:15 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 | Version | Date | Application | CVE |
 |---------|------|-------------|-----|
+| 16.113.4 (Build 26100421) | October 06, 2026 | &nbsp; | &nbsp; |
 | 16.113.3 (Build 26092714) | September 29, 2026 | &nbsp; | &nbsp; |
 | 16.113.2 (Build 26092012) | September 22, 2026 | &nbsp; | &nbsp; |
 | 16.113.1 (Build 26091740) | September 18, 2026 | &nbsp; | &nbsp; |
