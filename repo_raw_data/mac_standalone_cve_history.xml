@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <Updates>
-    <last_scan_date>October 09, 2026 10:15 AM EDT</last_scan_date>
+    <last_scan_date>October 09, 2026 04:25 AM EDT</last_scan_date>
     <Update>
         <Date>October 06, 2026</Date>
         <Version>Version 16.113.4 (Build 26100421)</Version>
@@ -51,180 +51,180 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-85875</CVE>
+                <CVE>CVE-2026-85875</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-85875</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81960</CVE>
+                <CVE>CVE-2026-81960</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81960</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81959</CVE>
+                <CVE>CVE-2026-81959</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81959</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81958</CVE>
+                <CVE>CVE-2026-81958</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81958</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81957</CVE>
+                <CVE>CVE-2026-81957</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81957</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81956</CVE>
+                <CVE>CVE-2026-81956</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81956</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81954</CVE>
+                <CVE>CVE-2026-81954</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81954</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81953</CVE>
+                <CVE>CVE-2026-81953</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81953</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81951</CVE>
+                <CVE>CVE-2026-81951</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81951</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81950</CVE>
+                <CVE>CVE-2026-81950</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81950</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81949</CVE>
+                <CVE>CVE-2026-81949</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81949</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81948</CVE>
+                <CVE>CVE-2026-81948</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81948</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81947</CVE>
+                <CVE>CVE-2026-81947</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81947</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81401</CVE>
+                <CVE>CVE-2026-81401</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81401</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81400</CVE>
+                <CVE>CVE-2026-81400</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81400</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81399</CVE>
+                <CVE>CVE-2026-81399</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81399</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81398</CVE>
+                <CVE>CVE-2026-81398</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81398</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81397</CVE>
+                <CVE>CVE-2026-81397</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81397</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81396</CVE>
+                <CVE>CVE-2026-81396</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81396</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81395</CVE>
+                <CVE>CVE-2026-81395</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81395</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81394</CVE>
+                <CVE>CVE-2026-81394</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81394</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81393</CVE>
+                <CVE>CVE-2026-81393</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81393</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81392</CVE>
+                <CVE>CVE-2026-81392</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81392</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81391</CVE>
+                <CVE>CVE-2026-81391</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81391</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81390</CVE>
+                <CVE>CVE-2026-81390</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81390</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81389</CVE>
+                <CVE>CVE-2026-81389</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81389</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81388</CVE>
+                <CVE>CVE-2026-81388</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81388</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-81387</CVE>
+                <CVE>CVE-2026-81387</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81387</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-81386</CVE>
+                <CVE>CVE-2026-81386</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81386</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78518</CVE>
+                <CVE>CVE-2026-78518</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78518</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-78513</CVE>
+                <CVE>CVE-2026-78513</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78513</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-72977</CVE>
+                <CVE>CVE-2026-72977</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72977</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-72975</CVE>
+                <CVE>CVE-2026-72975</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72975</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-69797</CVE>
+                <CVE>CVE-2026-69797</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69797</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-69767</CVE>
+                <CVE>CVE-2026-69767</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69767</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-69678</CVE>
+                <CVE>CVE-2026-69678</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69678</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81955</CVE>
+                <CVE>CVE-2026-81955</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81955</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-81952</CVE>
+                <CVE>CVE-2026-81952</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81952</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80091</CVE>
+                <CVE>CVE-2026-80091</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80091</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80089</CVE>
+                <CVE>CVE-2026-80089</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80089</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80087</CVE>
+                <CVE>CVE-2026-80087</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80087</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80086</CVE>
+                <CVE>CVE-2026-80086</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80086</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80082</CVE>
+                <CVE>CVE-2026-80082</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80082</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80078</CVE>
+                <CVE>CVE-2026-80078</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80078</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80076</CVE>
+                <CVE>CVE-2026-80076</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80076</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78526</CVE>
+                <CVE>CVE-2026-78526</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78526</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-78515</CVE>
+                <CVE>CVE-2026-78515</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78515</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78505</CVE>
+                <CVE>CVE-2026-78505</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78505</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78439</CVE>
+                <CVE>CVE-2026-78439</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78439</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-77898</CVE>
+                <CVE>CVE-2026-77898</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-77898</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-72938</CVE>
+                <CVE>CVE-2026-72938</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72938</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-69632</CVE>
+                <CVE>CVE-2026-69632</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69632</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80090</CVE>
+                <CVE>CVE-2026-80090</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80090</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-80088</CVE>
+                <CVE>CVE-2026-80088</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80088</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-80085</CVE>
+                <CVE>CVE-2026-80085</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80085</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-80080</CVE>
+                <CVE>CVE-2026-80080</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80080</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78525</CVE>
+                <CVE>CVE-2026-78525</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78525</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78524</CVE>
+                <CVE>CVE-2026-78524</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78524</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78521</CVE>
+                <CVE>CVE-2026-78521</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78521</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78520</CVE>
+                <CVE>CVE-2026-78520</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78520</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78517</CVE>
+                <CVE>CVE-2026-78517</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78517</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78514</CVE>
+                <CVE>CVE-2026-78514</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78514</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78512</CVE>
+                <CVE>CVE-2026-78512</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78512</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78511</CVE>
+                <CVE>CVE-2026-78511</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78511</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78510</CVE>
+                <CVE>CVE-2026-78510</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78510</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-78509</CVE>
+                <CVE>CVE-2026-78509</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78509</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78507</CVE>
+                <CVE>CVE-2026-78507</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78507</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-78506</CVE>
+                <CVE>CVE-2026-78506</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78506</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-78504</CVE>
+                <CVE>CVE-2026-78504</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78504</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-78503</CVE>
+                <CVE>CVE-2026-78503</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78503</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-78502</CVE>
+                <CVE>CVE-2026-78502</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78502</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-77901</CVE>
+                <CVE>CVE-2026-77901</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-77901</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-72976</CVE>
+                <CVE>CVE-2026-72976</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72976</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-72974</CVE>
+                <CVE>CVE-2026-72974</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72974</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-72973</CVE>
+                <CVE>CVE-2026-72973</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72973</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-72972</CVE>
+                <CVE>CVE-2026-72972</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72972</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-69759</CVE>
+                <CVE>CVE-2026-69759</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69759</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-69734</CVE>
+                <CVE>CVE-2026-69734</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69734</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-69722</CVE>
+                <CVE>CVE-2026-69722</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69722</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-69719</CVE>
+                <CVE>CVE-2026-69719</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69719</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-69686</CVE>
+                <CVE>CVE-2026-69686</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69686</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-69671</CVE>
+                <CVE>CVE-2026-69671</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69671</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-69626</CVE>
+                <CVE>CVE-2026-69626</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69626</URL>
             </Application>
         </SecurityUpdates>
@@ -279,169 +279,169 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-65807</CVE>
+                <CVE>CVE-2026-65807</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65807</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68793</CVE>
+                <CVE>CVE-2026-68793</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68793</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-68794</CVE>
+                <CVE>CVE-2026-68794</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68794</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68795</CVE>
+                <CVE>CVE-2026-68795</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68795</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68796</CVE>
+                <CVE>CVE-2026-68796</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68796</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68797</CVE>
+                <CVE>CVE-2026-68797</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68797</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68798</CVE>
+                <CVE>CVE-2026-68798</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68798</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68799</CVE>
+                <CVE>CVE-2026-68799</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68799</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68800</CVE>
+                <CVE>CVE-2026-68800</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68800</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68801</CVE>
+                <CVE>CVE-2026-68801</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68801</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68802</CVE>
+                <CVE>CVE-2026-68802</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68802</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68803</CVE>
+                <CVE>CVE-2026-68803</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68803</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-68804</CVE>
+                <CVE>CVE-2026-68804</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68804</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68805</CVE>
+                <CVE>CVE-2026-68805</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68805</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68806</CVE>
+                <CVE>CVE-2026-68806</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68806</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68807</CVE>
+                <CVE>CVE-2026-68807</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68807</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68808</CVE>
+                <CVE>CVE-2026-68808</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68808</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68810</CVE>
+                <CVE>CVE-2026-68810</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68810</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68811</CVE>
+                <CVE>CVE-2026-68811</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68811</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68812</CVE>
+                <CVE>CVE-2026-68812</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68812</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68813</CVE>
+                <CVE>CVE-2026-68813</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68813</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68814</CVE>
+                <CVE>CVE-2026-68814</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68814</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68815</CVE>
+                <CVE>CVE-2026-68815</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68815</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-68816</CVE>
+                <CVE>CVE-2026-68816</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68816</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-68817</CVE>
+                <CVE>CVE-2026-68817</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68817</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70327</CVE>
+                <CVE>CVE-2026-70327</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70327</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70328</CVE>
+                <CVE>CVE-2026-70328</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70328</URL>
             </Application>
             <Application>
                 <Name>Outlook</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63518</CVE>
+                <CVE>CVE-2026-63518</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63518</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-68809</CVE>
+                <CVE>CVE-2026-68809</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68809</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
                 <CVE>CVE-2026-62804</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-62804</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-62842</CVE>
+                <CVE>CVE-2026-62842</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-62842</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63513</CVE>
+                <CVE>CVE-2026-63513</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63513</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63515</CVE>
+                <CVE>CVE-2026-63515</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63515</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-63517</CVE>
+                <CVE>CVE-2026-63517</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63517</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63519</CVE>
+                <CVE>CVE-2026-63519</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63519</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-63524</CVE>
+                <CVE>CVE-2026-63524</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63524</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63526</CVE>
+                <CVE>CVE-2026-63526</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63526</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-63532</CVE>
+                <CVE>CVE-2026-63532</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63532</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-63533</CVE>
+                <CVE>CVE-2026-63533</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63533</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64898</CVE>
+                <CVE>CVE-2026-64898</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64898</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-64899</CVE>
+                <CVE>CVE-2026-64899</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64899</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64903</CVE>
+                <CVE>CVE-2026-64903</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64903</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-64904</CVE>
+                <CVE>CVE-2026-64904</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64904</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64909</CVE>
+                <CVE>CVE-2026-64909</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64909</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64910</CVE>
+                <CVE>CVE-2026-64910</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64910</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64911</CVE>
+                <CVE>CVE-2026-64911</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64911</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-65657</CVE>
+                <CVE>CVE-2026-65657</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65657</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-65661</CVE>
+                <CVE>CVE-2026-65661</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65661</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-65664</CVE>
+                <CVE>CVE-2026-65664</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65664</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-66807</CVE>
+                <CVE>CVE-2026-66807</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66807</URL>
                 <CVE>CVE-2026-68818</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68818</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70312</CVE>
+                <CVE>CVE-2026-70312</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70312</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70313</CVE>
+                <CVE>CVE-2026-70313</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70313</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70314</CVE>
+                <CVE>CVE-2026-70314</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70314</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70315</CVE>
+                <CVE>CVE-2026-70315</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70315</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70316</CVE>
+                <CVE>CVE-2026-70316</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70316</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70317</CVE>
+                <CVE>CVE-2026-70317</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70317</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70319</CVE>
+                <CVE>CVE-2026-70319</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70319</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70320</CVE>
+                <CVE>CVE-2026-70320</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70320</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70322</CVE>
+                <CVE>CVE-2026-70322</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70322</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70323</CVE>
+                <CVE>CVE-2026-70323</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70323</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70325</CVE>
+                <CVE>CVE-2026-70325</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70325</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-58651</CVE>
+                <CVE>CVE-2026-58651</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-58651</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-63527</CVE>
+                <CVE>CVE-2026-63527</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63527</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-63528</CVE>
+                <CVE>CVE-2026-63528</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63528</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-63530</CVE>
+                <CVE>CVE-2026-63530</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63530</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-63531</CVE>
+                <CVE>CVE-2026-63531</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63531</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-64905</CVE>
+                <CVE>CVE-2026-64905</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64905</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-64907</CVE>
+                <CVE>CVE-2026-64907</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64907</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-64915</CVE>
+                <CVE>CVE-2026-64915</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64915</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-64917</CVE>
+                <CVE>CVE-2026-64917</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64917</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-66809</CVE>
+                <CVE>CVE-2026-66809</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66809</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-66810</CVE>
+                <CVE>CVE-2026-66810</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66810</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70310</CVE>
+                <CVE>CVE-2026-70310</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70310</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-70311</CVE>
+                <CVE>CVE-2026-70311</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70311</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-70318</CVE>
+                <CVE>CVE-2026-70318</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70318</URL>
             </Application>
         </SecurityUpdates>
@@ -485,165 +485,165 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-47642</CVE>
+                <CVE>CVE-2026-47642</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-47642</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-48580</CVE>
+                <CVE>CVE-2026-48580</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-48580</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-50408</CVE>
+                <CVE>CVE-2026-50408</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50408</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-50675</CVE>
+                <CVE>CVE-2026-50675</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50675</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-50678</CVE>
+                <CVE>CVE-2026-50678</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50678</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-54131</CVE>
+                <CVE>CVE-2026-54131</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-54131</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-54988</CVE>
+                <CVE>CVE-2026-54988</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-54988</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55024</CVE>
+                <CVE>CVE-2026-55024</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55024</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55025</CVE>
+                <CVE>CVE-2026-55025</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55025</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55029</CVE>
+                <CVE>CVE-2026-55029</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55029</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55031</CVE>
+                <CVE>CVE-2026-55031</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55031</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55036</CVE>
+                <CVE>CVE-2026-55036</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55036</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55037</CVE>
+                <CVE>CVE-2026-55037</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55037</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55039</CVE>
+                <CVE>CVE-2026-55039</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55039</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55041</CVE>
+                <CVE>CVE-2026-55041</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55041</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55044</CVE>
+                <CVE>CVE-2026-55044</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55044</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55046</CVE>
+                <CVE>CVE-2026-55046</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55046</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55048</CVE>
+                <CVE>CVE-2026-55048</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55048</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55053</CVE>
+                <CVE>CVE-2026-55053</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55053</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55054</CVE>
+                <CVE>CVE-2026-55054</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55054</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55058</CVE>
+                <CVE>CVE-2026-55058</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55058</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55122</CVE>
+                <CVE>CVE-2026-55122</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55122</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55131</CVE>
+                <CVE>CVE-2026-55131</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55131</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55136</CVE>
+                <CVE>CVE-2026-55136</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55136</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55137</CVE>
+                <CVE>CVE-2026-55137</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55137</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55138</CVE>
+                <CVE>CVE-2026-55138</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55138</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55141</CVE>
+                <CVE>CVE-2026-55141</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55141</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55898</CVE>
+                <CVE>CVE-2026-55898</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55898</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55899</CVE>
+                <CVE>CVE-2026-55899</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55899</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55947</CVE>
+                <CVE>CVE-2026-55947</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55947</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55948</CVE>
+                <CVE>CVE-2026-55948</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55948</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55949</CVE>
+                <CVE>CVE-2026-55949</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55949</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-56156</CVE>
+                <CVE>CVE-2026-56156</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56156</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-58618</CVE>
+                <CVE>CVE-2026-58618</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-58618</URL>
             </Application>
             <Application>
                 <Name>OneNote</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55133</CVE>
+                <CVE>CVE-2026-55133</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55133</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55043</CVE>
+                <CVE>CVE-2026-55043</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55043</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55123</CVE>
+                <CVE>CVE-2026-55123</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55123</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55120</CVE>
+                <CVE>CVE-2026-55120</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55120</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Elevation of Privilege" exploited="No">CVE-2026-50387</CVE>
+                <CVE>CVE-2026-50387</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50387</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-50314</CVE>
+                <CVE>CVE-2026-50314</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50314</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-50467</CVE>
+                <CVE>CVE-2026-50467</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50467</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-50665</CVE>
+                <CVE>CVE-2026-50665</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50665</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55018</CVE>
+                <CVE>CVE-2026-55018</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55018</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55022</CVE>
+                <CVE>CVE-2026-55022</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55022</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55023</CVE>
+                <CVE>CVE-2026-55023</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55023</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55026</CVE>
+                <CVE>CVE-2026-55026</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55026</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55027</CVE>
+                <CVE>CVE-2026-55027</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55027</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55028</CVE>
+                <CVE>CVE-2026-55028</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55028</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55035</CVE>
+                <CVE>CVE-2026-55035</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55035</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55042</CVE>
+                <CVE>CVE-2026-55042</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55042</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55045</CVE>
+                <CVE>CVE-2026-55045</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55045</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55047</CVE>
+                <CVE>CVE-2026-55047</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55047</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55056</CVE>
+                <CVE>CVE-2026-55056</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55056</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55057</CVE>
+                <CVE>CVE-2026-55057</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55057</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55121</CVE>
+                <CVE>CVE-2026-55121</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55121</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55125</CVE>
+                <CVE>CVE-2026-55125</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55125</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55129</CVE>
+                <CVE>CVE-2026-55129</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55129</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-56192</CVE>
+                <CVE>CVE-2026-56192</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56192</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-56193</CVE>
+                <CVE>CVE-2026-56193</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56193</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-56195</CVE>
+                <CVE>CVE-2026-56195</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56195</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55140</CVE>
+                <CVE>CVE-2026-55140</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55140</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55049</CVE>
+                <CVE>CVE-2026-55049</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55049</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55139</CVE>
+                <CVE>CVE-2026-55139</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55139</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55033</CVE>
+                <CVE>CVE-2026-55033</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55033</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55038</CVE>
+                <CVE>CVE-2026-55038</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55038</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55050</CVE>
+                <CVE>CVE-2026-55050</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55050</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55055</CVE>
+                <CVE>CVE-2026-55055</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55055</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55124</CVE>
+                <CVE>CVE-2026-55124</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55124</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55127</CVE>
+                <CVE>CVE-2026-55127</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55127</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55128</CVE>
+                <CVE>CVE-2026-55128</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55128</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55130</CVE>
+                <CVE>CVE-2026-55130</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55130</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-55132</CVE>
+                <CVE>CVE-2026-55132</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55132</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-55134</CVE>
+                <CVE>CVE-2026-55134</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55134</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-55142</CVE>
+                <CVE>CVE-2026-55142</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55142</URL>
             </Application>
         </SecurityUpdates>
@@ -687,63 +687,63 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44817</CVE>
+                <CVE>CVE-2026-44817</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44817</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44818</CVE>
+                <CVE>CVE-2026-44818</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44818</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44820</CVE>
+                <CVE>CVE-2026-44820</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44820</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-44822</CVE>
+                <CVE>CVE-2026-44822</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44822</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44823</CVE>
+                <CVE>CVE-2026-44823</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44823</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-45455</CVE>
+                <CVE>CVE-2026-45455</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45455</URL>
-                <CVE severity="Important" impact="Security Feature Bypass" exploited="No">CVE-2026-45459</CVE>
+                <CVE>CVE-2026-45459</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45459</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45469</CVE>
+                <CVE>CVE-2026-45469</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45469</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44819</CVE>
+                <CVE>CVE-2026-44819</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44819</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-44821</CVE>
+                <CVE>CVE-2026-44821</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44821</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-44824</CVE>
+                <CVE>CVE-2026-44824</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44824</URL>
-                <CVE severity="Critical" impact="Information Disclosure" exploited="No">CVE-2026-45460</CVE>
+                <CVE>CVE-2026-45460</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45460</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45461</CVE>
+                <CVE>CVE-2026-45461</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45461</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45463</CVE>
+                <CVE>CVE-2026-45463</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45463</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45472</CVE>
+                <CVE>CVE-2026-45472</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45472</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45474</CVE>
+                <CVE>CVE-2026-45474</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45474</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45475</CVE>
+                <CVE>CVE-2026-45475</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45475</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-45485</CVE>
+                <CVE>CVE-2026-45485</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45485</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45645</CVE>
+                <CVE>CVE-2026-45645</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45645</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45456</CVE>
+                <CVE>CVE-2026-45456</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45456</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45457</CVE>
+                <CVE>CVE-2026-45457</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45457</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-45458</CVE>
+                <CVE>CVE-2026-45458</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45458</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-45466</CVE>
+                <CVE>CVE-2026-45466</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45466</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45471</CVE>
+                <CVE>CVE-2026-45471</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45471</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45486</CVE>
+                <CVE>CVE-2026-45486</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45486</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-45643</CVE>
+                <CVE>CVE-2026-45643</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45643</URL>
             </Application>
         </SecurityUpdates>
@@ -787,29 +787,29 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-40359</CVE>
+                <CVE>CVE-2026-40359</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40359</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-40360</CVE>
+                <CVE>CVE-2026-40360</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40360</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-40362</CVE>
+                <CVE>CVE-2026-40362</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40362</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40358</CVE>
+                <CVE>CVE-2026-40358</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40358</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40363</CVE>
+                <CVE>CVE-2026-40363</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40363</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40361</CVE>
+                <CVE>CVE-2026-40361</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40361</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40364</CVE>
+                <CVE>CVE-2026-40364</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40364</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40366</CVE>
+                <CVE>CVE-2026-40366</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40366</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-40367</CVE>
+                <CVE>CVE-2026-40367</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40367</URL>
             </Application>
         </SecurityUpdates>
@@ -853,31 +853,31 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-32188</CVE>
+                <CVE>CVE-2026-32188</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32188</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-32189</CVE>
+                <CVE>CVE-2026-32189</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32189</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-32197</CVE>
+                <CVE>CVE-2026-32197</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32197</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-32198</CVE>
+                <CVE>CVE-2026-32198</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32198</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-32199</CVE>
+                <CVE>CVE-2026-32199</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32199</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-32190</CVE>
+                <CVE>CVE-2026-32190</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32190</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-33095</CVE>
+                <CVE>CVE-2026-33095</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33095</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2026-33822</CVE>
+                <CVE>CVE-2026-33822</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33822</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-33114</CVE>
+                <CVE>CVE-2026-33114</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33114</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-33115</CVE>
+                <CVE>CVE-2026-33115</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33115</URL>
             </Application>
         </SecurityUpdates>
@@ -932,20 +932,20 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-26107</CVE>
+                <CVE>CVE-2026-26107</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26107</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-26108</CVE>
+                <CVE>CVE-2026-26108</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26108</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-26109</CVE>
+                <CVE>CVE-2026-26109</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26109</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-26112</CVE>
+                <CVE>CVE-2026-26112</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26112</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-26110</CVE>
+                <CVE>CVE-2026-26110</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26110</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-26113</CVE>
+                <CVE>CVE-2026-26113</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26113</URL>
             </Application>
         </SecurityUpdates>
@@ -989,16 +989,16 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20946</CVE>
+                <CVE>CVE-2026-20946</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20946</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20955</CVE>
+                <CVE>CVE-2026-20955</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20955</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20956</CVE>
+                <CVE>CVE-2026-20956</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20956</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20952</CVE>
+                <CVE>CVE-2026-20952</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20952</URL>
             </Application>
         </SecurityUpdates>
@@ -1042,31 +1042,31 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20946</CVE>
+                <CVE>CVE-2026-20946</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20946</URL>
-                <CVE severity="Important" impact="Security Feature Bypass" exploited="No">CVE-2026-20949</CVE>
+                <CVE>CVE-2026-20949</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20949</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20950</CVE>
+                <CVE>CVE-2026-20950</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20950</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20955</CVE>
+                <CVE>CVE-2026-20955</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20955</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20956</CVE>
+                <CVE>CVE-2026-20956</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20956</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20957</CVE>
+                <CVE>CVE-2026-20957</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20957</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2026-20948</CVE>
+                <CVE>CVE-2026-20948</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20948</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20944</CVE>
+                <CVE>CVE-2026-20944</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20944</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20952</CVE>
+                <CVE>CVE-2026-20952</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20952</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2026-20953</CVE>
+                <CVE>CVE-2026-20953</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20953</URL>
             </Application>
         </SecurityUpdates>
@@ -1088,36 +1088,36 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62556</CVE>
+                <CVE>CVE-2025-62556</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62556</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62560</CVE>
+                <CVE>CVE-2025-62560</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62560</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62561</CVE>
+                <CVE>CVE-2025-62561</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62561</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62563</CVE>
+                <CVE>CVE-2025-62563</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62563</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62564</CVE>
+                <CVE>CVE-2025-62564</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62564</URL>
             </Application>
             <Application>
                 <Name>Outlook</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62562</CVE>
+                <CVE>CVE-2025-62562</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62562</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62555</CVE>
+                <CVE>CVE-2025-62555</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62555</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62558</CVE>
+                <CVE>CVE-2025-62558</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62558</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-62559</CVE>
+                <CVE>CVE-2025-62559</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62559</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-62554</CVE>
+                <CVE>CVE-2025-62554</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62554</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-62557</CVE>
+                <CVE>CVE-2025-62557</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62557</URL>
             </Application>
         </SecurityUpdates>
@@ -1304,33 +1304,33 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53735</CVE>
+                <CVE>CVE-2025-53735</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53735</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53737</CVE>
+                <CVE>CVE-2025-53737</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53737</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53739</CVE>
+                <CVE>CVE-2025-53739</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53739</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53741</CVE>
+                <CVE>CVE-2025-53741</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53741</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53759</CVE>
+                <CVE>CVE-2025-53759</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53759</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-53733</CVE>
+                <CVE>CVE-2025-53733</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53733</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2025-53736</CVE>
+                <CVE>CVE-2025-53736</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53736</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-53738</CVE>
+                <CVE>CVE-2025-53738</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53738</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-53784</CVE>
+                <CVE>CVE-2025-53784</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53784</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-53731</CVE>
+                <CVE>CVE-2025-53731</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53731</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-53740</CVE>
+                <CVE>CVE-2025-53740</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53740</URL>
             </Application>
         </SecurityUpdates>
@@ -1363,34 +1363,34 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2025-48812</CVE>
+                <CVE>CVE-2025-48812</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-48812</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-49711</CVE>
+                <CVE>CVE-2025-49711</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49711</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-49705</CVE>
+                <CVE>CVE-2025-49705</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49705</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49698</CVE>
+                <CVE>CVE-2025-49698</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49698</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49703</CVE>
+                <CVE>CVE-2025-49703</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49703</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49695</CVE>
+                <CVE>CVE-2025-49695</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49695</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49696</CVE>
+                <CVE>CVE-2025-49696</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49696</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49697</CVE>
+                <CVE>CVE-2025-49697</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49697</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-49699</CVE>
+                <CVE>CVE-2025-49699</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49699</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-49702</CVE>
+                <CVE>CVE-2025-49702</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49702</URL>
             </Application>
         </SecurityUpdates>
@@ -1423,34 +1423,34 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47165</CVE>
+                <CVE>CVE-2025-47165</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47165</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47175</CVE>
+                <CVE>CVE-2025-47175</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47175</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47168</CVE>
+                <CVE>CVE-2025-47168</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47168</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47170</CVE>
+                <CVE>CVE-2025-47170</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47170</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47169</CVE>
+                <CVE>CVE-2025-47169</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47169</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-47173</CVE>
+                <CVE>CVE-2025-47173</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47173</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-47953</CVE>
+                <CVE>CVE-2025-47953</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47953</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-47164</CVE>
+                <CVE>CVE-2025-47164</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47164</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-47167</CVE>
+                <CVE>CVE-2025-47167</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47167</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-47162</CVE>
+                <CVE>CVE-2025-47162</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47162</URL>
             </Application>
         </SecurityUpdates>
@@ -1483,30 +1483,30 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-29977</CVE>
+                <CVE>CVE-2025-29977</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29977</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-29979</CVE>
+                <CVE>CVE-2025-29979</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29979</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30375</CVE>
+                <CVE>CVE-2025-30375</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30375</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30376</CVE>
+                <CVE>CVE-2025-30376</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30376</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30393</CVE>
+                <CVE>CVE-2025-30393</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30393</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30379</CVE>
+                <CVE>CVE-2025-30379</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30379</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30381</CVE>
+                <CVE>CVE-2025-30381</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30381</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30383</CVE>
+                <CVE>CVE-2025-30383</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30383</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-30388</CVE>
+                <CVE>CVE-2025-30388</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30388</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-30377</CVE>
+                <CVE>CVE-2025-30377</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30377</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-30386</CVE>
+                <CVE>CVE-2025-30386</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30386</URL>
             </Application>
         </SecurityUpdates>
@@ -1550,40 +1550,40 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-27750</CVE>
+                <CVE>CVE-2025-27750</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27750</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-27751</CVE>
+                <CVE>CVE-2025-27751</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27751</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-26642</CVE>
+                <CVE>CVE-2025-26642</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-26642</URL>
             </Application>
             <Application>
                 <Name>OneNote</Name>
-                <CVE severity="Important" impact="Security Feature Bypass" exploited="No">CVE-2025-29822</CVE>
+                <CVE>CVE-2025-29822</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29822</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-29820</CVE>
+                <CVE>CVE-2025-29820</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29820</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-27747</CVE>
+                <CVE>CVE-2025-27747</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27747</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Security Feature Bypass" exploited="No">CVE-2025-29816</CVE>
+                <CVE>CVE-2025-29816</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29816</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-27745</CVE>
+                <CVE>CVE-2025-27745</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27745</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-27746</CVE>
+                <CVE>CVE-2025-27746</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27746</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-27748</CVE>
+                <CVE>CVE-2025-27748</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27748</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-27749</CVE>
+                <CVE>CVE-2025-27749</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27749</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-27752</CVE>
+                <CVE>CVE-2025-27752</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27752</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-29791</CVE>
+                <CVE>CVE-2025-29791</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29791</URL>
             </Application>
         </SecurityUpdates>
@@ -1638,27 +1638,27 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24081</CVE>
+                <CVE>CVE-2025-24081</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24081</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24075</CVE>
+                <CVE>CVE-2025-24075</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24075</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24082</CVE>
+                <CVE>CVE-2025-24082</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24082</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24079</CVE>
+                <CVE>CVE-2025-24079</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24079</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24078</CVE>
+                <CVE>CVE-2025-24078</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24078</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24077</CVE>
+                <CVE>CVE-2025-24077</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24077</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24083</CVE>
+                <CVE>CVE-2025-24083</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24083</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-24057</CVE>
+                <CVE>CVE-2025-24057</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24057</URL>
             </Application>
         </SecurityUpdates>
@@ -1691,22 +1691,22 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21387</CVE>
+                <CVE>CVE-2025-21387</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21387</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21390</CVE>
+                <CVE>CVE-2025-21390</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21390</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21386</CVE>
+                <CVE>CVE-2025-21386</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21386</URL>
-                <CVE severity="Important" impact="Information Disclosure" exploited="No">CVE-2025-21383</CVE>
+                <CVE>CVE-2025-21383</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21383</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-21381</CVE>
+                <CVE>CVE-2025-21381</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21381</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21394</CVE>
+                <CVE>CVE-2025-21394</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21394</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21392</CVE>
+                <CVE>CVE-2025-21392</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21392</URL>
             </Application>
         </SecurityUpdates>
@@ -1739,24 +1739,24 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-21362</CVE>
+                <CVE>CVE-2025-21362</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21362</URL>
-                <CVE severity="Critical" impact="Remote Code Execution" exploited="No">CVE-2025-21354</CVE>
+                <CVE>CVE-2025-21354</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21354</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21338</CVE>
+                <CVE>CVE-2025-21338</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21338</URL>
             </Application>
             <Application>
                 <Name>OneNote</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21402</CVE>
+                <CVE>CVE-2025-21402</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21402</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2025-21363</CVE>
+                <CVE>CVE-2025-21363</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21363</URL>
             </Application>
         </SecurityUpdates>
@@ -1767,12 +1767,12 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49069</CVE>
+                <CVE>CVE-2024-49069</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49069</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49065</CVE>
+                <CVE>CVE-2024-49065</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49065</URL>
             </Application>
         </SecurityUpdates>
@@ -1794,25 +1794,25 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49029</CVE>
+                <CVE>CVE-2024-49029</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49029</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49028</CVE>
+                <CVE>CVE-2024-49028</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49028</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49027</CVE>
+                <CVE>CVE-2024-49027</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49027</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49030</CVE>
+                <CVE>CVE-2024-49030</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49030</URL>
             </Application>
             <Application>
                 <Name>Word</Name>
-                <CVE severity="Important" impact="Security Feature Bypass" exploited="No">CVE-2024-49033</CVE>
+                <CVE>CVE-2024-49033</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49033</URL>
             </Application>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49031</CVE>
+                <CVE>CVE-2024-49031</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49031</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-49032</CVE>
+                <CVE>CVE-2024-49032</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49032</URL>
             </Application>
         </SecurityUpdates>
@@ -1900,7 +1900,7 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Elevation of Privilege" exploited="No">CVE-2024-43465</CVE>
+                <CVE>CVE-2024-43465</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-43465</URL>
             </Application>
         </SecurityUpdates>
@@ -1922,14 +1922,14 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-38172</CVE>
+                <CVE>CVE-2024-38172</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38172</URL>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-38170</CVE>
+                <CVE>CVE-2024-38170</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38170</URL>
             </Application>
             <Application>
                 <Name>PowerPoint</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-38171</CVE>
+                <CVE>CVE-2024-38171</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38171</URL>
             </Application>
         </SecurityUpdates>
@@ -2039,7 +2039,7 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-30042</CVE>
+                <CVE>CVE-2024-30042</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-30042</URL>
             </Application>
         </SecurityUpdates>
@@ -2083,7 +2083,7 @@
         <SecurityUpdates>
             <Application>
                 <Name>Excel</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-26257</CVE>
+                <CVE>CVE-2024-26257</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-26257</URL>
             </Application>
         </SecurityUpdates>
@@ -2182,7 +2182,7 @@
         <SecurityUpdates>
             <Application>
                 <Name>Office Suite</Name>
-                <CVE severity="Important" impact="Remote Code Execution" exploited="No">CVE-2024-20677</CVE>
+                <CVE>CVE-2024-20677</CVE>
                 <URL>https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-20677</URL>
             </Application>
         </SecurityUpdates>
