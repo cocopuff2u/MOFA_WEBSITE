@@ -1,11 +1,18 @@
 ---
 editLink: false
 lastUpdated: false
+outline: [2, 2]
 ---
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
+# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 08, 2026 09:42 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
+
+Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
+
+<span class="extra-small">**archived** — Microsoft no longer hosts the packages for that release<br>**N/A** — no package of that type was published</span>
+
+## <span class="year-title">2026</span> <span class="year-meta ignore-header">41 releases · 16.104.1 → 16.113.4</span> {#year-2026}
 
 <table class="shrink-table">
   <thead>
@@ -163,8 +170,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.110.3 (26070318)<br><span class='extra-small'>July 7, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.110.26070318_Updater.pkg">Word</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.110.26070318_Updater.pkg">Excel</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.110.26070318_Updater.pkg">PowerPoint</a></td>
@@ -323,28 +330,28 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.107 (26030937)<br><span class='extra-small'>March 10, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.107.26030937_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.107 (26030819)<br><span class='extra-small'>March 10, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.107.26030819_Updater.pkg">Word</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.107.26030819_Updater.pkg">Excel</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.107.26030819_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.107.26030819_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.106.3 (26030211)<br><span class='extra-small'>March 03, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26030211_Updater.pkg">Word</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.106.26030211_Updater.pkg">Excel</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.106.26030211_Updater.pkg">PowerPoint</a></td>
@@ -353,8 +360,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.106.2 (26022219)<br><span class='extra-small'>February 24, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26022219_Updater.pkg">Word</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.106.26022219_Updater.pkg">Excel</a></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.106.26022219_Updater.pkg">PowerPoint</a></td>
@@ -363,8 +370,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.106.1 (26021521)<br><span class='extra-small'>February 17, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.106.26021521_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.106.26021521_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.106.26021521_Updater.pkg">PowerPoint</a></td>
@@ -383,8 +390,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.105.3 (26020123)<br><span class='extra-small'>February 03, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26020123_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.105.26020123_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.105.26020123_Updater.pkg">PowerPoint</a></td>
@@ -393,8 +400,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.105.2 (26012530)<br><span class='extra-small'>January 27, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26012530_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.105.26012530_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.105.26012530_Updater.pkg">PowerPoint</a></td>
@@ -403,11 +410,11 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.105.1 (26011816)<br><span class='extra-small'>January 20, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.105.26011816_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.105.26011816_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.105.26011816_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.105.26011816_Updater.pkg">OneNote</a></td>
     </tr>
@@ -423,14 +430,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.104.1 (26010228)<br><span class='extra-small'>January 06, 2026</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.104.26010228_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.104.26010228_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.104.26010228_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.104.26010228_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.104.26010228_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2025</span> <span class="year-meta ignore-header">45 releases · 16.93 → 16.104</span> {#year-2025}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.104 (25121423)<br><span class='extra-small'>December 16, 2025</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.104.25121423_BusinessPro_Installer.pkg">Business</a></td>
@@ -443,8 +469,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.103.4 (25120717)<br><span class='extra-small'>December 09, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25120717_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25120717_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25120717_Updater.pkg">PowerPoint</a></td>
@@ -453,8 +479,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.103.3 (25113013)<br><span class='extra-small'>December 02, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25113013_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25113013_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25113013_Updater.pkg">PowerPoint</a></td>
@@ -463,8 +489,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.103.2 (25112216)<br><span class='extra-small'>November 25, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25112216_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25112216_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25112216_Updater.pkg">PowerPoint</a></td>
@@ -473,33 +499,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.103.1 (25111719)<br><span class='extra-small'>November 18, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.103.25111719_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.103.1 (25111624)<br><span class='extra-small'>November 18, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.103.25111624_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.103.25111624_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.103.1 (25111410)<br><span class='extra-small'>November 14, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.103.25111410_Updater.pkg">Word</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.103 (25110922)<br><span class='extra-small'>November 11, 2025</span></td>
@@ -513,18 +539,18 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.102.3 (25110228)<br><span class='extra-small'>November 04, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.102.25110228_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.102.25110228_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.102.25110228_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.102.25110228_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.102.2 (25102623)<br><span class='extra-small'>October 28, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.102.25102623_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.102.25102623_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.102.25102623_Updater.pkg">PowerPoint</a></td>
@@ -533,8 +559,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.102.1 (25101829)<br><span class='extra-small'>October 20, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.102.25101829_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.102.25101829_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.102.25101829_Updater.pkg">PowerPoint</a></td>
@@ -553,8 +579,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.101.3 (25100321)<br><span class='extra-small'>October 07, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.101.25100321_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.101.25100321_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.101.25100321_Updater.pkg">PowerPoint</a></td>
@@ -563,8 +589,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.101.2 (25092825)<br><span class='extra-small'>September 30, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.101.25092825_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.101.25092825_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.101.25092825_Updater.pkg">PowerPoint</a></td>
@@ -573,8 +599,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.101.1 (25092124)<br><span class='extra-small'>September 23, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.101.25092124_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.101.25092124_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.101.25092124_Updater.pkg">PowerPoint</a></td>
@@ -593,8 +619,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.100.4 (25090553)<br><span class='extra-small'>September 09, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.100.25090553_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.100.25090553_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.100.25090553_Updater.pkg">PowerPoint</a></td>
@@ -603,18 +629,18 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.100.3 (25083017)<br><span class='extra-small'>September 02, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.100.25083017_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.100.25083017_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.100.25083017_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.100.25083017_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.100.2 (25082415)<br><span class='extra-small'>August 26, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.100.25082415_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.100.25082415_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.100.25082415_Updater.pkg">PowerPoint</a></td>
@@ -623,8 +649,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.100.1 (25081721)<br><span class='extra-small'>August 19, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.100.25081721_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.100.25081721_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.100.25081721_Updater.pkg">PowerPoint</a></td>
@@ -643,8 +669,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.99.2 (25072714)<br><span class='extra-small'>July 29, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.99.25072714_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.99.25072714_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.99.25072714_Updater.pkg">PowerPoint</a></td>
@@ -653,8 +679,8 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.99.1 (25072013)<br><span class='extra-small'>July 22, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.99.25072013_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.99.25072013_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.99.25072013_Updater.pkg">PowerPoint</a></td>
@@ -673,23 +699,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.98.3 (25062733)<br><span class='extra-small'>July 01, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.98.25062733_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
       <td>16.98.1 (25061520)<br><span class='extra-small'>June 17, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.98.25061520_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.98 (25060824)<br><span class='extra-small'>June 10, 2025</span></td>
@@ -703,23 +729,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.97.2 (25052611)<br><span class='extra-small'>May 27, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.97.25052611_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.97.25052611_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.97.25052611_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.97.25052611_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.97.1 (25051816)<br><span class='extra-small'>May 20, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.97.25051816_Updater.pkg">Word</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.97.25051816_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.97 (25051114)<br><span class='extra-small'>May 13, 2025</span></td>
@@ -733,33 +759,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.96.2 (25042933)<br><span class='extra-small'>April 30, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.96.25042933_Updater.pkg">Word</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.96.2 (25042730)<br><span class='extra-small'>April 29, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.96.25042730_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.96.1 (25042021)<br><span class='extra-small'>April 22, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.96.25042021_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.96.25042021_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.96.25042021_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.96.25042021_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.96 (25041326)<br><span class='extra-small'>April 15, 2025</span></td>
@@ -773,38 +799,38 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.95.4 (25040241)<br><span class='extra-small'>April 03, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.95.25040241_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.95.25040241_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.95.25040241_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.95.3 (25032931)<br><span class='extra-small'>April 01, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.95.25032931_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.95.25032931_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.95.25032931_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.95.25032931_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.95.2 (25032416)<br><span class='extra-small'>March 25, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.95.25032416_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.95.1 (25031528)<br><span class='extra-small'>March 18, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.95.25031528_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.95.25031528_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.95.25031528_Updater.pkg">PowerPoint</a></td>
@@ -823,23 +849,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.94.2 (25022327)<br><span class='extra-small'>February 25, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.94.25022327_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.94.1 (25021618)<br><span class='extra-small'>February 18, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.94.25021618_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.94 (25020927)<br><span class='extra-small'>February 11, 2025</span></td>
@@ -853,23 +879,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.93.2 (25012611)<br><span class='extra-small'>January 28, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.93.25012611_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.93.25012611_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.93.1 (25011917)<br><span class='extra-small'>January 21, 2025</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.93.25011917_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.93.25011917_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.93 (25011212)<br><span class='extra-small'>January 14, 2025</span></td>
@@ -881,6 +907,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.93.25011212_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.93.25011212_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2024</span> <span class="year-meta ignore-header">36 releases · 16.81 → 16.92</span> {#year-2024}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.92 (24120731)<br><span class='extra-small'>December 10, 2024</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.92.24120731_BusinessPro_Installer.pkg">Business</a></td>
@@ -893,11 +938,11 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.91.1 (24111613)<br><span class='extra-small'>November 19, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.91.24111613_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.91.24111613_Updater.pkg">OneNote</a></td>
     </tr>
@@ -913,33 +958,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.90.3 (24110120)<br><span class='extra-small'>November 2, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.90.24110120_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.90.2 (24102719)<br><span class='extra-small'>October 29, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.90.24102719_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.90.24102719_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.90.24102719_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.90.24102719_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.90.1 (24102013)<br><span class='extra-small'>October 22, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.90.24102013_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.90 (24101387)<br><span class='extra-small'>October 15, 2024</span></td>
@@ -953,23 +998,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.89.3 (24092813)<br><span class='extra-small'>October 1, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.89.24092813_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.89.2 (24092212)<br><span class='extra-small'>September 24, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.89.24092212_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.89.1 (24091630)<br><span class='extra-small'>September 17, 2024</span></td>
@@ -993,13 +1038,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.88.1 (24082514)<br><span class='extra-small'>August 27, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.88.24082514_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.88.24082514_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.88 (24081116)<br><span class='extra-small'>August 13, 2024</span></td>
@@ -1013,13 +1058,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.87.2 (24072822)<br><span class='extra-small'>July 30, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.87.24072822_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.87 (24071426)<br><span class='extra-small'>July 16, 2024</span></td>
@@ -1033,33 +1078,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.86.3 (24063014)<br><span class='extra-small'>July 2, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.86.24063014_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.86.2 (24062313)<br><span class='extra-small'>June 25, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.86.24062313_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.86.1 (24061443)<br><span class='extra-small'>June 18, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.86.24061443_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.86 (24060916)<br><span class='extra-small'>June 11, 2024</span></td>
@@ -1073,33 +1118,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.85.2 (24052614)<br><span class='extra-small'>May 28, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.85.24052614_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.85.2 (24052614)<br><span class='extra-small'>May 27, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.85.24052614_Updater.pkg">Word</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.85.1 (24051916)<br><span class='extra-small'>May 21, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.85.24051916_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.85 (24051214)<br><span class='extra-small'>May 14, 2024</span></td>
@@ -1113,33 +1158,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.84.2 (24042814)<br><span class='extra-small'>April 30, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.84.24042814_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.84.1 (24042223)<br><span class='extra-small'>April 24, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.84.24042223_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.84.1 (24042118)<br><span class='extra-small'>April 23, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.84.24042118_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.84 (24041420)<br><span class='extra-small'>April 16, 2024</span></td>
@@ -1153,33 +1198,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.83.3 (24033013)<br><span class='extra-small'>April 2, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.83.24033013_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.83.2 (24032318)<br><span class='extra-small'>March 26, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.83.24032318_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.83.1 (24031813)<br><span class='extra-small'>March 19, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.83.24031813_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.83 (24031120)<br><span class='extra-small'>March 12, 2024</span></td>
@@ -1193,13 +1238,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.82.1 (24021813)<br><span class='extra-small'>February 20, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.82.24021813_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.82 (24021116)<br><span class='extra-small'>February 13, 2024</span></td>
@@ -1213,23 +1258,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.81.2 (24012814)<br><span class='extra-small'>January 30, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.81.24012814_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.81.1 (24012117)<br><span class='extra-small'>January 23, 2024</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.81.24012117_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.81 (24011420)<br><span class='extra-small'>January 16, 2024</span></td>
@@ -1241,6 +1286,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.81.24011420_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.81.24011420_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2023</span> <span class="year-meta ignore-header">37 releases · 16.69 → 16.80</span> {#year-2023}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.80 (23121017)<br><span class='extra-small'>December 12, 2023</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.80.23121017_BusinessPro_Installer.pkg">Business</a></td>
@@ -1253,43 +1317,43 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.79.3 (23120117)<br><span class='extra-small'>December 12, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.79.23120117_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.79.2 (23112723)<br><span class='extra-small'>November 28, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.79.23112723_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.79.23112723_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.79.23112723_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.79.23112723_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.79.1 (23111718)<br><span class='extra-small'>November 21, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.79.23111718_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.79.1 (23111614)<br><span class='extra-small'>November 17, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.79.23111614_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.79.23111614_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.79.23111614_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.79 (23111019)<br><span class='extra-small'>November 14, 2023</span></td>
@@ -1309,27 +1373,27 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.78.23102801_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.78.23102801_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.78.23102801_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.78.2 (23102103)<br><span class='extra-small'>October 24, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.78.23102103_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.78.1 (23101305)<br><span class='extra-small'>October 17, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.78.23101305_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.78 (23100802)<br><span class='extra-small'>October 10, 2023</span></td>
@@ -1343,13 +1407,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.77.1 (23091703)<br><span class='extra-small'>September 19, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.77.23091703_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.77.23091703_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.77.23091703_Updater.pkg">PowerPoint</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.77.23091703_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.77 (23091003)<br><span class='extra-small'>September 12, 2023</span></td>
@@ -1363,33 +1427,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.76.2 (23082700)<br><span class='extra-small'>August 29, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.76.23082700_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.76.1 (23082301)<br><span class='extra-small'>August 24, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.76.23082301_Updater.pkg">Word</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.76.23082301_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.76.1 (23081800)<br><span class='extra-small'>August 22, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.76.23081800_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.76 (23081101)<br><span class='extra-small'>August 15, 2023</span></td>
@@ -1403,33 +1467,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.75.2 (23072301)<br><span class='extra-small'>July 25, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.75.23072301_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.75.2 (23071901)<br><span class='extra-small'>July 24, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.75.23071901_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.75.1 (23071400)<br><span class='extra-small'>July 18, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.75.23071400_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.75 (23070901)<br><span class='extra-small'>July 11, 2023</span></td>
@@ -1443,23 +1507,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.74.2 (23062500)<br><span class='extra-small'>June 27, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.74.23062500_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.74.1 (23061800)<br><span class='extra-small'>June 20, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.74.23061800_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.74 (23061100)<br><span class='extra-small'>June 13, 2023</span></td>
@@ -1473,23 +1537,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.73.2 (23052700)<br><span class='extra-small'>May 30, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.73.23052700_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.73.1 (23052000)<br><span class='extra-small'>May 23, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.73.23052000_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.73 (23051401)<br><span class='extra-small'>May 16, 2023</span></td>
@@ -1503,33 +1567,33 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.72.3 (23043001)<br><span class='extra-small'>May 2, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.72.23043001_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.72.2 (23042300)<br><span class='extra-small'>April 25, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.72.23042300_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.72.1 (23041401)<br><span class='extra-small'>April 18, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.72.23041401_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.72 (23040900)<br><span class='extra-small'>April 11, 2023</span></td>
@@ -1543,23 +1607,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.71.2 (23032500)<br><span class='extra-small'>March 28, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.71.23032500_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.71.1 (23031800)<br><span class='extra-small'>March 21, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.71.23031800_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.71 (23031200)<br><span class='extra-small'>March 14, 2023</span></td>
@@ -1583,23 +1647,23 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.69.1 (23011802)<br><span class='extra-small'>January 19, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.69.23011802_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.69.1 (23011600)<br><span class='extra-small'>January 17, 2023</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.69.23011600_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.69.23011600_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.69.23011600_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.69 (23010700)<br><span class='extra-small'>January 10, 2023</span></td>
@@ -1611,6 +1675,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.69.23010700_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.69.23010700_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2022</span> <span class="year-meta ignore-header">16 releases · 16.57 → 16.68</span> {#year-2022}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.68 (22121100)<br><span class='extra-small'>December 13, 2022</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.68.22121100_BusinessPro_Installer.pkg">Business</a></td>
@@ -1633,18 +1716,18 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.66.2 (22102801)<br><span class='extra-small'>October 31, 2022</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.66.22102801_Updater.pkg">Outlook</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.66.1 (22101101)<br><span class='extra-small'>October 12, 2022</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.66.22101101_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.66.22101101_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.66.22101101_Updater.pkg">PowerPoint</a></td>
@@ -1683,12 +1766,12 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.63.1 (22071401)16.63.1 (22071301)<br><span class='extra-small'>July 15, 2022</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.63.22071301_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.63.22071301_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.63.22071401_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.63.22071301_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
@@ -1713,13 +1796,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.61.1 (22052000)<br><span class='extra-small'>May 23, 2022</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.61.22052000_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.61 (22050700)<br><span class='extra-small'>May 10, 2022</span></td>
@@ -1771,6 +1854,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.57.22011101_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.57.22011101_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2021</span> <span class="year-meta ignore-header">14 releases · 16.45 → 16.56</span> {#year-2021}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.56 (21121100)<br><span class='extra-small'>December 14, 2021</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.56.21121100_BusinessPro_Installer.pkg">Business</a></td>
@@ -1803,12 +1905,12 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.53.1 (21091502)<br><span class='extra-small'>September 16, 2021</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.53.21091502_Updater.pkg">OneNote</a></td>
     </tr>
     <tr>
@@ -1873,13 +1975,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.47.1 (21032301)<br><span class='extra-small'>March 23, 2021</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.47.21032301_Updater.pkg">Excel</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.47 (21031401)<br><span class='extra-small'>March 16, 2021</span></td>
@@ -1911,6 +2013,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.45.21011103_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.45.21011103_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2020</span> <span class="year-meta ignore-header">13 releases · 16.33 → 16.44</span> {#year-2020}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.44 (20121301)<br><span class='extra-small'>December 15, 2020</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.44.20121301_BusinessPro_Installer.pkg">Business</a></td>
@@ -1995,16 +2116,16 @@ lastUpdated: false
       <td>16.36 (20041300)<br><span class='extra-small'>April 21, 2020</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.36.20041300_BusinessPro_Installer.pkg">Business</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.36.20041300_Installer.pkg">Suite</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.36 (20041300)<br><span class='extra-small'>April 14, 2020</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.36.20041300_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.36.20041300_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.36.20041300_Updater.pkg">PowerPoint</a></td>
@@ -2041,6 +2162,25 @@ lastUpdated: false
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.33.20011301_Updater.pkg">Outlook</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.33.20011301_Updater.pkg">OneNote</a></td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2019</span> <span class="year-meta ignore-header">15 releases · 16.21 → 16.32</span> {#year-2019}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.32 (19120802)<br><span class='extra-small'>December 10, 2019</span></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.32.19120802_BusinessPro_Installer.pkg">Business</a></td>
@@ -2073,13 +2213,13 @@ lastUpdated: false
     </tr>
     <tr>
       <td>16.29.1 (19091700)<br><span class='extra-small'>September 18, 2019</span></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.29.19091700_Updater.pkg">Word</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.29.19091700_Updater.pkg">Excel</a></td>
       <td><a href="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.29.19091700_Updater.pkg">PowerPoint</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>16.29 (19090802)<br><span class='extra-small'>September 10, 2019</span></td>
@@ -2191,6 +2331,25 @@ lastUpdated: false
       <td>archived</td>
       <td>archived</td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2018</span> <span class="year-meta ignore-header">17 releases · 16.9.0 → 16.20</span> {#year-2018}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>16.20 (18120801)<br><span class='extra-small'>December 11, 2018</span></td>
       <td>archived</td>
@@ -2361,6 +2520,25 @@ lastUpdated: false
       <td>archived</td>
       <td>archived</td>
     </tr>
+  </tbody>
+</table>
+
+## <span class="year-title">2017</span> <span class="year-meta ignore-header">14 releases · 15.30.0 → 15.41.0</span> {#year-2017}
+
+<table class="shrink-table">
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Business</th>
+      <th>Suite</th>
+      <th>Word</th>
+      <th>Excel</th>
+      <th>PowerPoint</th>
+      <th>Outlook</th>
+      <th>OneNote</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>15.41.0 (17120500)<br><span class='extra-small'>December 12, 2017</span></td>
       <td>archived</td>
@@ -2501,7 +2679,6 @@ lastUpdated: false
       <td>archived</td>
       <td>archived</td>
     </tr>
-
   </tbody>
 </table>
 

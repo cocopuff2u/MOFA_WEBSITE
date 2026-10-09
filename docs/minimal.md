@@ -492,7 +492,7 @@ next: false
         <div class="tile-title"><b>Teams</b></div>
         <div class="tile-version"><em><code>26261.303.5165.1465</code></em></div>
         <div class="tile-updated"><small>Last Update:<br><em><code>September 25, 2026</code></em></small></div>
-        <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"><small>Release Notes</small></a></div>
+        <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"><small>Release Notes</small></a>&nbsp;·&nbsp;<a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning"><small>Versions</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2249065">Installer</a></div>
       </div>

@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import pytz
 import logging
+import re
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -63,11 +64,31 @@ def generate_readme_content(last_scan_date, releases):
     content = f"""---
 editLink: false
 lastUpdated: false
+outline: [2, 2]
 ---
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Standalone Update History
+# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
 
 <span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
+
+Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
+
+<span class="extra-small">**archived** — Microsoft no longer hosts the packages for that release<br>**N/A** — no package of that type was published</span>
+"""
+    # One table per release year so the page outline can jump between years
+    releases_by_year = {}
+    for release in releases:
+        year_match = re.search(r'(\d{4})\s*$', release['date'])
+        releases_by_year.setdefault(year_match.group(1) if year_match else "Other", []).append(release)
+
+    for year, year_releases in releases_by_year.items():
+        # Year heading with release count and version range; ignore-header keeps the pill out of the outline
+        newest = year_releases[0]['version'].split(" ")[0]
+        oldest = year_releases[-1]['version'].split(" ")[0]
+        release_word = "release" if len(year_releases) == 1 else "releases"
+        version_range = newest if newest == oldest else f"{oldest} → {newest}"
+        content += f"""
+## <span class="year-title">{year}</span> <span class="year-meta ignore-header">{len(year_releases)} {release_word} · {version_range}</span> {{#year-{year}}}
 
 <table class="shrink-table">
   <thead>
@@ -84,20 +105,18 @@ lastUpdated: false
   </thead>
   <tbody>
 """
-    for release in releases:
-        content += f"    <tr>\n"
-        content += f"      <td>{release['version']}<br><span class='extra-small'>{release['date']}</span></td>\n"
-        content += f"      <td>archived</td>\n" if release['businesspro_suite_download'] == "archived" else f"      <td><a href=\"{release['businesspro_suite_download']}\">Business</a></td>\n" if release['businesspro_suite_download'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['suite_download'] == "archived" else f"      <td><a href=\"{release['suite_download']}\">Suite</a></td>\n" if release['suite_download'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['word_update'] == "archived" else f"      <td><a href=\"{release['word_update']}\">Word</a></td>\n" if release['word_update'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['excel_update'] == "archived" else f"      <td><a href=\"{release['excel_update']}\">Excel</a></td>\n" if release['excel_update'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['powerpoint_update'] == "archived" else f"      <td><a href=\"{release['powerpoint_update']}\">PowerPoint</a></td>\n" if release['powerpoint_update'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['outlook_update'] == "archived" else f"      <td><a href=\"{release['outlook_update']}\">Outlook</a></td>\n" if release['outlook_update'] else f"      <td>&nbsp;</td>\n"
-        content += f"      <td>archived</td>\n" if release['onenote_update'] == "archived" else f"      <td><a href=\"{release['onenote_update']}\">OneNote</a></td>\n" if release['onenote_update'] else f"      <td>&nbsp;</td>\n"
-        content += f"    </tr>\n"
-
-    content += """
-  </tbody>
+        for release in year_releases:
+            content += f"    <tr>\n"
+            content += f"      <td>{release['version']}<br><span class='extra-small'>{release['date']}</span></td>\n"
+            content += f"      <td>archived</td>\n" if release['businesspro_suite_download'] == "archived" else f"      <td><a href=\"{release['businesspro_suite_download']}\">Business</a></td>\n" if release['businesspro_suite_download'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['suite_download'] == "archived" else f"      <td><a href=\"{release['suite_download']}\">Suite</a></td>\n" if release['suite_download'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['word_update'] == "archived" else f"      <td><a href=\"{release['word_update']}\">Word</a></td>\n" if release['word_update'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['excel_update'] == "archived" else f"      <td><a href=\"{release['excel_update']}\">Excel</a></td>\n" if release['excel_update'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['powerpoint_update'] == "archived" else f"      <td><a href=\"{release['powerpoint_update']}\">PowerPoint</a></td>\n" if release['powerpoint_update'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['outlook_update'] == "archived" else f"      <td><a href=\"{release['outlook_update']}\">Outlook</a></td>\n" if release['outlook_update'] else f"      <td>N/A</td>\n"
+            content += f"      <td>archived</td>\n" if release['onenote_update'] == "archived" else f"      <td><a href=\"{release['onenote_update']}\">OneNote</a></td>\n" if release['onenote_update'] else f"      <td>N/A</td>\n"
+            content += f"    </tr>\n"
+        content += """  </tbody>
 </table>
 """
     content += """

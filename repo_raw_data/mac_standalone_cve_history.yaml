@@ -1,4 +1,4 @@
-last_scan_date: October 08, 2026 09:42 PM EDT
+last_scan_date: October 09, 2026 10:15 AM EDT
 updates:
 - date_text: October 06, 2026
   security_updates:
@@ -28,173 +28,588 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-85875
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-85875
     - cve_name: CVE-2026-81960
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81960
     - cve_name: CVE-2026-81959
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81959
     - cve_name: CVE-2026-81958
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81958
     - cve_name: CVE-2026-81957
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81957
     - cve_name: CVE-2026-81956
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81956
     - cve_name: CVE-2026-81954
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81954
     - cve_name: CVE-2026-81953
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81953
     - cve_name: CVE-2026-81951
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81951
     - cve_name: CVE-2026-81950
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81950
     - cve_name: CVE-2026-81949
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81949
     - cve_name: CVE-2026-81948
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81948
     - cve_name: CVE-2026-81947
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81947
     - cve_name: CVE-2026-81401
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81401
     - cve_name: CVE-2026-81400
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81400
     - cve_name: CVE-2026-81399
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81399
     - cve_name: CVE-2026-81398
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81398
     - cve_name: CVE-2026-81397
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81397
     - cve_name: CVE-2026-81396
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81396
     - cve_name: CVE-2026-81395
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81395
     - cve_name: CVE-2026-81394
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81394
     - cve_name: CVE-2026-81393
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81393
     - cve_name: CVE-2026-81392
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81392
     - cve_name: CVE-2026-81391
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81391
     - cve_name: CVE-2026-81390
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81390
     - cve_name: CVE-2026-81389
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81389
     - cve_name: CVE-2026-81388
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81388
     - cve_name: CVE-2026-81387
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81387
     - cve_name: CVE-2026-81386
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81386
     - cve_name: CVE-2026-78518
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78518
     Office Suite:
     - cve_name: CVE-2026-81955
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81955
     - cve_name: CVE-2026-81952
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-81952
     - cve_name: CVE-2026-80091
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80091
     - cve_name: CVE-2026-80089
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80089
     - cve_name: CVE-2026-80087
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80087
     - cve_name: CVE-2026-80086
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80086
     - cve_name: CVE-2026-80082
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80082
     - cve_name: CVE-2026-80078
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80078
     - cve_name: CVE-2026-80076
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80076
     - cve_name: CVE-2026-78526
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78526
     - cve_name: CVE-2026-78515
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78515
     - cve_name: CVE-2026-78505
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78505
     - cve_name: CVE-2026-78439
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78439
     - cve_name: CVE-2026-77898
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-77898
     - cve_name: CVE-2026-72938
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72938
     - cve_name: CVE-2026-69632
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69632
     PowerPoint:
     - cve_name: CVE-2026-78513
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78513
     - cve_name: CVE-2026-72977
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72977
     - cve_name: CVE-2026-72975
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72975
     - cve_name: CVE-2026-69797
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69797
     - cve_name: CVE-2026-69767
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69767
     - cve_name: CVE-2026-69678
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69678
     Word:
     - cve_name: CVE-2026-80090
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80090
     - cve_name: CVE-2026-80088
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80088
     - cve_name: CVE-2026-80085
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80085
     - cve_name: CVE-2026-80080
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-80080
     - cve_name: CVE-2026-78525
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78525
     - cve_name: CVE-2026-78524
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78524
     - cve_name: CVE-2026-78521
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78521
     - cve_name: CVE-2026-78520
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78520
     - cve_name: CVE-2026-78517
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78517
     - cve_name: CVE-2026-78514
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78514
     - cve_name: CVE-2026-78512
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78512
     - cve_name: CVE-2026-78511
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78511
     - cve_name: CVE-2026-78510
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78510
     - cve_name: CVE-2026-78509
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78509
     - cve_name: CVE-2026-78507
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78507
     - cve_name: CVE-2026-78506
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78506
     - cve_name: CVE-2026-78504
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78504
     - cve_name: CVE-2026-78503
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78503
     - cve_name: CVE-2026-78502
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-78502
     - cve_name: CVE-2026-77901
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-77901
     - cve_name: CVE-2026-72976
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72976
     - cve_name: CVE-2026-72974
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72974
     - cve_name: CVE-2026-72973
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72973
     - cve_name: CVE-2026-72972
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-72972
     - cve_name: CVE-2026-69759
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69759
     - cve_name: CVE-2026-69734
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69734
     - cve_name: CVE-2026-69722
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69722
     - cve_name: CVE-2026-69719
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69719
     - cve_name: CVE-2026-69686
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69686
     - cve_name: CVE-2026-69671
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69671
     - cve_name: CVE-2026-69626
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Sep
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-69626
   version: Version 16.113 (Build 26091433)
 - date_text: September 10, 2026
@@ -225,160 +640,530 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-65807
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65807
     - cve_name: CVE-2026-68793
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68793
     - cve_name: CVE-2026-68794
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68794
     - cve_name: CVE-2026-68795
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68795
     - cve_name: CVE-2026-68796
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68796
     - cve_name: CVE-2026-68797
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68797
     - cve_name: CVE-2026-68798
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68798
     - cve_name: CVE-2026-68799
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68799
     - cve_name: CVE-2026-68800
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68800
     - cve_name: CVE-2026-68801
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68801
     - cve_name: CVE-2026-68802
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68802
     - cve_name: CVE-2026-68803
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68803
     - cve_name: CVE-2026-68804
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68804
     - cve_name: CVE-2026-68805
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68805
     - cve_name: CVE-2026-68806
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68806
     - cve_name: CVE-2026-68807
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68807
     - cve_name: CVE-2026-68808
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68808
     - cve_name: CVE-2026-68810
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68810
     - cve_name: CVE-2026-68811
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68811
     - cve_name: CVE-2026-68812
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68812
     - cve_name: CVE-2026-68813
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68813
     - cve_name: CVE-2026-68814
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68814
     - cve_name: CVE-2026-68815
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68815
     - cve_name: CVE-2026-68816
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68816
     - cve_name: CVE-2026-68817
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68817
     - cve_name: CVE-2026-70327
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70327
     - cve_name: CVE-2026-70328
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70328
     Office Suite:
     - cve_name: CVE-2026-62804
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-62804
     - cve_name: CVE-2026-62842
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-62842
     - cve_name: CVE-2026-63513
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63513
     - cve_name: CVE-2026-63515
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63515
     - cve_name: CVE-2026-63517
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63517
     - cve_name: CVE-2026-63519
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63519
     - cve_name: CVE-2026-63524
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63524
     - cve_name: CVE-2026-63526
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63526
     - cve_name: CVE-2026-63532
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63532
     - cve_name: CVE-2026-63533
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63533
     - cve_name: CVE-2026-64898
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64898
     - cve_name: CVE-2026-64899
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64899
     - cve_name: CVE-2026-64903
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64903
     - cve_name: CVE-2026-64904
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64904
     - cve_name: CVE-2026-64909
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64909
     - cve_name: CVE-2026-64910
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64910
     - cve_name: CVE-2026-64911
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64911
     - cve_name: CVE-2026-65657
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65657
     - cve_name: CVE-2026-65661
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65661
     - cve_name: CVE-2026-65664
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-65664
     - cve_name: CVE-2026-66807
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66807
     - cve_name: CVE-2026-68818
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68818
     - cve_name: CVE-2026-70312
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70312
     - cve_name: CVE-2026-70313
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70313
     - cve_name: CVE-2026-70314
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70314
     - cve_name: CVE-2026-70315
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70315
     - cve_name: CVE-2026-70316
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70316
     - cve_name: CVE-2026-70317
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70317
     - cve_name: CVE-2026-70319
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70319
     - cve_name: CVE-2026-70320
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70320
     - cve_name: CVE-2026-70322
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70322
     - cve_name: CVE-2026-70323
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70323
     - cve_name: CVE-2026-70325
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70325
     Outlook:
     - cve_name: CVE-2026-63518
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63518
     PowerPoint:
     - cve_name: CVE-2026-68809
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-68809
     Word:
     - cve_name: CVE-2026-58651
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-58651
     - cve_name: CVE-2026-63527
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63527
     - cve_name: CVE-2026-63528
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63528
     - cve_name: CVE-2026-63530
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63530
     - cve_name: CVE-2026-63531
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-63531
     - cve_name: CVE-2026-64905
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64905
     - cve_name: CVE-2026-64907
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64907
     - cve_name: CVE-2026-64915
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64915
     - cve_name: CVE-2026-64917
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-64917
     - cve_name: CVE-2026-66809
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66809
     - cve_name: CVE-2026-66810
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-66810
     - cve_name: CVE-2026-70310
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70310
     - cve_name: CVE-2026-70311
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70311
     - cve_name: CVE-2026-70318
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Aug
+      msrc_revision: '2026-10-13T07:00:00'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-70318
   version: Version 16.112 (Build 26081010)
 - date_text: August 04, 2026
@@ -403,156 +1188,526 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-47642
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-47642
     - cve_name: CVE-2026-48580
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-48580
     - cve_name: CVE-2026-50408
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50408
     - cve_name: CVE-2026-50675
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50675
     - cve_name: CVE-2026-50678
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50678
     - cve_name: CVE-2026-54131
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-54131
     - cve_name: CVE-2026-54988
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-54988
     - cve_name: CVE-2026-55024
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55024
     - cve_name: CVE-2026-55025
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55025
     - cve_name: CVE-2026-55029
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55029
     - cve_name: CVE-2026-55031
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55031
     - cve_name: CVE-2026-55036
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55036
     - cve_name: CVE-2026-55037
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55037
     - cve_name: CVE-2026-55039
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55039
     - cve_name: CVE-2026-55041
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55041
     - cve_name: CVE-2026-55044
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55044
     - cve_name: CVE-2026-55046
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55046
     - cve_name: CVE-2026-55048
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55048
     - cve_name: CVE-2026-55053
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55053
     - cve_name: CVE-2026-55054
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55054
     - cve_name: CVE-2026-55058
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55058
     - cve_name: CVE-2026-55122
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55122
     - cve_name: CVE-2026-55131
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55131
     - cve_name: CVE-2026-55136
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55136
     - cve_name: CVE-2026-55137
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55137
     - cve_name: CVE-2026-55138
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55138
     - cve_name: CVE-2026-55141
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55141
     - cve_name: CVE-2026-55898
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55898
     - cve_name: CVE-2026-55899
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55899
     - cve_name: CVE-2026-55947
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55947
     - cve_name: CVE-2026-55948
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55948
     - cve_name: CVE-2026-55949
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55949
     - cve_name: CVE-2026-56156
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56156
     - cve_name: CVE-2026-58618
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-58618
     Office Suite:
     - cve_name: CVE-2026-50387
+      exploited: 'No'
+      impact: Elevation of Privilege
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50387
     - cve_name: CVE-2026-50314
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50314
     - cve_name: CVE-2026-50467
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50467
     - cve_name: CVE-2026-50665
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-50665
     - cve_name: CVE-2026-55018
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55018
     - cve_name: CVE-2026-55022
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55022
     - cve_name: CVE-2026-55023
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55023
     - cve_name: CVE-2026-55026
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55026
     - cve_name: CVE-2026-55027
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55027
     - cve_name: CVE-2026-55028
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55028
     - cve_name: CVE-2026-55035
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55035
     - cve_name: CVE-2026-55042
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55042
     - cve_name: CVE-2026-55045
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55045
     - cve_name: CVE-2026-55047
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55047
     - cve_name: CVE-2026-55056
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55056
     - cve_name: CVE-2026-55057
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55057
     - cve_name: CVE-2026-55121
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55121
     - cve_name: CVE-2026-55125
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55125
     - cve_name: CVE-2026-55129
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55129
     - cve_name: CVE-2026-56192
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56192
     - cve_name: CVE-2026-56193
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56193
     - cve_name: CVE-2026-56195
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-56195
     - cve_name: CVE-2026-55140
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55140
     - cve_name: CVE-2026-55049
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55049
     - cve_name: CVE-2026-55139
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55139
     OneNote:
     - cve_name: CVE-2026-55133
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55133
     PowerPoint:
     - cve_name: CVE-2026-55043
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55043
     - cve_name: CVE-2026-55123
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55123
     - cve_name: CVE-2026-55120
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55120
     Word:
     - cve_name: CVE-2026-55033
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55033
     - cve_name: CVE-2026-55038
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55038
     - cve_name: CVE-2026-55050
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55050
     - cve_name: CVE-2026-55055
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55055
     - cve_name: CVE-2026-55124
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55124
     - cve_name: CVE-2026-55127
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55127
     - cve_name: CVE-2026-55128
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55128
     - cve_name: CVE-2026-55130
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55130
     - cve_name: CVE-2026-55132
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55132
     - cve_name: CVE-2026-55134
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55134
     - cve_name: CVE-2026-55142
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jul
+      msrc_revision: '2026-10-09T07:00:00Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-55142
   version: Version 16.111 (Build 26071325)
 - date_text: July 07, 2026
@@ -577,58 +1732,188 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-44817
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44817
     - cve_name: CVE-2026-44818
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44818
     - cve_name: CVE-2026-44820
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44820
     - cve_name: CVE-2026-44822
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44822
     - cve_name: CVE-2026-44823
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44823
     - cve_name: CVE-2026-45455
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45455
     - cve_name: CVE-2026-45459
+      exploited: 'No'
+      impact: Security Feature Bypass
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45459
     - cve_name: CVE-2026-45469
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45469
     Office Suite:
     - cve_name: CVE-2026-44819
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44819
     - cve_name: CVE-2026-44821
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44821
     - cve_name: CVE-2026-44824
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-44824
     - cve_name: CVE-2026-45460
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45460
     - cve_name: CVE-2026-45461
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45461
     - cve_name: CVE-2026-45463
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45463
     - cve_name: CVE-2026-45472
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45472
     - cve_name: CVE-2026-45474
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45474
     - cve_name: CVE-2026-45475
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45475
     - cve_name: CVE-2026-45485
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45485
     - cve_name: CVE-2026-45645
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45645
     Word:
     - cve_name: CVE-2026-45456
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45456
     - cve_name: CVE-2026-45457
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45457
     - cve_name: CVE-2026-45458
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45458
     - cve_name: CVE-2026-45466
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45466
     - cve_name: CVE-2026-45471
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45471
     - cve_name: CVE-2026-45486
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45486
     - cve_name: CVE-2026-45643
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jun
+      msrc_revision: '2026-09-28T03:45:44Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-45643
   version: Version 16.110 (Build 26061317)
 - date_text: June 02, 2026
@@ -653,24 +1938,69 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-40359
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40359
     - cve_name: CVE-2026-40360
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40360
     - cve_name: CVE-2026-40362
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40362
     Office Suite:
     - cve_name: CVE-2026-40358
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40358
     - cve_name: CVE-2026-40363
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40363
     Word:
     - cve_name: CVE-2026-40361
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40361
     - cve_name: CVE-2026-40364
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40364
     - cve_name: CVE-2026-40366
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40366
     - cve_name: CVE-2026-40367
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-May
+      msrc_revision: '2026-09-25T02:43:53'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-40367
   version: Version 16.109 (Build 26051019)
 - date_text: May 05, 2026
@@ -695,26 +2025,76 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-32188
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32188
     - cve_name: CVE-2026-32189
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32189
     - cve_name: CVE-2026-32197
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32197
     - cve_name: CVE-2026-32198
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32198
     - cve_name: CVE-2026-32199
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32199
     Office Suite:
     - cve_name: CVE-2026-32190
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-32190
     Word:
     - cve_name: CVE-2026-33095
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33095
     - cve_name: CVE-2026-33822
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33822
     - cve_name: CVE-2026-33114
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33114
     - cve_name: CVE-2026-33115
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Apr
+      msrc_revision: '2026-10-08T01:59:04Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-33115
   version: Version 16.108 (Build 26041219)
 - date_text: April 08, 2026
@@ -745,17 +2125,47 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-26107
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26107
     - cve_name: CVE-2026-26108
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26108
     - cve_name: CVE-2026-26109
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26109
     - cve_name: CVE-2026-26112
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26112
     Office Suite:
     - cve_name: CVE-2026-26110
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26110
     - cve_name: CVE-2026-26113
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Mar
+      msrc_revision: '2026-10-09T03:04:15Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-26113
   version: Version 16.107 (Build 26030819)
 - date_text: March 03, 2026
@@ -780,13 +2190,33 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-20946
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20946
     - cve_name: CVE-2026-20955
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20955
     Word:
     - cve_name: CVE-2026-20956
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20956
     - cve_name: CVE-2026-20952
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20952
   version: Version 16.106 (Build 26020821)
 - date_text: February 03, 2026
@@ -811,26 +2241,76 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2026-20946
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20946
     - cve_name: CVE-2026-20949
+      exploited: 'No'
+      impact: Security Feature Bypass
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20949
     - cve_name: CVE-2026-20950
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20950
     - cve_name: CVE-2026-20955
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20955
     - cve_name: CVE-2026-20956
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20956
     - cve_name: CVE-2026-20957
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20957
     Office Suite:
     - cve_name: CVE-2026-20952
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20952
     - cve_name: CVE-2026-20953
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20953
     Word:
     - cve_name: CVE-2026-20948
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20948
     - cve_name: CVE-2026-20944
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2026-Jan
+      msrc_revision: '2026-10-07T01:54:29Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2026-20944
   version: Version 16.105 (Build 26011018)
 - date_text: January 06, 2026
@@ -843,29 +2323,84 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-62556
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62556
     - cve_name: CVE-2025-62560
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62560
     - cve_name: CVE-2025-62561
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62561
     - cve_name: CVE-2025-62563
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62563
     - cve_name: CVE-2025-62564
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62564
     Office Suite:
     - cve_name: CVE-2025-62554
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62554
     - cve_name: CVE-2025-62557
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62557
     Outlook:
     - cve_name: CVE-2025-62562
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62562
     Word:
     - cve_name: CVE-2025-62555
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62555
     - cve_name: CVE-2025-62558
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62558
     - cve_name: CVE-2025-62559
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Dec
+      msrc_revision: '2026-10-03T15:16:06Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-62559
   version: Version 16.104 (Build 25121423)
 - date_text: December 09, 2025
@@ -969,28 +2504,83 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-53735
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53735
     - cve_name: CVE-2025-53737
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53737
     - cve_name: CVE-2025-53739
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53739
     - cve_name: CVE-2025-53741
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53741
     - cve_name: CVE-2025-53759
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53759
     Office Suite:
     - cve_name: CVE-2025-53731
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53731
     - cve_name: CVE-2025-53740
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53740
     Word:
     - cve_name: CVE-2025-53733
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53733
     - cve_name: CVE-2025-53736
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53736
     - cve_name: CVE-2025-53738
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53738
     - cve_name: CVE-2025-53784
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Aug
+      msrc_revision: '2026-10-01T01:52:16Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-53784
   version: Version 16.100 (Build 25081015)
 - date_text: July 29, 2025
@@ -1009,27 +2599,77 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-48812
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-48812
     - cve_name: CVE-2025-49711
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49711
     Office Suite:
     - cve_name: CVE-2025-49695
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49695
     - cve_name: CVE-2025-49696
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49696
     - cve_name: CVE-2025-49697
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49697
     - cve_name: CVE-2025-49699
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49699
     - cve_name: CVE-2025-49702
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49702
     PowerPoint:
     - cve_name: CVE-2025-49705
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49705
     Word:
     - cve_name: CVE-2025-49698
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49698
     - cve_name: CVE-2025-49703
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jul
+      msrc_revision: '2026-10-07T01:48:58Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-49703
   version: Version 16.99 (Build 25071321)
 - date_text: July 1, 2025
@@ -1048,27 +2688,77 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-47165
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47165
     Office Suite:
     - cve_name: CVE-2025-47173
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47173
     - cve_name: CVE-2025-47953
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47953
     - cve_name: CVE-2025-47164
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47164
     - cve_name: CVE-2025-47167
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47167
     - cve_name: CVE-2025-47162
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47162
     PowerPoint:
     - cve_name: CVE-2025-47175
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47175
     Word:
     - cve_name: CVE-2025-47168
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47168
     - cve_name: CVE-2025-47170
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47170
     - cve_name: CVE-2025-47169
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jun
+      msrc_revision: '2026-10-07T01:53:19Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-47169
   version: Version 16.98 (Build 25060824)
 - date_text: May 27, 2025
@@ -1087,27 +2777,82 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-29977
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29977
     - cve_name: CVE-2025-29979
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29979
     - cve_name: CVE-2025-30375
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30375
     - cve_name: CVE-2025-30376
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30376
     - cve_name: CVE-2025-30393
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30393
     - cve_name: CVE-2025-30379
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30379
     - cve_name: CVE-2025-30381
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30381
     - cve_name: CVE-2025-30383
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30383
     Office Suite:
     - cve_name: CVE-2025-30388
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30388
     - cve_name: CVE-2025-30377
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30377
     - cve_name: CVE-2025-30386
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-May
+      msrc_revision: '2026-10-06T01:57:49Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-30386
   version: Version 16.97 (Build 25051114)
 - date_text: April 30, 2025
@@ -1132,33 +2877,98 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-27750
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27750
     - cve_name: CVE-2025-27751
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27751
     - cve_name: CVE-2025-26642
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-26642
     Office Suite:
     - cve_name: CVE-2025-29816
+      exploited: 'No'
+      impact: Security Feature Bypass
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29816
     - cve_name: CVE-2025-27745
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27745
     - cve_name: CVE-2025-27746
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27746
     - cve_name: CVE-2025-27748
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27748
     - cve_name: CVE-2025-27749
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27749
     - cve_name: CVE-2025-27752
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27752
     - cve_name: CVE-2025-29791
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29791
     OneNote:
     - cve_name: CVE-2025-29822
+      exploited: 'No'
+      impact: Security Feature Bypass
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29822
     Word:
     - cve_name: CVE-2025-29820
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-29820
     - cve_name: CVE-2025-27747
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Apr
+      msrc_revision: '2026-10-09T02:46:40Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-27747
   version: Version 16.96 (Build 25041326)
 - date_text: April 3, 2025
@@ -1189,22 +2999,62 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-24081
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24081
     - cve_name: CVE-2025-24075
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24075
     - cve_name: CVE-2025-24082
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24082
     Office Suite:
     - cve_name: CVE-2025-24083
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24083
     - cve_name: CVE-2025-24057
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24057
     Word:
     - cve_name: CVE-2025-24079
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24079
     - cve_name: CVE-2025-24078
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24078
     - cve_name: CVE-2025-24077
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Mar
+      msrc_revision: '2026-10-08T01:50:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-24077
   version: Version 16.95 (Build 25030928)
 - date_text: February 25, 2025
@@ -1223,19 +3073,54 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-21387
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21387
     - cve_name: CVE-2025-21390
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21390
     - cve_name: CVE-2025-21386
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21386
     - cve_name: CVE-2025-21383
+      exploited: 'No'
+      impact: Information Disclosure
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21383
     - cve_name: CVE-2025-21381
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21381
     - cve_name: CVE-2025-21394
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21394
     Office Suite:
     - cve_name: CVE-2025-21392
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Feb
+      msrc_revision: '2026-10-05T02:26:21Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21392
   version: Version 16.94 (Build 25020927)
 - date_text: January 28, 2025
@@ -1254,26 +3139,61 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2025-21362
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jan
+      msrc_revision: '2026-10-07T01:48:07Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21362
     - cve_name: CVE-2025-21354
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jan
+      msrc_revision: '2026-10-07T01:48:07Z'
+      severity: Critical
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21354
     Office Suite:
     - cve_name: CVE-2025-21338
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jan
+      msrc_revision: '2026-10-07T01:48:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21338
     OneNote:
     - cve_name: CVE-2025-21402
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jan
+      msrc_revision: '2026-10-07T01:48:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21402
     Word:
     - cve_name: CVE-2025-21363
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2025-Jan
+      msrc_revision: '2026-10-07T01:48:07Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2025-21363
   version: Version 16.93 (Build 25011212)
 - date_text: December 10, 2024
   security_updates:
     Excel:
     - cve_name: CVE-2024-49069
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Dec
+      msrc_revision: '2026-10-06T01:50:22Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49069
     Office Suite:
     - cve_name: CVE-2024-49065
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Dec
+      msrc_revision: '2026-10-06T01:50:22Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49065
   version: Version 16.92 (Build 24120731)
 - date_text: November 19, 2024
@@ -1286,20 +3206,55 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2024-49029
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49029
     - cve_name: CVE-2024-49028
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49028
     - cve_name: CVE-2024-49027
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49027
     - cve_name: CVE-2024-49030
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49030
     Office Suite:
     - cve_name: CVE-2024-49031
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49031
     - cve_name: CVE-2024-49032
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49032
     Word:
     - cve_name: CVE-2024-49033
+      exploited: 'No'
+      impact: Security Feature Bypass
+      msrc_document: 2024-Nov
+      msrc_revision: '2026-10-05T02:25:08Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-49033
   version: Version 16.91 (Build 24111020)
 - date_text: November 2, 2024
@@ -1348,6 +3303,11 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2024-43465
+      exploited: 'No'
+      impact: Elevation of Privilege
+      msrc_document: 2024-Sep
+      msrc_revision: '2026-09-24T01:55:30Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-43465
   version: Version 16.89 (Build 24090815)
 - date_text: August 27, 2024
@@ -1360,11 +3320,26 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2024-38172
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Aug
+      msrc_revision: '2026-09-24T02:15:10Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38172
     - cve_name: CVE-2024-38170
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Aug
+      msrc_revision: '2026-09-24T02:15:10Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38170
     PowerPoint:
     - cve_name: CVE-2024-38171
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Aug
+      msrc_revision: '2026-09-24T02:15:10Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-38171
   version: Version 16.88 (Build 24081116)
 - date_text: July 30, 2024
@@ -1425,6 +3400,11 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2024-30042
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-May
+      msrc_revision: '2026-10-09T02:44:54Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-30042
   version: Version 16.85 (Build 24051214)
 - date_text: April 30, 2024
@@ -1449,6 +3429,11 @@ updates:
   security_updates:
     Excel:
     - cve_name: CVE-2024-26257
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Apr
+      msrc_revision: '2026-09-30T01:53:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-26257
   version: Version 16.84 (Build 24041420)
 - date_text: April 2, 2024
@@ -1503,5 +3488,10 @@ updates:
   security_updates:
     Office Suite:
     - cve_name: CVE-2024-20677
+      exploited: 'No'
+      impact: Remote Code Execution
+      msrc_document: 2024-Jan
+      msrc_revision: '2026-10-09T02:34:04Z'
+      severity: Important
       url: https://portal.msrc.microsoft.com/security-guidance/advisory/CVE-2024-20677
   version: Version 16.81 (Build 24011420)

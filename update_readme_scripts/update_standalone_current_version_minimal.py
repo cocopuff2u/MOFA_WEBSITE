@@ -126,7 +126,7 @@ def generate_readme_content(global_last_updated, packages):
         return v if v not in (None, "", "N/A") else default
 
     # Helper to generate a single tile cell
-    def render_tile(name, version, last_updated, img_src, rel_notes_url, primary_dl, secondary_dl=None, img_alt=None):
+    def render_tile(name, version, last_updated, img_src, rel_notes_url, primary_dl, secondary_dl=None, img_alt=None, history_url=None):
         name_html = name
         version_html = nz(version)
         last_updated_html = nz(last_updated)
@@ -136,6 +136,9 @@ def generate_readme_content(global_last_updated, packages):
         links_html = f'<a class="btn" href="{primary_href}">Installer</a>'
         if secondary_dl:
             links_html += f' <a class="btn" href="{secondary_dl}">App Only</a>'
+        relnotes_html = f'<a class="relnotes" href="{rel_notes_url}"><small>Release Notes</small></a>'
+        if history_url:
+            relnotes_html += f'&nbsp;·&nbsp;<a class="relnotes" href="{history_url}"><small>Versions</small></a>'
         cell = f'''
     <div class="tile">
       <div class="tile-card">
@@ -145,7 +148,7 @@ def generate_readme_content(global_last_updated, packages):
         <div class="tile-title"><b>{name_html}</b></div>
         <div class="tile-version"><em><code>{version_html}</code></em></div>
         <div class="tile-updated"><small>Last Update:<br><em><code>{last_updated_html}</code></em></small></div>
-        <div class="tile-relnotes"><a class="relnotes" href="{rel_notes_url}"><small>Release Notes</small></a></div>
+        <div class="tile-relnotes">{relnotes_html}</div>
         <div class="tile-spacer"></div>
         <div class="tile-links">{links_html}</div>
       </div>
@@ -243,6 +246,7 @@ def generate_readme_content(global_last_updated, packages):
         last_updated=get_standalone_package_detail(packages, 'Teams', 'last_updated'),
         img_src="/images/2025/Teams.webp",
         rel_notes_url="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de",
+        history_url="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning",
         primary_dl="https://go.microsoft.com/fwlink/?linkid=2249065",
         secondary_dl=None
     ))
