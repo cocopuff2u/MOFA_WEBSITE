@@ -5,7 +5,7 @@ outline: [2, 2]
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2026 04:30 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2026 08:28 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Office for Mac, grouped by the release that fixed it, newest first. Only releases with security fixes are listed. Sources: [Release notes for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac) and the [Microsoft Security Response Center](https://msrc.microsoft.com/update-guide).

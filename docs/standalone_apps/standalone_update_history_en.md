@@ -5,7 +5,7 @@ outline: [2, 2]
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2026 04:30 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2026 08:28 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
