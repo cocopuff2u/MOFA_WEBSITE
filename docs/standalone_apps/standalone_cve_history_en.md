@@ -5,7 +5,7 @@ outline: [2, 2]
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office CVE History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 14, 2026 05:16 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 14, 2026 08:15 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Office for Mac, grouped by the release that fixed it, newest first. Only releases with security fixes are listed. Sources: [Release notes for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac) and the [Microsoft Security Response Center](https://msrc.microsoft.com/update-guide).
@@ -13,21 +13,131 @@ Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Offi
 <span class="extra-small"><Badge type="danger" text="Critical" /> — can be exploited without user interaction, such as remote code execution<br><Badge type="warning" text="Important" /> — could compromise data or availability, usually requiring user action<br><Badge type="danger" text="Exploited" /> — Microsoft reports active exploitation</span>
 
 ::: tip At a glance (2026)
-**298 CVEs** across 9 security releases
+**399 CVEs** across 10 security releases
 
 | Application | CVEs | Critical |
 |-------------|------|----------|
-| <span class="app-tag app-excel">Excel</span> | 119 | 0 |
-| <span class="app-tag app-office-suite">Office Suite</span> | 92 | 0 |
-| <span class="app-tag app-word">Word</span> | 75 | 0 |
-| <span class="app-tag app-powerpoint">PowerPoint</span> | 10 | 0 |
-| <span class="app-tag app-outlook">Outlook</span> | 1 | 0 |
-| <span class="app-tag app-onenote">OneNote</span> | 1 | 0 |
+| <span class="app-tag app-excel">Excel</span> | 170 | 0 |
+| <span class="app-tag app-office-suite">Office Suite</span> | 120 | 0 |
+| <span class="app-tag app-word">Word</span> | 88 | 0 |
+| <span class="app-tag app-powerpoint">PowerPoint</span> | 16 | 0 |
+| <span class="app-tag app-outlook">Outlook</span> | 3 | 0 |
+| <span class="app-tag app-onenote">OneNote</span> | 2 | 0 |
 :::
 
-## <span class="year-title">2026</span> <span class="year-meta ignore-header">9 security releases · 298 CVEs</span> {#year-2026}
+## <span class="year-title">2026</span> <span class="year-meta ignore-header">10 security releases · 399 CVEs</span> {#year-2026}
 
 <span class="extra-small">31 other releases this year had no security fixes.</span>
+
+### 16.114 (Build 26101123)
+
+<span class="extra-small">**October 14, 2026** · 101 CVEs · <span class="app-tag app-excel">Excel</span> 51 <span class="app-tag app-office-suite">Office Suite</span> 28 <span class="app-tag app-word">Word</span> 13 <span class="app-tag app-powerpoint">PowerPoint</span> 6 <span class="app-tag app-outlook">Outlook</span> 2 <span class="app-tag app-onenote">OneNote</span> 1</span>
+
+::: details View 101 CVEs
+| CVE | Application | Severity | Impact |
+|-----|-------------|----------|--------|
+| [CVE-2026-100209](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100209) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-100210](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100210) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-100211](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100211) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-100212](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-100212) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-105718](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105718) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97003](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97003) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97004](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97004) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97007](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97007) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97008](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97008) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97010](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97010) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97011](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97011) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97017](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97017) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97738](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97738) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97739](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97739) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97740](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97740) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97741](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97741) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97742](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97742) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97743](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97743) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97745](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97745) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97746](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97746) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97747](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97747) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97748](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97748) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97750](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97750) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97751](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97751) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97752](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97752) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97753](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97753) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97754](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97754) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97755](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97755) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97756](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97756) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97757](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97757) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97758](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97758) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97759](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97759) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97760](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97760) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97761](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97761) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97762](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97762) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97763](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97763) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97765](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97765) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97766](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97766) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97767](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97767) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97768](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97768) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97769](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97769) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97770](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97770) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97771](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97771) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97772](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97772) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97773](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97773) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97775](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97775) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97776](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97776) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97777](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97777) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97778](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97778) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97779](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97779) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-97780](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97780) | <span class="app-tag app-excel">Excel</span> | N/A | N/A |
+| [CVE-2026-102858](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102858) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-105599](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105599) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-105715](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105715) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70096](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70096) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70254](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70254) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70269](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70269) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70269](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70269) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70269](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70269) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70269](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70269) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-70281](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70281) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-77902](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77902) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88144](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88144) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88145](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88145) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88145](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88145) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88156](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88156) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88156](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88156) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88169](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88169) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88175](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88175) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88183](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88183) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88184](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88184) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88185](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88185) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88185](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88185) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88185](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88185) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88185](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88185) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88192](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88192) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88196](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88196) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-88197](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88197) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-97001](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97001) | <span class="app-tag app-office-suite">Office Suite</span> | N/A | N/A |
+| [CVE-2026-96997](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96997) | <span class="app-tag app-onenote">OneNote</span> | N/A | N/A |
+| [CVE-2026-70257](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70257) | <span class="app-tag app-outlook">Outlook</span> | N/A | N/A |
+| [CVE-2026-70291](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70291) | <span class="app-tag app-outlook">Outlook</span> | N/A | N/A |
+| [CVE-2026-70215](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70215) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-88178](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88178) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-88207](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88207) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-88210](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88210) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-97005](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97005) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-97744](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97744) | <span class="app-tag app-powerpoint">PowerPoint</span> | N/A | N/A |
+| [CVE-2026-70206](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70206) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70220](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70220) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70263](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70263) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70268](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70268) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70287](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70287) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70301](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70301) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-70302](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70302) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-83891](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83891) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-88150](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88150) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-88167](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88167) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-88186](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88186) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-88202](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88202) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+| [CVE-2026-96995](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96995) | <span class="app-tag app-word">Word</span> | N/A | N/A |
+:::
 
 ### 16.113 (Build 26091433)
 

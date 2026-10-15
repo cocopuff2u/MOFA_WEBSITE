@@ -5,14 +5,14 @@ outline: [2, 2]
 ---
 # <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 14, 2026 05:16 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
+<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 14, 2026 08:15 PM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
  (Automatically Updated every 2 hours)_</span>
 
 Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
 
 <span class="extra-small">**archived** — Microsoft no longer hosts the packages for that release<br>**N/A** — no package of that type was published</span>
 
-## <span class="year-title">2026</span> <span class="year-meta ignore-header">41 releases · 16.104.1 → 16.113.4</span> {#year-2026}
+## <span class="year-title">2026</span> <span class="year-meta ignore-header">42 releases · 16.104.1 → 16.114</span> {#year-2026}
 
 <table class="shrink-table">
   <thead>
@@ -28,6 +28,16 @@ Every Microsoft 365 and Office for Mac release, newest first, with direct links 
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>16.114 (26101123)<br><span class='extra-small'>October 14, 2026</span></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26101123_BusinessPro_Installer.pkg">Business</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26101123_Installer.pkg">Suite</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage//C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.114.26101123_Updater.pkg">Word</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.114.26101123_Updater.pkg">Excel</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.114.26101123_Updater.pkg">PowerPoint</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.114.26101123_Updater.pkg">Outlook</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.114.26101123_Updater.pkg">OneNote</a></td>
+    </tr>
     <tr>
       <td>16.113.4 (26100421)<br><span class='extra-small'>October 06, 2026</span></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.113.26100421_BusinessPro_Installer.pkg">Business</a></td>
