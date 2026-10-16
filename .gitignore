@@ -4,7 +4,7 @@ node_modules/
 # VitePress build output and dev cache (CI rebuilds on every deploy)
 docs/.vitepress/dist/
 docs/.vitepress/cache/
-.vitepress/
+/.vitepress/
 
 # macOS
 .DS_Store

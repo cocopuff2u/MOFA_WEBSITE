@@ -3,7 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/',
   title: "MOFA",
-  description: "Microsoft Overview For Apple",
+  description: "Microsoft Overview Feed For Apple",
+  lastUpdated: true,
+  cleanUrls: true,
+  markdown: {
+    // Ensure HTML is enabled in markdown options
+    html: true,
+  },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     // Social preview (Open Graph + Twitter Card)
@@ -108,8 +114,6 @@ export default defineConfig({
     `]
   ],
   themeConfig: {
-    lastUpdated: true,
-    cleanUrls: true,
     search: {
       provider: 'local'
     },
@@ -241,11 +245,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025 MOFA All rights reserved.'
-    },
-    markdown: {
-      // Ensure HTML is enabled in markdown options
-      html: true,
+      copyright: `Copyright © ${new Date().getFullYear()} MOFA All rights reserved.`
     }
   }
 })
