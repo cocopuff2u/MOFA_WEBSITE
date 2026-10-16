@@ -5,7 +5,21 @@ export default defineConfig({
   title: "MOFA",
   description: "Microsoft Overview For Apple",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+      ['link', { rel: 'icon', href: '/favicon.ico' }],
+      // Social preview (Open Graph + Twitter Card)
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:site_name', content: 'MOFA' }],
+      ['meta', { property: 'og:title', content: 'MOFA — Microsoft Overview Feed For Apple' }],
+      ['meta', { property: 'og:description', content: 'Empowering Apple Devices with Microsoft Solutions' }],
+      ['meta', { property: 'og:url', content: 'https://mofa.cocolabs.dev/' }],
+      ['meta', { property: 'og:image', content: 'https://mofa.cocolabs.dev/social-preview.png' }],
+      ['meta', { property: 'og:image:width', content: '1200' }],
+      ['meta', { property: 'og:image:height', content: '630' }],
+      ['meta', { property: 'og:image:alt', content: 'MOFA — Microsoft Overview Feed For Apple' }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+      ['meta', { name: 'twitter:title', content: 'MOFA — Microsoft Overview Feed For Apple' }],
+      ['meta', { name: 'twitter:description', content: 'Empowering Apple Devices with Microsoft Solutions' }],
+      ['meta', { name: 'twitter:image', content: 'https://mofa.cocolabs.dev/social-preview.png' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-P45L4Y5WFQ' }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
