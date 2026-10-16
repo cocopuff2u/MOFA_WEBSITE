@@ -7,7 +7,7 @@ sidebar: false
 footer: true
 aside: false
 prev: false
-next: false 
+next: false
 ---
 <style>
   /* NEW: Status bar styles (fix Markdown-in-HTML issue and wrapping) */
@@ -123,11 +123,14 @@ next: false
 
   /* Ensure the link itself centers and only the text is clickable */
   .brand-title {
-    display: inline-block;    /* was block – limit clickable area to text */
-    text-align: center;
-    margin: 0;                /* remove auto margins that add width */
+    display: inline-flex;     /* wordmark + mark on one line, only this is clickable */
+    align-items: center;
+    gap: 0.18em;
+    margin: 0;
     line-height: 1.05;
+    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
   }
+  .brand-mark { width: 0.82em; height: 0.82em; display: block; }
 
   /* Remove underline/highlight for the MOFA link in all states */
   a.brand-title,
@@ -144,11 +147,13 @@ next: false
 
   /* Ensure gradient text doesn't fall back to a theme color */
   .gradient-title-mini {
-    background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+    background: var(--mofa-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
+    font-family: var(--mofa-display-font);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    font-size: inherit;
     color: transparent; /* keep text transparent; gradient provides color */
   }
 
@@ -362,17 +367,11 @@ next: false
 
 <!-- Centered hero wrapper to prevent cut-off on short screens -->
 <div class="brand-hero">
-  <a class="brand-title gradient-title-mini" href="/">MOFA</a>
+  <a class="brand-title" href="/"><span class="gradient-title-mini">MOFA</span><img class="brand-mark mofa-light" src="/images/mofa-icon-light.svg" alt="" /><img class="brand-mark mofa-dark" src="/images/mofa-icon-dark.svg" alt="" /></a>
 </div>
 
 <div class="status-bar">
-      <div class="status-line">
-        <span>Last Updated: <code class="status-ts">October 16, 2026 06:35 AM EDT</code></span>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
-        <span class="muted">(Automatically updated every 2 hours)</span>
-      </div>
+      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 16, 2026 06:35 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
       <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>

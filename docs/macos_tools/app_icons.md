@@ -1,718 +1,209 @@
-<div style="text-align: center;">
+---
+title: App Icons
+---
+<div class="mofa-page">
 
-# <img src="/images/script.png" alt="App Icons" width="20" style="vertical-align: middle; display: inline-block;" /> App Icons <img src="/images/script.png" alt="App Icons" width="20" style="vertical-align: middle; display: inline-block;" />
-
-A curated set of high-resolution Microsoft app icons for macOS.
-
-</div>
-
-::: info Notes
-- Icons are sourced directly from each app at the highest available resolution.
-- Provided in WEBP (for the web) and PNG (ideal for Company Portal, Self Service, etc.). Other formats available on request.
-- Details reflect the app/version the icon was pulled from.
-- Seeking older, regional, and special-edition variants.
-- Seeking guidance on dark mode icon variants.
-:::
-
-::: tip Community help needed
-If you have older icons, special editions (e.g., Pride variants), dark mode, or corrections to the current data, please open a PR or issue.
-:::
-
-<div class="icon-category-divider">Office Suite</div>
-
-## Word
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp" alt="Word" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/word">Word</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Variants</span>
-  </div>
-  <p class="section-banner-desc">High-resolution Word icons across major macOS releases.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp" alt="Word 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp" alt="Word 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp" alt="Word 2021 Pride" />
-    </a>
-    <span class="icon-card-label">2021 Pride</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp" alt="Word 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/word">→ All icons for Word</a>
+<div class="mofa-page-hero">
+  <MofaMark :size="90" />
+  <h1>App <span class="gradient-title">icons</span></h1>
+  <p class="mofa-page-sub">High-resolution Microsoft app icons for macOS, ready for Self Service, Company Portal and docs.</p>
 </div>
 
-## Excel
+<p class="mofa-lead">Every icon is pulled straight from the app at the highest resolution it ships with, then saved as WEBP for the web and PNG for anywhere that needs it, such as Jamf Self Service or the Intune Company Portal. Click any icon to open it full size.</p>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp" alt="Excel" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/excel">Excel</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Variants</span>
-  </div>
-  <p class="section-banner-desc">High-resolution Excel icons across major macOS releases.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp" alt="Excel 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp" alt="Excel 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp" alt="Excel 2021 Pride" />
-    </a>
-    <span class="icon-card-label">2021 Pride</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp" alt="Excel 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/excel">→ All icons for Excel</a>
+<div class="mofa-stats">
+  <div><b>15 apps</b><span>from Word to Visual Studio Code</span></div>
+  <div><b>45 icons</b><span>across releases, channels and special editions</span></div>
+  <div><b>WEBP and PNG</b><span>other formats on request</span></div>
 </div>
 
-## PowerPoint
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp" alt="PowerPoint" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/powerpoint">PowerPoint</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Variants</span>
-  </div>
-  <p class="section-banner-desc">High-resolution PowerPoint icons across major macOS releases.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp" alt="PowerPoint 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp" alt="PowerPoint 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp" alt="PowerPoint 2021 Pride" />
-    </a>
-    <span class="icon-card-label">2021 Pride</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp" alt="PowerPoint 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/powerpoint">→ All icons for PowerPoint</a>
+<div class="mofa-jump">
+  <a class="mofa-chip outline" href="#word"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp" alt="" loading="lazy" />Word</a>
+  <a class="mofa-chip outline" href="#excel"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp" alt="" loading="lazy" />Excel</a>
+  <a class="mofa-chip outline" href="#powerpoint"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp" alt="" loading="lazy" />PowerPoint</a>
+  <a class="mofa-chip outline" href="#outlook"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp" alt="" loading="lazy" />Outlook</a>
+  <a class="mofa-chip outline" href="#onenote"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp" alt="" loading="lazy" />OneNote</a>
+  <a class="mofa-chip outline" href="#onedrive"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp" alt="" loading="lazy" />OneDrive</a>
+  <a class="mofa-chip outline" href="#teams"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp" alt="" loading="lazy" />Teams</a>
+  <a class="mofa-chip outline" href="#copilot"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" alt="" loading="lazy" />Copilot</a>
+  <a class="mofa-chip outline" href="#company-portal"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp" alt="" loading="lazy" />Company Portal</a>
+  <a class="mofa-chip outline" href="#defender"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" alt="" loading="lazy" />Defender</a>
+  <a class="mofa-chip outline" href="#microsoft-autoupdate"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp" alt="" loading="lazy" />Microsoft AutoUpdate</a>
+  <a class="mofa-chip outline" href="#microsoft-365-bundle"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" alt="" loading="lazy" />Microsoft 365 Bundle</a>
+  <a class="mofa-chip outline" href="#edge"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp" alt="" loading="lazy" />Edge</a>
+  <a class="mofa-chip outline" href="#windows-app"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp" alt="" loading="lazy" />Windows App</a>
+  <a class="mofa-chip outline" href="#visual-studio-code"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp" alt="" loading="lazy" />Visual Studio Code</a>
 </div>
 
-## Outlook
+<p class="mofa-note">Labels show the app release the icon was pulled from. Older, regional and special edition icons are welcome, as are dark mode variants and corrections. Open a <a href="https://github.com/cocopuff2u/MOFA/pulls" target="_blank" rel="noopener">pull request</a> or an <a href="https://github.com/cocopuff2u/MOFA/issues" target="_blank" rel="noopener">issue</a> on the MOFA repo.</p>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp" alt="Outlook" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/outlook">Outlook</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">8 Variants</span>
-  </div>
-  <p class="section-banner-desc">Outlook icons including standard releases and special Pride edition variants.</p>
+<p class="mofa-category">Office Suite</p>
+
+## Word {.mofa-h2}
+
+<p class="mofa-lead">Word icons across the major macOS releases.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp" alt="Word 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp" alt="Word 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp" alt="Word 2021 Pride" loading="lazy" /></a><b>2021 Pride</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2021_Pride.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp" alt="Word 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/word/Word_2025.png">PNG</a></span></div>
 </div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp" alt="Outlook 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp" alt="Outlook 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp" alt="Outlook 2021 Pride" />
-    </a>
-    <span class="icon-card-label">2021 Pride</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp" alt="Outlook 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.png">PNG</a>
-    </div>
-  </div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/word" target="_blank" rel="noopener">All Word icons on GitHub →</a></p>
+
+## Excel {.mofa-h2}
+
+<p class="mofa-lead">Excel icons across the major macOS releases.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp" alt="Excel 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp" alt="Excel 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp" alt="Excel 2021 Pride" loading="lazy" /></a><b>2021 Pride</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2021_Pride.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp" alt="Excel 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/excel/Excel_2025.png">PNG</a></span></div>
 </div>
-<div class="icon-grid-label">Pride Specials</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp" alt="Outlook 2021 Bisexual" />
-    </a>
-    <span class="icon-card-label">2021 Bisexual</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp" alt="Outlook 2021 Lesbian" />
-    </a>
-    <span class="icon-card-label">2021 Lesbian</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp" alt="Outlook 2021 Nonbinary" />
-    </a>
-    <span class="icon-card-label">2021 Nonbinary</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp" alt="Outlook 2021 Transgender" />
-    </a>
-    <span class="icon-card-label">2021 Transgender</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.png">PNG</a>
-    </div>
-  </div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/excel" target="_blank" rel="noopener">All Excel icons on GitHub →</a></p>
+
+## PowerPoint {.mofa-h2}
+
+<p class="mofa-lead">PowerPoint icons across the major macOS releases.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp" alt="PowerPoint 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp" alt="PowerPoint 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp" alt="PowerPoint 2021 Pride" loading="lazy" /></a><b>2021 Pride</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2021_Pride.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp" alt="PowerPoint 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/powerpoint/PowerPoint_2025.png">PNG</a></span></div>
 </div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/outlook">→ All icons for Outlook</a>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/powerpoint" target="_blank" rel="noopener">All PowerPoint icons on GitHub →</a></p>
+
+## Outlook {.mofa-h2}
+
+<p class="mofa-lead">Outlook icons, including the standard releases and the Pride edition variants.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp" alt="Outlook 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp" alt="Outlook 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp" alt="Outlook 2021 Pride" loading="lazy" /></a><b>2021 Pride</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Pride.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp" alt="Outlook 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2025.png">PNG</a></span></div>
 </div>
 
-## OneNote
+<p class="mofa-icons-label">Pride specials</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp" alt="Outlook 2021 Bisexual" loading="lazy" /></a><b>2021 Bisexual</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Bisexual.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp" alt="Outlook 2021 Lesbian" loading="lazy" /></a><b>2021 Lesbian</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Lesbian.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp" alt="Outlook 2021 Nonbinary" loading="lazy" /></a><b>2021 Nonbinary</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Nonbinary.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp" alt="Outlook 2021 Transgender" loading="lazy" /></a><b>2021 Transgender</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/outlook/Outlook_2021_Transgender.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/outlook" target="_blank" rel="noopener">All Outlook icons on GitHub →</a></p>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp" alt="OneNote" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onenote">OneNote</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Variants</span>
-  </div>
-  <p class="section-banner-desc">High-resolution OneNote icons across major macOS releases.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp" alt="OneNote 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp" alt="OneNote 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp" alt="OneNote 2021 Pride" />
-    </a>
-    <span class="icon-card-label">2021 Pride</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp" alt="OneNote 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onenote">→ All icons for OneNote</a>
-</div>
+## OneNote {.mofa-h2}
 
-<div class="icon-category-divider">Microsoft Apps</div>
+<p class="mofa-lead">OneNote icons across the major macOS releases.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp" alt="OneNote 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp" alt="OneNote 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp" alt="OneNote 2021 Pride" loading="lazy" /></a><b>2021 Pride</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2021_Pride.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp" alt="OneNote 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onenote/OneNote_2025.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onenote" target="_blank" rel="noopener">All OneNote icons on GitHub →</a></p>
 
-## OneDrive
+<p class="mofa-category">Microsoft Apps</p>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp" alt="OneDrive" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onedrive">OneDrive</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">3 Variants</span>
-  </div>
-  <p class="section-banner-desc">OneDrive icons across major macOS releases.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp" alt="OneDrive 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp" alt="OneDrive 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp" alt="OneDrive 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onedrive">→ All icons for OneDrive</a>
-</div>
+## OneDrive {.mofa-h2}
 
-## Teams
+<p class="mofa-lead">OneDrive icons across the major macOS releases.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp" alt="OneDrive 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp" alt="OneDrive 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp" alt="OneDrive 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/onedrive/OneDrive_2025.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/onedrive" target="_blank" rel="noopener">All OneDrive icons on GitHub →</a></p>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp" alt="Teams" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/teams">Teams</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Variants</span>
-  </div>
-  <p class="section-banner-desc">Teams icons from the 2018 launch through the 2025 redesign.</p>
+## Teams {.mofa-h2}
+
+<p class="mofa-lead">Teams icons from the 2018 launch through the 2025 redesign.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp" alt="Teams 2018 / 2019" loading="lazy" /></a><b>2018 / 2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp" alt="Teams 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp" alt="Teams 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp" alt="Teams 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.png">PNG</a></span></div>
 </div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp" alt="Teams 2018" />
-    </a>
-    <span class="icon-card-label">2018 / 2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2018.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp" alt="Teams 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2019.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp" alt="Teams 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp" alt="Teams 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/teams/Teams_2025.png">PNG</a>
-    </div>
-  </div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/teams" target="_blank" rel="noopener">All Teams icons on GitHub →</a></p>
+
+## Copilot {.mofa-h2}
+
+<p class="mofa-lead">Microsoft 365 Copilot from 2025 and the converged Copilot app from 2026.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" alt="Copilot 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp" alt="Copilot 2026 Copilot app" loading="lazy" /></a><b>2026 Copilot app</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.png">PNG</a></span></div>
 </div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/teams">→ All icons for Teams</a>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/copilot" target="_blank" rel="noopener">All Copilot icons on GitHub →</a></p>
+
+## Company Portal {.mofa-h2}
+
+<p class="mofa-lead">The Intune Company Portal icon.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp" alt="Company Portal 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/company_portal" target="_blank" rel="noopener">All Company Portal icons on GitHub →</a></p>
+
+## Defender {.mofa-h2}
+
+<p class="mofa-lead">Microsoft Defender icon variants.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp" alt="Defender 2021" loading="lazy" /></a><b>2021</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" alt="Defender 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/defender" target="_blank" rel="noopener">All Defender icons on GitHub →</a></p>
+
+## Microsoft AutoUpdate {.mofa-h2}
+
+<p class="mofa-lead">The Microsoft AutoUpdate icon.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp" alt="Microsoft AutoUpdate 2019" loading="lazy" /></a><b>2019</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/mau" target="_blank" rel="noopener">All Microsoft AutoUpdate icons on GitHub →</a></p>
+
+## Microsoft 365 Bundle {.mofa-h2}
+
+<p class="mofa-lead">The Microsoft 365 suite bundle icon.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" alt="Microsoft 365 Bundle 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/microsoft_365_bundle" target="_blank" rel="noopener">All Microsoft 365 Bundle icons on GitHub →</a></p>
+
+<p class="mofa-category">Developer and browser</p>
+
+## Edge {.mofa-h2}
+
+<p class="mofa-lead">Edge channel icons: Stable, Beta, Dev and Canary.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp" alt="Edge Stable" loading="lazy" /></a><b>Stable</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp" alt="Edge Beta" loading="lazy" /></a><b>Beta</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp" alt="Edge Dev" loading="lazy" /></a><b>Dev</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp" alt="Edge Canary" loading="lazy" /></a><b>Canary</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/edge" target="_blank" rel="noopener">All Edge icons on GitHub →</a></p>
+
+## Windows App {.mofa-h2}
+
+<p class="mofa-lead">Windows App, formerly Microsoft Remote Desktop.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp" alt="Windows App 2025" loading="lazy" /></a><b>2025</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/windows_app" target="_blank" rel="noopener">All Windows App icons on GitHub →</a></p>
+
+## Visual Studio Code {.mofa-h2}
+
+<p class="mofa-lead">VS Code Stable and Insiders icons.</p>
+<div class="mofa-icons">
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp" alt="Visual Studio Code Stable" loading="lazy" /></a><b>Stable</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.png">PNG</a></span></div>
+  <div class="mofa-icon-tile"><a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp" alt="Visual Studio Code Insiders" loading="lazy" /></a><b>Insiders</b><span><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp">WEBP</a><a class="mofa-chip" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.png">PNG</a></span></div>
+</div>
+<p class="mofa-icons-all"><a href="https://github.com/cocopuff2u/MOFA/tree/main/icons/vscode" target="_blank" rel="noopener">All Visual Studio Code icons on GitHub →</a></p>
+
+<p class="mofa-foot">Missing an app or a release you have the icon for? Add it to the icons folder and open a pull request.</p>
+
+<div class="mofa-cta">
+  <a class="mofa-btn" href="https://github.com/cocopuff2u/MOFA/tree/main/icons" target="_blank" rel="noopener">Browse all icons</a>
+  <a class="mofa-btn alt" href="https://github.com/cocopuff2u/MOFA/pulls" target="_blank" rel="noopener">Submit a pull request</a>
 </div>
 
-## Copilot
+<div class="mofa-related"><span>Related</span><a class="mofa-chip outline" href="/macos_tools/community_scripts">Community scripts</a><a class="mofa-chip outline" href="/macos_tools/microsoft_office_repair_tools">Repair tools</a><a class="mofa-chip outline" href="/about_support/feedback">Feedback</a></div>
 
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" alt="Copilot" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/copilot">Copilot</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">2 Variants</span>
-  </div>
-  <p class="section-banner-desc">Microsoft Copilot icons for macOS (Microsoft 365 Copilot 2025 and the converged Copilot app 2026).</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp" alt="Copilot 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_2025.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp" alt="Copilot App 2026" />
-    </a>
-    <span class="icon-card-label">2026 (Copilot App)</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/copilot/Copilot_App_2026.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/copilot">→ All icons for Copilot</a>
-</div>
-
-## Company Portal
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp" alt="Company Portal" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/company_portal">Company Portal</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">1 Variant</span>
-  </div>
-  <p class="section-banner-desc">Microsoft Intune Company Portal icon for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp" alt="Company Portal 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/company_portal/Company_Portal_2021.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/company_portal">→ All icons for Company Portal</a>
-</div>
-
-## Defender
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" alt="Defender" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/defender">Defender</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">2 Variants</span>
-  </div>
-  <p class="section-banner-desc">Microsoft Defender icon variants for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp" alt="Defender 2021" />
-    </a>
-    <span class="icon-card-label">2021</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp" alt="Defender 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/defender/defender_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/defender">→ All icons for Defender</a>
-</div>
-
-## Microsoft AutoUpdate
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp" alt="Microsoft AutoUpdate" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/mau">Microsoft AutoUpdate</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">1 Variant</span>
-  </div>
-  <p class="section-banner-desc">Microsoft AutoUpdate (MAU) icon for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp" alt="AutoUpdate 2019" />
-    </a>
-    <span class="icon-card-label">2019</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/mau/AutoUpdate_2019.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/mau">→ All icons for Microsoft AutoUpdate</a>
-</div>
-
-## Microsoft 365 Bundle
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" alt="Microsoft 365 Bundle" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/microsoft_365_bundle">Microsoft 365 Bundle</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">1 Variant</span>
-  </div>
-  <p class="section-banner-desc">The Microsoft 365 suite bundle icon for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp" alt="Microsoft 365 Bundle 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/microsoft_365_bundle/microsoft_365.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/microsoft_365_bundle">→ All icons for Microsoft 365 Bundle</a>
-</div>
-
-<div class="icon-category-divider">Developer &amp; Browser</div>
-
-## Edge
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp" alt="Edge" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/edge">Edge</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">4 Channels</span>
-  </div>
-  <p class="section-banner-desc">Edge browser channel icons — Stable, Beta, Dev, and Canary.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp" alt="Edge Stable" />
-    </a>
-    <span class="icon-card-label">Stable</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_app.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp" alt="Edge Beta" />
-    </a>
-    <span class="icon-card-label">Beta</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_beta.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp" alt="Edge Dev" />
-    </a>
-    <span class="icon-card-label">Dev</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_dev.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp" alt="Edge Canary" />
-    </a>
-    <span class="icon-card-label">Canary</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/edge/edge_canary.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/edge">→ All icons for Edge</a>
-</div>
-
-## Windows App
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp" alt="Windows App" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/windows_app">Windows App</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">1 Variant</span>
-  </div>
-  <p class="section-banner-desc">Windows App (formerly Remote Desktop) icon for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp" alt="Windows App 2025" />
-    </a>
-    <span class="icon-card-label">2025</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/windows_app/Windows_App_2025.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/windows_app">→ All icons for Windows App</a>
-</div>
-
-## Visual Studio Code
-
-<div class="section-block section-block--active">
-<div class="section-banner">
-  <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp" alt="Visual Studio Code" class="section-banner-icon" />
-  <a class="section-banner-name" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/vscode">Visual Studio Code</a>
-  <div class="section-banner-badges">
-    <span class="banner-badge banner-badge--tip">2 Variants</span>
-  </div>
-  <p class="section-banner-desc">VS Code Stable and Insiders icons for macOS.</p>
-</div>
-<div class="icon-grid">
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp" alt="VS Code Stable" />
-    </a>
-    <span class="icon-card-label">Stable</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021.png">PNG</a>
-    </div>
-  </div>
-  <div class="icon-card">
-    <a href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp">
-      <img src="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp" alt="VS Code Insiders" />
-    </a>
-    <span class="icon-card-label">Insiders</span>
-    <div class="icon-card-links">
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.webp">WEBP</a>
-      <a class="icon-pill" href="https://raw.githubusercontent.com/cocopuff2u/MOFA/main/icons/visual_studio_code/Code_2021_Insider.png">PNG</a>
-    </div>
-  </div>
-</div>
-<a class="icon-all-link" href="https://github.com/cocopuff2u/MOFA/tree/main/icons/vscode">→ All icons for Visual Studio Code</a>
 </div>

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import logging
 from html import escape
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -73,17 +74,7 @@ def generate_readme_content(global_last_updated: str, packages: list[dict]) -> s
 
     tiles_html = "\n".join(render_tile(p) for p in packages)
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-layout: doc
-navbar: false
-sidebar: false
-footer: true
-aside: false
-prev: false
-next: false
----
+    content = f"""{frontmatter(editLink=False, lastUpdated=False, layout='doc', navbar=False, sidebar=False, footer=True, aside=False, prev=False, next=False)}
 
 <style>
   /* Status bar and links (match standalone) */
@@ -170,11 +161,14 @@ next: false
     overflow: visible;
   }}
   .brand-title {{
-    display: inline-block;
-    text-align: center;
+    display: inline-flex;     /* wordmark + mark on one line, only this is clickable */
+    align-items: center;
+    gap: 0.18em;
     margin: 0;
     line-height: 1.05;
+    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
   }}
+  .brand-mark {{ width: 0.82em; height: 0.82em; display: block; }}
   a.brand-title,
   a.brand-title:link,
   a.brand-title:visited,
@@ -187,11 +181,13 @@ next: false
     -webkit-tap-highlight-color: transparent;
   }}
   .gradient-title-mini {{
-    background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+    background: var(--mofa-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    font-size: clamp(32px, 12vmin, 96px);
+    font-family: var(--mofa-display-font);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    font-size: inherit;
     color: transparent;
   }}
 
@@ -269,19 +265,13 @@ next: false
 
 <!-- MOFA hero title (match standalone) -->
 <div class="brand-hero">
-  <a class="brand-title gradient-title-mini" href="/">MOFA</a>
+  <a class="brand-title" href="/"><span class="gradient-title-mini">MOFA</span><img class="brand-mark mofa-light" src="/images/mofa-icon-light.svg" alt="" /><img class="brand-mark mofa-dark" src="/images/mofa-icon-dark.svg" alt="" /></a>
 </div>
 <h1 class="page-title">iOS App Store apps</h1>
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line">
-    <span>Last Updated: <code class="status-ts">{escape(global_last_updated)}</code></span>
-    <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml"><strong>Raw XML</strong></a>
-    <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml"><strong>Raw YAML</strong></a>
-    <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json"><strong>Raw JSON</strong></a>
-    <span class="muted">(Automatically updated every 2 hours)</span>
-  </div>
+  <div class="status-line">{status_line(escape(global_last_updated), 'ios_appstore_latest')}</div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -298,11 +288,6 @@ next: false
     logging.info("App Store minimal content generated successfully")
     return content
 
-def overwrite_readme(file_path: str, content: str):
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"{file_path} has been overwritten.")
-
 if __name__ == "__main__":
     # Source: iOS App Store XML
     xml_file_path = "repo_raw_data/ios_appstore_latest.xml"
@@ -311,4 +296,4 @@ if __name__ == "__main__":
 
     last_updated, packages = parse_appstore_xml(xml_file_path)
     page = generate_readme_content(last_updated, packages)
-    overwrite_readme(readme_file_path, page)
+    overwrite_readme(readme_file_path, page, note=False)

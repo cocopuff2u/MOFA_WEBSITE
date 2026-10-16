@@ -1,16 +1,27 @@
 ---
+title: Office update history
 editLink: false
 lastUpdated: false
 outline: [2, 2]
 ---
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
+<div class="mofa-feed-head">
+  <img class="mofa-feed-icon plain" src="/images/Microsoft_Logo.webp" alt="" />
+  <div class="mofa-feed-text">
+    <h1>Office update history</h1>
+    <p>Every Microsoft 365 and Office for Mac release, newest first, with links to each version’s installers.</p>
+  </div>
+</div>
+<div class="mofa-feed-meta">
+  <span class="mofa-feed-updated"><i></i>Updated October 16, 2026 06:36 AM EDT</span>
+  <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac" target="_blank" rel="noopener">Update history for Office for Mac</a></span>
+  <span class="mofa-feed-raw">Raw feed:
+    <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json" target="_blank" rel="noopener">JSON</a>
+  </span>
+</div>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 16, 2026 06:36 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
- (Automatically Updated every 2 hours)_</span>
 
-Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
 
-<span class="extra-small">**archived** — Microsoft no longer hosts the packages for that release<br>**N/A** — no package of that type was published</span>
+<div class="mofa-legend"><span class="mofa-legend-item"><b>archived</b>Microsoft no longer hosts the packages for that release</span><span class="mofa-legend-item"><b>N/A</b>no package of that type was published</span></div>
 
 ## <span class="year-title">2026</span> <span class="year-meta ignore-header">42 releases · 16.104.1 → 16.114</span> {#year-2026}
 

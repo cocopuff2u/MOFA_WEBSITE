@@ -3,6 +3,7 @@ from datetime import datetime
 import pytz
 import logging
 import os
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -62,23 +63,11 @@ def get_other_package_icon(package_name):
 def generate_other_readme_content(last_updated, packages):
     logging.info("Generating other_readme content")
 
-    # Set timezone to US/Eastern (EST/EDT)
-    eastern = pytz.timezone('US/Eastern')
-
-    # Get the current time in UTC and convert to EST
-    current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
+    current_time = now_eastern()
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""---
-editLink: false
-lastUpdated: false
----
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Other Microsoft Apps
-
-<span class="extra-small">All links below direct to Microsoft's official release sources (GitHub releases, Microsoft CDN, or Homebrew).</span>
-<span class="extra-small">The version information listed below reflects the version available at the time of this update.</span>
-
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json) (Automatically Updated every 4 hours)_</span>
+    content = f"""{frontmatter('Other Microsoft apps', editLink=False, lastUpdated=False, outline=False, packageOutline=True)}
+{feed_header('Other Microsoft apps', 'Microsoft tools outside the Office suite, from GitHub releases, Microsoft’s CDN or Homebrew. Versions shown are as of the last update.', last_updated, raw='macos_other_latest')}
 
 | **Product Package** | **Bundle Information** | **Download** |
 |----------------------|----------------------|--------------|
@@ -105,14 +94,26 @@ lastUpdated: false
             f"| {download_cell} |\n"
         )
 
-    # SHA256 table for packages with direct downloads
+    content += "\n{related}\n".replace("{related}", related([('Other apps SHA256', '/standalone_apps/macos_standalone_other_sha256'), ('Current versions', '/standalone_apps/standalone_current_version_en'), ('Raw feeds', '/standalone_apps/standalone_raw_feeds_en')]))
+
+    # Add comment section
     content += """
-## <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> SHA256 Information
+"""
+
+    logging.info("other_readme content generated successfully")
+
+    return content
+
+
+def generate_other_sha256_content(last_updated, packages):
+    direct_packages = [p for p in packages if p["latest_download"].startswith("http")]
+    content = f"""{frontmatter('Other apps SHA256', editLink=False, lastUpdated=False, outline=False, packageOutline=True)}
+{feed_header('Other apps SHA256 hashes', 'SHA256 checksums for the Microsoft tools outside the Office suite, so you can verify what you downloaded.', last_updated, raw='macos_other_latest')}
+{verify_note('SHA256')}
 
 | **Product Package** | **Download** | **SHA256** |
 |----------------------|-----------------|------------|
 """
-
     for package in direct_packages:
         name = package["name"]
         icon = get_other_package_icon(name)
@@ -121,23 +122,11 @@ lastUpdated: false
             f"| <a href=\"{package['latest_download']}\"><img src=\"{icon}\" alt=\"Download Image\" width=\"80\"></a> "
             f"| `{package['sha256']}` |\n"
         )
-
-    # Add comment section
+    content += "\n" + related([('Other Microsoft apps', '/standalone_apps/macos_standalone_other_readme'), ('SHA256 hashes', '/standalone_apps/standalone_sha256_hashes_en'), ('Raw feeds', '/standalone_apps/standalone_raw_feeds_en')]) + "\n"
     content += """
-> [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
-    logging.info("other_readme content generated successfully")
-
     return content
-
-def overwrite_readme(file_path, content):
-    # Ensure the directory exists
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"macos_standalone_other_readme has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths
@@ -151,3 +140,4 @@ if __name__ == "__main__":
 
     # Overwrite the README file
     overwrite_readme(readme_file_path, readme_content)
+    overwrite_readme("docs/standalone_apps/macos_standalone_other_sha256.md", generate_other_sha256_content(last_updated, packages))

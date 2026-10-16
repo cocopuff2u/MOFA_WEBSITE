@@ -1,134 +1,162 @@
-# 💻 Profile Breakdown  
+---
+title: Profile Breakdown
+---
+<div class="mofa-page">
 
-In this section, we’ll break down the structure and functionality of a **mobileconfig** file. Below is an example of the **`mau_autoupdate_3_day.mobileconfig`** file, designed for **Microsoft AutoUpdate (MAU)** on macOS. We’ll explore its key components to understand how it works. 🔍  
+<div class="mofa-page-hero">
+  <MofaMark :size="90" />
+  <h1>Profile <span class="gradient-title">breakdown</span></h1>
+  <p class="mofa-page-sub">What is inside a mobileconfig file, key by key, using a real MOFA profile.</p>
+</div>
 
-## 💻 Example File  
-Here’s an example of the **`mau_autoupdate_3_day.mobileconfig`** file, which configures the **Microsoft AutoUpdate** app to automate update checks and installation. The file contains several key settings that manage how the application handles updates.
+<p class="mofa-lead">A mobileconfig is a plist with a wrapper. The wrapper tells macOS what the profile is called and who made it. The payload inside carries the preference keys an app reads. Below is the 3-day forced update profile for Microsoft AutoUpdate, trimmed so the structure is easy to follow.</p>
 
-### 🧩 File Breakdown
+<div class="mofa-legend center">
+  <span class="mofa-legend-item"><b>File</b> <code>MOFA_mau_3day_update_v1.mobileconfig</code></span>
+  <span class="mofa-legend-item"><b>Payload type</b> <code>com.microsoft.autoupdate2</code></span>
+  <span class="mofa-legend-item"><b>Deadline</b> 3 days</span>
+</div>
+
+## The example file {.mofa-h2}
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>PayloadContent</key>
-        <array>
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <!-- Per-app deadlines. Each entry is keyed by the app's install path. -->
+            <key>Applications</key>
             <dict>
-                <key>Applications</key>
+                <key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
                 <dict>
-                    <key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
-                    <dict>
-                        <key>Application ID</key>
-                        <string>MSau04</string>
-                        <key>LCID</key>
-                        <integer>1033</integer>
-                        <key>UpdateDeadline.DaysBeforeForcedQuit</key>
-                        <integer>14</integer>
-                    </dict>
+                    <key>Application ID</key>
+                    <string>MSau04</string>
+                    <key>UpdateDeadline.DaysBeforeForcedQuit</key>
+                    <integer>3</integer>
                 </dict>
-                <key>ChannelName</key>
-                <string>Current</string>
-                <key>HowToCheck</key>
-                <string>AutomaticDownload</string>
-                <key>PayloadDisplayName</key>
-                <string>Microsoft AutoUpdate</string>
-                <key>PayloadIdentifier</key>
-                <string>com.microsoft.autoupdate2.14daypolicy</string>
-                <key>PayloadType</key>
-                <string>com.microsoft.autoupdate2</string>
-                <key>PayloadUUID</key>
-                <string>A1B2C3D4-14D1-14D1-14D1-1234567890AB</string>
-                <key>PayloadVersion</key>
-                <integer>1</integer>
-                <key>UpdateCheckFrequency</key>
-                <integer>360</integer>
-                <key>UpdateCheckInterval</key>
-                <integer>240</integer>
-                <key>UpdateDeadline.FinalCountDown</key>
-                <integer>60</integer>
-                <key>UpdateDeadline.StartAutomaticUpdates</key>
-                <integer>3</integer>
+                <key>/Applications/Microsoft Word.app</key>
+                <dict>
+                    <key>Application ID</key>
+                    <string>MSWD2019</string>
+                    <key>UpdateDeadline.DaysBeforeForcedQuit</key>
+                    <integer>3</integer>
+                </dict>
+                <!-- Excel, PowerPoint, Outlook, OneNote, OneDrive, Teams and Defender follow the same pattern. -->
             </dict>
-        </array>
-    </dict>
+
+            <!-- Global AutoUpdate settings. -->
+            <key>ChannelName</key>
+            <string>Current</string>
+            <key>HowToCheck</key>
+            <string>AutomaticDownload</string>
+            <key>UpdateCheckInterval</key>
+            <integer>240</integer>
+            <key>UpdateDeadline.StartAutomaticUpdates</key>
+            <integer>3</integer>
+            <key>UpdateDeadline.FinalCountDown</key>
+            <integer>60</integer>
+
+            <!-- Payload metadata. Every payload needs these. -->
+            <key>PayloadType</key>
+            <string>com.microsoft.autoupdate2</string>
+            <key>PayloadDisplayName</key>
+            <string>Microsoft AutoUpdate</string>
+            <key>PayloadIdentifier</key>
+            <string>com.microsoft.autoupdate2.3daypolicy</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-3D3D-3D3D-1234567890CD</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <!-- Profile metadata. This is what shows in System Settings. -->
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadDisplayName</key>
+    <string>mau_3_day_force_update</string>
+    <key>PayloadDescription</key>
+    <string>Enforces a 3-day global forced update policy for Microsoft AutoUpdate.</string>
+    <key>PayloadOrganization</key>
+    <string>Cocolabs - MOFA</string>
+    <key>PayloadIdentifier</key>
+    <string>dev.cocolabs.mofa.3day</string>
+    <key>PayloadUUID</key>
+    <string>3DAY-UUID-GLOBAL-9876543210CD</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
 </plist>
 ```
 
-*Please note that this example has been simplified for clarity.* ✍️
+<p class="mofa-note">Trimmed for clarity. The <a href="https://github.com/cocopuff2u/MOFA/blob/main/mobileconfig_profiles/MOFA_mau_3day_update_v1.mobileconfig" target="_blank" rel="noopener">full profile</a> lists every Office app in the Applications dictionary. Each payload and the profile itself need their own PayloadUUID and PayloadIdentifier, and both must be unique on the device.</p>
 
-## 🔑 Key Sections
+## Key by key {.mofa-h2}
 
-For more detailed information about the Microsoft Auto Update settings, refer to the offical documentation [here](https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences).📚
+<p class="mofa-lead">The keys that do the work, with the units Microsoft documents for them. Each card links to the <a href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener">AutoUpdate preferences reference</a>.</p>
 
-### 1. **HowToCheck**  
-   Specifies the update check method. Set to `AutomaticDownload`, ensuring updates are both downloaded and installed automatically. Other options include `AutomaticCheck`. 📥  
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-fork"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>HowToCheck</b><span>How updates are fetched. <code>AutomaticDownload</code> downloads and installs them. <code>AutomaticCheck</code> only checks, and <code>Manual</code> leaves it to the user. Setting this locks the choice in the AutoUpdate preferences.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-globe"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></i><div><b>ChannelName</b><span>Which release channel to follow. <code>Current</code> is production. <code>Preview</code> and <code>Beta</code> get builds earlier, and <code>CurrentThrottle</code> receives production builds on a slower rollout.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-refine"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>UpdateCheckInterval</b><span>Minutes between update checks. The profile uses <code>240</code>, four hours. Microsoft's default is 780 and they suggest a multiple of 60. The older <code>UpdateCheckFrequency</code> key is deprecated.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-bug"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></i><div><b>UpdateDeadline.DaysBeforeForcedQuit</b><span>Days a user has before the app is force quit and updated. Set per app inside <code>Applications</code>. The clock starts when the update is detected on that Mac, not when Microsoft releases it.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-chat"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h10M4 18h6M15 17l2.5 2.5L22 15"/></svg></i><div><b>UpdateDeadline.StartAutomaticUpdates</b><span>Days before the deadline when AutoUpdate starts treating every update as an automatic download. The minimum is 3 and it cannot exceed the forced quit deadline.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-mail"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6M12 2v3"/></svg></i><div><b>UpdateDeadline.FinalCountDown</b><span>Minutes of warning before the forced quit, shown as the countdown dialog. The profile uses <code>60</code>. Microsoft allows 10 to 720.</span></div></a>
+</div>
 
-   *Some keys, like **HowToCheck**, can lock certain functions from users, such as preventing manual control over update checks and installations.*
+<div class="mofa-figures">
+  <figure class="mofa-figure">
+    <img src="/images/mau_preferences_example2.png" alt="AutoUpdate preferences with the update method locked by HowToCheck" loading="lazy" />
+    <figcaption>HowToCheck locks the update method in AutoUpdate's preferences.</figcaption>
+  </figure>
+  <figure class="mofa-figure">
+    <img src="/images/mau_preferences_example.png" alt="AutoUpdate preferences showing the channel selected by ChannelName" loading="lazy" />
+    <figcaption>ChannelName picks the release channel shown here.</figcaption>
+  </figure>
+</div>
 
-   <p align="center"><img src="/images/mau_preferences_example2.png" /></p>
+## Make your own {.mofa-h2}
 
-### 2. **ChannelName**  
-   Defines the update channel. In this case, `Current` is used to indicate the production update channel. Other options include `Beta` or `Preview`. 📡  
+<p class="mofa-lead">An unsigned mobileconfig is plain text, so for a quick change open it in a text editor such as Visual Studio Code and edit the keys directly. To capture settings you have not written out yet, let the app do it for you.</p>
 
-   <p align="center"><img src="/images/mau_preferences_example.png" /></p>
+<div class="mofa-rows rows-left">
+  <div class="mofa-row"><i class="ic-fork"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></i><div><b>1. Set it in the app</b><span>Open the app, go to its preferences and make the change you want to deploy. Save or close so the preference is written out.</span></div></div>
+  <div class="mofa-row"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></i><div><b>2. Find the plist</b><span>Look in <code>~/Library/Preferences/</code> for the app's domain, for example <code>com.microsoft.autoupdate2.plist</code>. System-wide settings land in <code>/Library/Preferences/</code>.</span></div></div>
+  <div class="mofa-row"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></i><div><b>3. Convert to a mobileconfig</b><span>Open the plist in ProfileCreator or iMazing, add the display name and organization, and export a mobileconfig ready for your MDM.</span></div></div>
+</div>
 
-### 3. **StartDaemonOnAppLaunch**  
-   Ensures the update daemon starts automatically when an Office app is launched. The default value is `true`, but it can be set to `false`. 🚀  
+## Tools {.mofa-h2}
 
-### 4. **UpdateCheckInterval**  
-   Defines how often updates are checked, in minutes. Set to `240` minutes (4 hours) here, it can be customized based on needs. ⏰  
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="https://apps.apple.com/us/app/apple-configurator/id1037126344" target="_blank" rel="noopener"><i class="ic-fork"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M11 18h2"/></svg></i><div><b>Apple Configurator</b><span>Apple's own profile editor. Good for building standard payloads and for signing profiles.</span></div></a>
+  <a class="mofa-row" href="https://github.com/ProfileCreator/ProfileCreator" target="_blank" rel="noopener"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9.5C7.2 20.3 4 16.5 4 12V6z"/><path d="M9 12l2 2 4-4"/></svg></i><div><b>ProfileCreator</b><span>Free and open source. Built around community manifests, so it knows the keys for Microsoft apps and most other admin tools.</span></div></a>
+  <a class="mofa-row" href="https://code.visualstudio.com" target="_blank" rel="noopener"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Visual Studio Code</b><span>Edit unsigned mobileconfig files directly. Handy for small fixes and for reading what a profile actually sets.</span></div></a>
+  <a class="mofa-row" href="https://www.fatcatsoftware.com/plisteditpro/" target="_blank" rel="noopener"><i class="ic-bug"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h10M4 18h6M15 17l2.5 2.5L22 15"/></svg></i><div><b>PlistEdit Pro</b><span>A dedicated plist editor. Useful when you are working from an app's preference file before converting it.</span></div></a>
+  <a class="mofa-row" href="https://github.com/timsutton/mcxToProfile" target="_blank" rel="noopener"><i class="ic-chat"><svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></i><div><b>mcxToProfile</b><span>Command line tool that turns a plist or legacy MCX settings into a configuration profile. Scriptable.</span></div></a>
+  <a class="mofa-row" href="https://imazing.com/profile-editor" target="_blank" rel="noopener"><i class="ic-mail"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></i><div><b>iMazing Profile Editor</b><span>Free editor with a friendly interface. Creates and edits mobileconfig files without needing to know the plist format.</span></div></a>
+</div>
 
-### 5. **UpdateDeadline.StartAutomaticUpdates**  
-   Determines when automatic updates will start, in hours. Set to `3` hours before updates are initiated. 🕒  
+## Further reading {.mofa-h2}
 
-### 6. **UpdateDeadline.FinalCountDown**  
-   The countdown time (in minutes) before a forced quit occurs. Here it is set to `60` minutes. ⏳  
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="https://docs.google.com/spreadsheets/d/1ESX5td0y0OP3jdzZ-C2SItm-TUi-iA_bcHCBvaoCumw/edit?gid=0#gid=0" target="_blank" rel="noopener"><i class="ic-fork"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19a6 6 0 0 1 12 0M15 18.5a4.5 4.5 0 0 1 6 0"/></svg></i><div><b>Mac Admins preferences list</b><span>Community spreadsheet of every known Office for Mac preference key. The best single reference there is.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/mau-preferences" target="_blank" rel="noopener"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>AutoUpdate preferences</b><span>Microsoft's reference for every key AutoUpdate reads, with types, defaults and allowed values.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/deploy-preferences-for-office-for-mac" target="_blank" rel="noopener"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h10M4 18h6M15 17l2.5 2.5L22 15"/></svg></i><div><b>Deploy preferences for Office</b><span>Microsoft's overview of how plist-based preferences work and how to deploy them.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/set-preference-per-app" target="_blank" rel="noopener"><i class="ic-bug"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></i><div><b>Set preferences per app</b><span>How to target Word, Excel, PowerPoint and the rest individually.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-outlook" target="_blank" rel="noopener"><i class="ic-chat"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></i><div><b>Outlook preferences</b><span>Keys specific to Outlook for Mac.</span></div></a>
+  <a class="mofa-row" href="https://learn.microsoft.com/en-us/microsoft-365-apps/mac/preferences-office" target="_blank" rel="noopener"><i class="ic-mail"><svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></i><div><b>Office suite preferences</b><span>Keys shared across the whole suite, such as sign-in and privacy settings.</span></div></a>
+</div>
 
-## 🛠️ Customizing Configs
+<p class="mofa-foot">Ready to deploy something? The profiles page has forced-update and privacy profiles you can upload as they are.</p>
 
-Each application may have unique formatting and spacing requirements for configuration files. To simplify the process, you can use specialized tools or edit unsigned **mobileconfig** files directly with an advanced text editor like Visual Studio Code for quick adjustments. 📝
+<div class="mofa-cta">
+  <a class="mofa-btn" href="/macos_tools/preconfigured_profiles">Preconfigured profiles</a>
+  <a class="mofa-btn alt" href="https://github.com/cocopuff2u/MOFA/tree/main/mobileconfig_profiles" target="_blank" rel="noopener">Browse on GitHub</a>
+</div>
 
-Alternatively, you can use the application itself to configure settings, then locate and convert the corresponding **plist** file into a **mobileconfig** for deployment.  
+<div class="mofa-related"><span>Related</span><a class="mofa-chip outline" href="/macos_tools/preconfigured_profiles">Preconfigured profiles</a><a class="mofa-chip outline" href="/standalone_apps/standalone_current_version_en">Current versions</a><a class="mofa-chip outline" href="/about_support/feedback">Feedback</a></div>
 
-#### 🔄 Step-by-Step Guide:  
-
-1. **Open the Application**  
-   Launch the application you want to configure. 💻
-
-2. **Adjust Settings**  
-   Navigate to the preferences or settings section and make the desired changes. ⚙️
-
-3. **Locate the Generated plist**  
-   After saving your settings, find the **plist** file containing the configuration you just set. Common locations include:  
-   - `/Library/Preferences/` 📂
-   - `/Users/<username>/Library/Preferences/` 📁
-
-4. **Convert the plist to a mobileconfig**  
-   - Open the **plist** file with tools like **ProfileCreator** or **iMazing**. 🔧  
-   - Modify additional settings, metadata, or organizational details as necessary. 🛠️  
-   - Export the file as a **mobileconfig** for deployment. 📤
-
-This approach takes advantage of the app’s native configuration options, ensuring accuracy and compatibility when pushing settings via an MDM solution. 🔄
-
-## 🧰 Tools for Configs
-
-Here are some excellent tools to help you create custom configuration profiles from scratch or fine-tune existing ones with ease:
-
-1. **Apple Configurator 2**  
-   A user-friendly tool for creating and managing configuration profiles. Ideal for organizations using Apple devices. 🍏
-
-2. **ProfileCreator**  
-   A free, open-source macOS application designed specifically for building and editing configuration profiles. 🆓
-
-3. **Visual Studio Code**  
-   A powerful code editor that can be used to edit unsigned **mobileconfig** files. You can open an unsigned **mobileconfig** file directly in Visual Studio Code, make adjustments, and save your changes. This method is especially helpful for fine-tuning configurations or fixing issues in existing files. 💻
-
-4. **Plist Editor Pro**  
-   A specialized tool for working with property list files (`.plist`), which form the basis of **mobileconfig** files. 📂
-
-5. **MCXToProfile**  
-   A command-line tool that converts older MCX settings into modern configuration profiles. 🖥️
-
-6. **iMazing**  
-   A versatile tool for managing Apple devices, including creating, editing, and deploying configuration profiles. Its intuitive interface makes it easy to create custom **mobileconfig** files without requiring extensive technical knowledge. 📲
+</div>

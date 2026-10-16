@@ -1,7 +1,10 @@
+import html
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import pytz
 import logging
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -40,26 +43,25 @@ def parse_latest_xml(file_path):
 def generate_readme_content(last_updated, packages):
     logging.info("Generating appstore_latest_readme content")
 
-    # Set timezone to US/Eastern (EST/EDT)
-    eastern = pytz.timezone('US/Eastern')
-
-    # Get the current time in UTC and convert to EST
-    current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
+    current_time = now_eastern()
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""---
-editLink: false
-lastUpdated: false
----
-# <img src="/images/App_Store_logo.webp" alt="image" width="40" style="vertical-align: middle; display: inline-block;" /> iOS App Store Latest Updates
-
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json)
- (Automatically Updated every 2 hours)_</span>
+    content = f"""{frontmatter('iOS App Store', editLink=False, lastUpdated=False, outline=False, packageOutline=True)}
+{feed_header('iOS App Store', 'Latest versions of Microsoft apps on the iOS App Store, pulled from Apple every two hours.', last_updated, raw='ios_appstore_latest', icon='/images/App_Store_logo.webp', tile=True)}
 
 | **Product Package** | **Version Info** | **Link** |
 |---------------------|------------------|:--------:|
 """
+    used_slugs = {}
     for package in packages:
+        # Anchor + label for the right-hand "On this page" package list (see theme/components/PackageJump.vue)
+        label = str(package.get('application_name') or package.get('bundleId') or 'app')
+        slug = 'pkg-' + (re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-')
+                         or re.sub(r'[^a-z0-9]+', '-', str(package.get('bundleId', 'app')).lower()).strip('-'))
+        used_slugs[slug] = used_slugs.get(slug, 0) + 1
+        if used_slugs[slug] > 1:
+            slug = f"{slug}-{used_slugs[slug]}"
+        anchor = f'<a id="{slug}" class="pkg-anchor" data-label="{html.escape(label, quote=True)}"></a>'
         # Icon in the last column; wrap with link if app_store_url is available
         if package['icon_image'] != 'NA':
             if package.get('app_store_url') and package['app_store_url'] != 'NA':
@@ -77,7 +79,7 @@ lastUpdated: false
 
         # Column 1: Product Package with Last Update
         product_package_col = (
-            f"**{package['application_name']}**"
+            f"{anchor}**{package['application_name']}**"
             f"<br><br>_**Last Update:**_ `{package['currentVersionReleaseDate']}`"
         )
         # Column 2: Version Info (Version, Min OS, CFBundle ID)
@@ -90,18 +92,11 @@ lastUpdated: false
 
     # Add comment section
     content += """
-> [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
     logging.info("appstore_latest_readme content generated successfully")
 
     return content
-
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"macos_appstore_current_version has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths

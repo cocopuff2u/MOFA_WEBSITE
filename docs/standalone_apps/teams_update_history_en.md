@@ -1,14 +1,25 @@
 ---
+title: Teams update history
 editLink: false
 lastUpdated: false
 outline: [2, 3]
 ---
-# <img src="/images/2025/Teams.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Teams Update History
+<div class="mofa-feed-head">
+  <img class="mofa-feed-icon" src="/images/2025/Teams.webp" alt="" />
+  <div class="mofa-feed-text">
+    <h1>Teams update history</h1>
+    <p>Every Teams build for macOS and iOS across the public and government clouds, newest first.</p>
+  </div>
+</div>
+<div class="mofa-feed-meta">
+  <span class="mofa-feed-updated"><i></i>Updated October 16, 2026 03:00 PM EDT</span>
+  <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning" target="_blank" rel="noopener">Microsoft Teams app versioning</a></span>
+  <span class="mofa-feed-raw">Raw feed:
+    <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json" target="_blank" rel="noopener">JSON</a>
+  </span>
+</div>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 09, 2026 09:48 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json)
- (Automatically Updated every 2 hours)_</span>
 
-Every Teams build Microsoft has released for Apple platforms, newest first. Source: [Microsoft Teams app versioning](https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning).
 
 ## Public Cloud
 
@@ -18,7 +29,7 @@ Commercial and education tenants.
 
 The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each build links to its full installer package.
 
-**Latest:** `26261.303.5165.1465` <span class='extra-small'>October 01, 2026 (rolling out)</span>
+**Latest:** `26261.303.5165.1465` <span class='extra-small'>October 07, 2026</span>
 
 ::: details Version history (70 builds)
 <table class="shrink-table">
@@ -34,7 +45,7 @@ The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each buil
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 01 (rolling out)</td>
+      <td>October 07</td>
       <td>26261.303.5165.1465</td>
       <td>2026.36.0-1.4-h5655d</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg">Installer</a></td>
@@ -1663,9 +1674,9 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCC)
 
-**Latest:** `26246.1709.5146.8945` <span class='extra-small'>October 01, 2026 (rolling out)</span>
+**Latest:** `26261.303.5165.1465` <span class='extra-small'>October 09, 2026 (rolling out)</span>
 
-::: details Version history (59 builds)
+::: details Version history (60 builds)
 <table class="shrink-table">
   <thead>
     <tr>
@@ -1679,7 +1690,14 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 01 (rolling out)</td>
+      <td>October 09 (rolling out)</td>
+      <td>26261.303.5165.1465</td>
+      <td>2026.36.0-1.4-h5655d</td>
+      <td><a href="https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg">Installer</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>October 07</td>
       <td>26246.1709.5146.8945</td>
       <td>2026.34.0-1.12-h93a62</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg">Installer</a></td>
@@ -2096,9 +2114,9 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCCH)
 
-**Latest:** `26246.1709.5146.8945` <span class='extra-small'>October 01, 2026 (rolling out)</span>
+**Latest:** `26261.303.5165.1465` <span class='extra-small'>October 09, 2026 (rolling out)</span>
 
-::: details Version history (65 builds)
+::: details Version history (66 builds)
 <table class="shrink-table">
   <thead>
     <tr>
@@ -2112,7 +2130,14 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 01 (rolling out)</td>
+      <td>October 09 (rolling out)</td>
+      <td>26261.303.5165.1465</td>
+      <td>2026.36.0-1.4-h5655d</td>
+      <td><a href="https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg">Installer</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>October 07</td>
       <td>26246.1709.5146.8945</td>
       <td>2026.34.0-1.12-h93a62</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg">Installer</a></td>
@@ -2571,9 +2596,9 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (DoD)
 
-**Latest:** `26246.1709.5146.8945` <span class='extra-small'>October 01, 2026 (rolling out)</span>
+**Latest:** `26261.303.5165.1465` <span class='extra-small'>October 09, 2026 (rolling out)</span>
 
-::: details Version history (64 builds)
+::: details Version history (65 builds)
 <table class="shrink-table">
   <thead>
     <tr>
@@ -2587,7 +2612,14 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 01 (rolling out)</td>
+      <td>October 09 (rolling out)</td>
+      <td>26261.303.5165.1465</td>
+      <td>2026.36.0-1.4-h5655d</td>
+      <td><a href="https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg">Installer</a></td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>October 07</td>
       <td>26246.1709.5146.8945</td>
       <td>2026.34.0-1.12-h93a62</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg">Installer</a></td>

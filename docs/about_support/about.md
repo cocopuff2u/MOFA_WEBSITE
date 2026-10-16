@@ -1,58 +1,47 @@
-# 📖 About <span class="gradient-title">MOFA</span> (Microsoft Overview Feed for Apple)
-
-<span class="gradient-title">MOFA</span> is a **comprehensive resource hub** for **Mac administrators** who manage **Microsoft applications** on **Apple devices**. Built with simplicity and automation in mind, <span class="gradient-title">MOFA</span> is your go-to tool for staying up-to-date with Microsoft’s offerings and streamlining the deployment and management of Microsoft 365 apps on macOS and iOS.
-
-We provide **automatically updated data**—delivered in **raw XML**, **JSON**, and **YAML** formats—that mirrors what **Microsoft** is offering. This ensures that Mac admins can access the latest tools, configuration data, and downloads **directly** without having to sift through multiple sources or perform complex searches.
-
-<span class="gradient-title">MOFA</span> is designed to help you make informed decisions and manage your environment with minimal effort, automating tedious tasks and simplifying workflows for managing mixed-platform environments.
-
-**Special thanks** to [**Paul Bowden**](https://github.com/pbowden-msft) for his invaluable contributions to the **Mac Admins community**, which have greatly influenced this project.
-
-## 🌟 Our Mission
-
-At <span class="gradient-title">MOFA</span>, our mission is to provide **Mac administrators** with **tools** and **resources** that help them **effectively manage Microsoft applications** on Apple devices. By delivering **automatically updated data** and easy access to **Microsoft’s latest offerings**, we aim to reduce complexity and make workflows more efficient for IT professionals.
-
-We want to make it **easy for you** to access tools, configuration information, and direct downloads, all in one place—**without the hassle** of searching through multiple sources. Our goal is to streamline your workflow so you can focus on managing your environment, not hunting down the latest updates or tools.
-
-## 🤝 Core Values
-
-- **Community-Driven:** We believe in the power of collaboration and are committed to building <span class="gradient-title">MOFA</span> with the contributions of the global **Mac Admins** community.
-- **Open Source:** As an open-source project, <span class="gradient-title">MOFA</span> is fully transparent and accessible. We provide the raw data in multiple formats (XML, JSON, YAML) for users to customize and integrate into their workflows.
-- **Simplicity:** Our goal is to make the management of **Microsoft apps** on **Apple devices** straightforward and accessible—no complex setups or excessive steps.
-- **Automation:** We automate the process of keeping your **Microsoft 365 apps** on **macOS** up-to-date, so you don't have to manually track updates.
-- **Empowerment:** We provide you with the tools and data to make informed decisions and customize workflows to meet your unique needs.
-- **Sustainability:** By offering a continuously updated feed of data and fostering a strong, open-source community, we ensure that <span class="gradient-title">MOFA</span> remains relevant and valuable in the ever-evolving tech landscape.
-
-## 🚀 Key Features
-
-- **Automatically Updated Data:** Our data is continuously updated to reflect the latest tools, configurations, and offerings from **Microsoft**—without you having to do anything.
-- **Direct Downloads:** We provide quick access to **Microsoft 365 apps** and other resources directly, so you can easily download what you need for deployment and management.
-- **Raw Data Formats:** Access and use serialized data in **XML**, **JSON**, or **YAML** formats to integrate into your own workflows or automation tools.
-- **Simplified Workflow Management:** Reduce complexity by automating tasks and getting access to up-to-date resources and configuration information without navigating through numerous sources.
-- **Open-Source Access:** Fully open-source and community-driven, <span class="gradient-title">MOFA</span> is designed to be adaptable, allowing you to tweak and customize it to fit your needs.
-- **Cross-Platform Support:** Seamlessly manage and deploy **Microsoft applications** across **macOS** and **iOS** devices, ensuring compatibility across your environment.
-- **Enterprise-Ready Tools:** Scalable tools and resources that fit both small and large IT workflows, from basic administration to enterprise-level management.
-
-## 🛠️ Open Source Community
-
-<span class="gradient-title">MOFA</span> is actively maintained and developed on [**GitHub**](https://github.com/cocopuff2u/mofa). The project is fully open-source, and we encourage contributions from everyone—whether you're an IT administrator, developer, or simply an enthusiastic user.
-
-We also maintain a separate repository for the <span class="gradient-title">MOFA</span> website at [**GitHub**](https://github.com/cocopuff2u/mofa_website). Contributions to the website are welcomed to improve its content, design, and overall functionality.
-
-### How You Can Contribute:
-- **Fork and Contribute:** Fork the main repository or website repository and submit pull requests to improve the project.
-- **Report Issues:** Encountered a bug or an issue? Report it on GitHub so we can fix it.
-- **Suggest Features:** If you have ideas for new features or improvements, let us know!
-- **Enhance Documentation:** Help make <span class="gradient-title">MOFA</span> and its resources even more accessible by improving documentation.
-
-Your contributions help ensure that <span class="gradient-title">MOFA</span> remains accurate, up-to-date, and a valuable resource for **Mac admins** worldwide. Join us in our mission to bridge the gap between **Microsoft** and **Apple ecosystems**, and improve workflows for IT professionals.
-
 ---
+title: About MOFA
+---
+<div class="mofa-page">
 
-### Changes Made:
-1. **Clarified Data and Tools Focus:** The content now emphasizes that <span class="gradient-title">MOFA</span> provides **automatically updated data** in formats like **XML**, **JSON**, and **YAML**, directly reflecting Microsoft's offerings.
-2. **Simplified Mission and Value Statements:** The mission and values are more focused on making it easy for **Mac admins** to access the tools and resources they need, without complex processes or searching.
-3. **Emphasized Automation and Accessibility:** The project’s core features highlight how <span class="gradient-title">MOFA</span> automates updates and simplifies workflows, ensuring that **Mac admins** can access tools quickly and efficiently.
-4. **Clear Contribution Guidelines:** The contribution section is more explicit about how users can contribute to the project and help keep it updated.
+<div class="mofa-page-hero">
+  <MofaMark :size="110" />
+  <h1>About <span class="gradient-title">MOFA</span></h1>
+  <p class="mofa-page-sub">Microsoft Overview Feed for Apple</p>
+</div>
 
-This version aligns more closely with your project’s goals and emphasizes the core aspects: providing **automated, up-to-date tools and data** for **Mac admins** managing **Microsoft products on Apple devices**. Let me know if you'd like to tweak anything further!
+<p class="mofa-lead"><span class="gradient-title">MOFA</span> is a resource hub for Mac admins who manage Microsoft apps on Apple devices. It pulls what Microsoft publishes, every version, hash, release note and download link, and turns it into pages and feeds you can read in seconds or wire into your own tooling.</p>
+
+<div class="mofa-stats">
+  <div><b>Every 2 hours</b><span>data refreshed from Microsoft</span></div>
+  <div><b>XML · JSON · YAML · RSS</b><span>every page is also a feed</span></div>
+  <div><b>Open source</b><span>MIT licensed, built in public</span></div>
+</div>
+
+## What you get {.mofa-h2}
+
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="/standalone_apps/standalone_current_version_en"><i class="ic-fork"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>Always current</b><span>Versions, build numbers and release dates update automatically. No one has to remember to check.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_sha256_hashes_en"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>Direct downloads</b><span>Every installer links straight to Microsoft’s CDN, with SHA1 and SHA256 hashes to verify what you got.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_raw_feeds_en"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Raw feeds</b><span>The same data as XML, JSON and YAML, ready for scripts, Munki, Jamf or anything that can read a URL.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_cve_history_en"><i class="ic-chat"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9.5C7.2 20.3 4 16.5 4 12V6z"/><path d="M9 12l2 2 4-4"/></svg></i><div><b>Security history</b><span>Office CVE history and update history in one place, so you can answer “are we patched?” quickly.</span></div></a>
+  <a class="mofa-row" href="/macos_appstore/macos_appstore_current_version"><i class="ic-bug"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></i><div><b>macOS and iOS</b><span>Standalone installers, the Mac App Store and the iOS App Store, all tracked side by side.</span></div></a>
+  <a class="mofa-row" href="/macos_tools/community_scripts"><i class="ic-mail"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19a6 6 0 0 1 12 0M15 18.5a4.5 4.5 0 0 1 6 0"/></svg></i><div><b>Community tools</b><span>Profiles, repair tools, app icons and scripts contributed by Mac admins.</span></div></a>
+</div>
+
+## How we work {.mofa-h2}
+
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="https://macadmins.org/slack" target="_blank" rel="noopener"><i class="ic-fork"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19a6 6 0 0 1 12 0M15 18.5a4.5 4.5 0 0 1 6 0"/></svg></i><div><b>Community driven</b><span>Built with and for the Mac Admins community. Contributions shape what gets added next.</span></div></a>
+  <a class="mofa-row" href="https://github.com/cocopuff2u/mofa" target="_blank" rel="noopener"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Open by default</b><span>All code and all data are public. Fork it, audit it, build on it.</span></div></a>
+  <a class="mofa-row" href="https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts" target="_blank" rel="noopener"><i class="ic-refine"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>Automated, not curated by hand</b><span>Scripts pull from Microsoft on a schedule. Humans fix the scripts, not the data.</span></div></a>
+  <a class="mofa-row" href="/home"><i class="ic-chat"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h10M4 18h6M15 17l2.5 2.5L22 15"/></svg></i><div><b>Simple on purpose</b><span>One place, plain pages, no sign-in. If it takes more than a click to find, it is a bug.</span></div></a>
+</div>
+
+<p class="mofa-foot">Special thanks to <a href="https://github.com/pbowden-msft" target="_blank" rel="noopener">Paul Bowden</a>, whose work for the Mac Admins community shaped this project, and to everyone on the <a href="/about_support/team">team page</a>.</p>
+
+<div class="mofa-cta">
+  <a class="mofa-btn" href="/home">Get started</a>
+  <a class="mofa-btn alt" href="https://github.com/cocopuff2u/mofa" target="_blank" rel="noopener">View on GitHub</a>
+</div>
+
+</div>

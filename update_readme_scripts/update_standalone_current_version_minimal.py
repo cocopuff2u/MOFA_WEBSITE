@@ -2,45 +2,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import pytz
 import logging
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern, parse_latest_xml, get_standalone_package_detail
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-
-def parse_latest_xml(file_path):
-    logging.info(f"Parsing XML file: {file_path}")
-
-    # Parse the XML file
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-    logging.debug("XML file parsed successfully")
-
-    # Extract global last_updated
-    global_last_updated = root.find("last_updated").text.strip()
-    logging.info(f"XML last_updated: {global_last_updated}")
-
-    # Extract package details
-    packages = {}
-    for package in root.findall("package"):
-        name = package.find("name").text.strip().lower()  # Store by lowercase name for easy access
-        packages[name] = {
-            "name": name,
-            "application_id": package.find("application_id").text.strip(),
-            "application_name": package.find("application_name").text.strip(),
-            "short_version": package.find("short_version").text.strip(),
-            "full_version": package.find("full_version").text.strip(),
-            "last_updated": package.find("last_updated").text.strip(),
-            "full_update_sha1": package.find("full_update_sha1").text.strip(),
-            "app_only_update_download": package.find("app_only_update_download").text.strip(),
-            "app_update_sha256": package.find("app_update_sha256").text.strip(),
-            "app_update_sha1": package.find("app_update_sha1").text.strip(),
-            "full_update_download": package.find("full_update_download").text.strip(),
-            "full_update_sha256": package.find("full_update_sha256").text.strip(),
-            "full_update_sha1": package.find("full_update_sha1").text.strip(),
-            "min_os": package.find("min_os").text.strip() if package.find("min_os") is not None else "N/A",
-        }
-        # logging.debug(f"Extracted package: {packages[name]}") # Uncomment to see all package details
-
-    return global_last_updated, packages
 
 def parse_onedrive_xml(file_path):
     logging.info(f"Parsing OneDrive XML file: {file_path}")
@@ -107,11 +72,7 @@ def parse_edge_xml(file_path):
 def generate_readme_content(global_last_updated, packages):
     logging.info("Generating standalone_main_readme content")
 
-    # Set timezone to US/Eastern (EST/EDT)
-    eastern = pytz.timezone('US/Eastern')
-
-    # Get the current time in UTC and convert to EST
-    current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
+    current_time = now_eastern()
     logging.debug(f"Current time (EST): {current_time}")
 
     # Parse OneDrive XML
@@ -367,17 +328,7 @@ def generate_readme_content(global_last_updated, packages):
         '</div></div>'
     )
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-layout: doc
-navbar: false
-sidebar: false
-footer: true
-aside: false
-prev: false
-next: false 
----
+    content = f"""{frontmatter(editLink=False, lastUpdated=False, layout='doc', navbar=False, sidebar=False, footer=True, aside=False, prev=False, next=False)}
 <style>
   /* NEW: Status bar styles (fix Markdown-in-HTML issue and wrapping) */
   .status-bar {{
@@ -492,11 +443,14 @@ next: false
 
   /* Ensure the link itself centers and only the text is clickable */
   .brand-title {{
-    display: inline-block;    /* was block – limit clickable area to text */
-    text-align: center;
-    margin: 0;                /* remove auto margins that add width */
+    display: inline-flex;     /* wordmark + mark on one line, only this is clickable */
+    align-items: center;
+    gap: 0.18em;
+    margin: 0;
     line-height: 1.05;
+    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
   }}
+  .brand-mark {{ width: 0.82em; height: 0.82em; display: block; }}
 
   /* Remove underline/highlight for the MOFA link in all states */
   a.brand-title,
@@ -513,11 +467,13 @@ next: false
 
   /* Ensure gradient text doesn't fall back to a theme color */
   .gradient-title-mini {{
-    background: -webkit-linear-gradient(120deg, #00BFFF 30%, #FF3B30);
+    background: var(--mofa-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: 800;
-    font-size: clamp(32px, 12vmin, 96px); /* scales with smallest viewport side */
+    font-family: var(--mofa-display-font);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    font-size: inherit;
     color: transparent; /* keep text transparent; gradient provides color */
   }}
 
@@ -731,17 +687,11 @@ next: false
 
 <!-- Centered hero wrapper to prevent cut-off on short screens -->
 <div class="brand-hero">
-  <a class="brand-title gradient-title-mini" href="/">MOFA</a>
+  <a class="brand-title" href="/"><span class="gradient-title-mini">MOFA</span><img class="brand-mark mofa-light" src="/images/mofa-icon-light.svg" alt="" /><img class="brand-mark mofa-dark" src="/images/mofa-icon-dark.svg" alt="" /></a>
 </div>
 
 <div class="status-bar">
-      <div class="status-line">
-        <span>Last Updated: <code class="status-ts">{global_last_updated}</code></span>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
-        <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
-        <span class="muted">(Automatically updated every 2 hours)</span>
-      </div>
+      <div class="status-line">{status_line(global_last_updated, 'macos_standalone_latest')}</div>
       <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -754,20 +704,6 @@ next: false
     logging.info("standalone_current_version content generated successfully")
 
     return content
-
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"standalone_current_version.md has been overwritten.")
-
-def get_standalone_package_detail(packages, package_name, detail):
-    package_name = package_name.lower()
-    detail = detail.lower()
-
-    if package_name in packages and detail in packages[package_name]:
-        return packages[package_name][detail]
-    else:
-        return None
 
 def get_onedrive_package_detail(onedrive_packages, package_name, detail):
     package_name = package_name.strip()
@@ -789,4 +725,4 @@ if __name__ == "__main__":
     readme_content = generate_readme_content(global_last_updated, packages)
 
     # Overwrite the README file
-    overwrite_readme(readme_file_path, readme_content)
+    overwrite_readme(readme_file_path, readme_content, note=False)

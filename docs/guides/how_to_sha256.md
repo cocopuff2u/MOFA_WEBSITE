@@ -1,70 +1,80 @@
-# 🔐 How to Use SHA256 on macOS  
+---
+title: How To SHA256
+---
+<div class="mofa-page">
 
-## 🔎 What is a SHA256 Checksum?  
+<div class="mofa-page-hero">
+  <MofaMark :size="90" />
+  <h1>Verify with <span class="gradient-title">SHA256</span></h1>
+  <p class="mofa-page-sub">Check that an installer you downloaded is exactly the one Microsoft published.</p>
+</div>
 
-SHA256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that generates a unique, fixed-length string for a file. Use it to:  
-- ✅ Verify file integrity (detect tampering).  
-- 🔒 Authenticate downloads by matching checksums.  
+<p class="mofa-lead">A SHA256 checksum is a fingerprint of a file. Change one byte and the fingerprint changes completely. MOFA publishes the SHA256 for every installer it tracks, so you can download a package, hash it, and compare. A match means the file arrived untouched.</p>
 
-## ✍️ Generate a SHA256 Checksum  
+<div class="mofa-stats">
+  <div><b>shasum</b><span>built into every Mac, nothing to install</span></div>
+  <div><b>64 hex characters</b><span>the length of a SHA256 checksum</span></div>
+  <div><b>Exact match</b><span>anything else means re-download</span></div>
+</div>
 
-### 1️⃣ Open Terminal  
-- Search for **Terminal** using `Cmd + Space` (Spotlight).  
+## Check a file you already have {.mofa-h2}
 
-### 2️⃣ Navigate to the File  
-- Use the `cd` command to locate your file:  
-  ```bash
-  cd /path/to/your/file
-  ```  
+<div class="mofa-rows rows-left">
+  <div class="mofa-row"><i class="ic-fork"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M12 15h5"/></svg></i><div><b>1. Open Terminal</b><span>Press <kbd>Cmd</kbd> <kbd>Space</kbd>, type Terminal and press Return. It lives in Applications, Utilities.</span></div></div>
+  <div class="mofa-row"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></svg></i><div><b>2. Run shasum</b><span>Type the command below, then drag the file from Finder into the Terminal window to fill in its path, and press Return.</span></div></div>
+  <div class="mofa-row"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9.5C7.2 20.3 4 16.5 4 12V6z"/><path d="M9 12l2 2 4-4"/></svg></i><div><b>3. Compare</b><span>Put the output next to the checksum on the MOFA page. Every character has to match. Case does not matter.</span></div></div>
+</div>
 
-### 3️⃣ Run the Checksum Command  
-- Replace `yourfile` with the file name:  
-  ```bash
-  shasum -a 256 yourfile
-  ```  
-- Example output:  
-  ```
-  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  yourfile
-  ```  
+```bash
+shasum -a 256 ~/Downloads/Microsoft_Word_16.114.pkg
+```
 
-### 4️⃣ Compare Values  
-- Match the checksum from the output with the source-provided value.  
+The output is the checksum followed by the file name:
 
-## 🌐 Use SHA256 with `curl`  
+```
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  Microsoft_Word_16.114.pkg
+```
 
-### 1️⃣ Download the File  
-- Use `curl` with the file URL:  
-  ```bash
-  curl -O https://example.com/myfile.pkg
-  ```  
+## Download and verify in one go {.mofa-h2}
 
-### 2️⃣ Generate the Checksum  
-- Run the SHA256 command:  
-  ```bash
-  shasum -a 256 myfile.pkg
-  ```  
+<p class="mofa-lead">If you are scripting it, let shasum do the comparison. Paste the published checksum, two spaces, then the file name, and shasum reports OK or FAILED.</p>
 
-### 3️⃣ Verify Integrity  
-- Compare the generated checksum with the one provided by the source.  
+```bash
+curl -L -o Microsoft_Word_16.114.pkg "https://go.microsoft.com/fwlink/?linkid=525134"
+echo "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  Microsoft_Word_16.114.pkg" | shasum -a 256 -c
+```
 
-## 🚀 Example Workflow  
+```
+Microsoft_Word_16.114.pkg: OK
+```
 
-1. **Download the file**:  
-   ```bash
-   curl -O https://example.com/software.pkg
-   ```  
-2. **Generate SHA256 checksum**:  
-   ```bash
-   shasum -a 256 software.pkg
-   ```  
-3. **Compare checksum**:  
-   - Provided: `abc123...`  
-   - Output:  
-     ```
-     abc123...  software.pkg
-     ```  
-   - ✅ Match means the file is secure.  
+<p class="mofa-note">Swap in the checksum from the MOFA page for the file you downloaded. The one above is only an example. The two spaces between the checksum and the file name are required. That is the format shasum writes and the format it reads back with <code>-c</code>. The exit code is 0 on a match and 1 on a mismatch, so it slots straight into a deployment script.</p>
 
-### 💡 Need More Help?  
-- [macOS Terminal Guide](https://support.apple.com/guide/terminal)  
-- [Understanding SHA256](https://en.wikipedia.org/wiki/SHA-2)  
+## Where to find the checksums {.mofa-h2}
+
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="/standalone_apps/standalone_sha256_hashes_en"><i class="ic-fork"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>Current versions</b><span>SHA256 for every production installer, updated with each release.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_preview_sha256_hashes_en"><i class="ic-globe"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>Preview versions</b><span>SHA256 for the Preview channel builds.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_beta_sha256_hashes_en"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Beta versions</b><span>SHA256 for the Beta channel builds.</span></div></a>
+</div>
+
+<p class="mofa-note">SHA256 is the one to trust. It is part of the SHA-2 family and has no known practical collisions. MOFA publishes both, and the <a href="/guides/how_to_sha1">SHA1 guide</a> works the same way with <code>-a 1</code>.</p>
+
+## Further reading {.mofa-h2}
+
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="https://support.apple.com/guide/terminal/welcome/mac" target="_blank" rel="noopener"><i class="ic-fork"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M12 15h5"/></svg></i><div><b>Terminal User Guide</b><span>Apple's own introduction to Terminal, for anyone new to the command line.</span></div></a>
+  <a class="mofa-row" href="https://en.wikipedia.org/wiki/SHA-2" target="_blank" rel="noopener"><i class="ic-globe"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></i><div><b>SHA256 on Wikipedia</b><span>How the algorithm works and where it stands today.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_current_version_en"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>Current versions</b><span>Download links for every installer, straight from Microsoft's CDN.</span></div></a>
+</div>
+
+<p class="mofa-foot">Checksum does not match? Download the file again first. A partial or interrupted download is by far the most common cause.</p>
+
+<div class="mofa-cta">
+  <a class="mofa-btn" href="/standalone_apps/standalone_sha256_hashes_en">SHA256 hashes</a>
+  <a class="mofa-btn alt" href="/standalone_apps/standalone_current_version_en">Current versions</a>
+</div>
+
+<div class="mofa-related"><span>Related</span><a class="mofa-chip outline" href="/guides/how_to_sha1">How To SHA1</a><a class="mofa-chip outline" href="/guides/how_to_plist">How To Plist</a><a class="mofa-chip outline" href="/about_support/feedback">Feedback</a></div>
+
+</div>

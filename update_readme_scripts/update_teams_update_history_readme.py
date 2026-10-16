@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 import logging
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -127,17 +128,9 @@ def render_platform_table(platform):
 def generate_readme_content(last_scan_date, platforms):
     logging.info("Generating teams_update_history_readme content")
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-outline: [2, 3]
----
-# <img src="/images/2025/Teams.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Teams Update History
+    content = f"""{frontmatter('Teams update history', editLink=False, lastUpdated=False, outline=[2, 3])}
+{feed_header('Teams update history', 'Every Teams build for macOS and iOS across the public and government clouds, newest first.', last_scan_date, raw='teams_update_history', icon='/images/2025/Teams.webp', tile=True, source=[('Microsoft Teams app versioning', 'https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning')])}
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json)
- (Automatically Updated every 2 hours)_</span>
-
-Every Teams build Microsoft has released for Apple platforms, newest first. Source: [Microsoft Teams app versioning](https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning).
 """
     for cloud, (heading, intro) in CLOUD_SECTIONS.items():
         cloud_platforms = [p for p in platforms if p["cloud"] == cloud]
@@ -151,18 +144,11 @@ Every Teams build Microsoft has released for Apple platforms, newest first. Sour
 > [!NOTE]
 > Microsoft notes that builds can be replaced while they roll out, so a version shown in your Teams client may not appear here. Builds marked **(rolling out)** have not yet reached every user.
 
-> [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
     logging.info("teams_update_history content generated successfully")
 
     return content
-
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"teams_update_history_en.md has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths

@@ -1,16 +1,27 @@
 ---
+title: Office CVE history
 editLink: false
 lastUpdated: false
-outline: [2, 2]
+outline: [2, 3]
 ---
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office CVE History
+<div class="mofa-feed-head">
+  <img class="mofa-feed-icon plain" src="/images/Microsoft_Logo.webp" alt="" />
+  <div class="mofa-feed-text">
+    <h1>Office CVE history</h1>
+    <p>Security fixes in Microsoft 365 and Office for Mac, grouped by the release that fixed them, newest first.</p>
+  </div>
+</div>
+<div class="mofa-feed-meta">
+  <span class="mofa-feed-updated"><i></i>Updated October 16, 2026 06:36 AM EDT</span>
+  <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" target="_blank" rel="noopener">Office release notes</a><a class="mofa-chip outline" href="https://msrc.microsoft.com/update-guide" target="_blank" rel="noopener">MSRC</a></span>
+  <span class="mofa-feed-raw">Raw feed:
+    <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json" target="_blank" rel="noopener">JSON</a>
+  </span>
+</div>
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">October 16, 2026 06:36 AM EDT</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
- (Automatically Updated every 2 hours)_</span>
 
-Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Office for Mac, grouped by the release that fixed it, newest first. Only releases with security fixes are listed. Sources: [Release notes for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac) and the [Microsoft Security Response Center](https://msrc.microsoft.com/update-guide).
 
-<span class="extra-small"><Badge type="danger" text="Critical" /> — can be exploited without user interaction, such as remote code execution<br><Badge type="warning" text="Important" /> — could compromise data or availability, usually requiring user action<br><Badge type="danger" text="Exploited" /> — Microsoft reports active exploitation</span>
+<div class="mofa-legend"><span class="mofa-legend-item"><b><Badge type="danger" text="Critical" /></b>exploitable with no user interaction</span><span class="mofa-legend-item"><b><Badge type="warning" text="Important" /></b>needs user action to exploit</span><span class="mofa-legend-item"><b><Badge type="danger" text="Exploited" /></b>actively exploited per Microsoft</span></div>
 
 ::: tip At a glance (2026)
 **399 CVEs** across 10 security releases

@@ -1,86 +1,60 @@
-<div style="text-align: center;">
+---
+title: Get Started
+---
+<div class="mofa-page">
+
+<div class="mofa-page-hero">
+  <MofaMark :size="120" />
   <h1>Welcome to <span class="gradient-title">MOFA</span></h1>
-  <br>
-  <div style="position: relative; display: inline-block; padding: 10px;">
-    <!-- Gradient background only behind the image -->
-    <div style="
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(-45deg, #00BFFF 50%, #FF3B30 50%);
-      filter: blur(50px);
-      z-index: -1;
-      background-size: 100% 100%;
-      background-position: left center;
-    ">
-    </div>
-    <!-- Image -->
-    <img src="/images/logo_Mofa_NoBackground.png" alt="MOFA Logo" style="max-width: 150px; z-index: 1;" />
-  </div>
-
-  <p><strong>Microsoft Overview Feed for Apple</strong></p>
+  <p class="mofa-page-sub">Microsoft Overview Feed for Apple</p>
 </div>
-<br>
 
-<span class="gradient-title">MOFA</span> provides **tools, resources**, and **automatically updated data** for **Mac administrators** managing **Microsoft applications** on Apple devices. We make it easy for you to find what you need, access the latest updates, and **make informed decisions**—without the hassle of navigating complex processes.
+<p class="mofa-lead"><span class="gradient-title">MOFA</span> tracks every Microsoft app that runs on a Mac, iPhone or iPad, and turns what Microsoft publishes into pages you can read in seconds and feeds you can script against. Versions, download links, hashes, release notes and security history, refreshed automatically, with no sign-in.</p>
 
-Inspired by the success of [**MacAdmins.software**](https://macadmins.software) and powered by continuous updates, **MOFA** delivers the most relevant data and tools directly from Microsoft to simplify the management and deployment of Microsoft products on Apple devices.
+<div class="mofa-stats">
+  <div><b>4 sources</b><span>standalone installers, two App Stores, and other Microsoft apps</span></div>
+  <div><b>Every 2 hours</b><span>pulled straight from Microsoft</span></div>
+  <div><b>XML · JSON · YAML · RSS</b><span>every page is also a feed</span></div>
+</div>
 
-## 🌟 Why Choose <span class="gradient-title">MOFA</span>?
+## Start here {.mofa-h2}
 
-- **Always Up-to-Date:** Our data is **automatically updated** to match the latest offerings from Microsoft.
-- **Simplified Access:** Quickly find and download the tools and resources you need without having to search through multiple sources.
-- **Efficiency:** Make decisions faster with clear, curated data and resources specifically tailored for Mac administrators.
-- **Open-Source & Transparent:** <span class="gradient-title">MOFA</span> is open-source, meaning the community drives its growth and development.
+<div class="mofa-rows rows-left">
+  <a class="mofa-row" href="/standalone_apps/standalone_current_version_en"><i class="ic-fork"><svg viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M4 19h16"/></svg></i><div><b>Grab the current installer</b><span>Every Office app, Teams, OneDrive, Defender and more, with direct links to Microsoft's CDN and the minimum macOS each needs.</span></div></a>
+  <a class="mofa-row" href="/guides/how_to_sha256"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.2 8.3-8 9.5C7.2 20.3 4 16.5 4 12V6z"/><path d="M9 12l2 2 4-4"/></svg></i><div><b>Verify what you downloaded</b><span>Check a package against its published SHA256 in one Terminal command. Takes a minute the first time.</span></div></a>
+  <a class="mofa-row" href="/standalone_apps/standalone_raw_feeds_en"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Wire it into your tooling</b><span>The same data as XML, JSON, YAML and RSS, for Munki, Jamf, Intune, a dashboard or a script.</span></div></a>
+</div>
 
-## 🚀 Three Simple Steps
+## What's tracked {.mofa-h2}
 
-1. **Explore the Data Feed:**
-   Visit the [**MOFA GitHub Repository**](https://github.com/cocopuff2u/mofa) to explore the constantly updated data that keeps you in sync with Microsoft's latest offerings.
+<div class="mofa-rows rows-left">
+  <div class="mofa-row"><i class="ic-fork"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4zM3 7v10l9 4 9-4V7M12 11v10"/></svg></i><div><b><a href="/standalone_apps/standalone_current_version_en">Standalone installers</a></b><span>Direct from Microsoft's CDN, no App Store needed. <a href="/standalone_apps/standalone_current_version_en">Current</a>, <a href="/standalone_apps/standalone_preview_version_en">Preview</a> and <a href="/standalone_apps/standalone_beta_version_en">Beta</a> channels, each with <a href="/standalone_apps/standalone_sha1_hashes_en">SHA1</a> and <a href="/standalone_apps/standalone_sha256_hashes_en">SHA256</a> hashes.</span></div></div>
+  <a class="mofa-row" href="/macos_appstore/macos_appstore_current_version"><i class="ic-globe"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></i><div><b>Mac App Store</b><span>Microsoft apps distributed through the App Store, for centrally managed installs with VPP.</span></div></a>
+  <a class="mofa-row" href="/ios_appstore/ios_appstore_current_version"><i class="ic-refine"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></i><div><b>iOS App Store</b><span>Microsoft apps for iPhone and iPad, with versions, release notes and minimum iOS.</span></div></a>
+  <div class="mofa-row"><i class="ic-chat"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b><a href="/standalone_apps/standalone_update_history_en">History and security</a></b><span><a href="/standalone_apps/standalone_update_history_en">Office update history</a>, <a href="/standalone_apps/teams_update_history_en">Teams update history</a> and <a href="/standalone_apps/standalone_cve_history_en">Office CVE history</a>, so "are we patched?" has a quick answer.</span></div></div>
+  <div class="mofa-row"><i class="ic-bug"><svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></i><div><b><a href="/standalone_apps/macos_standalone_other_readme">Other Microsoft apps</a></b><span>PowerShell, .NET, Azure CLI, VS Code and the rest, plus <a href="/standalone_apps/macos_standalone_onedrive_readme">every OneDrive build</a>.</span></div></div>
+  <a class="mofa-row" href="/standalone_apps/standalone_last_supported_versions_en"><i class="ic-mail"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></i><div><b>Last supported versions</b><span>The final Office build for each macOS release Microsoft no longer updates, for the Macs you cannot upgrade yet.</span></div></a>
+</div>
 
-2. **Access the Resources:**
-   Visit the [**MOFA Website**](https://github.com/cocopuff2u/mofa_website) to access guides, direct downloads, and resources that help you manage Microsoft apps on Apple devices.
+## Tools {.mofa-h2}
 
-3. **Contribute and Stay Informed:**
-   <span class="gradient-title">MOFA</span> thrives on community contributions. You can help improve the tools and resources by submitting pull requests, reporting issues, or suggesting new features.
+<div class="mofa-rows rows-left">
+  <div class="mofa-row"><i class="ic-fork"><svg viewBox="0 0 24 24"><path d="M4 6h10M4 12h10M4 18h6M15 17l2.5 2.5L22 15"/></svg></i><div><b><a href="/macos_tools/preconfigured_profiles">Configuration profiles</a></b><span>Ready-made profiles for AutoUpdate deadlines and telemetry, and a <a href="/macos_tools/profile_breakdown">breakdown</a> if you want to build your own.</span></div></div>
+  <a class="mofa-row" href="/macos_tools/microsoft_office_repair_tools"><i class="ic-globe"><svg viewBox="0 0 24 24"><path d="M14.5 4.5a4 4 0 0 0-5 5L4 15v5h5l5.5-5.5a4 4 0 0 0 5-5l-2.5 2.5-2-2z"/></svg></i><div><b>Repair tools</b><span>Reset and removal scripts for every Office app, plus Microsoft 365 Reset for everything at once.</span></div></a>
+  <a class="mofa-row" href="/macos_tools/community_scripts"><i class="ic-refine"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></i><div><b>Community scripts</b><span>Install, update and remove Office with scripts other Mac admins run in production.</span></div></a>
+  <a class="mofa-row" href="/macos_tools/app_icons"><i class="ic-chat"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3"/></svg></i><div><b>App icons</b><span>High-resolution icons for every Microsoft app, in WEBP and PNG, for Self Service and Company Portal.</span></div></a>
+  <div class="mofa-row"><i class="ic-bug"><svg viewBox="0 0 24 24"><path d="M6 3h9l5 5v13H6z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></svg></i><div><b><a href="/guides/how_to_plist">How-to guides</a></b><span>Deploy a <a href="/guides/how_to_plist">plist</a> with Jamf or Intune, and verify downloads with <a href="/guides/how_to_sha256">SHA256</a> or <a href="/guides/how_to_sha1">SHA1</a>.</span></div></div>
+  <a class="mofa-row" href="/about_support/feedback"><i class="ic-mail"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5.9 1.1 1 1.9h5c.1-.8.4-1.4 1-1.9A6 6 0 0 0 12 3z"/></svg></i><div><b>Something missing?</b><span>Ask for an app, a feed or a guide. Most of what is here started as a request.</span></div></a>
+</div>
 
-## 🔧 Categories at <span class="gradient-title">MOFA</span>
+## How it works {.mofa-h2}
 
-- **MacOS Standalone Apps:** Direct installer apps provided by Microsoft. These apps can be downloaded and installed directly without needing the Mac App Store.
-  
-- **MacOS AppStore Apps:** Applications available through the macOS App Store, providing a centralized and secure way to install and manage apps.
+<p class="mofa-lead">Scripts pull from Microsoft's own update feeds and the App Store every two hours, then rebuild every page and feed on this site. Nothing is edited by hand, so the data is only as late as Microsoft's last publish. All of it is open source, inspired by the work of <a href="https://macadmins.software" target="_blank" rel="noopener">MacAdmins.software</a>.</p>
 
-- **iOS AppStore Apps:** Apps available on the iOS App Store, making it easier for administrators to manage mobile device deployments.
+<div class="mofa-cta">
+  <a class="mofa-btn" href="/about_support/about">About the project</a>
+  <a class="mofa-btn alt" href="https://github.com/cocopuff2u/mofa" target="_blank" rel="noopener">Data on GitHub</a>
+  <a class="mofa-btn alt" href="https://github.com/cocopuff2u/mofa_website" target="_blank" rel="noopener">Site on GitHub</a>
+</div>
 
-## 🌐 Our Mission
-
-At **<span class="gradient-title">MOFA</span>**, we strive to:
-
-- **Simplify** Microsoft management on Apple devices by providing the right tools and information.
-- Keep Mac admins **informed** with **up-to-date data** that helps make critical decisions.
-- Foster a **community-driven** environment where resources are shared and improved collectively.
-
-## 💡 Core Values
-
-- **Simplicity:** We focus on what matters most to Mac admins—giving you easy access to the tools and data you need.
-- **Transparency:** <span class="gradient-title">MOFA</span> is completely open-source, ensuring that everyone has access to our code, data, and resources.
-- **Efficiency:** We aim to make your workflow as smooth as possible by providing ready-to-use resources and data.
-- **Community:** We're built by and for the Mac admin community, with contributions from users worldwide.
-
-## 🔧 Tools & Features
-
-- **Automatically Updated Data:** Our data is continuously refreshed to match Microsoft's latest offerings, saving you time and effort.
-- **Direct Access to Resources:** Download tools, updates, and configuration files directly from the site—no need to search through multiple sources.
-- **Simplified Microsoft App Management:** Tools and data tailored to help Mac admins manage and deploy Microsoft apps with ease.
-- **Open-Source Access:** Use the raw XML, JSON, and YAML files for advanced customization and integration.
-
-### 🎉 Join the <span class="gradient-title">MOFA</span> Community
-
-We invite you to be part of the **<span class="gradient-title">MOFA</span>** community and help shape the future of Mac admins working with Microsoft.
-
-🔗 **[GitHub: MOFA Github](https://github.com/cocopuff2u/mofa)**  
-🔗 **[GitHub: MOFA Website](https://github.com/cocopuff2u/mofa_website)**
-
-Contribute, stay informed, and make your Microsoft-on-Apple experience better today!
+</div>

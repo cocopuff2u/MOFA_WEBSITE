@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 import logging
 import re
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -120,19 +121,11 @@ def generate_readme_content(last_scan_date, updates):
         year_match = re.search(r'(\d{4})\s*$', update['date'])
         updates_by_year.setdefault(year_match.group(1) if year_match else "Other", []).append(update)
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-outline: [2, 2]
----
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office CVE History
+    content = f"""{frontmatter('Office CVE history', editLink=False, lastUpdated=False, outline=[2, 3])}
+{feed_header('Office CVE history', 'Security fixes in Microsoft 365 and Office for Mac, grouped by the release that fixed them, newest first.', last_scan_date, raw='mac_standalone_cve_history', source=[('Office release notes', 'https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac'), ('MSRC', 'https://msrc.microsoft.com/update-guide')])}
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json)
- (Automatically Updated every 2 hours)_</span>
 
-Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Office for Mac, grouped by the release that fixed it, newest first. Only releases with security fixes are listed. Sources: [Release notes for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac) and the [Microsoft Security Response Center](https://msrc.microsoft.com/update-guide).
-
-<span class="extra-small"><Badge type="danger" text="Critical" /> — can be exploited without user interaction, such as remote code execution<br><Badge type="warning" text="Important" /> — could compromise data or availability, usually requiring user action<br><Badge type="danger" text="Exploited" /> — Microsoft reports active exploitation</span>
+{legend([('<Badge type="danger" text="Critical" />', 'exploitable with no user interaction'), ('<Badge type="warning" text="Important" />', 'needs user action to exploit'), ('<Badge type="danger" text="Exploited" />', 'actively exploited per Microsoft')])}
 """
     if security_updates:
         latest_year = next(iter(updates_by_year))
@@ -153,18 +146,11 @@ Every security vulnerability (CVE) Microsoft has fixed in Microsoft 365 and Offi
             content += render_release(update)
 
     content += """
-> [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
     logging.info("standalone_cve_history content generated successfully")
 
     return content
-
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"standalone_cve_history.md has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths

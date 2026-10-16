@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <Releases>
-    <last_scan_date>October 09, 2026 09:48 AM EDT</last_scan_date>
+    <last_scan_date>October 16, 2026 03:00 PM EDT</last_scan_date>
     <platform id="mac" name="New Teams for Mac" cloud="Public">
         <release>
-            <date>October 01, 2026</date>
+            <date>October 07, 2026</date>
             <version>26261.303.5165.1465</version>
             <slimcore_version>2026.36.0-1.4-h5655d</slimcore_version>
-            <rolling_out>true</rolling_out>
+            <rolling_out>false</rolling_out>
             <installer_download>https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg</installer_download>
             <archive>false</archive>
         </release>
@@ -1657,10 +1657,18 @@
     </platform>
     <platform id="mac_gcc" name="New Teams for Mac (GCC)" cloud="Government">
         <release>
-            <date>October 01, 2026</date>
+            <date>October 09, 2026</date>
+            <version>26261.303.5165.1465</version>
+            <slimcore_version>2026.36.0-1.4-h5655d</slimcore_version>
+            <rolling_out>true</rolling_out>
+            <installer_download>https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg</installer_download>
+            <archive>false</archive>
+        </release>
+        <release>
+            <date>October 07, 2026</date>
             <version>26246.1709.5146.8945</version>
             <slimcore_version>2026.34.0-1.12-h93a62</slimcore_version>
-            <rolling_out>true</rolling_out>
+            <rolling_out>false</rolling_out>
             <installer_download>https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg</installer_download>
             <archive>false</archive>
         </release>
@@ -2131,10 +2139,18 @@
     </platform>
     <platform id="mac_gcch" name="New Teams for Mac (GCCH)" cloud="Government">
         <release>
-            <date>October 01, 2026</date>
+            <date>October 09, 2026</date>
+            <version>26261.303.5165.1465</version>
+            <slimcore_version>2026.36.0-1.4-h5655d</slimcore_version>
+            <rolling_out>true</rolling_out>
+            <installer_download>https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg</installer_download>
+            <archive>false</archive>
+        </release>
+        <release>
+            <date>October 07, 2026</date>
             <version>26246.1709.5146.8945</version>
             <slimcore_version>2026.34.0-1.12-h93a62</slimcore_version>
-            <rolling_out>true</rolling_out>
+            <rolling_out>false</rolling_out>
             <installer_download>https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg</installer_download>
             <archive>false</archive>
         </release>
@@ -2653,10 +2669,18 @@
     </platform>
     <platform id="mac_dod" name="New Teams for Mac (DoD)" cloud="Government">
         <release>
-            <date>October 01, 2026</date>
+            <date>October 09, 2026</date>
+            <version>26261.303.5165.1465</version>
+            <slimcore_version>2026.36.0-1.4-h5655d</slimcore_version>
+            <rolling_out>true</rolling_out>
+            <installer_download>https://statics.teams.cdn.office.net/production-osx/26261.303.5165.1465/MicrosoftTeams.pkg</installer_download>
+            <archive>false</archive>
+        </release>
+        <release>
+            <date>October 07, 2026</date>
             <version>26246.1709.5146.8945</version>
             <slimcore_version>2026.34.0-1.12-h93a62</slimcore_version>
-            <rolling_out>true</rolling_out>
+            <rolling_out>false</rolling_out>
             <installer_download>https://statics.teams.cdn.office.net/production-osx/26246.1709.5146.8945/MicrosoftTeams.pkg</installer_download>
             <archive>false</archive>
         </release>

@@ -41,20 +41,10 @@ jobs:
       run: |
         python update_readme_scripts/update_standalone_update_history_readme.py
         python update_readme_scripts/update_teams_update_history_readme.py
-        python update_readme_scripts/update_standalone_sha256_readme.py
-        python update_readme_scripts/update_standalone_sha1_readme.py
+        python update_readme_scripts/update_standalone_pages.py
         python update_readme_scripts/update_standalone_cve_history_readme.py
-        python update_readme_scripts/update_standalone_current_version_readme.py
         python update_readme_scripts/update_ios_appstore_current_version_readme.py
-        python update_readme_scripts/update_ios_appstore_current_version_readme.py
-        python update_readme_scripts/update_standalone_preview_version_readme.py
-        python update_readme_scripts/update_standalone_preview_sha256_readme.py
-        python update_readme_scripts/update_standalone_preview_sha1_readme.py
-        python update_readme_scripts/update_standalone_beta_version_readme.py
-        python update_readme_scripts/update_standalone_beta_sha256_readme.py
-        python update_readme_scripts/update_standalone_beta_sha1_readme.py
         python update_readme_scripts/update_macos_appstore_current_version_readme.py
-        python update_readme_scripts/update_ios_appstore_current_version_readme.py
         python update_readme_scripts/update_team.py
         python update_readme_scripts/update_standalone_current_version_simple.py
         python update_readme_scripts/update_macos_standalone_onedrive_readme.py

@@ -3,6 +3,7 @@ from datetime import datetime
 import pytz
 import logging
 import re
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -54,26 +55,14 @@ def parse_update_history_xml(file_path):
 def generate_readme_content(last_scan_date, releases):
     logging.info("Generating standalone_update_history_readme content")
 
-    # Set timezone to US/Eastern (EST/EDT)
-    eastern = pytz.timezone('US/Eastern')
-
-    # Get the current time in UTC and convert to EST
-    current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
+    current_time = now_eastern()
     logging.debug(f"Current time (EST): {current_time}")
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-outline: [2, 2]
----
-# <img src="/images/Microsoft_Logo.webp" alt="image" width="25" style="vertical-align: middle; display: inline-block;" /> Office Update History
+    content = f"""{frontmatter('Office update history', editLink=False, lastUpdated=False, outline=[2, 2])}
+{feed_header('Office update history', 'Every Microsoft 365 and Office for Mac release, newest first, with links to each version’s installers.', last_scan_date, raw='macos_standalone_update_history', source=[('Update history for Office for Mac', 'https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac')])}
 
-<span class="extra-small">_Last Updated: <code style="color : dodgerblue">{last_scan_date}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json)
- (Automatically Updated every 2 hours)_</span>
 
-Every Microsoft 365 and Office for Mac release, newest first, with direct links to each version's suite installers and individual app updates. Source: [Update history for Office for Mac](https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac).
-
-<span class="extra-small">**archived** — Microsoft no longer hosts the packages for that release<br>**N/A** — no package of that type was published</span>
+{legend([('archived', 'Microsoft no longer hosts the packages for that release'), ('N/A', 'no package of that type was published')])}
 """
     # One table per release year so the page outline can jump between years
     releases_by_year = {}
@@ -120,18 +109,11 @@ Every Microsoft 365 and Office for Mac release, newest first, with direct links 
 </table>
 """
     content += """
-> [!IMPORTANT]
-> This page is fully automated and updated through a script. To modify the content, the script itself must be updated. The information presented here is generated automatically based on the most recent data available from Microsoft. Please note that it may not always reflect complete accuracy. To access and edit the scripts, please visit the [scripts folder here](https://github.com/cocopuff2u/MOFA_WEBSITE/tree/main/update_readme_scripts).
 """
 
     logging.info("standalone_update_history content generated successfully")
 
     return content
-
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"standalone_update_history.md has been overwritten.")
 
 if __name__ == "__main__":
     # Define file paths

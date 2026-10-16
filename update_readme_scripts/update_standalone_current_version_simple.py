@@ -2,45 +2,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import pytz
 import logging
+from mofa_common import feed_header, add_pkg_anchors, frontmatter, status_line, legend, related, overwrite_readme, verify_note, now_eastern, parse_latest_xml, get_standalone_package_detail
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-
-def parse_latest_xml(file_path):
-    logging.info(f"Parsing XML file: {file_path}")
-
-    # Parse the XML file
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-    logging.debug("XML file parsed successfully")
-
-    # Extract global last_updated
-    global_last_updated = root.find("last_updated").text.strip()
-    logging.info(f"XML last_updated: {global_last_updated}")
-
-    # Extract package details
-    packages = {}
-    for package in root.findall("package"):
-        name = package.find("name").text.strip().lower()  # Store by lowercase name for easy access
-        packages[name] = {
-            "name": name,
-            "application_id": package.find("application_id").text.strip(),
-            "application_name": package.find("application_name").text.strip(),
-            "short_version": package.find("short_version").text.strip(),
-            "full_version": package.find("full_version").text.strip(),
-            "last_updated": package.find("last_updated").text.strip(),
-            "full_update_sha1": package.find("full_update_sha1").text.strip(),
-            "app_only_update_download": package.find("app_only_update_download").text.strip(),
-            "app_update_sha256": package.find("app_update_sha256").text.strip(),
-            "app_update_sha1": package.find("app_update_sha1").text.strip(),
-            "full_update_download": package.find("full_update_download").text.strip(),
-            "full_update_sha256": package.find("full_update_sha256").text.strip(),
-            "full_update_sha1": package.find("full_update_sha1").text.strip(),
-            "min_os": package.find("min_os").text.strip() if package.find("min_os") is not None else "N/A",
-        }
-        # logging.debug(f"Extracted package: {packages[name]}") # Uncomment to see all package details
-
-    return global_last_updated, packages
 
 def parse_onedrive_xml(file_path):
     logging.info(f"Parsing OneDrive XML file: {file_path}")
@@ -107,11 +72,7 @@ def parse_edge_xml(file_path):
 def generate_readme_content(global_last_updated, packages):
     logging.info("Generating standalone_main_readme content")
 
-    # Set timezone to US/Eastern (EST/EDT)
-    eastern = pytz.timezone('US/Eastern')
-
-    # Get the current time in UTC and convert to EST
-    current_time = datetime.now(pytz.utc).astimezone(eastern).strftime("%B %d, %Y %I:%M %p %Z")
+    current_time = now_eastern()
     logging.debug(f"Current time (EST): {current_time}")
 
     # Parse OneDrive XML
@@ -122,19 +83,8 @@ def generate_readme_content(global_last_updated, packages):
     edge_xml_file_path = "repo_raw_data/macos_standalone_edge_all.xml"
     edge_last_updated, edge_current_version = parse_edge_xml(edge_xml_file_path)
 
-    content = f"""---
-editLink: false
-lastUpdated: false
-layout: doc
-navbar: true
-sidebar: false
-footer: true
-aside: false
----
-<div style="text-align: center;">
-
-_Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**_Raw XML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml) [**_Raw YAML_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml) [**_Raw JSON_**](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json) (Automatically Updated every 2 hours)_
-</div>
+    content = f"""{frontmatter('Simple view', editLink=False, lastUpdated=False, layout='doc', navbar=True, sidebar=False, footer=True, aside=False)}
+{feed_header('Simple view', 'Current standalone installers with their SHA256 hashes, in one compact table.', global_last_updated, raw='macos_standalone_latest')}
 <div style="display: flex; justify-content: center;">
 
 | **Product Package** | **Bundle Information** | **Download** |
@@ -147,7 +97,7 @@ _Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**
 | **Excel** (365/2021/2024) **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Excel', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Excel', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Excel', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Excel', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.excel` | <a href="{get_standalone_package_detail(packages, 'Excel', 'app_only_update_download')}"><img src="/images/2025/Excel.webp" alt="Download Image" width="80"></a> |
 | **PowerPoint** (365/2021/2024) **Standalone Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'PowerPoint', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.powerpoint` | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="/images/2025/PowerPoint.webp" alt="Download Image" width="80"></a> |
 | **PowerPoint** (365/2021/2024) **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'PowerPoint', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'PowerPoint', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.powerpoint` | <a href="{get_standalone_package_detail(packages, 'PowerPoint', 'app_only_update_download')}"><img src="/images/2025/PowerPoint.webp" alt="Download Image" width="80"></a> |
-| **Outlook** (365/2021/2024) **Standalone Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Outlook', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.outlook` | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="/images/2025/PowerPoint.webp" alt="Download Image" width="80"></a>|
+| **Outlook** (365/2021/2024) **Standalone Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Outlook', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.outlook` | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="/images/2025/Outlook.webp" alt="Download Image" width="80"></a>|
 | **Outlook** (365/2021/2024) **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'Outlook', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'Outlook', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.outlook` | <a href="{get_standalone_package_detail(packages, 'Outlook', 'app_only_update_download')}"><img src="/images/2025/Outlook.webp" alt="Download Image" width="80"></a>|
 | **OneNote** (365/2021/2024) **Standalone Installer**<br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'full_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'OneNote', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.onenote.mac` | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/2025/OneNote.webp" alt="Download Image" width="80"></a> |
 | **OneNote** (365/2021/2024) **App Only Installer** <br><sub>_(Does Not Contain MAU)_</sub><br><br>**sha256:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'app_update_sha256')}`<br><br>_**Last Update:** `{get_standalone_package_detail(packages, 'OneNote', 'last_updated')}`_<br> | **Version:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'short_version')}`<br><br>**Min OS:**<br>`{get_standalone_package_detail(packages, 'OneNote', 'min_os')}`<br><br>**CFBundle ID:**<br>`com.microsoft.onenote.mac` | <a href="{get_standalone_package_detail(packages, 'OneNote', 'app_only_update_download')}"><img src="/images/2025/OneNote.webp" alt="Download Image" width="80"></a> |
@@ -176,20 +126,6 @@ _Last Updated: <code style="color : dodgerblue">{global_last_updated}</code> [**
 
     return content
 
-def overwrite_readme(file_path, content):
-    with open(file_path, "w") as file:
-        file.write(content)
-    print(f"standalone_current_version.md has been overwritten.")
-
-def get_standalone_package_detail(packages, package_name, detail):
-    package_name = package_name.lower()
-    detail = detail.lower()
-
-    if package_name in packages and detail in packages[package_name]:
-        return packages[package_name][detail]
-    else:
-        return None
-
 def get_onedrive_package_detail(onedrive_packages, package_name, detail):
     package_name = package_name.strip()
     detail = detail.strip()
@@ -210,4 +146,4 @@ if __name__ == "__main__":
     readme_content = generate_readme_content(global_last_updated, packages)
 
     # Overwrite the README file
-    overwrite_readme(readme_file_path, readme_content)
+    overwrite_readme(readme_file_path, readme_content, note=False)

@@ -1,48 +1,35 @@
-# 📂 MOFA iOS RAW Feeds
+---
+title: Raw feeds
+---
+<div class="mofa-feed-head">
+  <img class="mofa-feed-icon" src="/images/App_Store_logo.webp" alt="" />
+  <div class="mofa-feed-text">
+    <h1>Raw feeds</h1>
+    <p>The dataset behind the iOS App Store page, as XML, YAML and JSON.</p>
+  </div>
+</div>
+<div class="mofa-feed-meta">
+  <span class="mofa-feed-updated"><i></i>Rebuilt every 2 hours from Microsoft</span>
+  <span class="mofa-feed-raw"><a class="mofa-chip outline" href="https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files" target="_blank" rel="noopener">All files on GitHub</a></span>
+</div>
 
-This directory `https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files` contains raw output information related to Microsoft Standalone Applications and Mac/iOS App Store applications. These outputs are generated automatically using scripts, providing MacAdmins with the latest information in various formats. This setup simplifies the process of accessing and managing app-related data provided by Microsoft.
 
-## 🛠️ Repository Overview
+## iOS App Store dataset {.mofa-h2-left}
 
-- **Scripts Location**: All scripts used to retrieve and process the data are located in the `https://github.com/cocopuff2u/MOFA/tree/main/.github/actions` directory of the repository. These scripts automate the fetching and formatting of app data from Microsoft-provided feeds. The raw data is automatically updated every 4 hours using a GitHub Action, which is triggered by workflows located in the `https://github.com/cocopuff2u/MOFA/tree/main/.github/actions` directory.
-- **Purpose**: The scripts collect app metadata, convert it into multiple formats, and ensure the information remains current.
+<table class="mofa-feeds">
+<thead><tr><th>Feed</th><th>What it contains</th><th>Formats</th><th>Page</th></tr></thead>
+<tbody>
+<tr><td><b>iOS App Store latest</b></td><td>Current version, release date, min iOS, bundle ID and App Store link for every Microsoft app on the iOS App Store.</td><td class="fmts"><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json" target="_blank" rel="noopener">JSON</a></td><td><a href="/ios_appstore/ios_appstore_current_version">View →</a></td></tr>
+</tbody></table>
 
-## 📄 File Outputs  
+Looking for the standalone installers, Office history or RSS feeds? They are on the <a href="/standalone_apps/standalone_raw_feeds_en">standalone raw feeds</a> page.
 
-This directory provides app-related data in three widely-used formats: XML, JSON, and YAML. Each format contains the same set of files for easy comparison and integration into various workflows. Below is a breakdown of the available files by format:
+## Using the feeds {.mofa-h2-left}
 
-### 🧩 XML Files  
-**Description**: XML provides structured app data, ideal for systems requiring hierarchical data representation.  s
+For scripts, use the raw file URL rather than the GitHub page, for example:
 
-- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml)**  
-  Provides the latest details about macOS standalone apps.  
+```
+https://raw.githubusercontent.com/cocopuff2u/MOFA/main/latest_raw_files/macos_standalone_latest.json
+```
 
-### 🌐 JSON Files  
-**Description**: JSON offers lightweight and easy-to-parse data, commonly used in modern development environments.  
-
-- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json)**  
-  Provides the latest details about macOS standalone apps.  
-
-### ✍️ YAML Files  
-**Description**: YAML offers a human-readable format, ideal for configurations and manual edits.  
-
-- **[iOS AppStore Latest](https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml)**  
-  Provides the latest details about macOS standalone apps.  
-
-## 🌟 Why Multiple Formats?
-
-The choice to provide XML, JSON, and YAML outputs ensures compatibility with a wide range of tools and systems. By supporting multiple formats, we accommodate diverse user needs:
-
-- **XML**: Designed for enterprise applications and legacy systems.
-- **JSON**: Suitable for modern development environments and APIs.
-- **YAML**: Ideal for user-friendly configuration and quick manual edits.
-
-## 📌 Usage Instructions
-
-1. Locate the required output file in this directory.
-2. Refer to the scripts in the `https://github.com/cocopuff2u/MOFA/tree/main/.github/actions` directory to understand or customize how the data is fetched and formatted.
-3. Choose the format that best fits your application or integration needs.
-
-## 🔗 Access the Latest Raw Files
-
-You can access all the latest raw files [here](https://github.com/cocopuff2u/MOFA/tree/main/latest_raw_files).
+Every file is regenerated on a schedule by the [MOFA repository](https://github.com/cocopuff2u/MOFA)’s GitHub Actions, so a URL you save today keeps returning the latest data. XML, YAML and JSON carry the same fields; pick whichever your tooling reads most easily.

@@ -9,12 +9,23 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://mofa.cocolabs.dev'
   },
+  vite: {
+    server: {
+      // the landing page imports repo_raw_data/*.json, which lives outside docs/
+      fs: { allow: ['..'] }
+    }
+  },
   markdown: {
     // Ensure HTML is enabled in markdown options
     html: true,
   },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&display=swap' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', sizes: '32x32' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     // Social preview (Open Graph + Twitter Card)
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'MOFA' }],
@@ -124,7 +135,7 @@ export default defineConfig({
       pattern: 'https://github.com/cocopuff2u/mofa_website/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
-    logo: '/images/logo_Mofa_NoBackground.png',
+    logo: { light: '/images/mofa-icon-light.svg', dark: '/images/mofa-icon-dark.svg', alt: 'MOFA' },
     nav: [
       { text: 'Get Started', link: '/home' },
       { text: 'Standalone Apps', link: '/standalone_apps/standalone_current_version_en' },
@@ -164,9 +175,14 @@ export default defineConfig({
               { text: 'SHA256 Hashes', link: '/standalone_apps/standalone_beta_sha256_hashes_en' }
             ]
           },
+          { text: 'Other Microsoft Apps', link: '/standalone_apps/macos_standalone_other_readme',
+            collapsed: true,
+            items: [
+              { text: 'SHA256 Hashes', link: '/standalone_apps/macos_standalone_other_sha256' }
+            ]
+          },
           { text: 'Last Supported Versions', link: '/standalone_apps/standalone_last_supported_versions_en' },
           { text: 'OneDrive Versions', link: '/standalone_apps/macos_standalone_onedrive_readme' },
-          { text: 'Other Microsoft Apps', link: '/standalone_apps/macos_standalone_other_readme' },
           { text: 'Office Update History', link: '/standalone_apps/standalone_update_history_en' },
           { text: 'Teams Update History', link: '/standalone_apps/teams_update_history_en' },
           { text: 'Office CVE History', link: '/standalone_apps/standalone_cve_history_en' },
@@ -185,15 +201,9 @@ export default defineConfig({
           //     { text: 'MDM Overview', link: '/placeholder' }
           //   ]
           // },
-          {
-            text: 'How To Guides',
-            collapsed: true,
-            items: [
-              { text: 'How To SHA1', link: '/guides/how_to_sha1' },
-              { text: 'How To SHA256', link: '/guides/how_to_sha256' },
-              { text: 'How To Plist', link: '/guides/how_to_plist' }
-            ]
-          }
+          { text: 'How To SHA1', link: '/guides/how_to_sha1' },
+          { text: 'How To SHA256', link: '/guides/how_to_sha256' },
+          { text: 'How To Plist', link: '/guides/how_to_plist' }
         ]
       },
       {
@@ -237,13 +247,14 @@ export default defineConfig({
           { text: '📝 Feedback', link: '/about_support/feedback' },
           { text: '👥 Meet The Team', link: '/about_support/team' },
           { text: '🐞 Report Issues', link: '/about_support/report_issue' },
-          { text: '🆕 Changelog', link: '/about_support/changelog' },
+          // Hidden: the changelog is no longer maintained
+          // { text: '🆕 Changelog', link: '/about_support/changelog' },
         ]
       }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cocopuff2u/MOFA' },
-      { icon: 'rss', link: 'https://mofa.cocolabs.dev/standalone_apps/standalone_raw_feeds_en.html#%F0%9F%93%B0-rss-feeds' },
+      { icon: 'rss', link: 'https://mofa.cocolabs.dev/standalone_apps/standalone_raw_feeds_en#rss-feeds' },
       { icon: 'buymeacoffee', link: 'https://buymeacoffee.com/cocopuff2u' }
     ],
     footer: {
