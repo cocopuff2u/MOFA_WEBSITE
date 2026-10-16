@@ -367,7 +367,7 @@ next: false
 
 <div class="status-bar">
       <div class="status-line">
-        <span>Last Updated: <code class="status-ts">October 16, 2026 01:23 AM EDT</code></span>
+        <span>Last Updated: <code class="status-ts">October 16, 2026 06:35 AM EDT</code></span>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml"><strong>Raw XML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml"><strong>Raw YAML</strong></a>
         <a href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json"><strong>Raw JSON</strong></a>
@@ -490,8 +490,8 @@ next: false
           <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Teams"></a>
         </div>
         <div class="tile-title"><b>Teams</b></div>
-        <div class="tile-version"><em><code>26261.303.5165.1465</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 25, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26276.505.5234.9924</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>October 14, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"><small>Release Notes</small></a>&nbsp;·&nbsp;<a class="relnotes" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning"><small>Versions</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://go.microsoft.com/fwlink/?linkid=2249065">Installer</a></div>
