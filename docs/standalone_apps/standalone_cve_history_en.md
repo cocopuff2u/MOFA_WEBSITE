@@ -12,7 +12,7 @@ outline: [2, 3]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 16, 2026 03:14 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 16, 2026 06:27 PM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" target="_blank" rel="noopener">Office release notes</a><a class="mofa-chip outline" href="https://msrc.microsoft.com/update-guide" target="_blank" rel="noopener">MSRC</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json" target="_blank" rel="noopener">JSON</a>
