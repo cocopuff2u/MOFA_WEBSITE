@@ -1,6 +1,22 @@
+# Dependencies (CI runs npm ci and installs fresh)
+node_modules/
 
-docs/public/.DS_Store
-docs/public/images/.DS_Store
-docs/.vitepress/cache/deps/_metadata.json
-docs/.vitepress/cache/deps/_metadata.json
-docs/.vitepress/cache/deps/_metadata.json
+# VitePress build output and dev cache (CI rebuilds on every deploy)
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.vitepress/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Local tooling and editors
+.claude/settings.local.json
+.idea/
+.vscode/
+*.log
+.env
+.env.*
