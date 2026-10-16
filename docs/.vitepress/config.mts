@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Microsoft Overview Feed For Apple",
   lastUpdated: true,
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://mofa.cocolabs.dev'
+  },
   markdown: {
     // Ensure HTML is enabled in markdown options
     html: true,
