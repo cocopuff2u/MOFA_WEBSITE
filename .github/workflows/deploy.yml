@@ -10,9 +10,8 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  schedule:
-    # Runs every 2 hours and 10 minutes
-    - cron: "10 */2 * * *"
+  # No cron here: the site only changes when main changes, and both paths
+  # below already cover that.
   workflow_run:
     workflows: ["Update Readmes and Pull Repo Updates"]
     types:

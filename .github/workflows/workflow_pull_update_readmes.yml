@@ -2,10 +2,9 @@ name: Update Readmes and Pull Repo Updates
 
 on:
   schedule:
-    # Poll MOFA four times an hour. GitHub delays cron heavily on the hour, so
-    # these sit on odd minutes. Runs where MOFA hasn't changed exit early
-    # without committing anything.
-    - cron: '7,22,37,52 * * * *'
+    # Poll MOFA twice an hour on off-peak minutes (GitHub delays :00 the most).
+    # A poll that finds nothing new costs one API call and exits in seconds.
+    - cron: '22,52 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -20,34 +19,42 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Check whether MOFA published anything new
+      id: mofa
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        # Compare the git tree SHA of MOFA's latest_raw_files folder with the
+        # one recorded at our last pull. One API call, no clone, no Python.
+        remote="$(gh api repos/cocopuff2u/MOFA/git/trees/main \
+          --jq '.tree[] | select(.path=="latest_raw_files") | .sha' || true)"
+        local="$(cat repo_raw_data/mofa_tree_sha.txt 2>/dev/null || true)"
+        echo "MOFA latest_raw_files tree: remote=${remote:-unknown} recorded=${local:-none}"
+        if [ -n "$remote" ] && [ "$remote" = "$local" ]; then
+          echo "MOFA unchanged since last pull. Nothing to do."
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        else
+          echo "MOFA has new data (or the check could not run). Doing a full update."
+          [ -n "$remote" ] && echo "$remote" > repo_raw_data/mofa_tree_sha.txt
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Set up Python
+      if: steps.mofa.outputs.changed == 'true'
       uses: actions/setup-python@v3
       with:
         python-version: '3.x'
 
     - name: Install dependencies
+      if: steps.mofa.outputs.changed == 'true'
       run: |
         python -m pip install --upgrade pip
         pip install pytz
         pip install PyGitHub
 
     - name: Run pull_raw_files script
+      if: steps.mofa.outputs.changed == 'true'
       run: python repo_raw_data/pull_raw_files.py
-
-    - name: Check whether MOFA published anything new
-      id: mofa
-      run: |
-        # pull_info.txt is rewritten on every run, so ignore it when deciding.
-        changed="$(git status --porcelain | grep -v 'repo_raw_data/pull_info.txt' || true)"
-        if [ -n "$changed" ]; then
-          echo "MOFA has new data:"
-          echo "$changed"
-          echo "changed=true" >> "$GITHUB_OUTPUT"
-        else
-          echo "MOFA unchanged since last pull. Nothing to do."
-          git checkout -- repo_raw_data/pull_info.txt
-          echo "changed=false" >> "$GITHUB_OUTPUT"
-        fi
 
     - name: Commit and push changes
       if: steps.mofa.outputs.changed == 'true'
