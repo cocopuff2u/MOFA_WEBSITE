@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 19, 2026 11:24 AM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 19, 2026 02:20 PM EDT</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -30,7 +30,7 @@ packageOutline: true
 | <a id="pkg-powerpoint" class="pkg-anchor" data-label="PowerPoint"></a>**PowerPoint** (365/2021/2024) **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525136"><img src="/images/2025/PowerPoint.webp" alt="Download Image" width="60"></a> | `aa9528a9dc29e36082abc6340b14b775acdc3294` |
 | <a id="pkg-outlook" class="pkg-anchor" data-label="Outlook"></a>**Outlook** (365/2021/2024) **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=525137"><img src="/images/2025/Outlook.webp" alt="Download Image" width="60"></a> | `dd575dec462450d101958cdd7a72735fa4e6cde6` |
 | <a id="pkg-onenote" class="pkg-anchor" data-label="OneNote"></a>**OneNote** (365/2021/2024) **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/2025/OneNote.webp" alt="Download Image" width="60"></a> | `ddc7dc633bb43e6b7c0dc0496f730b7a2f129b65` |
-| <a id="pkg-onedrive" class="pkg-anchor" data-label="OneDrive"></a>**OneDrive Standalone Installer** <sup>(Production Ring)</sup> | <a href="https://oneclient.sfx.ms/Mac/Installers/26.079.0427.0003/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="Download Image" width="60"></a> | `1c92dc0f403659f2367122c314d4a2a9d98ed15a` |
+| <a id="pkg-onedrive" class="pkg-anchor" data-label="OneDrive"></a>**OneDrive Standalone Installer** <sup>(Production Ring)</sup> | <a href="https://oneclient.sfx.ms/Mac/Installers/26.173.0906.0008/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="Download Image" width="60"></a> | `N/A` |
 | <a id="pkg-skype-for-business" class="pkg-anchor" data-label="Skype for Business"></a>**Skype for Business Standalone Installer** | <a href="https://download.microsoft.com/download/5ea1d93d-e654-4865-a75a-0d90256e4f25/Skype%20for%20Business%20on%20Mac%20Installer%2016.31.0.31.pkg"><img src="/images/Skype_For_Business.webp" alt="Download Image" width="60"></a> | `25637672295e3fd675404fe757db433591d62047` |
 | <a id="pkg-teams" class="pkg-anchor" data-label="Teams"></a>**Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Download Image" width="60"></a> | `05bb4cb1fe4d7c7b03bec4a9badba5442bfc7114` |
 | <a id="pkg-intune-company-portal" class="pkg-anchor" data-label="Intune Company Portal"></a>**InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `42fd1733947b9cd5497f336e106192afeb1275a4` |
