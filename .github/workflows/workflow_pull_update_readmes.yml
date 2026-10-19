@@ -1,9 +1,18 @@
 name: Update Readmes and Pull Repo Updates
 
 on:
+  # Primary trigger: MOFA's update workflow sends this event when it finishes,
+  # so the site refreshes a minute or two after MOFA instead of waiting on cron.
+  repository_dispatch:
+    types: [mofa-updated]
+  # Fallback only. GitHub delays cron heavily at :00, so run at an odd minute.
   schedule:
-    - cron: '0 */1 * * *' # Runs every 1 hour
+    - cron: '23 */1 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: update-readmes
+  cancel-in-progress: false
 
 jobs:
   combined-job:
