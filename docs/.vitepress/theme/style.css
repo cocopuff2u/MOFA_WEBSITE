@@ -739,6 +739,7 @@ html.dark .mofa-light { display: none; }
 .vp-doc table.mofa-rings td:last-child .mofa-chip + .mofa-chip { margin-left: 4px; }
 .vp-doc table.mofa-hashes td .sub { display: block; font-size: 11.5px; font-weight: 400; color: var(--vp-c-text-2); }
 .vp-doc table.mofa-rings td:nth-child(3) { white-space: nowrap; }
+.vp-doc table.mofa-rings td .built, .mofa-legend .built { color: var(--vp-c-text-3); font-style: italic; }
 /* checksum table: long hashes wrap inside the column instead of pushing the table wide */
 .vp-doc table.mofa-hashes { table-layout: fixed; }
 .vp-doc table.mofa-hashes th:first-child, .vp-doc table.mofa-hashes td:first-child { width: 150px; white-space: normal; }

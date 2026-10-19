@@ -61,9 +61,35 @@ def val(ring, key):
     return "" if v in ("", "N/A", "None") else v
 
 
-def date_only(stamp):
-    m = re.match(r"([A-Za-z]+ \d{1,2}, \d{4})", stamp)
-    return m.group(1) if m else stamp
+MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
+          "September", "October", "November", "December"]
+
+
+def build_date(version):
+    """OneDrive versions encode the build date: 26.173.0906 -> September 6, 2026."""
+    m = re.match(r"^(\d{2})\.\d{3}\.(\d{2})(\d{2})", version or "")
+    if not m:
+        return ""
+    yy, mm, dd = (int(x) for x in m.groups())
+    if not 1 <= mm <= 12 or not 1 <= dd <= 31:
+        return ""
+    return f"{MONTHS[mm - 1]} {dd}, 20{yy:02d}"
+
+
+def date_cell(ring):
+    """Microsoft's date for the build: the release-notes date when they list one,
+    otherwise the build date from the version number, shown muted."""
+    rd = val(ring, "release_date")
+    if rd:
+        m = re.match(r"(?i)target date:\s*(.+)", rd)
+        if m:
+            return f'<td title="Microsoft\'s target date for this ring">Target {html.escape(m.group(1))}</td>'
+        return f"<td>{html.escape(rd)}</td>"
+    bd = build_date(val(ring, "short_version"))
+    if bd:
+        return (f'<td><span class="built" title="Microsoft lists no release date for this build. '
+                f'This is the build date encoded in the version number.">{bd}</span></td>')
+    return "<td>—</td>"
 
 
 def version_cell(ring, label, versions):
@@ -89,13 +115,12 @@ def download_cell(ring):
 
 
 def ring_row(section, label, meaning, ring, versions):
-    stamp = val(ring, "last_updated")
     sub = f'<span class="sub">{meaning}</span>' if meaning else ""
     return (
         "<tr>"
         f"<td>{pkg_anchor(label, pkg_slug(section + '-' + label))}<img src=\"{ICON}\" alt=\"\" loading=\"lazy\" /><b>{html.escape(label)}</b>{sub}</td>"
         f"<td>{version_cell(ring, label, versions)}</td>"
-        f"<td title=\"{html.escape(stamp)}\">{html.escape(date_only(stamp))}</td>"
+        f"{date_cell(ring)}"
         f"<td>{download_cell(ring)}</td>"
         "</tr>\n"
     )
@@ -104,7 +129,7 @@ def ring_row(section, label, meaning, ring, versions):
 def ring_table(rows, first_col="Ring"):
     return (
         '<table class="mofa-dl mofa-rings">\n'
-        f"<thead><tr><th>{first_col}</th><th>Version</th><th>Updated</th><th>Download</th></tr></thead>\n"
+        f"<thead><tr><th>{first_col}</th><th>Version</th><th>Released</th><th>Download</th></tr></thead>\n"
         f"<tbody>\n{''.join(rows)}</tbody>\n</table>\n"
     )
 
@@ -181,6 +206,7 @@ def generate(last_updated, rings_by_name):
 {head}
 {legend([('Upcoming', 'the build staged to roll into that ring next'),
          ('% rollout', 'Microsoft is still throttling that build to a share of devices'),
+         ('<span class="built">grey date</span>', 'Microsoft lists no release date, so this is the build date from the version number'),
          ('Intel', 'an Intel-only package exists alongside the universal one')])}
 """
     body += section("Release rings", "release", release, rel_versions)
