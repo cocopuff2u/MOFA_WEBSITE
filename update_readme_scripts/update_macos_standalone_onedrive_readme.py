@@ -27,6 +27,7 @@ RELEASE = [
     ("Production Ring",                          "Production",            "The default ring. New builds every 1 to 2 weeks."),
     ("Upcoming Production Ring",                 "Upcoming Production",   "Staged to become the next Production build."),
     ("Production Ring (Official Download Link)", "Official download",     "What Microsoft's public <em>Download OneDrive for Mac</em> link serves."),
+    ("Production Ring (Legacy Manifest)",        "Legacy manifest",       "The old generic Production manifest. Current clients no longer read it."),
     ("Deferred Ring",                            "Deferred",              "Enterprise ring. Gets a build after 60 days in Production, every 2 to 3 months."),
     ("Upcoming Deferred Ring",                   "Upcoming Deferred",     "Staged to become the next Deferred build."),
     ("Insider Ring",                             "Insider",               "First public ring. New builds 1 to 2 times a week."),
@@ -48,7 +49,7 @@ STANDALONE = [
 OTHER_KNOWN = {
     "Rolling Out (Unknown Use)": ("Rolling Out", "Purpose not documented by Microsoft. Historically trails Production by about a week."),
 }
-LEGACY_OS_RE = re.compile(r"^Last Build for (macOS below [\d.]+)$", re.I)
+LEGACY_OS_RE = re.compile(r"^Last Build for (macOS .+)$", re.I)
 
 
 def norm(name):
@@ -191,7 +192,8 @@ def generate(last_updated, rings_by_name):
                          "installs still use. Current installs update from inside OneDrive.app and follow the release rings above.")
     body += section("Last builds for older macOS", "legacy", legacy, {},
                     note="The final build Microsoft offers to Macs that cannot run the current release. "
-                         "Each row is the newest OneDrive that still installs on that macOS range.",
+                         "A Mac reads the manifest for the highest range it falls in, so each row is the newest "
+                         "OneDrive that still installs on that macOS range.",
                     first_col="macOS")
     body += section("Other update feeds", "other", other, {},
                     note="Endpoints the OneDrive installer checks that Microsoft does not document. "
