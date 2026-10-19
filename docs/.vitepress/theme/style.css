@@ -740,6 +740,13 @@ html.dark .mofa-light { display: none; }
 .vp-doc table.mofa-hashes td .sub { display: block; font-size: 11.5px; font-weight: 400; color: var(--vp-c-text-2); }
 .vp-doc table.mofa-rings td:nth-child(3) { white-space: nowrap; }
 .vp-doc table.mofa-rings td .built, .mofa-legend .built { color: var(--vp-c-text-3); font-style: italic; }
+/* an Upcoming row sits under its ring: indented, no divider above, slightly muted name */
+.vp-doc table.mofa-rings tr.upcoming td { border-top-color: transparent; }
+.vp-doc table.mofa-rings tr.upcoming td:first-child { padding-left: 2.6rem; }
+.vp-doc table.mofa-rings tr.upcoming td:first-child img { display: none; }
+.vp-doc table.mofa-rings tr.upcoming td:first-child b { font-weight: 500; color: var(--vp-c-text-2); }
+.vp-doc table.mofa-rings tr.upcoming td .sub { margin-left: 0; }
+@media (max-width: 720px) { .vp-doc table.mofa-rings tr.upcoming td:first-child { padding-left: 1.4rem; } }
 /* checksum table: long hashes wrap inside the column instead of pushing the table wide */
 .vp-doc table.mofa-hashes { table-layout: fixed; }
 .vp-doc table.mofa-hashes th:first-child, .vp-doc table.mofa-hashes td:first-child { width: 150px; white-space: normal; }

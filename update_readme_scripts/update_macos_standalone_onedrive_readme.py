@@ -24,14 +24,16 @@ HANS_BRENDER = "https://hansbrender.com/all-onedrive-versions-mac/"
 
 # (feed name, label on the page, one-line meaning). Order is display order.
 RELEASE = [
-    ("Production Ring",                          "Production",            "The default ring. New builds every 1 to 2 weeks."),
-    ("Upcoming Production Ring",                 "Upcoming Production",   "Staged to become the next Production build."),
-    ("Production Ring (Official Download Link)", "Official download",     "What Microsoft's public <em>Download OneDrive for Mac</em> link serves."),
-    ("Production Ring (Legacy Manifest)",        "Legacy manifest",       "The old generic Production manifest. Current clients no longer read it."),
-    ("Deferred Ring",                            "Deferred",              "Enterprise ring. Gets a build after 60 days in Production, every 2 to 3 months."),
-    ("Upcoming Deferred Ring",                   "Upcoming Deferred",     "Staged to become the next Deferred build."),
-    ("Insider Ring",                             "Insider",               "First public ring. New builds 1 to 2 times a week."),
-    ("Upcoming Insider Ring",                    "Upcoming Insider",      "Staged to become the next Insider build."),
+    ("Production Ring",          "Production",          "The default ring. New builds every 1 to 2 weeks."),
+    ("Upcoming Production Ring", "Upcoming Production", "Staged to become the next Production build."),
+    ("Deferred Ring",            "Deferred",            "Enterprise ring. Gets a build after 60 days in Production, every 2 to 3 months."),
+    ("Upcoming Deferred Ring",   "Upcoming Deferred",   "Staged to become the next Deferred build."),
+    ("Insider Ring",             "Insider",             "First public ring. New builds 1 to 2 times a week."),
+    ("Upcoming Insider Ring",    "Upcoming Insider",    "Staged to become the next Insider build."),
+]
+LINKS = [
+    ("Production Ring (Official Download Link)", "Official download", "What Microsoft's public <em>Download OneDrive for Mac</em> link serves. Normally matches Production."),
+    ("Production Ring (Legacy Manifest)",        "Legacy manifest",   "The old generic Production manifest. Current clients no longer read it."),
 ]
 INTERNAL = [
     ("MSIT Slow Ring (Preview)",          "MSIT Slow",          "Microsoft's own IT ring, ahead of Insider."),
@@ -76,6 +78,15 @@ def build_date(version):
     return f"{MONTHS[mm - 1]} {dd}, 20{yy:02d}"
 
 
+def long_date(text):
+    """'Nov 12, 2026' -> 'November 12, 2026'; anything else is returned as is."""
+    m = re.match(r"^([A-Za-z]{3})[a-z]*\.? (\d{1,2}), (\d{4})$", text.strip())
+    if not m:
+        return text
+    full = next((n for n in MONTHS if n.lower().startswith(m.group(1).lower())), None)
+    return f"{full} {int(m.group(2))}, {m.group(3)}" if full else text
+
+
 def date_cell(ring):
     """Microsoft's date for the build: the release-notes date when they list one,
     otherwise the build date from the version number, shown muted."""
@@ -83,7 +94,7 @@ def date_cell(ring):
     if rd:
         m = re.match(r"(?i)target date:\s*(.+)", rd)
         if m:
-            return f'<td title="Microsoft\'s target date for this ring">Target {html.escape(m.group(1))}</td>'
+            return f'<td title="Microsoft\'s target date for this ring">Target {html.escape(long_date(m.group(1)))}</td>'
         return f"<td>{html.escape(rd)}</td>"
     bd = build_date(val(ring, "short_version"))
     if bd:
@@ -116,8 +127,9 @@ def download_cell(ring):
 
 def ring_row(section, label, meaning, ring, versions):
     sub = f'<span class="sub">{meaning}</span>' if meaning else ""
+    cls = ' class="upcoming"' if label.startswith("Upcoming ") else ""
     return (
-        "<tr>"
+        f"<tr{cls}>"
         f"<td>{pkg_anchor(label, pkg_slug(section + '-' + label))}<img src=\"{ICON}\" alt=\"\" loading=\"lazy\" /><b>{html.escape(label)}</b>{sub}</td>"
         f"<td>{version_cell(ring, label, versions)}</td>"
         f"{date_cell(ring)}"
@@ -174,6 +186,7 @@ def generate(last_updated, rings_by_name):
     used = set()
 
     release = pick(rings, RELEASE, used)
+    links = pick(rings, LINKS, used)
     internal = pick(rings, INTERNAL, used)
     standalone = pick(rings, STANDALONE, used)
 
@@ -210,6 +223,9 @@ def generate(last_updated, rings_by_name):
          ('Intel', 'an Intel-only package exists alongside the universal one')])}
 """
     body += section("Release rings", "release", release, rel_versions)
+    body += section("Download link and legacy manifest", "links", links, {},
+                    note="Not rings. The public download link is what a fresh install gets, and the legacy "
+                         "manifest is what Production used to be read from.")
     body += section("Microsoft internal rings", "internal", internal, int_versions,
                     note="Rings Microsoft's own IT department runs before a build reaches Insiders. "
                          "Not selectable in the app. Useful as an early look at what's coming.")
@@ -226,6 +242,7 @@ def generate(last_updated, rings_by_name):
                          "MOFA tracks them so a new build shows up here first.")
 
     hashes = ([("", l, r) for l, _, r in release]
+              + [("", l, r) for l, _, r in links]
               + [("Internal", l, r) for l, _, r in internal]
               + [("Standalone updater", l, r) for l, _, r in standalone]
               + [("Older macOS", l, r) for l, _, r in legacy]
