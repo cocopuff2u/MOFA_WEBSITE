@@ -33,6 +33,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    # When the README workflow finishes without pushing anything (MOFA had no
+    # new data), main hasn't moved, so skip the rebuild.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.head_sha != github.sha
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

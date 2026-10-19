@@ -1,13 +1,11 @@
 name: Update Readmes and Pull Repo Updates
 
 on:
-  # Primary trigger: MOFA's update workflow sends this event when it finishes,
-  # so the site refreshes a minute or two after MOFA instead of waiting on cron.
-  repository_dispatch:
-    types: [mofa-updated]
-  # Fallback only. GitHub delays cron heavily at :00, so run at an odd minute.
   schedule:
-    - cron: '23 */1 * * *'
+    # Poll MOFA four times an hour. GitHub delays cron heavily on the hour, so
+    # these sit on odd minutes. Runs where MOFA hasn't changed exit early
+    # without committing anything.
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
 concurrency:
@@ -36,7 +34,23 @@ jobs:
     - name: Run pull_raw_files script
       run: python repo_raw_data/pull_raw_files.py
 
+    - name: Check whether MOFA published anything new
+      id: mofa
+      run: |
+        # pull_info.txt is rewritten on every run, so ignore it when deciding.
+        changed="$(git status --porcelain | grep -v 'repo_raw_data/pull_info.txt' || true)"
+        if [ -n "$changed" ]; then
+          echo "MOFA has new data:"
+          echo "$changed"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "MOFA unchanged since last pull. Nothing to do."
+          git checkout -- repo_raw_data/pull_info.txt
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        fi
+
     - name: Commit and push changes
+      if: steps.mofa.outputs.changed == 'true'
       env:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
@@ -47,6 +61,7 @@ jobs:
         git push https://cocopuff2u:$TOKEN@github.com/cocopuff2u/MOFA_WEBSITE.git main
 
     - name: Run update scripts
+      if: steps.mofa.outputs.changed == 'true'
       run: |
         python update_readme_scripts/update_standalone_update_history_readme.py
         python update_readme_scripts/update_teams_update_history_readme.py
@@ -63,16 +78,15 @@ jobs:
         python update_readme_scripts/update_macos_appstore_version_minimal.py
 
     - name: Copy macOS standalone RSS feeds
+      if: steps.mofa.outputs.changed == 'true'
       run: |
         cp -a repo_raw_data/macos_standalone_rss/. docs/public/rss_feeds/
 
-    - name: Set Git config
+    - name: Commit README changes
+      if: steps.mofa.outputs.changed == 'true'
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
-
-    - name: Check for changes
-      run: |
         git status --short
         if [ -n "$(git status --porcelain)" ]; then
           git add docs/*.md docs/standalone_apps/*.md docs/macos_appstore/*.md docs/ios_appstore/*.md docs/public/rss_feeds/*.xml docs/about_support/*.md
@@ -82,6 +96,7 @@ jobs:
         fi
 
     - name: Push changes
+      if: steps.mofa.outputs.changed == 'true'
       env:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
