@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 19, 2026 06:47 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 19, 2026 09:31 PM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" target="_blank" rel="noopener">Release notes</a><a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/sharepoint/sync-client-update-process" target="_blank" rel="noopener">How rings work</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.json" target="_blank" rel="noopener">JSON</a>
@@ -71,7 +71,7 @@ packageOutline: true
 <tr><td><a id="pkg-standalone-deferred" class="pkg-anchor" data-label="Deferred"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Deferred</b></td><td><code>26.123.0628.0001</code></td><td>October 6, 2026</td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.123.0628.0001/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.123.0628.0001/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 <tr><td><a id="pkg-standalone-insider" class="pkg-anchor" data-label="Insider"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Insider</b></td><td><code>26.189.0928.0007</code></td><td><span class="built" title="Microsoft lists no release date for this build. This is the build date encoded in the version number.">September 28, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.189.0928.0007/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.189.0928.0007/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 <tr><td><a id="pkg-standalone-msit-slow" class="pkg-anchor" data-label="MSIT Slow"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Slow</b></td><td><code>26.195.1006.0005</code></td><td><span class="built" title="Microsoft lists no release date for this build. This is the build date encoded in the version number.">October 6, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.195.1006.0005/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.195.1006.0005/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
-<tr><td><a id="pkg-standalone-msit-fast" class="pkg-anchor" data-label="MSIT Fast"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Fast</b></td><td><code>26.198.1011.0004</code></td><td><span class="built" title="Microsoft lists no release date for this build. This is the build date encoded in the version number.">October 11, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0004/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0004/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
+<tr><td><a id="pkg-standalone-msit-fast" class="pkg-anchor" data-label="MSIT Fast"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Fast</b></td><td><code>26.199.1012.0001</code></td><td><span class="built" title="Microsoft lists no release date for this build. This is the build date encoded in the version number.">October 12, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.199.1012.0001/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.199.1012.0001/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 </tbody>
 </table>
 
@@ -97,7 +97,7 @@ packageOutline: true
 <table class="mofa-dl mofa-rings">
 <thead><tr><th>Ring</th><th>Version</th><th>Released</th><th>Download</th></tr></thead>
 <tbody>
-<tr><td><a id="pkg-other-rolling-out" class="pkg-anchor" data-label="Rolling Out"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Rolling Out</b><span class="sub">Purpose not documented by Microsoft. Historically trails Production by about a week.</span></td><td><code>26.158.0816.0002</code></td><td>September 4, 2026</td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.158.0816.0002/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><a id="pkg-other-rolling-out" class="pkg-anchor" data-label="Rolling Out"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Rolling Out</b><span class="sub">Purpose not documented by Microsoft. Historically trails Production by about a week.</span></td><td><code>26.189.0928.0007</code></td><td><span class="built" title="Microsoft lists no release date for this build. This is the build date encoded in the version number.">September 28, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.189.0928.0007/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.189.0928.0007/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 </tbody>
 </table>
 
@@ -122,13 +122,13 @@ packageOutline: true
 <tr><td><b>Deferred</b><span class="sub">Standalone updater</span></td><td><code>cf927ceac76bddb80cf583b60a705b1f9837283adf910a232b4e72d22ba22998</code></td><td><code>—</code></td></tr>
 <tr><td><b>Insider</b><span class="sub">Standalone updater</span></td><td><code>5179f0925a80988986fc3356a01f4f8d53221f5afd80d25d0b291d4b6cc1da79</code></td><td><code>—</code></td></tr>
 <tr><td><b>MSIT Slow</b><span class="sub">Standalone updater</span></td><td><code>231a42c216bc442382222165ea2a49feb3b8c4a2ff5c64787536753b91fbff52</code></td><td><code>—</code></td></tr>
-<tr><td><b>MSIT Fast</b><span class="sub">Standalone updater</span></td><td><code>02d34ee8335e0cb4b8c0d554ec419eb0d01ed659157b3bab66727533aa5a0148</code></td><td><code>—</code></td></tr>
+<tr><td><b>MSIT Fast</b><span class="sub">Standalone updater</span></td><td><code>549531eb59d6121f713bf7c7dfc328794c870144bba59ff6e5b5614546e4d80f</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 10.13 to 10.14</b><span class="sub">Older macOS</span></td><td><code>ec17252f4e264b8d69cc91425f761e587a8d92159840d72f876a3b0a55fa78a3</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 10.15 to 12.2</b><span class="sub">Older macOS</span></td><td><code>81e06c6ea0da5bf83bec818068db3c1c972d47ae56bdb35cabf7fe2f148f4058</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 12.3 to 12.x</b><span class="sub">Older macOS</span></td><td><code>8f0f5a849dc6d0a65cea4bdd5d122ad49b47f5d696a7c0a407fc30a6e227f536</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 13.0 to 14.3</b><span class="sub">Older macOS</span></td><td><code>5588e51b86cf509d060a4412b299060e3aca10a2ab151e9b41685e92144a97b0</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 14.4 to 14.x</b><span class="sub">Older macOS</span></td><td><code>c6ab02811eec5c678fdfc3ea8c65293c7a8d10f092896984696f67c40357f638</code></td><td><code>—</code></td></tr>
-<tr><td><b>Rolling Out</b></td><td><code>ffeaf23f94eb0671d683d9186ba1b1052e149e047c7c6035734977d4e498a13c</code></td><td><code>d2204d9f0c89acc502314ad06698d615fff992f4</code></td></tr>
+<tr><td><b>Rolling Out</b></td><td><code>5179f0925a80988986fc3356a01f4f8d53221f5afd80d25d0b291d4b6cc1da79</code></td><td><code>—</code></td></tr>
 </tbody>
 </table>
 
