@@ -477,7 +477,7 @@ next: false
         </div>
         <div class="tile-title"><b>OneDrive</b></div>
         <div class="tile-version"><em><code>26.173.0906</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>October 19, 2026 01:05 PM EDT</code></em></small></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>September 25, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.173.0906.0008/universal/OneDrive.pkg">Installer</a></div>

@@ -33,7 +33,15 @@ def parse_onedrive_xml(file_path):
             "full_update_sha1": package.find("full_update_sha1").text.strip(),
             "full_update_sha256": package.find("full_update_sha256").text.strip(),
             "last_updated": package.find("last_updated").text.strip(),
+            "min_os": (package.findtext("min_macos") or "N/A").strip(),
         }
+        # "Last Update" is a plain date everywhere else. Prefer Microsoft's date for the build
+        # (release notes, else the CDN upload) over the timestamp at which MOFA noticed it.
+        for tag in ("release_date", "cdn_published"):
+            v = (package.findtext(tag) or "").strip()
+            if v and v != "N/A" and not v.lower().startswith("target"):
+                onedrive_packages[name]["last_updated"] = v
+                break
         # logging.debug(f"Extracted OneDrive package: {onedrive_packages[name]}") # Uncomment for debugging
 
     return global_last_updated, onedrive_packages

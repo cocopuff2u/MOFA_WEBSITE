@@ -49,7 +49,7 @@ APPS = {a["key"]: a for a in [
     app("onenote", "OneNote", f"**OneNote** {Y} **Standalone Installer**", "OneNote", "/images/2025/OneNote.webp", "com.microsoft.onenote.mac",
         "https://go.microsoft.com/fwlink/?linkid=820886", app_only=f"**OneNote** {Y} **App Only Installer**"),
     app("onedrive", "OneDrive", "**OneDrive Standalone Installer** <sup>(Production Ring)</sup>", "Production Ring",
-        "/images/2025/OneDrive.webp", "com.microsoft.OneDrive", "https://go.microsoft.com/fwlink/?linkid=823060", min_os="13.0", source="onedrive",
+        "/images/2025/OneDrive.webp", "com.microsoft.OneDrive", "https://go.microsoft.com/fwlink/?linkid=823060", min_os=None, source="onedrive",
         notes=[("Release Notes", "https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac")]),
     app("skype", "Skype for Business", "**Skype for Business Standalone Installer**", "Skype", "/images/Skype_For_Business.webp",
         "com.microsoft.SkypeForBusiness", link_field="app_only_update_download",
@@ -144,7 +144,17 @@ def record(a, channel, data):
     if a["source"] == "edge":
         return data["edge"].get(a["data"], {})
     if a["source"] == "onedrive":
-        return data["onedrive"].get(a["data"], {})
+        rec = dict(data["onedrive"].get(a["data"], {}))
+        # The feed says which macOS the Production build is offered to (min_macos).
+        if rec.get("min_macos") not in (None, "", "N/A"):
+            rec["min_os"] = rec["min_macos"]
+        # "Last Update" is a plain date on every other row. Use Microsoft's own date for the
+        # build (release notes, else the CDN upload) rather than the timestamp MOFA noticed it.
+        for key in ("release_date", "cdn_published"):
+            if rec.get(key) not in (None, "", "N/A") and not rec[key].lower().startswith("target"):
+                rec["last_updated"] = rec[key]
+                break
+        return rec
     return data[channel].get(a["data"].lower(), {})
 
 

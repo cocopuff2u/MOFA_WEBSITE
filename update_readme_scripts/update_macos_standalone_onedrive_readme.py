@@ -49,7 +49,7 @@ STANDALONE = [
     ("MSIT Fast Ring (Standalone Updater)",  "MSIT Fast",  ""),
 ]
 OTHER_KNOWN = {
-    "Rolling Out (Unknown Use)": ("Rolling Out", "Purpose not documented by Microsoft. Historically trails Production by about a week."),
+    "Rolling Out (Unknown Use)": ("Rolling Out", "Purpose not documented by Microsoft. Has carried the next Production build before Production itself moved to it."),
 }
 LEGACY_OS_RE = re.compile(r"^Last Build for (macOS .+)$", re.I)
 
@@ -87,19 +87,40 @@ def long_date(text):
     return f"{full} {int(m.group(2))}, {m.group(3)}" if full else text
 
 
+DATE_KINDS_USED = set()  # which fallback labels the page actually shows, for the legend
+
+
 def date_cell(ring):
-    """Microsoft's date for the build: the release-notes date when they list one,
-    otherwise the build date from the version number, shown muted."""
+    """Microsoft's release date for this ring when they list one. Otherwise, muted and
+    labelled so nothing reads as a release date: "Published" is when Microsoft uploaded
+    the package to its CDN, "Seen" is the day MOFA first recorded the build, and "Built"
+    is the date in the version number. The version date can be months before the file
+    shipped (revised builds keep the base version), so it is only the last resort."""
     rd = val(ring, "release_date")
     if rd:
         m = re.match(r"(?i)target date:\s*(.+)", rd)
         if m:
             return f'<td title="Microsoft\'s target date for this ring">Target {html.escape(long_date(m.group(1)))}</td>'
-        return f"<td>{html.escape(rd)}</td>"
+        which = val(ring, "release_ring")
+        title = f"Released to the {which} ring on this date, per Microsoft's release notes" if which else "Per Microsoft's release notes"
+        return f'<td title="{html.escape(title)}">{html.escape(rd)}</td>'
     bd = build_date(val(ring, "short_version"))
+    seen = val(ring, "first_seen")
+    published = val(ring, "cdn_published")
+    if published:
+        built = f" Built {bd} per the version number." if bd else ""
+        DATE_KINDS_USED.add("Published")
+        return (f'<td><span class="built" title="Microsoft lists no release date for this ring. '
+                f'This is when Microsoft uploaded this package to its CDN.{built}">Published {html.escape(published)}</span></td>')
+    if seen:
+        DATE_KINDS_USED.add("Seen")
+        built = f" Built {bd} per the version number." if bd else ""
+        return (f'<td><span class="built" title="Microsoft lists no release date for this ring. '
+                f'MOFA first saw this build on this date.{built}">Seen {html.escape(seen)}</span></td>')
     if bd:
+        DATE_KINDS_USED.add("Built")
         return (f'<td><span class="built" title="Microsoft lists no release date for this build. '
-                f'This is the build date encoded in the version number.">{bd}</span></td>')
+                f'This is the build date encoded in the version number.">Built {bd}</span></td>')
     return "<td>—</td>"
 
 
@@ -141,7 +162,7 @@ def ring_row(section, label, meaning, ring, versions):
 def ring_table(rows, first_col="Ring"):
     return (
         '<table class="mofa-dl mofa-rings">\n'
-        f"<thead><tr><th>{first_col}</th><th>Version</th><th>Released</th><th>Download</th></tr></thead>\n"
+        f"<thead><tr><th>{first_col}</th><th>Version</th><th>Date</th><th>Download</th></tr></thead>\n"
         f"<tbody>\n{''.join(rows)}</tbody>\n</table>\n"
     )
 
@@ -215,14 +236,8 @@ def generate(last_updated, rings_by_name):
                        icon=ICON, tile=True,
                        source=[("Release notes", RELEASE_NOTES), ("How rings work", RING_DOCS)])
 
-    body = f"""{frontmatter('OneDrive versions', editLink=False, lastUpdated=False, outline=False, packageOutline=True)}
-{head}
-{legend([('Upcoming', 'the build staged to roll into that ring next'),
-         ('% rollout', 'Microsoft is still throttling that build to a share of devices'),
-         ('<span class="built">grey date</span>', 'Microsoft lists no release date, so this is the build date from the version number'),
-         ('Intel', 'an Intel-only package exists alongside the universal one')])}
-"""
-    body += section("Release rings", "release", release, rel_versions)
+    DATE_KINDS_USED.clear()
+    body = section("Release rings", "release", release, rel_versions)
     body += section("Download link and legacy manifest", "links", links, {},
                     note="Not rings. The public download link is what a fresh install gets, and the legacy "
                          "manifest is what Production used to be read from.")
@@ -240,6 +255,20 @@ def generate(last_updated, rings_by_name):
     body += section("Other update feeds", "other", other, {},
                     note="Endpoints the OneDrive installer checks that Microsoft does not document. "
                          "MOFA tracks them so a new build shows up here first.")
+
+    date_legend = {
+        "Published": ('<span class="built">Published</span>', "Microsoft lists no date for that ring, so this is when they uploaded the package to their CDN"),
+        "Seen": ('<span class="built">Seen</span>', "no Microsoft date at all, so this is the day MOFA first saw the build"),
+        "Built": ('<span class="built">Built</span>', "no Microsoft date at all, so this is the build date from the version number"),
+    }
+    body = f"""{frontmatter('OneDrive versions', editLink=False, lastUpdated=False, outline=False, packageOutline=True)}
+{head}
+{legend([('Upcoming', 'the build staged to roll into that ring next'),
+         ('% rollout', 'Microsoft is still throttling that build to a share of devices'),
+         ('Date', "Microsoft's release date for that ring, from the release notes")]
+        + [date_legend[k] for k in ("Published", "Seen", "Built") if k in DATE_KINDS_USED]
+        + [('Intel', 'an Intel-only package exists alongside the universal one')])}
+""" + body
 
     hashes = ([("", l, r) for l, _, r in release]
               + [("", l, r) for l, _, r in links]
