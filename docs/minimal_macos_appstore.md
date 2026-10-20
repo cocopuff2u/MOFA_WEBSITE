@@ -205,7 +205,7 @@ next: false
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 19, 2026 09:31 PM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 20, 2026 03:05 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -289,13 +289,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/28/51/1828517f-71f8-ebca-9374-78ce2cb7774a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="MeDrop: File Sharing"></div>
-        <div class="tile-title"><b>MeDrop: File Sharing</b></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/28/51/1828517f-71f8-ebca-9374-78ce2cb7774a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="ShareMe: File Sharing &amp; MeDrop"></div>
+        <div class="tile-title"><b>ShareMe: File Sharing &amp; MeDrop</b></div>
         <div class="tile-version"><em><code>1.0.8</code></em></div>
         <div class="tile-updated"><small>Last Updated:<br><em><code>September 22, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/medrop-file-sharing/id6783182140?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/shareme-file-sharing-medrop/id6783182140?uo=4">App Store</a>
         </div>
       </div>
     </div>
