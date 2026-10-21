@@ -6,9 +6,9 @@ lastUpdated: true
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
-const members = [{"avatar": "https://avatars.githubusercontent.com/u/95243190?s=96&v=4", "name": "Cody Keats", "title": "Lead Developer · 35,985 commits", "desc": "Started MOFA and keeps the feeds, site and tooling running.", "links": [{"icon": "github", "link": "https://github.com/cocopuff2u"}, {"icon": "linkedin", "link": "https://linkedin.com/in/cody-keats"}, {"icon": "slack", "link": "https://macadmins.org/slack"}]}]
+const members = [{"avatar": "https://avatars.githubusercontent.com/u/95243190?s=96&v=4", "name": "Cody Keats", "title": "Lead Developer · 36,017 commits", "desc": "Started MOFA and keeps the feeds, site and tooling running.", "links": [{"icon": "github", "link": "https://github.com/cocopuff2u"}, {"icon": "linkedin", "link": "https://linkedin.com/in/cody-keats"}, {"icon": "slack", "link": "https://macadmins.org/slack"}]}]
 
-const members2 = [{"avatar": "https://avatars.githubusercontent.com/u/128184015?v=4", "name": "npc137", "title": "6 commits", "links": [{"icon": "github", "link": "https://github.com/npc137"}]}, {"avatar": "https://avatars.githubusercontent.com/u/3985769?v=4", "name": "Theile", "title": "5 commits", "links": [{"icon": "github", "link": "https://github.com/Theile"}]}, {"avatar": "https://avatars.githubusercontent.com/u/122827777?v=4", "name": "OasisMcFly", "title": "2 commits", "links": [{"icon": "github", "link": "https://github.com/OasisMcFly"}]}, {"avatar": "https://avatars.githubusercontent.com/u/91097104?v=4", "name": "darixn", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/darixn"}]}, {"avatar": "https://avatars.githubusercontent.com/u/2012985?v=4", "name": "gilburns", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/gilburns"}]}, {"avatar": "https://avatars.githubusercontent.com/u/618055?v=4", "name": "rtrouton", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/rtrouton"}]}]
+const members2 = [{"avatar": "https://avatars.githubusercontent.com/u/11037204?v=4", "name": "RobertHammen", "title": "15 commits", "links": [{"icon": "github", "link": "https://github.com/RobertHammen"}]}, {"avatar": "https://avatars.githubusercontent.com/u/128184015?v=4", "name": "npc137", "title": "6 commits", "links": [{"icon": "github", "link": "https://github.com/npc137"}]}, {"avatar": "https://avatars.githubusercontent.com/u/3985769?v=4", "name": "Theile", "title": "5 commits", "links": [{"icon": "github", "link": "https://github.com/Theile"}]}, {"avatar": "https://avatars.githubusercontent.com/u/122827777?v=4", "name": "OasisMcFly", "title": "2 commits", "links": [{"icon": "github", "link": "https://github.com/OasisMcFly"}]}, {"avatar": "https://avatars.githubusercontent.com/u/91097104?v=4", "name": "darixn", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/darixn"}]}, {"avatar": "https://avatars.githubusercontent.com/u/2012985?v=4", "name": "gilburns", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/gilburns"}]}, {"avatar": "https://avatars.githubusercontent.com/u/618055?v=4", "name": "rtrouton", "title": "1 commit", "links": [{"icon": "github", "link": "https://github.com/rtrouton"}]}]
 </script>
 
 <div class="team-page">
@@ -23,7 +23,7 @@ const members2 = [{"avatar": "https://avatars.githubusercontent.com/u/128184015?
 
 <VPTeamMembers size="medium" :members="members" />
 
-## Contributors <Badge type="tip" text="6" /> {.team-h2}
+## Contributors <Badge type="tip" text="7" /> {.team-h2}
 <p class="team-sub">Pulled automatically from the <a href="https://github.com/cocopuff2u/MOFA/graphs/contributors" target="_blank" rel="noopener">MOFA repository</a>, newest commits first.</p>
 
 <VPTeamMembers size="small" :members="members2" />
