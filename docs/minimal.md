@@ -371,7 +371,7 @@ next: false
 </div>
 
 <div class="status-bar">
-      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 21, 2026 01:40 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 21, 2026 07:04 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
       <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -580,8 +580,8 @@ next: false
           <a href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg"><img src="/images/2021/Code.webp" alt="Visual Studio Code"></a>
         </div>
         <div class="tile-title"><b>Visual Studio Code</b></div>
-        <div class="tile-version"><em><code>1.142.0</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>October 15, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>1.143.0</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>October 20, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://code.visualstudio.com/updates/"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
         <div class="tile-links"><a class="btn" href="https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal-dmg">Installer</a></div>
