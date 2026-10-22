@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 21, 2026 11:07 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 22, 2026 05:08 AM EDT</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -29,7 +29,7 @@ packageOutline: true
 | <a id="pkg-net-sdk-8-lts" class="pkg-anchor" data-label=".NET SDK 8 (LTS)"></a>**.NET SDK 8 (LTS)**<br><br>_**Last Update:** `October 13, 2026`_<br> | **Version:**<br>`8.0.426` | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.426/dotnet-sdk-8.0.426-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-azure-functions-core-tools" class="pkg-anchor" data-label="Azure Functions Core Tools"></a>**Azure Functions Core Tools**<br><br>_**Last Update:** `October 12, 2026`_<br> | **Version:**<br>`4.16.0` | <a href="https://github.com/Azure/azure-functions-core-tools/releases/download/4.16.0/Azure.Functions.Cli.osx-arm64.4.16.0.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-azure-developer-cli-azd" class="pkg-anchor" data-label="Azure Developer CLI (azd)"></a>**Azure Developer CLI (azd)**<br><br>_**Last Update:** `October 21, 2026`_<br> | **Version:**<br>`1.37.1` | <a href="https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.37.1/azd-darwin-arm64.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
-| <a id="pkg-azcopy" class="pkg-anchor" data-label="AzCopy"></a>**AzCopy**<br><br>_**Last Update:** `October 21, 2026`_<br> | **Version:**<br>`10.34.0` | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.0/azcopy_darwin_arm64_10.34.0.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
+| <a id="pkg-azcopy" class="pkg-anchor" data-label="AzCopy"></a>**AzCopy**<br><br>_**Last Update:** `October 22, 2026`_<br> | **Version:**<br>`10.34.1` | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.1/azcopy_darwin_arm64_10.34.1.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-bicep-cli" class="pkg-anchor" data-label="Bicep CLI"></a>**Bicep CLI**<br><br>_**Last Update:** `October 05, 2026`_<br> | **Version:**<br>`0.48.1` | <a href="https://github.com/Azure/bicep/releases/download/v0.48.1/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-azure-cli" class="pkg-anchor" data-label="Azure CLI"></a>**Azure CLI**<br><br>_**Last Update:** `September 01, 2026`_<br> | **Version:**<br>`2.90.0` | <img src="/images/2025/Azure.png" alt="Azure CLI" width="80"><br>`brew install azure-cli` |
 | <a id="pkg-sqlcmd" class="pkg-anchor" data-label="sqlcmd"></a>**sqlcmd**<br><br>_**Last Update:** `March 03, 2026`_<br> | **Version:**<br>`1.10.0` | <img src="/images/2025/Sqlcmd.png" alt="sqlcmd" width="80"><br>`brew install sqlcmd` |
