@@ -371,7 +371,7 @@ next: false
 </div>
 
 <div class="status-bar">
-      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 22, 2026 03:01 PM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 22, 2026 06:12 PM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
       <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -512,14 +512,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f1341568-6824-43de-b936-7c2bc3699fb3/MicrosoftEdge-155.0.4283.62.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
+          <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ba907672-5d36-42cb-bd05-d1ff3a6fdb39/MicrosoftEdge-156.0.4314.42.pkg"><img src="/images/edge/edge.webp" alt="Edge"></a>
         </div>
         <div class="tile-title"><b>Edge</b></div>
-        <div class="tile-version"><em><code>155.0.4283.62</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>October 16, 2026 02:23 PM EDT</code></em></small></div>
+        <div class="tile-version"><em><code>156.0.4314.42</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>October 22, 2026 03:19 PM EDT</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://learn.microsoft.com/en-us/deployedge/microsoft-edge-relnote-stable-channel"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f1341568-6824-43de-b936-7c2bc3699fb3/MicrosoftEdge-155.0.4283.62.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ba907672-5d36-42cb-bd05-d1ff3a6fdb39/MicrosoftEdge-156.0.4314.42.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
