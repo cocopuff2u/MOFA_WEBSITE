@@ -12,7 +12,7 @@ outline: [2, 2]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 22, 2026 06:12 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 22, 2026 09:10 PM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac" target="_blank" rel="noopener">Update history for Office for Mac</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_update_history.json" target="_blank" rel="noopener">JSON</a>
@@ -23,7 +23,7 @@ outline: [2, 2]
 
 <div class="mofa-legend"><span class="mofa-legend-item"><b>archived</b>Microsoft no longer hosts the packages for that release</span><span class="mofa-legend-item"><b>N/A</b>no package of that type was published</span></div>
 
-## <span class="year-title">2026</span> <span class="year-meta ignore-header">42 releases · 16.104.1 → 16.114</span> {#year-2026}
+## <span class="year-title">2026</span> <span class="year-meta ignore-header">43 releases · 16.104.1 → 16.114.1</span> {#year-2026}
 
 <table class="shrink-table">
   <thead>
@@ -39,6 +39,16 @@ outline: [2, 2]
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>16.114.1 (26102031)<br><span class='extra-small'>October 22, 2026</span></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26102031_BusinessPro_Installer.pkg">Business</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26102031_Installer.pkg">Suite</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.114.26102031_Updater.pkg">Word</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.114.26102031_Updater.pkg">Excel</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.114.26102031_Updater.pkg">PowerPoint</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.114.26102031_Updater.pkg">Outlook</a></td>
+      <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.114.26102031_Updater.pkg">OneNote</a></td>
+    </tr>
     <tr>
       <td>16.114 (26101123)<br><span class='extra-small'>October 14, 2026</span></td>
       <td><a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26101123_BusinessPro_Installer.pkg">Business</a></td>

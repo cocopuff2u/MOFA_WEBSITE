@@ -12,7 +12,7 @@ outline: [2, 3]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 22, 2026 06:12 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 22, 2026 09:10 PM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/release-notes-office-for-mac" target="_blank" rel="noopener">Office release notes</a><a class="mofa-chip outline" href="https://msrc.microsoft.com/update-guide" target="_blank" rel="noopener">MSRC</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/mac_standalone_cve_history.json" target="_blank" rel="noopener">JSON</a>
@@ -38,7 +38,7 @@ outline: [2, 3]
 
 ## <span class="year-title">2026</span> <span class="year-meta ignore-header">10 security releases · 399 CVEs</span> {#year-2026}
 
-<span class="extra-small">31 other releases this year had no security fixes.</span>
+<span class="extra-small">32 other releases this year had no security fixes.</span>
 
 ### 16.114 (Build 26101123)
 
