@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 26, 2026 04:33 AM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 26, 2026 11:48 AM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" target="_blank" rel="noopener">Release notes</a><a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/sharepoint/sync-client-update-process" target="_blank" rel="noopener">How rings work</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.json" target="_blank" rel="noopener">JSON</a>
@@ -95,7 +95,7 @@ packageOutline: true
 <table class="mofa-dl mofa-rings">
 <thead><tr><th>Ring</th><th>Version</th><th>Date</th><th>Download</th></tr></thead>
 <tbody>
-<tr><td><a id="pkg-other-rolling-out" class="pkg-anchor" data-label="Rolling Out"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Rolling Out</b><span class="sub">Purpose not documented by Microsoft. Has carried the next Production build before Production itself moved to it.</span></td><td><code>26.189.0928.0007</code></td><td title="Released to the Production ring on this date, per Microsoft&#x27;s release notes">October 19, 2026</td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.189.0928.0007/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><a id="pkg-other-rolling-out" class="pkg-anchor" data-label="Rolling Out"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Rolling Out</b><span class="sub">Purpose not documented by Microsoft. Has carried the next Production build before Production itself moved to it.</span></td><td><code>26.195.1006.0007</code></td><td><span class="built" title="Microsoft lists no release date for this ring. This is when Microsoft uploaded this package to its CDN. Built October 6, 2026 per the version number.">Published October 23, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.195.1006.0007/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.195.1006.0007/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 </tbody>
 </table>
 
@@ -124,7 +124,7 @@ packageOutline: true
 <tr><td><b>macOS 12.3 to 12.x</b><span class="sub">Older macOS</span></td><td><code>8f0f5a849dc6d0a65cea4bdd5d122ad49b47f5d696a7c0a407fc30a6e227f536</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 13.0 to 14.3</b><span class="sub">Older macOS</span></td><td><code>5588e51b86cf509d060a4412b299060e3aca10a2ab151e9b41685e92144a97b0</code></td><td><code>—</code></td></tr>
 <tr><td><b>macOS 14.4 to 14.x</b><span class="sub">Older macOS</span></td><td><code>c6ab02811eec5c678fdfc3ea8c65293c7a8d10f092896984696f67c40357f638</code></td><td><code>—</code></td></tr>
-<tr><td><b>Rolling Out</b></td><td><code>5179f0925a80988986fc3356a01f4f8d53221f5afd80d25d0b291d4b6cc1da79</code></td><td><code>—</code></td></tr>
+<tr><td><b>Rolling Out</b></td><td><code>f1c05059ce696330f638e0ad3a6630409230ed6a62ca21ef4b4e3fecb5943d69</code></td><td><code>—</code></td></tr>
 </tbody>
 </table>
 
