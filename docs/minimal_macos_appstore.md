@@ -205,7 +205,7 @@ next: false
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 27, 2026 01:56 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated October 27, 2026 07:32 AM EDT</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -289,13 +289,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/cb/6e/56cb6e65-10fc-aa1c-8722-51ae2d1d4aff/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg" alt="MeDrop: File Sharing"></div>
-        <div class="tile-title"><b>MeDrop: File Sharing</b></div>
-        <div class="tile-version"><em><code>1.0.9</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>October 26, 2026</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/36/20/f2362086-ea8c-5f98-8a8e-25a9a20c3d2a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg" alt="Xiaomi Interconnectivity"></div>
+        <div class="tile-title"><b>Xiaomi Interconnectivity</b></div>
+        <div class="tile-version"><em><code>3.1.0</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>October 22, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/medrop-file-sharing/id6783182140?uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/xiaomi-interconnectivity/id6673908449?uo=4">App Store</a>
         </div>
       </div>
     </div>

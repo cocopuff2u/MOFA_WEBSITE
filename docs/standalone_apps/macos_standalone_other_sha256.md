@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 27, 2026 01:57 AM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 27, 2026 07:33 AM EDT</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
