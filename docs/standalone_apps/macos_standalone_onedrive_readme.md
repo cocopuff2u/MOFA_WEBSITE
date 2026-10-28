@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 28, 2026 02:36 AM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated October 28, 2026 09:48 AM EDT</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" target="_blank" rel="noopener">Release notes</a><a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/sharepoint/sync-client-update-process" target="_blank" rel="noopener">How rings work</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.json" target="_blank" rel="noopener">JSON</a>
