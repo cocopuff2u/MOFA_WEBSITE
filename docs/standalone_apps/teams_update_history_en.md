@@ -12,7 +12,7 @@ outline: [2, 3]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated October 29, 2026 01:58 PM EDT</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 02, 2026 08:57 AM EST</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning" target="_blank" rel="noopener">Microsoft Teams app versioning</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json" target="_blank" rel="noopener">JSON</a>
@@ -29,9 +29,9 @@ Commercial and education tenants.
 
 The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each build links to its full installer package.
 
-**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 22, 2026</span>
+**Latest:** `26289.204.5281.6363` <span class='extra-small'>October 29, 2026 (rolling out)</span>
 
-::: details Version history (71 builds)
+::: details Version history (72 builds)
 <table class="shrink-table">
   <thead>
     <tr>
@@ -43,6 +43,13 @@ The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each buil
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2026</td>
+      <td>October 29 (rolling out)</td>
+      <td>26289.204.5281.6363</td>
+      <td>2026.40.0-1.8-hd607e</td>
+      <td><a href="https://statics.teams.cdn.office.net/production-osx/26289.204.5281.6363/MicrosoftTeams.pkg">Installer</a></td>
+    </tr>
     <tr>
       <td>2026</td>
       <td>October 22</td>
@@ -1681,7 +1688,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCC)
 
-**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 23, 2026 (rolling out)</span>
+**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 27, 2026</span>
 
 ::: details Version history (61 builds)
 <table class="shrink-table">
@@ -1697,7 +1704,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 23 (rolling out)</td>
+      <td>October 27</td>
       <td>26276.505.5234.9924</td>
       <td>2026.37.0-1.11-h606d2</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26276.505.5234.9924/MicrosoftTeams.pkg">Installer</a></td>
@@ -2128,7 +2135,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCCH)
 
-**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 23, 2026 (rolling out)</span>
+**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 27, 2026</span>
 
 ::: details Version history (67 builds)
 <table class="shrink-table">
@@ -2144,7 +2151,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 23 (rolling out)</td>
+      <td>October 27</td>
       <td>26276.505.5234.9924</td>
       <td>2026.37.0-1.11-h606d2</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26276.505.5234.9924/MicrosoftTeams.pkg">Installer</a></td>
@@ -2617,7 +2624,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (DoD)
 
-**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 23, 2026 (rolling out)</span>
+**Latest:** `26276.505.5234.9924` <span class='extra-small'>October 27, 2026</span>
 
 ::: details Version history (66 builds)
 <table class="shrink-table">
@@ -2633,7 +2640,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>October 23 (rolling out)</td>
+      <td>October 27</td>
       <td>26276.505.5234.9924</td>
       <td>2026.37.0-1.11-h606d2</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26276.505.5234.9924/MicrosoftTeams.pkg">Installer</a></td>
