@@ -205,7 +205,7 @@ next: false
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 02, 2026 12:45 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 02, 2026 07:26 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -277,10 +277,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/c5/8f/8dc58fe8-a436-532f-086b-355200fd1516/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/70/70/85707050-8924-cda3-2c20-84c8246d588d/OneDrive.png/512x512bb.png" alt="OneDrive"></div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.168.0830</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 28, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.189.0928</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/onedrive/id823766827?mt=12&amp;uo=4">App Store</a>
@@ -325,10 +325,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/94/04/b39404b4-3746-b6bf-0e3b-d20db7959540/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/23/a5/8423a5bb-e7fc-3db7-2319-5fe88f1ad1e6/AppIcon-0-85-220-0-6-0-0-2x-0-0.png/512x512bb.png" alt="Microsoft Copilot"></div>
         <div class="tile-title"><b>Microsoft Copilot</b></div>
-        <div class="tile-version"><em><code>25.7.440902001</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>September 03, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>25.7.441030001</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>November 02, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/microsoft-copilot/id6738511300?mt=12&amp;uo=4">App Store</a>
