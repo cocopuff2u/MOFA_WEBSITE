@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 05, 2026 06:50 AM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 05, 2026 02:26 PM EST</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" target="_blank" rel="noopener">Release notes</a><a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/sharepoint/sync-client-update-process" target="_blank" rel="noopener">How rings work</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.json" target="_blank" rel="noopener">JSON</a>
@@ -54,7 +54,7 @@ packageOutline: true
 <thead><tr><th>Ring</th><th>Version</th><th>Date</th><th>Download</th></tr></thead>
 <tbody>
 <tr><td><a id="pkg-internal-msit-slow" class="pkg-anchor" data-label="MSIT Slow"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Slow</b><span class="sub">Microsoft's own IT ring, ahead of Insider.</span></td><td><code>26.212.1029.0001</code></td><td><span class="built" title="Microsoft lists no release date for this ring. This is when Microsoft uploaded this package to its CDN. Built October 29, 2026 per the version number.">Published October 30, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.212.1029.0001/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.212.1029.0001/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
-<tr><td><a id="pkg-internal-msit-fast" class="pkg-anchor" data-label="MSIT Fast"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Fast</b><span class="sub">Microsoft's earliest ring. Builds land here first.</span></td><td><code>26.215.1103.0001</code></td><td><span class="built" title="Microsoft lists no release date for this ring. This is when Microsoft uploaded this package to its CDN. Built November 3, 2026 per the version number.">Published November 4, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.215.1103.0001/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.215.1103.0001/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
+<tr><td><a id="pkg-internal-msit-fast" class="pkg-anchor" data-label="MSIT Fast"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>MSIT Fast</b><span class="sub">Microsoft's earliest ring. Builds land here first.</span></td><td><code>26.216.1104.0001</code></td><td><span class="built" title="Microsoft lists no release date for this ring. This is when Microsoft uploaded this package to its CDN. Built November 4, 2026 per the version number.">Published November 5, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.216.1104.0001/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.216.1104.0001/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 </tbody>
 </table>
 
@@ -113,7 +113,7 @@ packageOutline: true
 <tr><td><b>Official download</b></td><td><code>6359d86e263b727c8a1eda634391d1a854bb3f875cb70160936f9d1615c6b0f3</code></td><td><code>—</code></td></tr>
 <tr><td><b>Legacy manifest</b></td><td><code>f1c05059ce696330f638e0ad3a6630409230ed6a62ca21ef4b4e3fecb5943d69</code></td><td><code>—</code></td></tr>
 <tr><td><b>MSIT Slow</b><span class="sub">Internal</span></td><td><code>01914cab12976b398ecf8fd9db4820b18df82b27dc2a39c9ac146eb09d595e4d</code></td><td><code>—</code></td></tr>
-<tr><td><b>MSIT Fast</b><span class="sub">Internal</span></td><td><code>32c768dc01d351c150d86f739f9fe24d86d2cb06bd89dda092c604d05c3f166d</code></td><td><code>—</code></td></tr>
+<tr><td><b>MSIT Fast</b><span class="sub">Internal</span></td><td><code>1269287489386989dbfb53247761c4cedc27674d3ba334bc11e0a96334b1a0f2</code></td><td><code>—</code></td></tr>
 <tr><td><b>Production</b><span class="sub">Standalone updater</span></td><td><code>f1c05059ce696330f638e0ad3a6630409230ed6a62ca21ef4b4e3fecb5943d69</code></td><td><code>—</code></td></tr>
 <tr><td><b>Deferred</b><span class="sub">Standalone updater</span></td><td><code>cf927ceac76bddb80cf583b60a705b1f9837283adf910a232b4e72d22ba22998</code></td><td><code>—</code></td></tr>
 <tr><td><b>Insider</b><span class="sub">Standalone updater</span></td><td><code>928516faca5cc0ccecdf939b9e101eddf252aea76d499d9ffe2c29b421818bf2</code></td><td><code>—</code></td></tr>
