@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 06, 2026 10:38 AM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 06, 2026 04:15 PM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -31,7 +31,7 @@ packageOutline: true
 | <a id="pkg-azure-functions-core-tools" class="pkg-anchor" data-label="Azure Functions Core Tools"></a>**Azure Functions Core Tools** | <a href="https://github.com/Azure/azure-functions-core-tools/releases/download/4.16.0/Azure.Functions.Cli.osx-arm64.4.16.0.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `5698d54038fd0507a614af53e8bd3f91c89f96e60ae081c113373b3d2af375f3` |
 | <a id="pkg-azure-developer-cli-azd" class="pkg-anchor" data-label="Azure Developer CLI (azd)"></a>**Azure Developer CLI (azd)** | <a href="https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.37.3/azd-darwin-arm64.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `2ac43e590f6238cd80cc1215a55567a8b51de921f9d17806ca3ae7ce07e26cee` |
 | <a id="pkg-azcopy" class="pkg-anchor" data-label="AzCopy"></a>**AzCopy** | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.1/azcopy_darwin_arm64_10.34.1.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `44f5e72f663215f838c6ccedf6da9f0fbc9ee7215610bf88b92b1bfa931e5524` |
-| <a id="pkg-bicep-cli" class="pkg-anchor" data-label="Bicep CLI"></a>**Bicep CLI** | <a href="https://github.com/Azure/bicep/releases/download/v0.48.1/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> | `62cd5958c62fa1b738e9b69f24799fabddb90ed83fdb7d6d2563dde376ce479d` |
+| <a id="pkg-bicep-cli" class="pkg-anchor" data-label="Bicep CLI"></a>**Bicep CLI** | <a href="https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> | `8ae74a6cf9cbba0cb220c40cf0e955f98d59df950afab07c21b7bcb78c9c5d68` |
 
 <div class="mofa-related"><span>Related</span><a class="mofa-chip outline" href="/standalone_apps/macos_standalone_other_readme">Other Microsoft apps</a><a class="mofa-chip outline" href="/standalone_apps/standalone_sha256_hashes_en">SHA256 hashes</a><a class="mofa-chip outline" href="/standalone_apps/standalone_raw_feeds_en">Raw feeds</a></div>
 
