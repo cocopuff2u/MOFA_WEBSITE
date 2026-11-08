@@ -205,7 +205,7 @@ next: false
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 07, 2026 02:50 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 07, 2026 06:23 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -289,13 +289,13 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/11/b5/c6/11b5c6a8-7f8a-e147-e09c-c982ada2ac69/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png" alt="SHAREit - Connect &amp; Transfer"></div>
-        <div class="tile-title"><b>SHAREit - Connect &amp; Transfer</b></div>
-        <div class="tile-version"><em><code>1.0.0</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>July 17, 2025</code></em></small></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/09/e4/c209e495-e781-d6fb-1d2e-d4ef48a01582/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg" alt="Xiaomi Interconnectivity"></div>
+        <div class="tile-title"><b>Xiaomi Interconnectivity</b></div>
+        <div class="tile-version"><em><code>3.1.1</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>October 29, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
-          <a class="btn" href="https://apps.apple.com/us/app/shareit-connect-transfer/id1040029915?mt=12&amp;uo=4">App Store</a>
+          <a class="btn" href="https://apps.apple.com/us/app/xiaomi-interconnectivity/id6673908449?uo=4">App Store</a>
         </div>
       </div>
     </div>
