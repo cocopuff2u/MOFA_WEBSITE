@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 10, 2026 01:30 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 10, 2026 06:57 PM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -23,7 +23,7 @@ packageOutline: true
 
 | **Product Package** | **Download** | **SHA256** |
 |----------------------|-----------------|------------|
-| <a id="pkg-powershell" class="pkg-anchor" data-label="PowerShell"></a>**PowerShell** | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.6.9/powershell-7.6.9-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> | `9002562086ad18dcdc4a1156f6cd6467cfb5a91b28206e56491212193b68e5e6` |
+| <a id="pkg-powershell" class="pkg-anchor" data-label="PowerShell"></a>**PowerShell** | <a href="https://github.com/PowerShell/PowerShell/releases/download/v7.7.0/powershell-7.7.0-osx-arm64.pkg"><img src="/images/2025/PowerShell.png" alt="Download Image" width="80"></a> | `a15e395a9749b67501e69e52e07ef53bbb39ed2c97ed18940d5497e9c0e49a2e` |
 | <a id="pkg-net-sdk-10-lts" class="pkg-anchor" data-label=".NET SDK 10 (LTS)"></a>**.NET SDK 10 (LTS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `2e0637ae0448bd8e3615cf31e0ad2a6dcb3fa0d3a78873f98fb1d25b39e858d6` |
 | <a id="pkg-net-sdk-11-sts" class="pkg-anchor" data-label=".NET SDK 11 (STS)"></a>**.NET SDK 11 (STS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `96b96a7d7ec00b2397d575ffa7acfe685d7261fe2a2719d80131e5f8003deaf9` |
 | <a id="pkg-net-sdk-9-sts" class="pkg-anchor" data-label=".NET SDK 9 (STS)"></a>**.NET SDK 9 (STS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.321/dotnet-sdk-9.0.321-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `3deea6ed3ea001fbd279783297cbdbf6c43c3ded3f5da61c7e44c8951fd4e2b0` |
