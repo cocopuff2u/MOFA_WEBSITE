@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 13, 2026 07:50 AM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 13, 2026 03:17 PM EST</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac" target="_blank" rel="noopener">Release notes</a><a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/sharepoint/sync-client-update-process" target="_blank" rel="noopener">How rings work</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_onedrive_all.json" target="_blank" rel="noopener">JSON</a>
@@ -42,7 +42,7 @@ packageOutline: true
 <thead><tr><th>Ring</th><th>Version</th><th>Date</th><th>Download</th></tr></thead>
 <tbody>
 <tr><td><a id="pkg-links-official-download" class="pkg-anchor" data-label="Official download"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Official download</b><span class="sub">What Microsoft's public <em>Download OneDrive for Mac</em> link serves. Normally matches Production.</span></td><td><code>26.198.1011.0006</code></td><td title="Released to the Production ring on this date, per Microsoft&#x27;s release notes">October 30, 2026</td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0006/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0006/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
-<tr><td><a id="pkg-links-legacy-manifest" class="pkg-anchor" data-label="Legacy manifest"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Legacy manifest</b><span class="sub">The old generic Production manifest. Current clients no longer read it.</span></td><td><code>26.198.1011.0006</code></td><td title="Released to the Production ring on this date, per Microsoft&#x27;s release notes">October 30, 2026</td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0006/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0006/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
+<tr><td><a id="pkg-links-legacy-manifest" class="pkg-anchor" data-label="Legacy manifest"></a><img src="/images/2025/OneDrive.webp" alt="" loading="lazy" /><b>Legacy manifest</b><span class="sub">The old generic Production manifest. Current clients no longer read it.</span></td><td><code>26.204.1019.0009</code></td><td><span class="built" title="Microsoft lists no release date for this ring. This is when Microsoft uploaded this package to its CDN. Built October 19, 2026 per the version number.">Published November 13, 2026</span></td><td><a class="mofa-chip" href="https://oneclient.sfx.ms/Mac/Installers/26.204.1019.0009/universal/OneDrive.pkg">Download<span class="ext"> .pkg</span></a><a class="mofa-chip outline" href="https://oneclient.sfx.ms/Mac/Installers/26.204.1019.0009/OneDrive.pkg" title="Intel-only package">Intel</a></td></tr>
 </tbody>
 </table>
 
@@ -111,7 +111,7 @@ packageOutline: true
 <tr><td><b>Upcoming Deferred</b></td><td><code>6359d86e263b727c8a1eda634391d1a854bb3f875cb70160936f9d1615c6b0f3</code></td><td><code>—</code></td></tr>
 <tr><td><b>Insider</b></td><td><code>678c576c9c3e9a5237867542867fbeadcc7b8af0067fbdfc47ebf0dda3a3c5df</code></td><td><code>—</code></td></tr>
 <tr><td><b>Official download</b></td><td><code>928516faca5cc0ccecdf939b9e101eddf252aea76d499d9ffe2c29b421818bf2</code></td><td><code>—</code></td></tr>
-<tr><td><b>Legacy manifest</b></td><td><code>928516faca5cc0ccecdf939b9e101eddf252aea76d499d9ffe2c29b421818bf2</code></td><td><code>—</code></td></tr>
+<tr><td><b>Legacy manifest</b></td><td><code>6bec86fc5df99dca303cc98849d67c95bc66ae514223c59ec9be790ea27936d1</code></td><td><code>—</code></td></tr>
 <tr><td><b>MSIT Slow</b><span class="sub">Internal</span></td><td><code>6bde11dc4d81fa8e198c30c35903d6037b6d3498f9a46b5862d81a19a3ad15ad</code></td><td><code>—</code></td></tr>
 <tr><td><b>MSIT Fast</b><span class="sub">Internal</span></td><td><code>f53fe5de4333b4f5d9e45340a9c63aec0df5c09ebedd96c594b46d96071dc739</code></td><td><code>—</code></td></tr>
 <tr><td><b>Production</b><span class="sub">Standalone updater</span></td><td><code>928516faca5cc0ccecdf939b9e101eddf252aea76d499d9ffe2c29b421818bf2</code></td><td><code>—</code></td></tr>
