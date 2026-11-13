@@ -205,7 +205,7 @@ next: false
 
 <!-- Status with last updated, raw links, and theme switch -->
 <div class="status-bar">
-  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 12, 2026 12:53 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+  <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 12, 2026 06:09 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/ios_appstore_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
   <span class="appearance-toggle-inline mofa-minimal">
     <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
       <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -541,10 +541,10 @@ next: false
     </div>
 <div class="tile">
       <div class="tile-card">
-        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/40/88/e4408809-9a47-bec4-9087-0bd49d8dca94/logo_ads_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg" alt="Google Ads"></div>
+        <div class="tile-media"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/12/b5/2a12b535-aae2-a461-8ed1-d21524f7ae30/logo_ads_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg" alt="Google Ads"></div>
         <div class="tile-title"><b>Google Ads</b></div>
-        <div class="tile-version"><em><code>3.43.20092307</code></em></div>
-        <div class="tile-updated"><small>Last Updated:<br><em><code>November 12, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>3.42.20091557</code></em></div>
+        <div class="tile-updated"><small>Last Updated:<br><em><code>October 30, 2026</code></em></small></div>
         <div class="tile-spacer"></div>
         <div class="tile-links">
           <a class="btn" href="https://apps.apple.com/us/app/google-ads/id1037457231?uo=4">App Store</a>
