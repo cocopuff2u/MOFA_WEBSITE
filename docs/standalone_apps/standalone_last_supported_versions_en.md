@@ -12,12 +12,13 @@ title: Last Supported Versions
 <p class="mofa-lead">Microsoft drops older macOS releases from Office's support window about once a year. When that happens, Macs still on that release stop receiving updates and stay on the last build that supported them. The installers below are those final builds, linked straight from Microsoft's CDN, for the Macs you cannot upgrade yet.</p>
 
 <div class="mofa-stats">
-  <div><b>macOS 14+</b><span>required by the current Office builds</span></div>
-  <div><b>6 releases</b><span>archived here, Ventura back to High Sierra</span></div>
+  <div><b>macOS 15+</b><span>required by the current Office builds</span></div>
+  <div><b>7 releases</b><span>archived here, Sonoma back to High Sierra</span></div>
   <div><b>7 installers</b><span>per release: two suites and five apps</span></div>
 </div>
 
 <div class="mofa-jump">
+  <a class="mofa-chip outline" href="#macos-14-sonoma"><img src="/images/last_supported/MacOS_Sonoma_logo.webp" alt="" />14 Sonoma</a>
   <a class="mofa-chip outline" href="#macos-13-ventura"><img src="/images/last_supported/MacOS_Ventura_logo.webp" alt="" />13 Ventura</a>
   <a class="mofa-chip outline" href="#macos-12-monterey"><img src="/images/last_supported/MacOS_Monterey_logo.webp" alt="" />12 Monterey</a>
   <a class="mofa-chip outline" href="#macos-11-big-sur"><img src="/images/last_supported/MacOS_Big_Sur_logo.webp" alt="" />11 Big Sur</a>
@@ -27,6 +28,26 @@ title: Last Supported Versions
 </div>
 
 <p class="mofa-note">These builds no longer receive security fixes. Treat them as a stopgap and see Microsoft's guidance on <a href="https://support.microsoft.com/en-us/office/upgrade-macos-to-continue-receiving-microsoft-365-and-office-for-mac-updates-16b8414f-08ec-4b24-8c91-10a918f649f8" target="_blank" rel="noopener">upgrading macOS to keep receiving Office updates</a>. Suite installers include Word, Excel, PowerPoint, Outlook and OneNote. BusinessPro adds the extra apps bundled for business licenses.</p>
+
+## macOS 14 Sonoma {.mofa-h2}
+
+<div class="mofa-os">
+  <img src="/images/last_supported/MacOS_Sonoma_logo.webp" alt="macOS 14 Sonoma logo" />
+  <div><b>Office 16.114</b><span>The last build Microsoft shipped for 14 Sonoma.</span></div>
+</div>
+
+<table class="mofa-dl">
+<thead><tr><th>Installer</th><th>Version</th><th>Download</th></tr></thead>
+<tbody>
+<tr><td><img src="/images/last_supported/Office_Suite.webp" alt="" loading="lazy" /><b>Office Suite installer</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26110224_Installer.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/Office_Suite.webp" alt="" loading="lazy" /><b>BusinessPro Suite installer</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_16.114.26110224_BusinessPro_Installer.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/2021/Word.webp" alt="" loading="lazy" /><b>Word</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Word_16.114.26110224_Updater.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/2021/Excel.webp" alt="" loading="lazy" /><b>Excel</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Excel_16.114.26110224_Updater.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/2021/PowerPoint.webp" alt="" loading="lazy" /><b>PowerPoint</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_PowerPoint_16.114.26110224_Updater.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/2021/Outlook.webp" alt="" loading="lazy" /><b>Outlook</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.114.26110224_Updater.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+<tr><td><img src="/images/last_supported/2021/OneNote.webp" alt="" loading="lazy" /><b>OneNote</b></td><td><code>16.114.4</code></td><td><a class="mofa-chip" href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OneNote_16.114.26110224_Updater.pkg">Download<span class="ext"> .pkg</span></a></td></tr>
+</tbody>
+</table>
 
 ## macOS 13 Ventura {.mofa-h2}
 
