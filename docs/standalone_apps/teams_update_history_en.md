@@ -12,7 +12,7 @@ outline: [2, 3]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 13, 2026 03:16 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 13, 2026 08:14 PM EST</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning" target="_blank" rel="noopener">Microsoft Teams app versioning</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json" target="_blank" rel="noopener">JSON</a>
@@ -1688,7 +1688,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCC)
 
-**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 06, 2026 (rolling out)</span>
+**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 10, 2026</span>
 
 ::: details Version history (62 builds)
 <table class="shrink-table">
@@ -1704,7 +1704,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>November 06 (rolling out)</td>
+      <td>November 10</td>
       <td>26289.204.5281.6363</td>
       <td>2026.40.0-1.8-hd607e</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26289.204.5281.6363/MicrosoftTeams.pkg">Installer</a></td>
@@ -2142,7 +2142,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (GCCH)
 
-**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 06, 2026 (rolling out)</span>
+**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 10, 2026</span>
 
 ::: details Version history (68 builds)
 <table class="shrink-table">
@@ -2158,7 +2158,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>November 06 (rolling out)</td>
+      <td>November 10</td>
       <td>26289.204.5281.6363</td>
       <td>2026.40.0-1.8-hd607e</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26289.204.5281.6363/MicrosoftTeams.pkg">Installer</a></td>
@@ -2638,7 +2638,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
 
 ### New Teams (DoD)
 
-**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 06, 2026 (rolling out)</span>
+**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 10, 2026</span>
 
 ::: details Version history (67 builds)
 <table class="shrink-table">
@@ -2654,7 +2654,7 @@ US Government tenants (GCC, GCC High and DoD). These clouds receive builds on th
   <tbody>
     <tr>
       <td>2026</td>
-      <td>November 06 (rolling out)</td>
+      <td>November 10</td>
       <td>26289.204.5281.6363</td>
       <td>2026.40.0-1.8-hd607e</td>
       <td><a href="https://statics.teams.cdn.office.net/production-osx/26289.204.5281.6363/MicrosoftTeams.pkg">Installer</a></td>
