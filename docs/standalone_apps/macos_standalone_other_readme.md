@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 17, 2026 09:05 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 18, 2026 05:00 AM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -32,7 +32,7 @@ packageOutline: true
 | <a id="pkg-azcopy" class="pkg-anchor" data-label="AzCopy"></a>**AzCopy**<br><br>_**Last Update:** `November 14, 2026`_<br> | **Version:**<br>`10.34.2` | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.2/azcopy_darwin_arm64_10.34.2.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-bicep-cli" class="pkg-anchor" data-label="Bicep CLI"></a>**Bicep CLI**<br><br>_**Last Update:** `November 06, 2026`_<br> | **Version:**<br>`0.49.2` | <a href="https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> |
 | <a id="pkg-azure-cli" class="pkg-anchor" data-label="Azure CLI"></a>**Azure CLI**<br><br>_**Last Update:** `September 01, 2026`_<br> | **Version:**<br>`2.90.0` | <img src="/images/2025/Azure.png" alt="Azure CLI" width="80"><br>`brew install azure-cli` |
-| <a id="pkg-sqlcmd" class="pkg-anchor" data-label="sqlcmd"></a>**sqlcmd**<br><br>_**Last Update:** `March 03, 2026`_<br> | **Version:**<br>`1.10.0` | <img src="/images/2025/Sqlcmd.png" alt="sqlcmd" width="80"><br>`brew install sqlcmd` |
+| <a id="pkg-sqlcmd" class="pkg-anchor" data-label="sqlcmd"></a>**sqlcmd**<br><br>_**Last Update:** `November 18, 2026`_<br> | **Version:**<br>`1.11.0` | <img src="/images/2025/Sqlcmd.png" alt="sqlcmd" width="80"><br>`brew install sqlcmd` |
 
 <div class="mofa-related"><span>Related</span><a class="mofa-chip outline" href="/standalone_apps/macos_standalone_other_sha256">Other apps SHA256</a><a class="mofa-chip outline" href="/standalone_apps/standalone_current_version_en">Current versions</a><a class="mofa-chip outline" href="/standalone_apps/standalone_raw_feeds_en">Raw feeds</a></div>
 
