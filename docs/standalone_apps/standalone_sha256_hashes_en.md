@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 17, 2026 05:04 AM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 17, 2026 02:32 PM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -43,7 +43,7 @@ packageOutline: true
 | <a id="pkg-microsoft-365-copilot" class="pkg-anchor" data-label="Microsoft 365 Copilot"></a>**Microsoft 365 Copilot** | <a href="https://go.microsoft.com/fwlink/?linkid=2325438"><img src="/images/2025/Copilot.webp" alt="Download Image" width="60"></a> | `0fea044825f482ebce9f7308fc77ac99b0ff2718d7bfa4e43db59dfe621d4632` |
 | <a id="pkg-copilot-app" class="pkg-anchor" data-label="Copilot App"></a>**Microsoft Copilot** <sup>_(Copilot App)_</sup> | <a href="https://go.microsoft.com/fwlink/?linkid=2325114"><img src="/images/2026/Copilot_App.webp" alt="Download Image" width="60"></a> | `d917cd8f3dc9cbd644744ae69d856c2e89f89333247b042b690477c2e5492349` |
 | <a id="pkg-autoupdate" class="pkg-anchor" data-label="AutoUpdate"></a>**AutoUpdate Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=830196"><img src="/images/2019/AutoUpdate.webp" alt="Download Image" width="60"></a> | `be878237348c79d03c6a8286e7b61c58265d9cc5917d1a282c25059fe46bd4a7` |
-| <a id="pkg-licensing-helper" class="pkg-anchor" data-label="Licensing Helper"></a>**Licensing Helper Tool Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.77.23091003_Updater.pkg"><img src="/images/pkg-icon.png" alt="Download Image" width="60"></a> | `2ef5b5006534c0d20d46c7353f42a0dc1faff7d53ba89a3151ccf5102c059905` |
+| <a id="pkg-licensing-helper" class="pkg-anchor" data-label="Licensing Helper"></a>**Licensing Helper Tool Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_OfficeLicensingHelper_16.115.26102758_Updater.pkg"><img src="/images/pkg-icon.png" alt="Download Image" width="60"></a> | `63f02129a2ffa335812edb7de1f7150601836c912fe402893736753ab69106a4` |
 | <a id="pkg-quick-assist" class="pkg-anchor" data-label="Quick Assist"></a>**Quick Assist Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Quick_Assist_1.0.2510032_updater.pkg"><img src="/images/quickassist.png" alt="Download Image" width="60"></a> | `294bed3d1cab280056ff20b22c65486381c976b10c1e4e2ae9559404484ec55a` |
 | <a id="pkg-remote-help" class="pkg-anchor" data-label="Remote Help"></a>**Remote Help Installer** | <a href="https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Remote_Help_1.0.2606021_updater.pkg"><img src="/images/remotehelp.png" alt="Download Image" width="60"></a> | `686c9fe7b54ff006b574653abc2fe616afe9244d561d5bd9fd84a99971a8c423` |
 
