@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 18, 2026 01:39 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 18, 2026 07:57 PM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_other_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -29,7 +29,7 @@ packageOutline: true
 | <a id="pkg-net-sdk-9-sts" class="pkg-anchor" data-label=".NET SDK 9 (STS)"></a>**.NET SDK 9 (STS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.321/dotnet-sdk-9.0.321-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `3deea6ed3ea001fbd279783297cbdbf6c43c3ded3f5da61c7e44c8951fd4e2b0` |
 | <a id="pkg-net-sdk-8-lts" class="pkg-anchor" data-label=".NET SDK 8 (LTS)"></a>**.NET SDK 8 (LTS)** | <a href="https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.428/dotnet-sdk-8.0.428-osx-arm64.pkg"><img src="/images/2025/DotNet.png" alt="Download Image" width="80"></a> | `a6a302b95ef39c6ea753df6514195b604d7d8ecd5b99f955295dd8a35f05dbbd` |
 | <a id="pkg-azure-functions-core-tools" class="pkg-anchor" data-label="Azure Functions Core Tools"></a>**Azure Functions Core Tools** | <a href="https://github.com/Azure/azure-functions-core-tools/releases/download/4.16.1/Azure.Functions.Cli.osx-arm64.4.16.1.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `cf50e58a04991ba3729a5e9fc875632aedf3b80de6cd204ea72ea9dc714f52fd` |
-| <a id="pkg-azure-developer-cli-azd" class="pkg-anchor" data-label="Azure Developer CLI (azd)"></a>**Azure Developer CLI (azd)** | <a href="https://github.com/Azure/azure-dev/releases/download/azd-ext-azure-ai-agents_1.2.0/azure-ai-agents-darwin-arm64.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `9a5c3ebd07099d9e9bd530d5f1ee03b755f31b11a9ffb1fc73622962904aaba6` |
+| <a id="pkg-azure-developer-cli-azd" class="pkg-anchor" data-label="Azure Developer CLI (azd)"></a>**Azure Developer CLI (azd)** | <a href="https://github.com/Azure/azure-dev/releases/download/azure-dev-cli_1.39.1/azd-darwin-arm64.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `7b8bf18cc9c61e337c05ea7407e5dc5d0f797ca2d42f1d3f83b5809a357b4ac6` |
 | <a id="pkg-azcopy" class="pkg-anchor" data-label="AzCopy"></a>**AzCopy** | <a href="https://github.com/Azure/azure-storage-azcopy/releases/download/v10.34.2/azcopy_darwin_arm64_10.34.2.zip"><img src="/images/2025/Azure.png" alt="Download Image" width="80"></a> | `f00e3e51ac85ea260f7f1765904acdeff7e9ce0d14495fe619389ef697b69ae8` |
 | <a id="pkg-bicep-cli" class="pkg-anchor" data-label="Bicep CLI"></a>**Bicep CLI** | <a href="https://github.com/Azure/bicep/releases/download/v0.49.2/bicep-osx-arm64"><img src="/images/2025/Bicep.png" alt="Download Image" width="80"></a> | `8ae74a6cf9cbba0cb220c40cf0e955f98d59df950afab07c21b7bcb78c9c5d68` |
 

@@ -13,7 +13,7 @@ packageOutline: true
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 18, 2026 01:38 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 18, 2026 07:56 PM EST</span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a>
   </span>
@@ -32,7 +32,7 @@ packageOutline: true
 | <a id="pkg-onenote" class="pkg-anchor" data-label="OneNote"></a>**OneNote** (365/2021/2024) **Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=820886"><img src="/images/2025/OneNote.webp" alt="Download Image" width="60"></a> | `baef4cf7c3521f1e64cc88e5e0ad9f615eec279e` |
 | <a id="pkg-onedrive" class="pkg-anchor" data-label="OneDrive"></a>**OneDrive Standalone Installer** <sup>(Production Ring)</sup> | <a href="https://oneclient.sfx.ms/Mac/Installers/26.173.0906.0008/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="Download Image" width="60"></a> | `N/A` |
 | <a id="pkg-skype-for-business" class="pkg-anchor" data-label="Skype for Business"></a>**Skype for Business Standalone Installer** | <a href="https://download.microsoft.com/download/5ea1d93d-e654-4865-a75a-0d90256e4f25/Skype%20for%20Business%20on%20Mac%20Installer%2016.31.0.31.pkg"><img src="/images/Skype_For_Business.webp" alt="Download Image" width="60"></a> | `25637672295e3fd675404fe757db433591d62047` |
-| <a id="pkg-teams" class="pkg-anchor" data-label="Teams"></a>**Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Download Image" width="60"></a> | `f312054f068a7ef6bfeee3a6cb04769d7a33f683` |
+| <a id="pkg-teams" class="pkg-anchor" data-label="Teams"></a>**Teams Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2249065"><img src="/images/2025/Teams.webp" alt="Download Image" width="60"></a> | `66402620d12b503cdbf30e75d69f79faa0e564be` |
 | <a id="pkg-intune-company-portal" class="pkg-anchor" data-label="Intune Company Portal"></a>**InTune Company Portal Standalone Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=853070"><img src="/images/2021/Company_Portal.webp" alt="Download Image" width="60"></a> | `f49fc5958ac52c9993bbe89e4882bf83579cc7b0` |
 | <a id="pkg-edge" class="pkg-anchor" data-label="Edge"></a>**Edge** <sup>_(Current Channel)_</sup> | <a href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e70e6888-3793-48bf-af04-53db0bd99abe/MicrosoftEdge-157.0.4341.60.pkg"><img src="/images/edge/edge.webp" alt="Download Image" width="60"></a> | `14c5fc35de93b47edbaa2fd739f57ac972122839` |
 | <a id="pkg-defender-for-endpoint" class="pkg-anchor" data-label="Defender for Endpoint"></a>**Defender for Endpoint Installer** | <a href="https://go.microsoft.com/fwlink/?linkid=2097502"><img src="/images/2025/Defender.webp" alt="Download Image" width="60"></a> | `08aabffa11c0efb61c7799416ea295f171ba8604` |
