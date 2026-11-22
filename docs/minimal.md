@@ -371,7 +371,7 @@ next: false
 </div>
 
 <div class="status-bar">
-      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 22, 2026 08:00 AM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
+      <div class="status-line"><span class="mofa-feed-updated"><i></i>Updated November 22, 2026 03:12 PM EST</span><span class="mofa-feed-raw">Raw feed: <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/macos_standalone_latest.json" target="_blank" rel="noopener">JSON</a></span></div>
       <span class="appearance-toggle-inline mofa-minimal">
         <button id="appearance-toggle" class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch theme" aria-checked="false">
           <span class="check"><span class="icon"><span class="vpi-sun sun"></span><span class="vpi-moon moon"></span></span></span>
@@ -473,14 +473,14 @@ next: false
 <div class="tile">
       <div class="tile-card">
         <div class="tile-media">
-          <a href="https://oneclient.sfx.ms/Mac/Installers/26.173.0906.0008/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
+          <a href="https://oneclient.sfx.ms/Mac/Installers/26.204.1019.0009/universal/OneDrive.pkg"><img src="/images/2025/OneDrive.webp" alt="OneDrive"></a>
         </div>
         <div class="tile-title"><b>OneDrive</b></div>
-        <div class="tile-version"><em><code>26.173.0906</code></em></div>
-        <div class="tile-updated"><small>Last Update:<br><em><code>September 25, 2026</code></em></small></div>
+        <div class="tile-version"><em><code>26.204.1019</code></em></div>
+        <div class="tile-updated"><small>Last Update:<br><em><code>November 13, 2026</code></em></small></div>
         <div class="tile-relnotes"><a class="relnotes" href="https://support.microsoft.com/en-us/office/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0#OSVersion=Mac"><small>Release Notes</small></a></div>
         <div class="tile-spacer"></div>
-        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.173.0906.0008/universal/OneDrive.pkg">Installer</a></div>
+        <div class="tile-links"><a class="btn" href="https://oneclient.sfx.ms/Mac/Installers/26.204.1019.0009/universal/OneDrive.pkg">Installer</a></div>
       </div>
     </div>
 <div class="tile">
