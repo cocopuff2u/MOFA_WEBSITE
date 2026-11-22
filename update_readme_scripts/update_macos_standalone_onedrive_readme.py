@@ -32,8 +32,8 @@ RELEASE = [
     ("Upcoming Insider Ring",    "Upcoming Insider",    "Staged to become the next Insider build."),
 ]
 LINKS = [
-    ("Production Ring (Official Download Link)", "Official download", "What Microsoft's public <em>Download OneDrive for Mac</em> link serves. Normally matches Production."),
-    ("Production Ring (Legacy Manifest)",        "Legacy manifest",   "The old generic Production manifest. Current clients no longer read it."),
+    ("Production Ring (Official Download Link)", "Official download", "What Microsoft's public <em>Download OneDrive for Mac</em> link serves. Often lags Production."),
+    ("Production Ring (In-App Updater)",         "In-app updater",    "What OneDrive.app on macOS 15 or newer checks. Runs ahead of Production during a rollout."),
 ]
 INTERNAL = [
     ("MSIT Slow Ring (Preview)",          "MSIT Slow",          "Microsoft's own IT ring, ahead of Insider."),
@@ -238,9 +238,9 @@ def generate(last_updated, rings_by_name):
 
     DATE_KINDS_USED.clear()
     body = section("Release rings", "release", release, rel_versions)
-    body += section("Download link and legacy manifest", "links", links, {},
-                    note="Not rings. The public download link is what a fresh install gets, and the legacy "
-                         "manifest is what Production used to be read from.")
+    body += section("Download link and in-app updater", "links", links, {},
+                    note="The public download link is what a fresh install gets. The in-app updater row is "
+                         "what OneDrive.app checks for updates, which runs ahead of Production during a rollout.")
     body += section("Microsoft internal rings", "internal", internal, int_versions,
                     note="Rings Microsoft's own IT department runs before a build reaches Insiders. "
                          "Not selectable in the app. Useful as an early look at what's coming.")
