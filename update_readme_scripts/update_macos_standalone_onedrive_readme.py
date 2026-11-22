@@ -246,7 +246,7 @@ def generate(last_updated, rings_by_name):
                          "Not selectable in the app. Useful as an early look at what's coming.")
     body += section("Standalone updater", "standalone", standalone, {},
                     note="Manifests read by the legacy <code>OneDriveStandaloneUpdater</code> LaunchAgent, which older "
-                         "installs still use. Current installs update from inside OneDrive.app and follow the release rings above.")
+                         "installs still use. Current installs update from inside OneDrive.app (see the in-app updater row above).")
     body += section("Last builds for older macOS", "legacy", legacy, {},
                     note="The final build Microsoft offers to Macs that cannot run the current release. "
                          "A Mac reads the manifest for the highest range it falls in, so each row is the newest "

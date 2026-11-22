@@ -61,7 +61,7 @@ packageOutline: true
 
 ## Standalone updater
 
-<p class="mofa-note">Manifests read by the legacy <code>OneDriveStandaloneUpdater</code> LaunchAgent, which older installs still use. Current installs update from inside OneDrive.app and follow the release rings above.</p>
+<p class="mofa-note">Manifests read by the legacy <code>OneDriveStandaloneUpdater</code> LaunchAgent, which older installs still use. Current installs update from inside OneDrive.app (see the in-app updater row above).</p>
 
 <table class="mofa-dl mofa-rings">
 <thead><tr><th>Ring</th><th>Version</th><th>Date</th><th>Download</th></tr></thead>
