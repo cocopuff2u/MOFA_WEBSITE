@@ -12,7 +12,7 @@ outline: [2, 3]
   </div>
 </div>
 <div class="mofa-feed-meta">
-  <span class="mofa-feed-updated"><i></i>Updated November 24, 2026 01:36 PM EST</span>
+  <span class="mofa-feed-updated"><i></i>Updated November 24, 2026 09:54 PM EST</span>
   <span class="mofa-feed-source">Source: <a class="mofa-chip outline" href="https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning" target="_blank" rel="noopener">Microsoft Teams app versioning</a></span>
   <span class="mofa-feed-raw">Raw feed:
     <a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.xml" target="_blank" rel="noopener">XML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.yaml" target="_blank" rel="noopener">YAML</a><a class="mofa-chip" href="https://github.com/cocopuff2u/MOFA/blob/main/latest_raw_files/teams_update_history.json" target="_blank" rel="noopener">JSON</a>
@@ -29,9 +29,9 @@ Commercial and education tenants.
 
 The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each build links to its full installer package.
 
-**Latest:** `26289.204.5281.6363` <span class='extra-small'>November 05, 2026</span>
+**Latest:** `26304.1206.5384.1209` <span class='extra-small'>November 24, 2026</span>
 
-::: details Version history (72 builds)
+::: details Version history (73 builds)
 <table class="shrink-table">
   <thead>
     <tr>
@@ -43,6 +43,13 @@ The current Teams client for macOS (bundle ID `com.microsoft.teams2`). Each buil
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2026</td>
+      <td>November 24</td>
+      <td>26304.1206.5384.1209</td>
+      <td>2026.42.0-1.9-h908c0</td>
+      <td><a href="https://statics.teams.cdn.office.net/production-osx/26304.1206.5384.1209/MicrosoftTeams.pkg">Installer</a></td>
+    </tr>
     <tr>
       <td>2026</td>
       <td>November 05</td>
